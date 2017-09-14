@@ -28,7 +28,6 @@ llamada a Torrenter - plugin://plugin.video.torrenter/?action=playSTRM&url=tutor
  <SetViewMode>55</SetViewMode>
  <title>[COLOR skyblue][UPPERCASE][B] [makelist2.param5][/B][/UPPERCASE][/COLOR]  Calidad:[makelist.param1]  Tamaño:[makelist.param2]  </title>
 <link>plugin://plugin.video.quasar/play?uri=[makelist.param1]</link>
-<link>plugin://plugin.video.torrenter/?action=playSTRM&url=[makelist.param1]</link>
 <thumbnail>[makelist2.param2]</thumbnail> 
 </regex>
 ]]></listrepeat>
