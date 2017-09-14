@@ -1,19 +1,18 @@
 <item>
-<title> [COLOR lime]•[/COLOR]    [COLOR aquamarine][B]SERIES PLUS[/B] [/COLOR][COLOR skyblue]  [/COLOR] </title>
+<title>[COLOR orange]SERIES [A-Z] [/COLOR][COLOR white] () [/COLOR] </title>
 <link>$doregex[makelist2]</link>
-
 
 <regex>
   <name>makelist2</name>
   <listrepeat><![CDATA[
   <SetViewMode>55</SetViewMode>
-        <title>[makelist2.param1]</title>
+  <title>[makelist2.param1]</title>
 <link>$doregex[makelist]</link>
 		<thumbnail>[makelist2.param3]</thumbnail>
 <fanart>[makelist2.param3]</fanart>
 ]]></listrepeat>
 <expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
-<page>http://adryanlist.org/adryan/seriesdb.txt</page>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series_db.txt</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -45,11 +44,11 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>[makelist2.param4]/[makelist.param2]</page>
-<referer>[makelist2.param4]/adryanlist/fileuploader-67183/list,4,15</referer>
+<referer>[makelist2.param4]/moipera/fileuploader-67183/list,4,15</referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/series.jpg</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
 </item>
 
 
