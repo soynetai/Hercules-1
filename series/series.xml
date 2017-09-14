@@ -1,5 +1,12 @@
 <items>
 <item>
+<title>[COLOR orange]Buscar Series[/COLOR]</title>
+<link>http://Ignoreme</link>
+<fanart></fanart>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/Buscar.png</thumbnail>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/series/buscar_serie.xml</externallink>
+</item>
+<item>
 <title>[COLOR orange]Series [A-Z][/COLOR] db [Nueva] En construccion</title>
 <link>http://Ignoreme</link>
 <fanart></fanart>
@@ -11,20 +18,7 @@
 <link>http://Ignoreme</link>
 <fanart></fanart>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/series/series_torrent.xml</externallink>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/series/series-torrent.xml</externallink>
 </item>
-<item>
-<title>[COLOR orange]Series Documentales [A-Z][/COLOR] db [Nueva] En construccion</title>
-<link>http://Ignoreme</link>
-<fanart></fanart>
-<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/documentales.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/series/series[a-z].xml</externallink>
-</item> 
-<item>
-<title>[COLOR orange]Programas Tv[A-Z][/COLOR] db [Nueva] En construccion</title>
-<link>http://Ignoreme</link>
-<fanart></fanart>
-<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/tv.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/series/series[a-z].xml</externallink>
-</item>
+
 </items>
