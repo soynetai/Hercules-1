@@ -12,7 +12,7 @@
 <fanart>[makelist2.param3]</fanart>
 ]]></listrepeat>
 <expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
-<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series_db.txt</page>
+<page>http://www.grupo-netai.org/db/series_db.txt</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -50,5 +50,3 @@
 </regex>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
 </item>
-
-
