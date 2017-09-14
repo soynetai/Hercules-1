@@ -19,7 +19,7 @@ llamada a Torrenter - plugin://plugin.video.torrenter/?action=playSTRM&url=tutor
 </regex>
 ]]></listrepeat>
 <expres><![CDATA[href="(.*?)"[\w\W\s]{0,72}src="(.*?)"[\w\W\s]{0,110}bloque_superior">(.*?)<[\w\W\s]{0,110}icono\_(.*?).png[\w\W\s]{0,300}bloque_inferior">(.*?)<]]></expres>
-<page>https://pasateatorrent.com/series/</page>	
+<page>https://pasateatorrent.com</page>	
 </regex>
 
 <regex>
