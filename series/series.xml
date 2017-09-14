@@ -1,0 +1,31 @@
+<items>
+<item>
+<title>[COLOR orange]Series [A-Z][/COLOR] db [Nueva] En construccion</title>
+<link>http://Ignoreme</link>
+<fanart></fanart>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/series/series[a-z].xml</externallink>
+</item>
+<item>
+<title>[COLOR orange]*[/COLOR][COLOR gold][B] SERIES INFANTILES [/COLOR][/B][COLOR lime](077)[/COLOR]</title>
+<link>http://Ignoreme</link>
+<fanart></fanart>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series-infantiles.jpg</thumbnail>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/series/series_infantiles.xml</externallink>
+</item>
+<item>
+<title>[COLOR orange][B]* [/COLOR][COLOR gold]SERIES DOCUMENTALES[/COLOR][/B][COLOR lime] (03)[/COLOR]</title>
+<link>http://Ignoreme</link>
+<fanart></fanart>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/documentales.png</thumbnail>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/documentales/documentales.xml</externallink>	
+</item>
+
+<item>
+<title>[COLOR orange][B]* [/COLOR][COLOR gold]PROGRAMAS DE TV[/COLOR][/B][COLOR lime] (01)[/COLOR]</title>
+<link>http://Ignoreme</link>
+<fanart></fanart>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/tv.png</thumbnail>
+	<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/programastv/programastv.xml</externallink>
+</item>
+</items>
