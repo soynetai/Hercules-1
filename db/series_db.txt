@@ -1,0 +1,2 @@
+
+Name:"Juego de Tronos [Castellano]" url:"http://diskokosmiko.mx/trivianita/juego-de-tronos-castellanoel-rockero-31788" img:"https://images-na.ssl-images-amazon.com/images/M/MV5BMjEwOTcxODc2Ml5BMl5BanBnXkFtZTgwMjMyMDk2MTI@._V1_SX300.jpg"; server:"http://diskokosmiko.mx"
