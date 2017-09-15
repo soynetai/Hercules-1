@@ -1,31 +1,87 @@
 <items>
 <item>
-<title>[COLOR orange]Buscar Series[/COLOR]</title>
-<link>http://Ignoreme</link>
-<fanart></fanart>
-<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/Buscar.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/series/buscar_serie.xml</externallink>
+<title>[COLOR white]BUSCADOR[/COLOR][COLOR yellow] Series Torrent [/COLOR]</title>
+<link>$doregex[makelist2]</link>
+ 
+ 
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+<SetViewMode>515</SetViewMode>
+<title>[COLOR white] [makelist2.param3] [/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<thumbnail>[makelist2.param2]</thumbnail>
+</regex>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)"[\w\W\s]{0,72}src="(.*?)"[\w\W\s]{0,120}bloque_inferior">(.*?)<]]></expres>
+<page>https://pasateatorrent.com/series/?s=$doregex[search]</page>
+</regex>
+ 
+ 
+<regex>
+<name>Buscar</name>
+<expres><![CDATA[#$pyFunction
+import xbmc
+import xbmcaddon
+import xbmcgui
+def GetLSProData(page_data,Cookie_Jar,m):
+   dialog = xbmcgui.Dialog()
+   d = dialog.input('Buscar Torrent Serie:', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
+   return d
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+ 
+ 
+ 
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<SetViewMode>515</SetViewMode>
+<title>[COLOR yellow] [makelist2.param3] [/COLOR][COLOR white]  Calidad:[makelist.param1]  Tamaño:[makelist.param2] [/COLOR] </title>
+<link>plugin://plugin.video.quasar/play?uri=[makelist.param1]</link>
+<thumbnail>[makelist2.param2]</thumbnail>
+</regex>
+]]></listrepeat>
+<expres>d>(.*?)<[\w\W\s]{0,7}td>(.*?)\.[\w\W\s]{0,16}href="(.*?)"</expres>
+<page>[makelist2.param1]</page>
+</regex>
 </item>
 <item>
-<title>[COLOR orange]Buscar Series[/COLOR]</title>
+<title>[COLOR orange]Series [A-Z][/COLOR][COLOR lime](253) db [Antigua][/COLOR]</title>
 <link>http://Ignoreme</link>
-<fanart></fanart>
-<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/Buscar.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/series/buscar_serie_torrent.xml</externallink>
+<fanart>http://images6.fanpop.com/image/photos/38300000/Atlantis-Nebula-by-Starkiteckt-starkiteckt-38383517-5000-3125.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/Andorth/atlantis/master/imagenes/series.png</thumbnail>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/series_a-z.xml</externallink>
 </item>
 <item>
 <title>[COLOR orange]Series [A-Z][/COLOR] db [Nueva] En construccion</title>
 <link>http://Ignoreme</link>
-<fanart></fanart>
-<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/series/series[a-z].xml</externallink>
+<fanart>http://images6.fanpop.com/image/photos/38300000/Atlantis-Nebula-by-Starkiteckt-starkiteckt-38383517-5000-3125.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/Andorth/atlantis/master/imagenes/series.png</thumbnail>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/series_torrent.xml</externallink>
 </item>
 <item>
-<title>[COLOR orange]Series Torrent [A-Z][/COLOR] db [Nueva] En construccion</title>
+<title>[COLOR orange]*[/COLOR][COLOR gold][B] SERIES INFANTILES [/COLOR][/B][COLOR lime](077)[/COLOR]</title>
 <link>http://Ignoreme</link>
-<fanart></fanart>
-<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/series/series-torrent.xml</externallink>
+<fanart>http://images6.fanpop.com/image/photos/38300000/Atlantis-Nebula-by-Starkiteckt-starkiteckt-38383517-5000-3125.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/Andorth/atlantis/master/imagenes/series-infantiles.jpg</thumbnail>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/series_infantiles.xml</externallink>
+</item>
+<item>
+<title>[COLOR orange][B]* [/COLOR][COLOR gold]SERIES DOCUMENTALES[/COLOR][/B][COLOR lime] (03)[/COLOR]</title>
+<link>http://Ignoreme</link>
+<fanart>http://images6.fanpop.com/image/photos/38300000/Atlantis-Nebula-by-Starkiteckt-starkiteckt-38383517-5000-3125.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/Andorth/atlantis/master/imagenes/documentales.png</thumbnail>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/documentales/documentales.xml</externallink>	
 </item>
 
+<item>
+<title>[COLOR orange][B]* [/COLOR][COLOR gold]PROGRAMAS DE TV[/COLOR][/B][COLOR lime] (01)[/COLOR]</title>
+<link>http://Ignoreme</link>
+<fanart>http://images6.fanpop.com/image/photos/38300000/Atlantis-Nebula-by-Starkiteckt-starkiteckt-38383517-5000-3125.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/Andorth/atlantis/master/imagenes/tv.png</thumbnail>
+	<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/programastv/programastv.xml</externallink>
+</item>
 </items>
