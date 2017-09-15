@@ -1,14 +1,14 @@
 <items>
 <item>
-<title>[COLOR white]BUSCAR [/COLOR][COLOR yellow] Series Torrent [/COLOR]</title>
+<title> [COLOR lime]•[/COLOR]    [COLOR white][B] BUSCAR[/B] [/COLOR][COLOR yellow] Torrent [/COLOR] [COLOR orange] Series [/COLOR] </title>
 <link>$doregex[makelist2]</link>
  
  
 <regex>
 <name>makelist2</name>
 <listrepeat><![CDATA[
-<SetViewMode>515</SetViewMode>
-<title>[COLOR white] [makelist2.param3] [/COLOR]  </title>
+<SetViewMode>55</SetViewMode>
+<title>[COLOR skyblue][UPPERCASE][B] [makelist2.param3][/B][/UPPERCASE][/COLOR]  </title>
 <link>$doregex[makelist]</link>
 <thumbnail>[makelist2.param2]</thumbnail>
 </regex>
@@ -19,14 +19,14 @@
  
  
 <regex>
-<name>Buscar</name>
+<name>search</name>
 <expres><![CDATA[#$pyFunction
 import xbmc
 import xbmcaddon
 import xbmcgui
 def GetLSProData(page_data,Cookie_Jar,m):
    dialog = xbmcgui.Dialog()
-   d = dialog.input('Buscar Torrent Serie:', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
+   d = dialog.input('Buscar Serie:', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
    return d
 ]]></expres>
 <page></page>
@@ -38,8 +38,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<SetViewMode>515</SetViewMode>
-<title>[COLOR yellow] [makelist2.param3] [/COLOR][COLOR white]  Calidad:[makelist.param1]  Tamaño:[makelist.param2] [/COLOR] </title>
+<SetViewMode>55</SetViewMode>
+<title>[COLOR white][UPPERCASE][B] [makelist2.param3][/B][/UPPERCASE][/COLOR][COLOR orange]  Calidad:[makelist.param1]  Tamaño:[makelist.param2]  [/COLOR]</title>
 <link>plugin://plugin.video.quasar/play?uri=[makelist.param1]</link>
 <thumbnail>[makelist2.param2]</thumbnail>
 </regex>
