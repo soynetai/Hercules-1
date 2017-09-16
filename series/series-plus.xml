@@ -1,0 +1,61 @@
+
+<SetViewMode>55</SetViewMode>
+
+<item>
+<title>[COLOR lime][B][  ][/B][/COLOR]    [COLOR lightgreen][B]BUSCAR SERIE[/B] [/COLOR]</title>
+<link>$doregex[makelist1]</link>
+
+<regex>
+<name>makelist1</name>
+<listrepeat><![CDATA[
+<SetViewMode>55</SetViewMode>
+<title>[COLOR lightblue][makelist1.param1]   [/COLOR]</title>
+<link>$doregex[makelist2]</link>
+<thumbnail>http://www.pelisplus.tv/series/[makelist1.param2]</thumbnail>
+<fanart>http://www.pelisplus.tv/series/[makelist1.param2]</fanart>
+]]></listrepeat>
+<expres><![CDATA[titulo\":\"(.*?)\".*?uploads\\/(.*?)\".*?serie\\\/(.*?)\"]]></expres>
+<page>http://www.pelisplus.tv/busqueda/?s=$doregex[search]</page>
+</regex>
+
+<regex>
+<name>search</name>
+<expres><![CDATA[#$pyFunction
+import xbmc
+import xbmcaddon
+import xbmcgui
+def GetLSProData(page_data,Cookie_Jar,m):
+    dialog = xbmcgui.Dialog()
+    d = dialog.input('Buscar Serie: ', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
+    return d
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+<SetViewMode>55</SetViewMode>
+<title>[COLOR lightblue][makelist1.param1] [makelist2.param2]     [/COLOR]</title>
+<link>$doregex[makelist3]</link>
+<thumbnail>http://www.pelisplus.tv/[makelist1.param1]</thumbnail>
+<fanart>http://www.pelisplus.tv/[makelist1.param1]</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)".*?nbsp\;(.*?)<]]></expres>
+<page>http://www.pelisplus.tv/series/[makelist1.param3]</page>
+</regex>
+
+<regex>
+<name>makelist3</name>
+<listrepeat><![CDATA[
+<SetViewMode>55</SetViewMode>
+<title>[COLOR lightblue][makelist1.param1] [makelist2.param2] | [COLOR lightgreen]Idioma:[B][makelist3.param1][/B][/COLOR]  [COLOR lightblue]Calidad:[B][makelist3.param5][/B][/COLOR]  [COLOR aquamarine]Server:[B][makelist3.param3][/B][/COLOR]        [/COLOR]</title>
+<link>$doregex[id3]</link>
+<thumbnail>http://www.pelisplus.tv/[makelist1.param1]</thumbnail>
+<fanart>http://www.pelisplus.tv/[makelist1.param1]</fanart>
+]]></listrepeat>
+<expres><![CDATA[idioma[\w\W\s]{0,17}images\/(.*?)\.p[\w\W\s]{0,30}fecha\"\>\n(.*?)<[\w\W\s]{0,117}(Streama.*?|Gamo.*?|Vidoz.*?|Openlo.*?|Kingv.*?)<[\w\W\s]{0,37}href="(.*?)"[\w\W\s]{0,87}calidad">\n(.*?)<]]></expres>
+<page>http://www.pelisplus.tv/series/[makelist2.param1]</page>
+</regex>
+
