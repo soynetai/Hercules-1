@@ -1,111 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <items>
+<!--LETRA 0 -->
 <item>
-<title>    [COLOR orange][B]BUSCAR SERIE[/B] [/COLOR]</title>
-<link>$doregex[makelist1]</link>
-
-
-<regex>
-<name>makelist1</name>
-<listrepeat><![CDATA[
-<title>[COLOR lightblue][makelist1.param1]   [/COLOR]</title>
-<link>$doregex[makelist2]</link>
-<thumbnail>http://www.seriespapaya.com/uploads/[makelist1.param2]</thumbnail>
-<fanart>http://www.seriespapaya.com/uploads/[makelist1.param2]</fanart>
-]]></listrepeat>
-<expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
-<page>http://diskokosmiko.mx/action/SearchFiles/?s=$doregex[search]</page>
-</regex>
-
-<regex>
-<name>search</name>
-<expres><![CDATA[#$pyFunction
-import xbmc
-import xbmcaddon
-import xbmcgui
-def GetLSProData(page_data,Cookie_Jar,m):
-    dialog = xbmcgui.Dialog()
-    d = dialog.input('Buscar Serie:', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
-    return d
-]]></expres>
-<page></page>
-<cookieJar></cookieJar>
-</regex>
-
-
-
-<regex>
-<name>makelist2</name>
-<listrepeat><![CDATA[
-<SetViewMode>55</SetViewMode>
-<title>[COLOR lightblue][makelist1.param1] [makelist2.param2]     [/COLOR]</title>
-<link>$doregex[makelist3]</link>
-<thumbnail>http://diskokosmiko.mx/[makelist1.param1]</thumbnail>
-<fanart>http://diskokosmiko.mx/[makelist1.param1]</fanart>
-]]></listrepeat>
-<expres><![CDATA[href="(.*?)".*?nbsp\;(.*?)<]]></expres>
-<page>/[makelist1.param3]</page>
-</regex>
-
-
-
-<regex>
-  <name>makelist</name>
-  <listrepeat><![CDATA[
-        <title>$pyFunction:('[makelist.param3]').replace('Espa&#241;ol','')</title>
-        <link>$doregex[getUrl]</link>
-				<thumbnail>[makelist2.param3]</thumbnail>
-	<fanart>[makelist2.param3]</fanart>
-        ]]></listrepeat>
-<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>[makelist2.param2]/list,1,15</page>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>getUrl</name>
-<expres>DownloadUrl":"([^"]+)<expres>
-<page>[makelist2.param4]/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
-<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
-<referer>[makelist2.param4]/[makelist.param2]</referer>
-<connection>keep-alive</connection>
-<accept>*/*</accept>
-<X-Req>XMLHttpRequest</X-Req>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>tok</name>
-<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
-<page>[makelist2.param4]/[makelist.param2]</page>
-<referer>[makelist2.param4]/moipera/james-bond-78179</referer>
-<connection>keep-alive</connection>
-<cookieJar></cookieJar>
-</regex>
-
-
-
-<thumbnail></thumbnail><fanart></fanart></item> 
-
-
-
-<item>
-<title> [COLOR orange][+]Series [COLOR white] Hercules[/COLOR][/COLOR] </title>
+<title>[COLOR orange] [+]SERIES [/B] [COLOR white][0-9][/COLOR] </title>
 <link>$doregex[makelist2]</link>
 
 
 <regex>
   <name>makelist2</name>
   <listrepeat><![CDATA[
-  <SetViewMode>55</SetViewMode>
-        <title>[makelist2.param1]</title>
+<SetViewMode>500</SetViewMode>
+<title>[makelist2.param1]</title>
 <link>$doregex[makelist]</link>
 		<thumbnail>[makelist2.param3]</thumbnail>
 <fanart>[makelist2.param3]</fanart>
 ]]></listrepeat>
 <expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
-<page>http://www.grupo-netai.org/db/seriesdb.txt</page>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/seresdb.txt</page>
 <cookieJar></cookieJar>
 </regex>
-
 
 <regex>
   <name>makelist</name>
@@ -139,5 +52,1468 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 </regex>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.jpg</fanart>
+</item>
+
+
+<!-- LETRA A -->
+
+<item>
+<title>[COLOR orange] [+]SERIES [COLOR white](A)[/COLOR][COLOR lime]   [][/COLOR] </title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+<SetViewMode>500</SetViewMode>
+<title>[makelist2.param1]</title>
+<link>$doregex[makelist]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+<fanart>[makelist2.param3]</fanart>
+]]></listrepeat>
+<expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-a.txt</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>$pyFunction:('[makelist.param3]').replace('Espa&#241;ol','')</title>
+        <link>$doregex[getUrl]</link>
+				<thumbnail>[makelist2.param3]</thumbnail>
+	<fanart>[makelist2.param3]</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>[makelist2.param2]/list,1,15</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>[makelist2.param4]/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>[makelist2.param4]/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>[makelist2.param4]/[makelist.param2]</page>
+<referer>[makelist2.param4]/adryanlist/fileuploader-67183/list,4,15</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://moldesde.com/wp-content/uploads/2012/02/letra_26.png.jpg</thumbnail>
+<fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
+</item>
+
+<!-- LETRA B -->
+
+<item>
+<title>[COLOR orange] [+]SERIES[/COLOR] [COLOR white]B[/COLOR][/B][COLOR lime]   [16][/COLOR]</title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+<SetViewMode>500</SetViewMode>
+<title>[makelist2.param1]</title>
+<link>$doregex[makelist]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+<fanart>[makelist2.param3]</fanart>
+]]></listrepeat>
+<expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-b.txt</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>$pyFunction:('[makelist.param3]').replace('Espa&#241;ol','')</title>
+        <link>$doregex[getUrl]</link>
+				<thumbnail>[makelist2.param3]</thumbnail>
+	<fanart>[makelist2.param3]</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>[makelist2.param2]/list,1,15</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>[makelist2.param4]/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>[makelist2.param4]/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>[makelist2.param4]/[makelist.param2]</page>
+<referer>[makelist2.param4]/adryanlist/fileuploader-67183/list,4,15</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://moldesde.com/wp-content/uploads/2012/02/letra_27.png.jpg</thumbnail>
+<fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
+</item>
+
+
+<!-- LETRA C -->
+
+<item>
+<title>[COLOR orange] [+]SERIES [COLOR white]C[/COLOR][/COLOR][COLOR lime]   [12][/COLOR] </title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+<SetViewMode>500</SetViewMode>
+<title>[makelist2.param1]</title>
+<link>$doregex[makelist]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+<fanart>[makelist2.param3]</fanart>
+]]></listrepeat>
+<expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-c.txt</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>$pyFunction:('[makelist.param3]').replace('Espa&#241;ol','')</title>
+        <link>$doregex[getUrl]</link>
+				<thumbnail>[makelist2.param3]</thumbnail>
+	<fanart>[makelist2.param3]</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>[makelist2.param2]/list,1,15</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>[makelist2.param4]/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>[makelist2.param4]/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>[makelist2.param4]/[makelist.param2]</page>
+<referer>[makelist2.param4]/adryanlist/fileuploader-67183/list,4,15</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://moldesde.com/wp-content/uploads/2012/02/letra_28.png.jpg</thumbnail>
+<fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
+</item>
+
+
+
+<!-- LETRA D -->
+
+<item>
+<title>[COLOR orange] [+]SERIES [COLOR white]D[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+<SetViewMode>500</SetViewMode>
+<title>[makelist2.param1]</title>
+<link>$doregex[makelist]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+<fanart>[makelist2.param3]</fanart>
+]]></listrepeat>
+<expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-d.txt</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>$pyFunction:('[makelist.param3]').replace('Espa&#241;ol','')</title>
+        <link>$doregex[getUrl]</link>
+				<thumbnail>[makelist2.param3]</thumbnail>
+	<fanart>[makelist2.param3]</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>[makelist2.param2]/list,1,15</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>[makelist2.param4]/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>[makelist2.param4]/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>[makelist2.param4]/[makelist.param2]</page>
+<referer>[makelist2.param4]/adryanlist/fileuploader-67183/list,4,15</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://moldesde.com/wp-content/uploads/2012/02/letra_30.png.jpg</thumbnail>
+<fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
+</item>
+
+<!-- LETRA E -->
+
+<item>
+<title>[COLOR orange] [+]SERIES [COLOR white]E[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+<SetViewMode>500</SetViewMode>
+<title>[makelist2.param1]</title>
+<link>$doregex[makelist]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+<fanart>[makelist2.param3]</fanart>
+]]></listrepeat>
+<expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-e.txt</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>$pyFunction:('[makelist.param3]').replace('Espa&#241;ol','')</title>
+        <link>$doregex[getUrl]</link>
+				<thumbnail>[makelist2.param3]</thumbnail>
+	<fanart>[makelist2.param3]</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>[makelist2.param2]/list,1,15</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>[makelist2.param4]/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>[makelist2.param4]/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>[makelist2.param4]/[makelist.param2]</page>
+<referer>[makelist2.param4]/adryanlist/fileuploader-67183/list,4,15</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://moldesde.com/wp-content/uploads/2012/02/letra_30.png.jpg</thumbnail>
+<fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
+</item>
+
+<!-- LETRA F -->
+
+
+
+<item>
+<title>[COLOR orange] [+]SERIES [COLOR white]F[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+<SetViewMode>500</SetViewMode>
+<title>[makelist2.param1]</title>
+<link>$doregex[makelist]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+<fanart>[makelist2.param3]</fanart>
+]]></listrepeat>
+<expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-f.txt</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>$pyFunction:('[makelist.param3]').replace('Espa&#241;ol','')</title>
+        <link>$doregex[getUrl]</link>
+				<thumbnail>[makelist2.param3]</thumbnail>
+	<fanart>[makelist2.param3]</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>[makelist2.param2]/list,1,15</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>[makelist2.param4]/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>[makelist2.param4]/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>[makelist2.param4]/[makelist.param2]</page>
+<referer>[makelist2.param4]/adryanlist/fileuploader-67183/list,4,15</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://moldesde.com/wp-content/uploads/2012/02/letra_30.png.jpg</thumbnail>
+<fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
+</item>
+
+<!-- G -->
+
+<item>
+<title>[COLOR orange] [+]SERIES [COLOR white]G[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+<SetViewMode>500</SetViewMode>
+<title>[makelist2.param1]</title>
+<link>$doregex[makelist]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+<fanart>[makelist2.param3]</fanart>
+]]></listrepeat>
+<expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-g.txt</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>$pyFunction:('[makelist.param3]').replace('Espa&#241;ol','')</title>
+        <link>$doregex[getUrl]</link>
+				<thumbnail>[makelist2.param3]</thumbnail>
+	<fanart>[makelist2.param3]</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>[makelist2.param2]/list,1,15</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>[makelist2.param4]/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>[makelist2.param4]/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>[makelist2.param4]/[makelist.param2]</page>
+<referer>[makelist2.param4]/adryanlist/fileuploader-67183/list,4,15</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://moldesde.com/wp-content/uploads/2012/02/letra_30.png.jpg</thumbnail>
+<fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
+</item>
+
+<!-- H -->
+
+<item>
+<title>[COLOR orange] [+]SERIES [COLOR white]H[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+<SetViewMode>500</SetViewMode>
+<title>[makelist2.param1]</title>
+<link>$doregex[makelist]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+<fanart>[makelist2.param3]</fanart>
+]]></listrepeat>
+<expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-h.txt</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>$pyFunction:('[makelist.param3]').replace('Espa&#241;ol','')</title>
+        <link>$doregex[getUrl]</link>
+				<thumbnail>[makelist2.param3]</thumbnail>
+	<fanart>[makelist2.param3]</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>[makelist2.param2]/list,1,15</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>[makelist2.param4]/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>[makelist2.param4]/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>[makelist2.param4]/[makelist.param2]</page>
+<referer>[makelist2.param4]/adryanlist/fileuploader-67183/list,4,15</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://moldesde.com/wp-content/uploads/2012/02/letra_30.png.jpg</thumbnail>
+<fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
+</item>
+
+<!-- I -->
+
+<item>
+<title>[COLOR orange] [+]SERIES [COLOR white]I[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+<SetViewMode>500</SetViewMode>
+<title>[makelist2.param1]</title>
+<link>$doregex[makelist]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+<fanart>[makelist2.param3]</fanart>
+]]></listrepeat>
+<expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-i.txt</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>$pyFunction:('[makelist.param3]').replace('Espa&#241;ol','')</title>
+        <link>$doregex[getUrl]</link>
+				<thumbnail>[makelist2.param3]</thumbnail>
+	<fanart>[makelist2.param3]</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>[makelist2.param2]/list,1,15</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>[makelist2.param4]/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>[makelist2.param4]/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>[makelist2.param4]/[makelist.param2]</page>
+<referer>[makelist2.param4]/adryanlist/fileuploader-67183/list,4,15</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://moldesde.com/wp-content/uploads/2012/02/letra_30.png.jpg</thumbnail>
+<fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
+</item>
+
+<!-- J -->
+
+<item>
+<title>[COLOR orange] [+]SERIES [COLOR white]J[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+<SetViewMode>500</SetViewMode>
+<title>[makelist2.param1]</title>
+<link>$doregex[makelist]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+<fanart>[makelist2.param3]</fanart>
+]]></listrepeat>
+<expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-j.txt</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>$pyFunction:('[makelist.param3]').replace('Espa&#241;ol','')</title>
+        <link>$doregex[getUrl]</link>
+				<thumbnail>[makelist2.param3]</thumbnail>
+	<fanart>[makelist2.param3]</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>[makelist2.param2]/list,1,15</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>[makelist2.param4]/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>[makelist2.param4]/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>[makelist2.param4]/[makelist.param2]</page>
+<referer>[makelist2.param4]/adryanlist/fileuploader-67183/list,4,15</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://moldesde.com/wp-content/uploads/2012/02/letra_30.png.jpg</thumbnail>
+<fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
+</item>
+
+<!-- K -->
+
+<item>
+<title>[COLOR orange] [+]SERIES [COLOR white]K[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+<SetViewMode>500</SetViewMode>
+<title>[makelist2.param1]</title>
+<link>$doregex[makelist]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+<fanart>[makelist2.param3]</fanart>
+]]></listrepeat>
+<expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-k.txt</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>$pyFunction:('[makelist.param3]').replace('Espa&#241;ol','')</title>
+        <link>$doregex[getUrl]</link>
+				<thumbnail>[makelist2.param3]</thumbnail>
+	<fanart>[makelist2.param3]</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>[makelist2.param2]/list,1,15</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>[makelist2.param4]/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>[makelist2.param4]/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>[makelist2.param4]/[makelist.param2]</page>
+<referer>[makelist2.param4]/adryanlist/fileuploader-67183/list,4,15</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://moldesde.com/wp-content/uploads/2012/02/letra_30.png.jpg</thumbnail>
+<fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
+</item>
+
+<!-- L -->
+
+<item>
+<title>[COLOR orange] [+]SERIES [COLOR white]L[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+<SetViewMode>500</SetViewMode>
+<title>[makelist2.param1]</title>
+<link>$doregex[makelist]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+<fanart>[makelist2.param3]</fanart>
+]]></listrepeat>
+<expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-l.txt</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>$pyFunction:('[makelist.param3]').replace('Espa&#241;ol','')</title>
+        <link>$doregex[getUrl]</link>
+				<thumbnail>[makelist2.param3]</thumbnail>
+	<fanart>[makelist2.param3]</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>[makelist2.param2]/list,1,15</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>[makelist2.param4]/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>[makelist2.param4]/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>[makelist2.param4]/[makelist.param2]</page>
+<referer>[makelist2.param4]/adryanlist/fileuploader-67183/list,4,15</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://moldesde.com/wp-content/uploads/2012/02/letra_30.png.jpg</thumbnail>
+<fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
+</item>
+
+<!-- M -->
+
+<item>
+<title>[COLOR orange] [+]SERIES [COLOR white]M[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+<SetViewMode>500</SetViewMode>
+<title>[makelist2.param1]</title>
+<link>$doregex[makelist]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+<fanart>[makelist2.param3]</fanart>
+]]></listrepeat>
+<expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-m.txt</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>$pyFunction:('[makelist.param3]').replace('Espa&#241;ol','')</title>
+        <link>$doregex[getUrl]</link>
+				<thumbnail>[makelist2.param3]</thumbnail>
+	<fanart>[makelist2.param3]</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>[makelist2.param2]/list,1,15</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>[makelist2.param4]/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>[makelist2.param4]/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>[makelist2.param4]/[makelist.param2]</page>
+<referer>[makelist2.param4]/adryanlist/fileuploader-67183/list,4,15</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://moldesde.com/wp-content/uploads/2012/02/letra_30.png.jpg</thumbnail>
+<fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
+</item>
+
+<!-- N -->
+
+<item>
+<title>[COLOR orange] [+]SERIES [COLOR white]N[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+<SetViewMode>500</SetViewMode>
+<title>[makelist2.param1]</title>
+<link>$doregex[makelist]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+<fanart>[makelist2.param3]</fanart>
+]]></listrepeat>
+<expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-n.txt</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>$pyFunction:('[makelist.param3]').replace('Espa&#241;ol','')</title>
+        <link>$doregex[getUrl]</link>
+				<thumbnail>[makelist2.param3]</thumbnail>
+	<fanart>[makelist2.param3]</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>[makelist2.param2]/list,1,15</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>[makelist2.param4]/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>[makelist2.param4]/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>[makelist2.param4]/[makelist.param2]</page>
+<referer>[makelist2.param4]/adryanlist/fileuploader-67183/list,4,15</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://moldesde.com/wp-content/uploads/2012/02/letra_30.png.jpg</thumbnail>
+<fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
+</item>
+
+<!-- Ñ -->
+
+<!-- O -->
+
+<item>
+<title>[COLOR orange] [+]SERIES [COLOR white]O[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+<SetViewMode>500</SetViewMode>
+<title>[makelist2.param1]</title>
+<link>$doregex[makelist]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+<fanart>[makelist2.param3]</fanart>
+]]></listrepeat>
+<expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-o.txt</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>$pyFunction:('[makelist.param3]').replace('Espa&#241;ol','')</title>
+        <link>$doregex[getUrl]</link>
+				<thumbnail>[makelist2.param3]</thumbnail>
+	<fanart>[makelist2.param3]</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>[makelist2.param2]/list,1,15</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>[makelist2.param4]/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>[makelist2.param4]/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>[makelist2.param4]/[makelist.param2]</page>
+<referer>[makelist2.param4]/adryanlist/fileuploader-67183/list,4,15</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://moldesde.com/wp-content/uploads/2012/02/letra_30.png.jpg</thumbnail>
+<fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
+</item>
+
+<!-- P -->
+
+<item>
+<title>[COLOR orange] [+]SERIES [COLOR white]P[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+<SetViewMode>500</SetViewMode>
+<title>[makelist2.param1]</title>
+<link>$doregex[makelist]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+<fanart>[makelist2.param3]</fanart>
+]]></listrepeat>
+<expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-p.txt</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>$pyFunction:('[makelist.param3]').replace('Espa&#241;ol','')</title>
+        <link>$doregex[getUrl]</link>
+				<thumbnail>[makelist2.param3]</thumbnail>
+	<fanart>[makelist2.param3]</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>[makelist2.param2]/list,1,15</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>[makelist2.param4]/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>[makelist2.param4]/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>[makelist2.param4]/[makelist.param2]</page>
+<referer>[makelist2.param4]/adryanlist/fileuploader-67183/list,4,15</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://moldesde.com/wp-content/uploads/2012/02/letra_30.png.jpg</thumbnail>
+<fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
+</item>
+
+<!-- Q -->
+
+<item>
+<title>[COLOR orange] [+]SERIES [COLOR white]Q[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+<SetViewMode>500</SetViewMode>
+<title>[makelist2.param1]</title>
+<link>$doregex[makelist]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+<fanart>[makelist2.param3]</fanart>
+]]></listrepeat>
+<expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-q.txt</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>$pyFunction:('[makelist.param3]').replace('Espa&#241;ol','')</title>
+        <link>$doregex[getUrl]</link>
+				<thumbnail>[makelist2.param3]</thumbnail>
+	<fanart>[makelist2.param3]</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>[makelist2.param2]/list,1,15</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>[makelist2.param4]/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>[makelist2.param4]/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>[makelist2.param4]/[makelist.param2]</page>
+<referer>[makelist2.param4]/adryanlist/fileuploader-67183/list,4,15</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://moldesde.com/wp-content/uploads/2012/02/letra_30.png.jpg</thumbnail>
+<fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
+</item>
+
+<!-- R -->
+
+<item>
+<title>[COLOR orange] [+]SERIES [COLOR white]R[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+<SetViewMode>500</SetViewMode>
+<title>[makelist2.param1]</title>
+<link>$doregex[makelist]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+<fanart>[makelist2.param3]</fanart>
+]]></listrepeat>
+<expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-r.txt</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>$pyFunction:('[makelist.param3]').replace('Espa&#241;ol','')</title>
+        <link>$doregex[getUrl]</link>
+				<thumbnail>[makelist2.param3]</thumbnail>
+	<fanart>[makelist2.param3]</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>[makelist2.param2]/list,1,15</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>[makelist2.param4]/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>[makelist2.param4]/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>[makelist2.param4]/[makelist.param2]</page>
+<referer>[makelist2.param4]/adryanlist/fileuploader-67183/list,4,15</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://moldesde.com/wp-content/uploads/2012/02/letra_30.png.jpg</thumbnail>
+<fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
+</item>
+
+<!-- S -->
+
+<item>
+<title>[COLOR orange] [+]SERIES [COLOR white]S[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+<SetViewMode>500</SetViewMode>
+<title>[makelist2.param1]</title>
+<link>$doregex[makelist]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+<fanart>[makelist2.param3]</fanart>
+]]></listrepeat>
+<expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-s.txt</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>$pyFunction:('[makelist.param3]').replace('Espa&#241;ol','')</title>
+        <link>$doregex[getUrl]</link>
+				<thumbnail>[makelist2.param3]</thumbnail>
+	<fanart>[makelist2.param3]</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>[makelist2.param2]/list,1,15</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>[makelist2.param4]/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>[makelist2.param4]/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>[makelist2.param4]/[makelist.param2]</page>
+<referer>[makelist2.param4]/adryanlist/fileuploader-67183/list,4,15</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://moldesde.com/wp-content/uploads/2012/02/letra_30.png.jpg</thumbnail>
+<fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
+</item>
+
+<!--T-->
+<item>
+<title>[COLOR orange] [+]SERIES [COLOR white]T[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+<SetViewMode>500</SetViewMode>
+<title>[makelist2.param1]</title>
+<link>$doregex[makelist]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+<fanart>[makelist2.param3]</fanart>
+]]></listrepeat>
+<expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-t.txt</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>$pyFunction:('[makelist.param3]').replace('Espa&#241;ol','')</title>
+        <link>$doregex[getUrl]</link>
+				<thumbnail>[makelist2.param3]</thumbnail>
+	<fanart>[makelist2.param3]</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>[makelist2.param2]/list,1,15</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>[makelist2.param4]/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>[makelist2.param4]/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>[makelist2.param4]/[makelist.param2]</page>
+<referer>[makelist2.param4]/adryanlist/fileuploader-67183/list,4,15</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://moldesde.com/wp-content/uploads/2012/02/letra_30.png.jpg</thumbnail>
+<fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
+</item>
+
+<!-- U -->
+<item>
+<title>[COLOR orange] [+]SERIES [COLOR white]U[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+<SetViewMode>500</SetViewMode>
+<title>[makelist2.param1]</title>
+<link>$doregex[makelist]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+<fanart>[makelist2.param3]</fanart>
+]]></listrepeat>
+<expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-u.txt</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>$pyFunction:('[makelist.param3]').replace('Espa&#241;ol','')</title>
+        <link>$doregex[getUrl]</link>
+				<thumbnail>[makelist2.param3]</thumbnail>
+	<fanart>[makelist2.param3]</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>[makelist2.param2]/list,1,15</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>[makelist2.param4]/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>[makelist2.param4]/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>[makelist2.param4]/[makelist.param2]</page>
+<referer>[makelist2.param4]/adryanlist/fileuploader-67183/list,4,15</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://moldesde.com/wp-content/uploads/2012/02/letra_30.png.jpg</thumbnail>
+<fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
+</item>
+
+<!-- V -->
+
+<item>
+<title>[COLOR orange] [+]SERIES [COLOR white]V[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+<SetViewMode>500</SetViewMode>
+<title>[makelist2.param1]</title>
+<link>$doregex[makelist]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+<fanart>[makelist2.param3]</fanart>
+]]></listrepeat>
+<expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-v.txt</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>$pyFunction:('[makelist.param3]').replace('Espa&#241;ol','')</title>
+        <link>$doregex[getUrl]</link>
+				<thumbnail>[makelist2.param3]</thumbnail>
+	<fanart>[makelist2.param3]</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>[makelist2.param2]/list,1,15</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>[makelist2.param4]/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>[makelist2.param4]/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>[makelist2.param4]/[makelist.param2]</page>
+<referer>[makelist2.param4]/adryanlist/fileuploader-67183/list,4,15</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://moldesde.com/wp-content/uploads/2012/02/letra_30.png.jpg</thumbnail>
+<fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
+</item>
+
+<!-- W -->
+
+<item>
+<title>[COLOR orange] [+]SERIES [COLOR white]W[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+<SetViewMode>500</SetViewMode>
+<title>[makelist2.param1]</title>
+<link>$doregex[makelist]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+<fanart>[makelist2.param3]</fanart>
+]]></listrepeat>
+<expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-w.txt</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>$pyFunction:('[makelist.param3]').replace('Espa&#241;ol','')</title>
+        <link>$doregex[getUrl]</link>
+				<thumbnail>[makelist2.param3]</thumbnail>
+	<fanart>[makelist2.param3]</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>[makelist2.param2]/list,1,15</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>[makelist2.param4]/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>[makelist2.param4]/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>[makelist2.param4]/[makelist.param2]</page>
+<referer>[makelist2.param4]/adryanlist/fileuploader-67183/list,4,15</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://moldesde.com/wp-content/uploads/2012/02/letra_30.png.jpg</thumbnail>
+<fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
+</item>
+
+<!-- X -->
+
+<item>
+<title>[COLOR orange] [+]SERIES [COLOR white]X[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+<SetViewMode>500</SetViewMode>
+<title>[makelist2.param1]</title>
+<link>$doregex[makelist]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+<fanart>[makelist2.param3]</fanart>
+]]></listrepeat>
+<expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-x.txt</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>$pyFunction:('[makelist.param3]').replace('Espa&#241;ol','')</title>
+        <link>$doregex[getUrl]</link>
+				<thumbnail>[makelist2.param3]</thumbnail>
+	<fanart>[makelist2.param3]</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>[makelist2.param2]/list,1,15</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>[makelist2.param4]/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>[makelist2.param4]/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>[makelist2.param4]/[makelist.param2]</page>
+<referer>[makelist2.param4]/adryanlist/fileuploader-67183/list,4,15</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://moldesde.com/wp-content/uploads/2012/02/letra_30.png.jpg</thumbnail>
+<fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
+</item>
+
+<!-- Y -->
+
+<item>
+<title>[COLOR orange] [+]SERIES [COLOR white]Y[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+<SetViewMode>500</SetViewMode>
+<title>[makelist2.param1]</title>
+<link>$doregex[makelist]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+<fanart>[makelist2.param3]</fanart>
+]]></listrepeat>
+<expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-y.txt</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>$pyFunction:('[makelist.param3]').replace('Espa&#241;ol','')</title>
+        <link>$doregex[getUrl]</link>
+				<thumbnail>[makelist2.param3]</thumbnail>
+	<fanart>[makelist2.param3]</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>[makelist2.param2]/list,1,15</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>[makelist2.param4]/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>[makelist2.param4]/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>[makelist2.param4]/[makelist.param2]</page>
+<referer>[makelist2.param4]/adryanlist/fileuploader-67183/list,4,15</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://moldesde.com/wp-content/uploads/2012/02/letra_30.png.jpg</thumbnail>
+<fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
+</item>
+
+<!-- Z -->
+
+<item>
+<title>[COLOR orange] [+]SERIES [COLOR white]Z[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+<SetViewMode>500</SetViewMode>
+<title>[makelist2.param1]</title>
+<link>$doregex[makelist]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+<fanart>[makelist2.param3]</fanart>
+]]></listrepeat>
+<expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-z.txt</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>$pyFunction:('[makelist.param3]').replace('Espa&#241;ol','')</title>
+        <link>$doregex[getUrl]</link>
+				<thumbnail>[makelist2.param3]</thumbnail>
+	<fanart>[makelist2.param3]</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>[makelist2.param2]/list,1,15</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>[makelist2.param4]/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>[makelist2.param4]/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>[makelist2.param4]/[makelist.param2]</page>
+<referer>[makelist2.param4]/adryanlist/fileuploader-67183/list,4,15</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://moldesde.com/wp-content/uploads/2012/02/letra_30.png.jpg</thumbnail>
+<fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
 </item>
 </items>
