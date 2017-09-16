@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <items>
+<item>
+<title>    [COLOR orange][B]BUSCAR SERIE[/B] [/COLOR]</title>
+<link>$doregex[makelist1]</link>
 
-<item>
-<title>Buscar Serie |Stream|</title>
-<link></link>
-<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/series/buscar-serie.xml</externallink>
-<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/Buscar.png</thumbnail>
-<fanart></fanart>
-</item>
-<item>
-<title>[COLOR orange] Series [/COLOR][COLOR white] [Por Stream] [/COLOR] </title>
+
+<regex>
+<name>makelist1</name>
+<listrepeat><![CDATA[
+<title>[COLOR lightblue][makelist1.param1]   [/COLOR]</title>
 <link>$doregex[makelist2]</link>
+<thumbnail>http://www.seriespapaya.com/uploads/[makelist1.param2]</thumbnail>
+<fanart>http://www.seriespapaya.com/uploads/[makelist1.param2]</fanart>
+]]></listrepeat>
+<expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
+<page>http://diskokosmiko.mx/action/SearchFiles/?s=$doregex[search]</page>
+</regex>
+
 <regex>
 <name>search</name>
 <expres><![CDATA[#$pyFunction
@@ -19,26 +25,28 @@ import xbmcaddon
 import xbmcgui
 def GetLSProData(page_data,Cookie_Jar,m):
     dialog = xbmcgui.Dialog()
-    d = dialog.input('Buscar Serie: ejemplo: flash o the walking dead', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
+    d = dialog.input('Buscar Serie:', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
     return d
 ]]></expres>
 <page></page>
 <cookieJar></cookieJar>
 </regex>
 
+
+
 <regex>
-  <name>makelist2</name>
-  <listrepeat><![CDATA[
-  <SetViewMode>55</SetViewMode>
-        <title>[makelist2.param1]</title>
-<link>$doregex[makelist]</link>
-		<thumbnail>[makelist2.param3]</thumbnail>
-<fanart>[makelist2.param3]</fanart>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+<SetViewMode>55</SetViewMode>
+<title>[COLOR lightblue][makelist1.param1] [makelist2.param2]     [/COLOR]</title>
+<link>$doregex[makelist3]</link>
+<thumbnail>http://diskokosmiko.mx/[makelist1.param1]</thumbnail>
+<fanart>http://diskokosmiko.mx/[makelist1.param1]</fanart>
 ]]></listrepeat>
-<expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
-<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/seresdb.txt</page>
-<cookieJar></cookieJar>
+<expres><![CDATA[href="(.*?)".*?nbsp\;(.*?)<]]></expres>
+<page>/[makelist1.param3]</page>
 </regex>
+
 
 
 <regex>
@@ -72,6 +80,64 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail></thumbnail>
+
+
+
+<thumbnail></thumbnail><fanart></fanart></item> 
+
+
+
+<item>
+<title> [COLOR orange][+]Series [COLOR white] Hercules[/COLOR][/COLOR] </title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+  <SetViewMode>55</SetViewMode>
+        <title>[makelist2.param1]</title>
+<link>$doregex[makelist]</link>
+		<thumbnail>[makelist2.param3]</thumbnail>
+<fanart>[makelist2.param3]</fanart>
+]]></listrepeat>
+<expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
+<page>http://www.grupo-netai.org/db/seriesdb.txt</page>
+<cookieJar></cookieJar>
+</regex>
+
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>$pyFunction:('[makelist.param3]').replace('Espa&#241;ol','')</title>
+        <link>$doregex[getUrl]</link>
+				<thumbnail>[makelist2.param3]</thumbnail>
+	<fanart>[makelist2.param3]</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>[makelist2.param2]/list,1,15</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>[makelist2.param4]/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>[makelist2.param4]/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>[makelist2.param4]/[makelist.param2]</page>
+<referer>[makelist2.param4]/adryanlist/fileuploader-67183/list,4,15</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
 </item>
 </items>
