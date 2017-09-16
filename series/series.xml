@@ -1,46 +1,9 @@
 <items>
 <item>
-<title>[COLOR white]Series Plus[/COLOR]</title>
+<title>[COLOR white]Series Torrent[/COLOR]</title>
 <link>http://Ignoreme</link>
 <fanart>http://images6.fanpop.com/image/photos/38300000/Atlantis-Nebula-by-Starkiteckt-starkiteckt-38383517-5000-3125.jpg</fanart>
-<thumbnail></thumbnail>
-<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/series/series-plus.xml</externallink>
-</item>
-
-<item>
-<title>[COLOR orange]Series [A-Z][/COLOR][COLOR lime](253) db [Antigua][/COLOR]</title>
-<link>http://Ignoreme</link>
-<fanart>http://images6.fanpop.com/image/photos/38300000/Atlantis-Nebula-by-Starkiteckt-starkiteckt-38383517-5000-3125.jpg</fanart>
-<thumbnail>https://raw.githubusercontent.com/Andorth/atlantis/master/imagenes/series.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/series_a-z.xml</externallink>
-</item>
-<item>
-<title>[COLOR orange]Series [A-Z][/COLOR] db [Nueva] En construccion</title>
-<link>http://Ignoreme</link>
-<fanart>http://images6.fanpop.com/image/photos/38300000/Atlantis-Nebula-by-Starkiteckt-starkiteckt-38383517-5000-3125.jpg</fanart>
-<thumbnail>https://raw.githubusercontent.com/Andorth/atlantis/master/imagenes/series.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/series/series-torrent.xml</externallink>
-</item>
-<item>
-<title>[COLOR orange]*[/COLOR][COLOR gold][B] SERIES INFANTILES [/COLOR][/B][COLOR lime](077)[/COLOR]</title>
-<link>http://Ignoreme</link>
-<fanart>http://images6.fanpop.com/image/photos/38300000/Atlantis-Nebula-by-Starkiteckt-starkiteckt-38383517-5000-3125.jpg</fanart>
-<thumbnail>https://raw.githubusercontent.com/Andorth/atlantis/master/imagenes/series-infantiles.jpg</thumbnail>
-<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/series_infantiles.xml</externallink>
-</item>
-<item>
-<title>[COLOR orange][B]* [/COLOR][COLOR gold]SERIES DOCUMENTALES[/COLOR][/B][COLOR lime] (03)[/COLOR]</title>
-<link>http://Ignoreme</link>
-<fanart>http://images6.fanpop.com/image/photos/38300000/Atlantis-Nebula-by-Starkiteckt-starkiteckt-38383517-5000-3125.jpg</fanart>
-<thumbnail>https://raw.githubusercontent.com/Andorth/atlantis/master/imagenes/documentales.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/documentales/documentales.xml</externallink>	
-</item>
-
-<item>
-<title>[COLOR orange][B]* [/COLOR][COLOR gold]PROGRAMAS DE TV[/COLOR][/B][COLOR lime] (01)[/COLOR]</title>
-<link>http://Ignoreme</link>
-<fanart>http://images6.fanpop.com/image/photos/38300000/Atlantis-Nebula-by-Starkiteckt-starkiteckt-38383517-5000-3125.jpg</fanart>
-<thumbnail>https://raw.githubusercontent.com/Andorth/atlantis/master/imagenes/tv.png</thumbnail>
-	<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/programastv/programastv.xml</externallink>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
+<externallink></externallink>
 </item>
 </items>
