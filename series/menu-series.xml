@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<items>
 <SetViewMode>500</SetViewMode>
-
-
-
+<items>
 <item>
 <title>   [COLOR orange][+]BUSCAR SERIE [COLOR white][Stream][/COLOR][/COLOR]</title>
 <link>$doregex[makelist1]</link>
