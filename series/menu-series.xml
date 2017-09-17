@@ -5,7 +5,7 @@
 
 
 <item>
-<title>   [COLOR orange][+]BUSCAR SERIE [COLOR white]Torrent[/COLOR][/COLOR]</title>
+<title>   [COLOR orange][+]BUSCAR SERIE [COLOR white][Stream][/COLOR][/COLOR]</title>
 <link>$doregex[makelist1]</link>
 
 
@@ -145,7 +145,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 </item>
 <item>
-<title>[COLOR orange][+]Buscar [COLOR white] Serie Torrent[/COLOR][/COLOR]</title>
+<title>[COLOR orange][+]Buscar [COLOR white] Serie Stream[/COLOR][/COLOR]</title>
 <link>http://Ignoreme</link>
 <fanart>http://images6.fanpop.com/image/photos/38300000/Atlantis-Nebula-by-Starkiteckt-starkiteckt-38383517-5000-3125.jpg</fanart>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
@@ -159,18 +159,17 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <externallink></externallink>
 </item>
 <item>
-<title>[COLOR orange][+]Series [COLOR white] Torrent[/COLOR][/COLOR]</title>
-<link>http://Ignoreme</link>
-<fanart>http://images6.fanpop.com/image/photos/38300000/Atlantis-Nebula-by-Starkiteckt-starkiteckt-38383517-5000-3125.jpg</fanart>
-<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
-<externallink></externallink>
-</item>
-<item>
 <title>[COLOR orange][+]Buscar [COLOR white]Series Torrent[/COLOR][/COLOR]</title>
 <link>http://Ignoreme</link>
 <fanart>http://images6.fanpop.com/image/photos/38300000/Atlantis-Nebula-by-Starkiteckt-starkiteckt-38383517-5000-3125.jpg</fanart>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
 <externallink></externallink>
 </item>
-
+<item>
+<title>[COLOR orange][+]Series [COLOR white] Torrent[/COLOR][/COLOR]</title>
+<link>http://Ignoreme</link>
+<fanart>http://images6.fanpop.com/image/photos/38300000/Atlantis-Nebula-by-Starkiteckt-starkiteckt-38383517-5000-3125.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
+<externallink></externallink>
+</item>
 </items>
