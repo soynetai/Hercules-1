@@ -1,0 +1,32 @@
+
+<item>
+<title>[COLOR orange]Narcos[/COLOR][COLOR white] Temporada 1[/COLOR]</title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+ <SetViewMode>55</SetViewMode>
+ <title>[COLOR skyblue][UPPERCASE][B] [makelist2.param5][/B][/UPPERCASE][/COLOR]   [COLOR white]Calidad:[makelist2.param3][/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<thumbnail>[makelist2.param2]</thumbnail> 
+</regex>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)"[\w\W\s]{0,72}src="(.*?)"[\w\W\s]{0,110}bloque_superior">(.*?)<[\w\W\s]{0,110}icono\_(.*?).png[\w\W\s]{0,300}bloque_inferior">(.*?)<]]></expres>
+<page>https://pasateatorrent.com/series/narcos-temporada-1/</page>	
+</regex>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+ <SetViewMode>55</SetViewMode>
+ <title>[COLOR skyblue][UPPERCASE][B] [makelist2.param5][/B][/UPPERCASE][/COLOR]  Calidad:[makelist.param1]  Tamaño:[makelist.param2]  </title>
+<link>plugin://plugin.video.quasar/play?uri=[makelist.param3]</link>
+<thumbnail>[makelist2.param2]</thumbnail> 
+</regex>
+]]></listrepeat>
+<expres>d>(.*?)<[\w\W\s]{0,7}td>(.*?)\.[\w\W\s]{0,16}href="(.*?)"</expres>
+<page>[makelist2.param1]</page>	
+</regex>
+</item>
