@@ -1,18 +1,30 @@
-
 <item>
-<title>[COLOR orange] Narcos | 1 Temporada |[/COLOR] [COLOR white] Quasar torrent [/COLOR]</title>
+<title> Narcos t1</title>
+<link>$doregex[makelist3]</link>
+
+
+<regex>
+<name>makelist3</name>
+<listrepeat><![CDATA[
+<title>[makelist3.param1]</title>
 <link>$doregex[makelist2]</link>
+]]></listrepeat>
+<expres>'(.*?)'</expres>
+<page></page>
+</regex>
+
+
 
 <regex>
 <name>makelist2</name>
 <listrepeat><![CDATA[
  <SetViewMode>55</SetViewMode>
- <title>[COLOR skyblue][UPPERCASE][B] [makelist2.param3][/B][/UPPERCASE][/COLOR]  </title>
+ <title>[COLOR skyblue][UPPERCASE][B] [makelist2.param5][/B][/UPPERCASE][/COLOR]   [COLOR white]Calidad:[makelist2.param3][/COLOR]  </title>
 <link>$doregex[makelist]</link>
 <thumbnail>[makelist2.param2]</thumbnail> 
 </regex>
 ]]></listrepeat>
-<expres><![CDATA[href="(.*?)"[\w\W\s]{0,72}src="(.*?)"[\w\W\s]{0,120}bloque_inferior">(.*?)<]]></expres>
+<expres><![CDATA[href="(.*?)"[\w\W\s]{0,72}src="(.*?)"[\w\W\s]{0,110}bloque_superior">(.*?)<[\w\W\s]{0,110}icono\_(.*?).png[\w\W\s]{0,300}bloque_inferior">(.*?)<]]></expres>
 <page>https://pasateatorrent.com/series/narcos-temporada-1/</page>	
 </regex>
 
@@ -20,9 +32,8 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
  <SetViewMode>55</SetViewMode>
- <title>[COLOR orange] [makelist2.param3][/COLOR][COLOR white]  Calidad:[makelist.param1] [/COLOR][COLOR lime] Tamaño:[makelist.param2] [/COLOR] </title>
+ <title> [COLOR white][makelist2.param5][/COLOR]  Calidad:[makelist.param1]  Tamaño:[makelist.param2]  </title>
 <link>plugin://plugin.video.quasar/play?uri=[makelist.param3]</link>
-<link>plugin://plugin.video.torrenter/?action=torrentPlayer&url=[makelist.param3]</link>
 <thumbnail>[makelist2.param2]</thumbnail> 
 </regex>
 ]]></listrepeat>
