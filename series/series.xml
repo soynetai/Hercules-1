@@ -1,58 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <items>
-<!-- Buscar serie Torrent -->
-<item>
-<title> [COLOR orange]BUSCAR[/COLOR][COLOR white]Serie en Castellano[/COLOR] </title>
-<link>$doregex[makelist2]</link>
 
-
-<regex>
-<name>makelist2</name>
-<listrepeat><![CDATA[
- <SetViewMode>55</SetViewMode>
- <title>[COLOR orange] [makelist2.param3][/COLOR]  </title>
-<link>$doregex[makelist]</link>
-<thumbnail>[makelist2.param2]</thumbnail> 
-</regex>
-]]></listrepeat>
-<expres><![CDATA[href="(.*?)"[\w\W\s]{0,72}src="(.*?)"[\w\W\s]{0,120}bloque_inferior">(.*?)<]]></expres>
-<page>https://pasateatorrent.com/series/?s=$doregex[search]</page>	
-</regex>
-
- 
-<regex>
-<name>search</name>
-<expres><![CDATA[#$pyFunction
-import xbmc
-import xbmcaddon
-import xbmcgui
-def GetLSProData(page_data,Cookie_Jar,m):
-    dialog = xbmcgui.Dialog()
-    d = dialog.input('Buscar Pelicula: ', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
-    return d
-]]></expres>
-<page></page>
-<cookieJar></cookieJar>
-</regex>
-
-
-
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
- <SetViewMode>500</SetViewMode>
- <title>[COLOR lime] [makelist2.param3][/COLOR]  Calidad:[makelist.param1]  Tamaño:[makelist.param2]  </title>
-<link>plugin://plugin.video.quasar/play?uri=[makelist.param3]</link>
-<thumbnail>[makelist2.param2]</thumbnail> 
-</regex>
-]]></listrepeat>
-<expres>d>(.*?)<[\w\W\s]{0,7}td>(.*?)\.[\w\W\s]{0,16}href="(.*?)"</expres>
-<page>[makelist2.param1]</page>	
-</regex>
-</item>
 <!--LETRA 0 -->
 <item>
-<title>[COLOR orange] [+]SERIES [/B] [COLOR white][0-9][/COLOR] </title>
+<title>[COLOR orange] [+]SERIES  [COLOR white][0-9][/COLOR] </title>
 <link>$doregex[makelist2]</link>
 
 
@@ -450,7 +401,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- G -->
 
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white]G[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<title>[COLOR orange] [+]SERIES [COLOR white]G[/COLOR][COLOR lime]   [25][/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 
@@ -506,7 +457,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- H -->
 
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white]H[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<title>[COLOR orange] [+]SERIES [COLOR white]H[/COLOR][COLOR lime]   [25][/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 
@@ -562,7 +513,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- I -->
 
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white]I[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<title>[COLOR orange] [+]SERIES [COLOR white]I[/COLOR][COLOR lime]   [25][/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 
@@ -618,7 +569,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- J -->
 
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white]J[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<title>[COLOR orange] [+]SERIES [COLOR white]J[/COLOR][COLOR lime]   [25][/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 
@@ -674,7 +625,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- K -->
 
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white]K[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<title>[COLOR orange] [+]SERIES [COLOR white]K[/COLOR][COLOR lime]   [25][/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 
@@ -730,7 +681,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- L -->
 
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white]L[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<title>[COLOR orange] [+]SERIES [COLOR white]L[/COLOR][COLOR lime]   [25][/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 
@@ -786,7 +737,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- M -->
 
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white]M[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<title>[COLOR orange] [+]SERIES [COLOR white]M[/COLOR][COLOR lime]   [25][/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 
@@ -842,7 +793,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- N -->
 
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white]N[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<title>[COLOR orange] [+]SERIES [COLOR white]N[/COLOR][COLOR lime]   [25][/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 
@@ -900,7 +851,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- O -->
 
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white]O[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<title>[COLOR orange] [+]SERIES [COLOR white]O[/COLOR][COLOR lime]   [25][/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 
@@ -956,7 +907,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- P -->
 
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white]P[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<title>[COLOR orange] [+]SERIES [COLOR white]P[/COLOR][COLOR lime]   [25][/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 
@@ -1012,7 +963,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- Q -->
 
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white]Q[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<title>[COLOR orange] [+]SERIES [COLOR white]Q[/COLOR][COLOR lime]   [25][/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 
@@ -1068,7 +1019,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- R -->
 
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white]R[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<title>[COLOR orange] [+]SERIES [COLOR white]R[/COLOR][COLOR lime]   [25][/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 
@@ -1124,7 +1075,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- S -->
 
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white]S[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<title>[COLOR orange] [+]SERIES [COLOR white]S[/COLOR][COLOR lime]   [25][/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 
@@ -1179,7 +1130,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <!--T-->
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white]T[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<title>[COLOR orange] [+]SERIES [COLOR white]T[/COLOR][COLOR lime]   [25][/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 
@@ -1234,7 +1185,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <!-- U -->
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white]U[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<title>[COLOR orange] [+]SERIES [COLOR white]U[/COLOR][COLOR lime]   [25][/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 
@@ -1290,7 +1241,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- V -->
 
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white]V[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<title>[COLOR orange] [+]SERIES [COLOR white]V[/COLOR][COLOR lime]   [25][/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 
@@ -1346,7 +1297,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- W -->
 
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white]W[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<title>[COLOR orange] [+]SERIES [COLOR white]W[/COLOR][COLOR lime]   [25][/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 
@@ -1402,7 +1353,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- X -->
 
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white]X[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<title>[COLOR orange] [+]SERIES [COLOR white]X[/COLOR][COLOR lime]   [25][/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 
@@ -1458,7 +1409,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- Y -->
 
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white]Y[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<title>[COLOR orange] [+]SERIES [COLOR white]Y[/COLOR][COLOR lime]   [25][/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 
@@ -1514,7 +1465,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- Z -->
 
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white]Z[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<title>[COLOR orange] [+]SERIES [COLOR white]Z[/COLOR][COLOR lime]   [25][/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 
