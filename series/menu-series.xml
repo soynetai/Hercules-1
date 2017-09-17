@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <SetViewMode>500</SetViewMode>
 <items>
+
 <item>
-<title>   [COLOR orange][+]BUSCAR SERIE [COLOR white][Stream][/COLOR][/COLOR]</title>
+<title>   [COLOR orange][+]BUSCAR SERIE [COLOR white]Stream[/COLOR][/COLOR]</title>
 <link>$doregex[makelist1]</link>
 
 
@@ -107,7 +108,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 ]]></listrepeat>
 <expres><![CDATA[href="(.*?)"[\w\W\s]{0,72}src="(.*?)"[\w\W\s]{0,120}bloque_inferior">(.*?)<]]></expres>
-<page>https://pasateatorrent.com/?s=$doregex[search]</page>	
+<page>https://pasateatorrent.com/series/?s=$doregex[search]</page>	
 </regex>
 
  
@@ -141,22 +142,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page>[makelist2.param1]</page>	
 </regex>
 </item>
-<item>
-<title>[COLOR orange][+]Buscar [COLOR white] Serie Stream[/COLOR][/COLOR]</title>
-<link>http://Ignoreme</link>
-<fanart>http://images6.fanpop.com/image/photos/38300000/Atlantis-Nebula-by-Starkiteckt-starkiteckt-38383517-5000-3125.jpg</fanart>
-<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
-<externallink></externallink>
-</item>
+
 <item>
 <title>[COLOR orange][+]Series [COLOR white]Stream[/COLOR][/COLOR]</title>
-<link>http://Ignoreme</link>
-<fanart>http://images6.fanpop.com/image/photos/38300000/Atlantis-Nebula-by-Starkiteckt-starkiteckt-38383517-5000-3125.jpg</fanart>
-<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
-<externallink></externallink>
-</item>
-<item>
-<title>[COLOR orange][+]Buscar [COLOR white]Series Torrent[/COLOR][/COLOR]</title>
 <link>http://Ignoreme</link>
 <fanart>http://images6.fanpop.com/image/photos/38300000/Atlantis-Nebula-by-Starkiteckt-starkiteckt-38383517-5000-3125.jpg</fanart>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
