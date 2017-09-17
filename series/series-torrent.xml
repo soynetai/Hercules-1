@@ -1,6 +1,6 @@
 
 <item>
-<title>[COLOR orange] Narcos [/COLOR] [COLOR white] Quasar torrent [/COLOR]</title>
+<title>[COLOR orange] Narcos | 1 Temporada |[/COLOR] [COLOR white] Quasar torrent [/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 <regex>
@@ -13,7 +13,7 @@
 </regex>
 ]]></listrepeat>
 <expres><![CDATA[href="(.*?)"[\w\W\s]{0,72}src="(.*?)"[\w\W\s]{0,120}bloque_inferior">(.*?)<]]></expres>
-<page>https://pasateatorrent.com/?s=narcos</page>	
+<page>https://pasateatorrent.com/series/narcos-temporada-1/</page>	
 </regex>
 
 <regex>
@@ -22,6 +22,7 @@
  <SetViewMode>55</SetViewMode>
  <title>[COLOR orange] [makelist2.param3][/COLOR][COLOR white]  Calidad:[makelist.param1] [/COLOR][COLOR lime] Tamaño:[makelist.param2] [/COLOR] </title>
 <link>plugin://plugin.video.quasar/play?uri=[makelist.param3]</link>
+<link>plugin://plugin.video.torrenter/?action=torrentPlayer&url=[makelist.param3]</link>
 <thumbnail>[makelist2.param2]</thumbnail> 
 </regex>
 ]]></listrepeat>
