@@ -149,7 +149,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <link>http://Ignoreme</link>
 <fanart>http://images6.fanpop.com/image/photos/38300000/Atlantis-Nebula-by-Starkiteckt-starkiteckt-38383517-5000-3125.jpg</fanart>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
-<externallink></externallink>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/series/series.xml</externallink>
 </item>
 <item>
 <title>[COLOR orange][+]Series [COLOR white] Torrent[/COLOR][/COLOR]</title>
