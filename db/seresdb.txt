@@ -1,11 +1,1 @@
-Name:"12 Monos Temp 1 Castellano " url:"http://diskokosmiko.mx/SeriesHD/12-monos-35207" img:"https://i.pinimg.com/originals/b7/ea/f2/b7eaf27bba68823432d53e465b3249ad.jpg" server="http://diskokosmiko.mx"
-Name:"12 Monos Temp 2 Castellano " url:"http://diskokosmiko.mx/SeriesHD/12-monos-t2-41558" img:"" server="http://diskokosmiko.mx"
-Name:"24 Horas Temp 1 Castellano " url:"http://diskokosmiko.mx/Cuspide/24-t1-d-34459" img:"" server="http://diskokosmiko.mx"
-Name:"24 Horas Temp 2 Castellano " url:"http://diskokosmiko.mx/Cuspide/24-t2-d-34452" img:"" server="http://diskokosmiko.mx"
-Name:"24 horas Temp 3 Castellano " url:"http://diskokosmiko.mx/Cuspide/24-t3-d-34367" img:"" server="http://diskokosmiko.mx"
-Name:"24 Horas Temp 4 Castellano " url:"http://diskokosmiko.mx/Cuspide/24-t4-d-34350" img:"" server="http://diskokosmiko.mx"
-Name:"24 Horas Temp 5 Castellano " url:"http://diskokosmiko.mx/Cuspide/24-t5-34265" img:"" server="http://diskokosmiko.mx"
-Name:"24 Horas Temp 6 Castellano " url:"http://diskokosmiko.mx/Cuspide/24-t6-d-34112" img:"" server="http://diskokosmiko.mx"
-Name:"24 Horas Temp 7 Castellano " url:"http://diskokosmiko.mx/Cuspide/24-t7-33997" img:"" server="http://diskokosmiko.mx"
-Name:"24 Horas Temp 8 Castellano " url:"http://diskokosmiko.mx/Cuspide/24-t8-33949" img:"" server="http://diskokosmiko.mx"
-Name:"24 Horas Temp 9 Castellano " url:"http://diskokosmiko.mx/Cuspide/24-vive-otro-dia-t9-34526" img:"" server="http://diskokosmiko.mx"
+
