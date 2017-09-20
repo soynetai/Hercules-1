@@ -14,6 +14,13 @@ Name:"Big little lies [Castellano] (mvk)" url:"http://diskokosmiko.mx/juadacu/bi
 Name:"Billions T1 [Castellano] (mvk)" url:"http://diskokosmiko.mx/SeriesHD/billions-t1-dual-44498" img:"https://cdn.flickeringmyth.com/wp-content/uploads/2016/12/Billions-s2-600x870.jpg"; server:"http://diskokosmiko.mx"
 Name:"Billions T2 [Castellano] (mvk)" url:"http://diskokosmiko.mx/SeriesHD/billions-dual-t2-54164" img:"https://cdn.flickeringmyth.com/wp-content/uploads/2016/12/Billions-s2-600x870.jpg"; server:"http://diskokosmiko.mx"
 Name:"Birds of prey T1 [Castellano] (mp4)" url:"http://diskokosmiko.mx/trivianita/birds-of-prey-77515" img:"http://img.moviepostershop.com/birds-of-prey-tv-movie-poster-2002-1020476244.jpg"; server:"http://diskokosmiko.mx"
+Name:"Blindspot T1 [Castellano] (mkv)" url:"http://diskokosmiko.mx/chicho306/blindspot-32006" img:"http://www.bolsamania.com/seriesadictos/wp-content/uploads/2015/08/blindspot_firstlook.jpg"; server:"http://diskokosmiko.mx"
+Name:"Blindspot T2 [Castellano] (mkv)" url:"http://diskokosmiko.mx/SeriesHD/blindspot-t2-41496" img:"http://www.bolsamania.com/seriesadictos/wp-content/uploads/2015/08/blindspot_firstlook.jpg"; server:"http://diskokosmiko.mx"
+Name:"Bloodline T1 [Castellano] (mkv)" url:"http://diskokosmiko.mx/SeriesHD/bloodline-t1-43204" img:"https://i.pinimg.com/736x/3e/28/af/3e28afeb990257ead65bbdeba8c40d77--netflix-canada.jpg"; server:"http://diskokosmiko.mx"
+Name:"Bloodline T2 [Castellano] (mkv)" url:"http://diskokosmiko.mx/SeriesHD/bloodline-t2-43214" img:"https://i.pinimg.com/736x/3e/28/af/3e28afeb990257ead65bbdeba8c40d77--netflix-canada.jpg"; server:"http://diskokosmiko.mx"
+Name:"Bloodline T1 [Castellano] (mkv)" url:"http://diskokosmiko.mx/SeriesHD/bloodline-t3-69999" img:"https://i.pinimg.com/736x/3e/28/af/3e28afeb990257ead65bbdeba8c40d77--netflix-canada.jpg"; server:"http://diskokosmiko.mx"
+
+
 
 
 
