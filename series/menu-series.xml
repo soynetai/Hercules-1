@@ -97,7 +97,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item> 
 
 
-
+<item>
+<title>[COLOR orange][+]Series Infantiles [COLOR white]Atlantis [A-Z][/COLOR][/COLOR]</title>
+<link>http://Ignoreme</link>
+<fanart>http://images6.fanpop.com/image/photos/38300000/Atlantis-Nebula-by-Starkiteckt-starkiteckt-38383517-5000-3125.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/series_infantiles.xml</externallink>
+</item>
 
 
 <item>
