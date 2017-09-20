@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-$doregex[text]
-<regex>
-<name>text</name>
-<expres><![CDATA[#$pyFunction
+
+<express>
+<![CDATA[#$pyFunction
 def GetLSProData(page_data,Cookie_Jar,m):
     import xbmcgui
     dialog = xbmcgui.Dialog()
     dialog.textviewer('Bienvenido a Hercules!', 'Puedes enviarnos tu sugerencia o peticion a netaiaddons@gmail.com.  Disfruta de un buen addon, de forma gratuita! Nosotros no vendemos addons. Esto es software libre')
-]]></expres>
-<page></page>
-</regex>
-<items>
+]]>
+</expres>
+
 <item>
 <title>[COLOR red][B]*Importante Leer - AVISO ![/B][/COLOR]</title>
 <link>$doregex[openDialog]</link>
