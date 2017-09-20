@@ -12,4 +12,4 @@ Name:"12 Monos T2 [Castellano]" url:"http://diskokosmiko.mx/SeriesHD/12-monos-t2
 Name:"1864 (mini sere) [Castellano]" url:"http://diskokosmiko.mx/SHIRKAM/1864-completa-47243" img:"http://columnazero.com/wp-content/uploads/2015/01/1864_Serie_de_TV-688842746-large.jpg"; server:"http://diskokosmiko.mx/"
 Name:"11.22.63 T1 [Castellano]" url:"http://diskokosmiko.mx/Cuspide/11-22-63-24649" img:"https://diariodeunatelefila.files.wordpress.com/2016/05/poster-221163.jpg"; server:"http://diskokosmiko.mx/"
 Name:"24 Legacy [Castellano]" url:"http://diskokosmiko.mx/garroteca/24-legacy-63270" img:"https://www.ecartelera.com/images/noticias/fotos/36100/36154/2.jpg"; server:"http://diskokosmiko.mx/"
-
+Name:"Alphas T1 [Castellano] (mp4) " url:"http://diskokosmiko.mx/gosseyn/alphas-75728" img:"http://concertposter.org/-2013AUG-B/Alphas-Faces-drop.jpg"; server:"http://diskokosmiko.mx/"
