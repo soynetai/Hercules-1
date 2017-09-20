@@ -1,1 +1,17 @@
-Name:"Backstrom Temporada 1 [Castellano]" url:"http://diskokosmiko.mx/Kenzo14/backstrom-22533" img:"https://whatimwatchingblog.files.wordpress.com/2015/01/backstrom.jpg"; server:"http://diskokosmiko.mx"
+Name:"Backstrom Temporada 1 [Castellano] (mkv)" url:"http://diskokosmiko.mx/Kenzo14/backstrom-22533" img:"https://whatimwatchingblog.files.wordpress.com/2015/01/backstrom.jpg"; server:"http://diskokosmiko.mx"
+Name:"Ballers Temporada 1-2 [Castellano] (avi)" url:"http://diskokosmiko.mx/garroteca/ballers-45247" img:"https://cmgpbpdailydolphin.files.wordpress.com/2015/06/screenshot-vip-hbo-com-2015-06-12-01-44-32.png"; server:"http://diskokosmiko.mx"
+Name:"Bates Motel Temporada 1-4 [Castellano] (mkv)" url:"http://diskokosmiko.mx/juanitronic/bates-motel-mkv-73538" img:"https://i.redd.it/hdkn9m3uy7my.jpg"; server:"http://diskokosmiko.mx"
+Name:"Battle creeck T1 [Castellano] (mkv)" url:"http://diskokosmiko.mx/SeriesHD/battle-creek-t1-51368" img:"https://www.moovielive.com/TvShowPhoto/coverart/2015/2015-07-07/big_season_en_us_2602068.jpeg"; server:"http://diskokosmiko.mx"
+Name:"Bedlam T1 [Castellano] (mkv)" url:"http://diskokosmiko.mx/SeriesHD/bedlam-t1-51369" img:"http://www.seriespapaya.com/uploads/Bedlam2.jpg"; server:"http://diskokosmiko.mx"
+Name:"Bedlam T2 [Castellano] (mkv)" url:"http://diskokosmiko.mx/SeriesHD/bedlam-t2-51370" img:"http://www.seriespapaya.com/uploads/Bedlam2.jpg"; server:"http://diskokosmiko.mx"
+Name:"Berlin Station T1 [Castellano] (mkv)" url:"http://diskokosmiko.mx/quimet53/berlin-station-2016es-serie-tv-completa-73257" img:"https://orig00.deviantart.net/ae53/f/2016/176/e/3/berlin_station_poster_by_fmpm-da7o6dh.jpg"; server:"http://diskokosmiko.mx"
+Name:"Better call Saul T1,T2 [Castellano] (avi)" url:"http://diskokosmiko.mx/garroteca/better-call-saul-espanol-44718" img:"https://2.bp.blogspot.com/-at0YjzckzSo/VrZFoI_V-qI/AAAAAAAAdjY/OuKJ1NfBFLM/s00/Better_Call_Saul_Temporada_2_Poster_Latino_JPosters.jpg"; server:"http://diskokosmiko.mx"
+Name:"Better call Saul T3 [Castellano] (avi)" url:"http://diskokosmiko.mx/juadacu/better-call-saul-t3-71334" img:"https://2.bp.blogspot.com/-at0YjzckzSo/VrZFoI_V-qI/AAAAAAAAdjY/OuKJ1NfBFLM/s00/Better_Call_Saul_Temporada_2_Poster_Latino_JPosters.jpg"; server:"http://diskokosmiko.mx"
+Name:"Better things T1 [Castellano] (mkv)" url:"http://diskokosmiko.mx/SeriesHD/better-things-t1-45066" img:"https://pics.filmaffinity.com/better_things_tv_series-546052046-large.jpg"; server:"http://diskokosmiko.mx"
+Name:"Beyonds T1 [Castellano] (avi)" url:"http://diskokosmiko.mx/naredo/beyond-serie-74664" img:"https://pics.filmaffinity.com/beyond_tv_series-117415406-large.jpg"; server:"http://diskokosmiko.mx"
+Name:"Beyonds - mini serie [Castellano-Ingles] (mvk)" url:"http://diskokosmiko.mx/SeriesHD/beyond-the-walls-dual-miniserie-47149" img:"http://www.dreadcentral.com/wp-content/uploads/2016/10/BeyondTheWalls-226x300.jpg"; server:"http://diskokosmiko.mx"
+
+
+
+
+
