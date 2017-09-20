@@ -10,6 +10,5 @@ Name:"24 - Vive otro dia [Castellano]" url:"http://diskokosmiko.mx/Cuspide/24-vi
 Name:"12 Monos T1 [Castellano]" url:"http://diskokosmiko.mx/SeriesHD/12-monos-35207" img:"https://i.pinimg.com/originals/b7/ea/f2/b7eaf27bba68823432d53e465b3249ad.jpg"; server:"http://diskokosmiko.mx/"
 Name:"12 Monos T2 [Castellano]" url:"http://diskokosmiko.mx/SeriesHD/12-monos-t2-41558" img:"http://www.bolsamania.com/seriesadictos/wp-content/uploads/2016/03/12-monkeys-season-2-poster.jpg"; server:"http://diskokosmiko.mx/"
 Name:"1864 (mini sere) [Castellano]" url:"http://diskokosmiko.mx/SHIRKAM/1864-completa-47243" img:"http://columnazero.com/wp-content/uploads/2015/01/1864_Serie_de_TV-688842746-large.jpg"; server:"http://diskokosmiko.mx/"
-Name:"A dos metros bajo tierra T1 [Castellano]" url:"http://diskokosmiko.mx/MARIOpe/serie-a-dos-metros-bajo-tierra-espanol-temp1-45216" img:"https://images-na.ssl-images-amazon.com/images/I/61fdWIIZVFL._SY445_.jpg"; server:"http://diskokosmiko.mx/"
 Name:"11.22.63 T1 [Castellano]" url:"http://diskokosmiko.mx/Cuspide/11-22-63-24649" img:"https://diariodeunatelefila.files.wordpress.com/2016/05/poster-221163.jpg"; server:"http://diskokosmiko.mx/"
 
