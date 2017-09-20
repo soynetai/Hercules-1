@@ -60,7 +60,7 @@
 <!-- LETRA A -->
 
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white](A)[/COLOR][COLOR lime]   [16][/COLOR] </title>
+<title>[COLOR orange] [+]SERIES [COLOR white](A)[/COLOR] </title>
 <link>$doregex[makelist2]</link>
 
 
@@ -116,7 +116,7 @@
 <!-- LETRA B -->
 
 <item>
-<title>[COLOR orange] [+]SERIES[/COLOR] [COLOR white]B[/COLOR][/B][COLOR lime]   [16][/COLOR]</title>
+<title>[COLOR orange] [+]SERIES[/COLOR] [COLOR white]B[/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 
@@ -231,7 +231,7 @@
 <!-- LETRA D -->
 
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white]D[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<title>[COLOR orange] [+]SERIES [COLOR white]D[/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 
@@ -287,7 +287,7 @@
 <!-- LETRA E -->
 
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white]E[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<title>[COLOR orange] [+]SERIES [COLOR white]E[/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 
@@ -345,7 +345,7 @@
 
 
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white]F[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<title>[COLOR orange] [+]SERIES [COLOR white]F[/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 
@@ -401,7 +401,7 @@
 <!-- G -->
 
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white]G[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<title>[COLOR orange] [+]SERIES [COLOR white]G[/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 
@@ -457,7 +457,7 @@
 <!-- H -->
 
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white]H[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<title>[COLOR orange] [+]SERIES [COLOR white]H[/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 
@@ -513,7 +513,7 @@
 <!-- I -->
 
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white]I[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<title>[COLOR orange] [+]SERIES [COLOR white]I[/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 
@@ -569,7 +569,7 @@
 <!-- J -->
 
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white]J[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<title>[COLOR orange] [+]SERIES [COLOR white]J[/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 
@@ -625,7 +625,7 @@
 <!-- K -->
 
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white]K[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<title>[COLOR orange] [+]SERIES [COLOR white]K[/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 
@@ -681,7 +681,7 @@
 <!-- L -->
 
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white]L[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<title>[COLOR orange] [+]SERIES [COLOR white]L[/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 
@@ -737,7 +737,7 @@
 <!-- M -->
 
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white]M[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<title>[COLOR orange] [+]SERIES [COLOR white]M[/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 
@@ -793,7 +793,7 @@
 <!-- N -->
 
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white]N[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<title>[COLOR orange] [+]SERIES [COLOR white]N[/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 
@@ -851,7 +851,7 @@
 <!-- O -->
 
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white]O[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<title>[COLOR orange] [+]SERIES [COLOR white]O[/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 
@@ -907,7 +907,7 @@
 <!-- P -->
 
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white]P[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<title>[COLOR orange] [+]SERIES [COLOR white]P[/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 
@@ -963,7 +963,7 @@
 <!-- Q -->
 
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white]Q[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<title>[COLOR orange] [+]SERIES [COLOR white]Q[/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 
@@ -1019,7 +1019,7 @@
 <!-- R -->
 
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white]R[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<title>[COLOR orange] [+]SERIES [COLOR white]R[/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 
@@ -1075,7 +1075,7 @@
 <!-- S -->
 
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white]S[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<title>[COLOR orange] [+]SERIES [COLOR white]S[/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 
@@ -1130,7 +1130,7 @@
 
 <!--T-->
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white]T[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<title>[COLOR orange] [+]SERIES [COLOR white]T[/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 
@@ -1185,7 +1185,7 @@
 
 <!-- U -->
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white]U[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<title>[COLOR orange] [+]SERIES [COLOR white]U[/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 
@@ -1241,7 +1241,7 @@
 <!-- V -->
 
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white]V[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<title>[COLOR orange] [+]SERIES [COLOR white]V[/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 
@@ -1297,7 +1297,7 @@
 <!-- W -->
 
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white]W[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<title>[COLOR orange] [+]SERIES [COLOR white]W[/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 
@@ -1353,7 +1353,7 @@
 <!-- X -->
 
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white]X[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<title>[COLOR orange] [+]SERIES [COLOR white]X[/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 
@@ -1409,7 +1409,7 @@
 <!-- Y -->
 
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white]Y[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<title>[COLOR orange] [+]SERIES [COLOR white]Y[/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 
@@ -1465,7 +1465,7 @@
 <!-- Z -->
 
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white]Z[/COLOR][/B][COLOR lime]   [25][/COLOR]</title>
+<title>[COLOR orange] [+]SERIES [COLOR white]Z[/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 
