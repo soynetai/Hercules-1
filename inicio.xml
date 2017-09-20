@@ -1,34 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
-<express>
-<![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
-    import xbmcgui
-    dialog = xbmcgui.Dialog()
-    dialog.textviewer('Bienvenido a Hercules!', 'Puedes enviarnos tu sugerencia o peticion a netaiaddons@gmail.com.  Disfruta de un buen addon, de forma gratuita! Nosotros no vendemos addons. Esto es software libre')
-]]>
-</expres>
-
-<item>
-<title>[COLOR red][B]*Importante Leer - AVISO ![/B][/COLOR]</title>
-<link>$doregex[openDialog]</link>
-<regex>
-<name>openDialog</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
-    import xbmcgui, xbmcaddon
-    __addon__ = xbmcaddon.Addon()
-    __addonname__ = __addon__.getAddonInfo('name')  
-    line1 = "[COLOR white][B]Este addon es gratuito ! disfruta de su contenido libremente ! y con responsabilidad. [/B][/COLOR]"
-    line2 = "[COLOR red]Nosotros no vendemos,ni cobramos, ni tenemos alojamos ningun contenido en este addon. Solo enlazamos a web de terceros. A traves de vinculos torrent (p2p) y enlaces a servidores fuera de España.[/COLOR]"
-    line3 = "[COLOR white][I]Este addon y su contenido es de libre distribucion y gratuito. Si te han cobrado por el ha incurrido en un delito castigado por las leyes españolas. En todo caso nosotros no nos hacemos responsables desde el Grupo Netai del uso indebido de este addon y su contenido. Asi mismo recordamos que el contenido del mismo es propiedad intelectual de sus legítimos dueños.[/I][/COLOR]"
-    xbmcgui.Dialog().ok(__addonname__, line1, line2, line3)
-    return 'http://www.grupo-netai.org/aviso.mp4'
-]]></expres>
-<page></page>
-  <thumbnail>http://3.bp.blogspot.com/_314GAl3jReE/TVSudadH3DI/AAAAAAAAAB8/KnbaQLqI4aY/s320/aviso.png</thumbnail>
-</regex>
-</item>
+<items>
 <item>
 <title>[COLOR orange]Series[/COLOR]</title>
 <link>http://Ignoreme</link>
