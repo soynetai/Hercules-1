@@ -13,6 +13,8 @@ Name:"Beyonds - mini serie [Castellano-Ingles] (mvk)" url:"http://diskokosmiko.m
 Name:"Big little lies [Castellano] (mvk)" url:"http://diskokosmiko.mx/juadacu/big-little-lies-74704" img:"https://i.pinimg.com/236x/01/09/22/01092253e3e1090fb6a921364462931b--big-little-lies-tv-series.jpg"; server:"http://diskokosmiko.mx"
 Name:"Billions T1 [Castellano] (mvk)" url:"http://diskokosmiko.mx/SeriesHD/billions-t1-dual-44498" img:"https://cdn.flickeringmyth.com/wp-content/uploads/2016/12/Billions-s2-600x870.jpg"; server:"http://diskokosmiko.mx"
 Name:"Billions T2 [Castellano] (mvk)" url:"http://diskokosmiko.mx/SeriesHD/billions-dual-t2-54164" img:"https://cdn.flickeringmyth.com/wp-content/uploads/2016/12/Billions-s2-600x870.jpg"; server:"http://diskokosmiko.mx"
+Name:"Birds of prey T1 [Castellano] (mp4)" url:"http://diskokosmiko.mx/trivianita/birds-of-prey-77515" img:"http://img.moviepostershop.com/birds-of-prey-tv-movie-poster-2002-1020476244.jpg"; server:"http://diskokosmiko.mx"
+
 
 
 
