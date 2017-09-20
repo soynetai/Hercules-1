@@ -60,7 +60,7 @@
 <!-- LETRA A -->
 
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white](A)[/COLOR][COLOR lime]   [][/COLOR] </title>
+<title>[COLOR orange] [+]SERIES [COLOR white](A)[/COLOR][COLOR lime]   [16][/COLOR] </title>
 <link>$doregex[makelist2]</link>
 
 
