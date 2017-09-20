@@ -10,6 +10,11 @@ Name:"Better call Saul T3 [Castellano] (avi)" url:"http://diskokosmiko.mx/juadac
 Name:"Better things T1 [Castellano] (mkv)" url:"http://diskokosmiko.mx/SeriesHD/better-things-t1-45066" img:"https://pics.filmaffinity.com/better_things_tv_series-546052046-large.jpg"; server:"http://diskokosmiko.mx"
 Name:"Beyonds T1 [Castellano] (avi)" url:"http://diskokosmiko.mx/naredo/beyond-serie-74664" img:"https://pics.filmaffinity.com/beyond_tv_series-117415406-large.jpg"; server:"http://diskokosmiko.mx"
 Name:"Beyonds - mini serie [Castellano-Ingles] (mvk)" url:"http://diskokosmiko.mx/SeriesHD/beyond-the-walls-dual-miniserie-47149" img:"http://www.dreadcentral.com/wp-content/uploads/2016/10/BeyondTheWalls-226x300.jpg"; server:"http://diskokosmiko.mx"
+Name:"Big little lies [Castellano] (mvk)" url:"http://diskokosmiko.mx/juadacu/big-little-lies-74704" img:"https://i.pinimg.com/236x/01/09/22/01092253e3e1090fb6a921364462931b--big-little-lies-tv-series.jpg"; server:"http://diskokosmiko.mx"
+Name:"Billions T1 [Castellano] (mvk)" url:"http://diskokosmiko.mx/SeriesHD/billions-t1-dual-44498" img:"https://cdn.flickeringmyth.com/wp-content/uploads/2016/12/Billions-s2-600x870.jpg"; server:"http://diskokosmiko.mx"
+Name:"Billions T2 [Castellano] (mvk)" url:"http://diskokosmiko.mx/SeriesHD/billions-dual-t2-54164" img:"https://cdn.flickeringmyth.com/wp-content/uploads/2016/12/Billions-s2-600x870.jpg"; server:"http://diskokosmiko.mx"
+
+
 
 
 
