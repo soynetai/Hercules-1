@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <items>
 <item>
+<title>[COLOR red][B]*Inportante Leer - AVISO ![/B][/COLOR]</title>
+<link>$doregex[openDialog]</link>
+<regex>
+<name>openDialog</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import xbmcgui, xbmcaddon
+    __addon__ = xbmcaddon.Addon()
+    __addonname__ = __addon__.getAddonInfo('name')  
+    line1 = "[COLOR white][B]Este addon es gratuito ! disfruta de su contenido libremente ! y con responsabilidad. [/B][/COLOR]"
+    line2 = "[COLOR red]Nosotros no vendemos,ni cobramos, ni tenemos alojamos ningun contenido en este addon. Solo enlazamos a web de terceros. A traves de vinculos torrent (p2p) y enlaces a servidores fuera de España.[/COLOR]"
+    line3 = "[COLOR white][I]Este addon y su contenido es de libre distribucion y gratuito. Si te han cobrado por el ha incurrido en un delito castigado por las leyes españolas. En todo caso nosotros no nos hacemos responsables desde el Grupo Netai del uso indebido de este addon y su contenido. Asi mismo recordamos que el contenido del mismo es propiedad intelectual de sus legítimos dueños.[/I][/COLOR]"
+    xbmcgui.Dialog().ok(__addonname__, line1, line2, line3)
+    return 'http://www.grupo-netai.org/aviso.mp4'
+]]></expres>
+<page></page>
+	<thumbnaill>http://2.bp.blogspot.com/-md0PS-b1f1M/UEQnuKq8d8I/AAAAAAAAF8U/fwXvF1_UFsg/s1600/importante.jpg</thumbnail>
+</regex>
+</item>
+<item>
 <title>[COLOR orange]Series[/COLOR]</title>
 <link>http://Ignoreme</link>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.jpg</fanart>
