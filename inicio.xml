@@ -2,7 +2,6 @@
 <items>
 <item>
 <title>[COLOR red][B]*Aviso! Ver Mensaje[/B][/COLOR]</title>
-<thumbnail>http://www.guantexindustrial.com.ar/470/cartel-40-x-45-n-20-atencion.jpg</thumbnail>
 <link>$doregex[openDialog]</link>
 <regex>
 <name>openDialog</name>
@@ -18,6 +17,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return 'http://www.grupo-netai.org/aviso.mp4'
 ]]></expres>
 </regex>
+<thumbnail>http://www.guantexindustrial.com.ar/470/cartel-40-x-45-n-20-atencion.jpg</thumbnail>
 </item>
 <item>
 <title>[COLOR orange]Series[/COLOR]</title>
