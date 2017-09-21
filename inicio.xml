@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <items>
-<!--<item>
+<item>
 <title>[COLOR red][B]*Aviso! Ver Mensaje[/B][/COLOR]</title>
 <link>$doregex[openDialog]</link>
 <regex>
@@ -24,7 +24,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.jpg</fanart>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
 <externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/series/menu-series.xml</externallink>
-</item> -->
+</item>
 <item>
 <title>[COLOR orange]Peliculas[/COLOR]</title>
 <link>http://Ignoreme</link>
