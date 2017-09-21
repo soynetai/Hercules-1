@@ -2,7 +2,7 @@
 <items>
 <item>
 <title>[COLOR red][B]*Aviso! Ver Mensaje[/B][/COLOR]</title>
-<thumbnail>https://alfredoquiroz.files.wordpress.com/2011/08/aviso_importante1.png</thumbnail>
+<thumbnail>http://www.guantexindustrial.com.ar/470/cartel-40-x-45-n-20-atencion.jpg</thumbnail>
 <link>$doregex[openDialog]</link>
 <regex>
 <name>openDialog</name>
