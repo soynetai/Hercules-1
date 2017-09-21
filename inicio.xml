@@ -14,7 +14,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
     line2 = "[COLOR red]Nosotros no vendemos,ni cobramos, ni tenemos alojamos ningun contenido en este addon. Solo enlazamos a web de terceros. A traves de vinculos torrent (p2p) y enlaces a servidores fuera de España.[/COLOR]"
     line3 = "[COLOR white][I]Este addon y su contenido es de libre distribucion y gratuito. Si te han cobrado por el ha incurrido en un delito castigado por las leyes españolas. En todo caso nosotros no nos hacemos responsables desde el Grupo Netai del uso indebido de este addon y su contenido. Asi mismo recordamos que el contenido del mismo es propiedad intelectual de sus legítimos dueños.[/I][/COLOR]"
     xbmcgui.Dialog().ok(__addonname__, line1, line2, line3)
-    return 'http://www.grupo-netai.org/aviso.mp4'
 ]]></expres>
 </regex>
 <thumbnail>http://www.guantexindustrial.com.ar/470/cartel-40-x-45-n-20-atencion.jpg</thumbnail>
