@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<items>
+<item>
+<title>[COLOR orange]Series[/COLOR]</title>
+<link>http://Ignoreme</link>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/series/menu-series.xml</externallink>
+</item>
+<item>
+<title>[COLOR orange]Peliculas[/COLOR]</title>
+<link>http://Ignoreme</link>
+<fanart>http://www.arielfeliciano.com/wp-content/uploads/100-peliculas-completas.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
+<externallink>https://github.com/Andorth/Hercules/tree/master/peliculas/menu-peliculas.xml</externallink>
+</item>
+<item>
+<title>[COLOR orange]Documentales tv[/COLOR]</title>
+<link>http://Ignoreme</link>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/documentales.png</fanart>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/documentales.png</thumbnail>
+<externallink>https://github.com/Andorth/Hercules/blob/master/documentales/menu-documentales.xml</externallink>
+</item>
+<item>
+<title>[COLOR orange]Programas tv[/COLOR]</title>
+<link>http://Ignoreme</link>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/tv.png</fanart>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/tv.png</thumbnail>
+<externallink>https://github.com/Andorth/Hercules/blob/master/programastv/menu-programastv.xml</externallink>
+</item>
+</items>
