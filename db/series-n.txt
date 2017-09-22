@@ -6,3 +6,5 @@ Name:"NCIS Los Angeles T5 [Castellano]" url:"http://diskokosmiko.mx/SeriesHD/nci
 Name:"NCIS Los Angeles T6 [Castellano]" url:"http://diskokosmiko.mx/SeriesHD/ncis-los-angeles-t6-44658" img:"https://images-na.ssl-images-amazon.com/images/I/91fIIHPLSwL._SL1500_.jpg"; server:"http://diskokosmiko.mx"
 Name:"NCIS Los Angeles T7 [Castellano]" url:"http://diskokosmiko.mx/SeriesHD/ncis-los-angeles-t7-44659" img:"https://images-na.ssl-images-amazon.com/images/I/91fIIHPLSwL._SL1500_.jpg"; server:"http://diskokosmiko.mx"
 Name:"NCIS Los Angeles T8 [Castellano]" url:"http://diskokosmiko.mx/SeriesHD/ncis-los-angeles-t8-43081" img:"https://images-na.ssl-images-amazon.com/images/I/91fIIHPLSwL._SL1500_.jpg"; server:"http://diskokosmiko.mx"
+Name:"New Amsterdam [Castellano]" url:"http://diskokosmiko.mx/trivianita/new-amsterdam-completa-79890" img:"https://serieina.files.wordpress.com/2008/08/new_amsterdam.jpg"; server:"http://diskokosmiko.mx"
+Name:"Notorius T1 [mkv] [Castellano]" url:"http://diskokosmiko.mx/SeriesHD/notorious-t1-43082" img:"http://es.web.img3.acsta.net/pictures/16/07/13/14/36/172887.jpg"; server:"http://diskokosmiko.mx"
