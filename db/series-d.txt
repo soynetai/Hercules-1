@@ -8,8 +8,3 @@ Name:"Defiance T1 [Castellano]" url:"http://diskokosmiko.mx/marcos20/serie-defia
 Name:"Defiance T2 [Castellano]" url:"http://diskokosmiko.mx/marcos20/serie-defiance-temporada-2-x-13-cap-17219" img:"http://www.formulatv.com/images/series/posters/600/677/1_m3.jpg"; server:"http://diskokosmiko.mx"
 Name:"Defiance T3 [Castellano]" url:"http://diskokosmiko.mx/marcos20/serie-defiance-temporada-3-x-13-cap-17386" img:"http://www.formulatv.com/images/series/posters/600/677/1_m3.jpg"; server:"http://diskokosmiko.mx"
 Name:"Duda Razonable T1 [mkv] [Castellano]" url:"http://diskokosmiko.mx/SeriesHD/duda-razonable-doubt-t1-62169" img:"https://pics.filmaffinity.com/doubt_tv_series-176633071-large.jpg"; server:"http://diskokosmiko.mx"
-Name:" [Castellano]" url:"" img:""; server:"http://diskokosmiko.mx"
-Name:" [Castellano]" url:"" img:""; server:"http://diskokosmiko.mx"
-Name:" [Castellano]" url:"" img:""; server:"http://diskokosmiko.mx"
-Name:" [Castellano]" url:"" img:""; server:"http://diskokosmiko.mx"
-Name:" [Castellano]" url:"" img:""; server:"http://diskokosmiko.mx"
