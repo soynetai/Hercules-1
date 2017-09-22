@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <items>
 <item>
-<title>[COLOR orange]Avisos - Grupo Netai[/color]</title>
+<title>[COLOR orange]Avisos - Grupo Netai[/COLOR]</title>
 <link>$doregex[openDialog]</link>
 <regex>
 <name>openDialog</name>
@@ -24,7 +24,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart></fanart>
 </item>
 <item>
-<title>[COLOR orange]Tutorial funcionamiento Hercules[/color]</title>
+<title>[COLOR orange]Tutorial funcionamiento Hercules[/COLOR]</title>
 <link>$doregex[openDialog]</link>
 <regex>
 <name>openDialog</name>
