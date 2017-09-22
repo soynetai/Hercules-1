@@ -15,8 +15,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     line2 = "Nosotros no autorizamos la inclusión del mismo en ningun wizard,tv box, o otro tipo de soporte que tenga como destino la venta o la distribucion del mismo."
     line3 = "No incluimos material de terceros en nuestros servers, ni en el addon. Solo enlazamos enlaces a servidores ubicados fuera de España. Todo el material aqui expuesto es propiedad de sus respectivos dueños que no es el grupo Netai."
     xbmcgui.Dialog().ok(__addonname__, line1, line2, line3)
-    return 
-    <!--'http://www.quirksmode.org/html5/videos/big_buck_bunny.mp4'-->
+    return 'http://www.quirksmode.org/html5/videos/big_buck_bunny.mp4'
 ]]></expres>
 <page></page>
 </regex>
