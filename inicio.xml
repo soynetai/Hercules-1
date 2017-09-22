@@ -3,6 +3,7 @@
  <item>
 <title>Big Buck Bunny
 OK  BOX  to a link</title>
+  <thumbnail>http://unipe.edu.ar/wp-content/uploads/2013/04/logo-atencion.png</thumbnail>
 <link>$doregex[openDialog]</link>
 <regex>
 <name>openDialog</name>
