@@ -27,12 +27,3 @@ Name:"Como conoci a vuestra madre T6[Castellano]" url:"http://diskokosmiko.mx/ge
 Name:"Como conoci a vuestra madre T7[Castellano]" url:"http://diskokosmiko.mx/gemma-valencia/como-conoci-a-vuestra-madre-t7-castellano-50096" img:"http://www.seriespapaya.com/uploads/Como-conoci-a-vuestra-madre-(How-i-met-your-mother)33.jpg"; server:"http://diskokosmiko.mx"
 Name:"Como conoci a vuestra madre T8[Castellano]" url:"http://diskokosmiko.mx/gemma-valencia/como-conoci-a-vuestra-madre-t8-castellano-50661" img:"http://www.seriespapaya.com/uploads/Como-conoci-a-vuestra-madre-(How-i-met-your-mother)33.jpg"; server:"http://diskokosmiko.mx"
 Name:"Como conoci a vuestra madre T9[Castellano]" url:"http://diskokosmiko.mx/gemma-valencia/como-conoci-a-vuestra-madre-t9-castellano-50776" img:"http://www.seriespapaya.com/uploads/Como-conoci-a-vuestra-madre-(How-i-met-your-mother)33.jpg"; server:"http://diskokosmiko.mx"
-Name:" [Castellano]" url:"" img:""; server:"http://diskokosmiko.mx"
-Name:" [Castellano]" url:"" img:""; server:"http://diskokosmiko.mx"
-Name:" [Castellano]" url:"" img:""; server:"http://diskokosmiko.mx"
-
-Name:" [Castellano]" url:"" img:""; server:"http://diskokosmiko.mx"
-
-Name:" [Castellano]" url:"" img:""; server:"http://diskokosmiko.mx"
-
-Name:" [Castellano]" url:"" img:""; server:"http://diskokosmiko.mx"
