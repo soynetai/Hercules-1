@@ -1,1 +1,3 @@
-Name:" [Castellano]" url:"" img:""; server:"http://diskokosmiko.mx"
+Name:"Eastwick [Castellano]" url:"http://diskokosmiko.mx/trivianita/eastwick-70905" img:"http://www.koubadvd.com/wp-content/uploads/2015/04/les-sorcieres-d-eastwick-3882323.jpg"; server:"http://diskokosmiko.mx"
+Name:"Extant T1 [mkv] [Castellano]" url:"http://diskokosmiko.mx/chicho306/extant-22788" img:"http://es.web.img2.acsta.net/pictures/14/05/28/17/52/106622.jpg"; server:"http://diskokosmiko.mx"
+Name:"Extant T2 [mkv] [Castellano]" url:"http://diskokosmiko.mx/juadacu/extant-t2-75152" img:"http://es.web.img2.acsta.net/pictures/14/05/28/17/52/106622.jpg"; server:"http://diskokosmiko.mx"
