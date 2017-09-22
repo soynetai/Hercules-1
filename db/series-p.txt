@@ -1,1 +1,2 @@
-Name:" [Castellano]" url:"" img:""; server:"http://diskokosmiko.mx"
+Name:"Perception [Castellano]" url:"http://diskokosmiko.mx/trivianita/perception-completa-castellanoel-rockero-29550" img:"https://pics.filmaffinity.com/perception_tv_series-627935723-large.jpg"; server:"http://diskokosmiko.mx"
+Name:"Person of interest T1 - T5 [Castellano]" url:"http://diskokosmiko.mx/trivianita/person-of-interest-completa-79669" img:"http://www.icmedianet.org/wp/ndog/wp-content/uploads/2016/06/person-of-interest-fifth-season.46668.jpg"; server:"http://diskokosmiko.mx"
