@@ -8,5 +8,7 @@ Name:"Casi humanos T2 [Castellano]" url:"http://diskokosmiko.mx/chicho306/casi-h
 Name:"Casi humanos T3 [Castellano]" url:"http://diskokosmiko.mx/chicho306/casi-humanos-t3-41463" img:"https://lh6.googleusercontent.com/-iOKpZzkWcQo/U3IsiC6X4cI/AAAAAAAAAXI/bT8MDHVFgXQ/s512/beginseason4.jpg"; server:"http://diskokosmiko.mx"
 Name:"Casi humanos T4 [Castellano]" url:"http://diskokosmiko.mx/chicho306/casi-humanos-t4-41464" img:"https://lh6.googleusercontent.com/-iOKpZzkWcQo/U3IsiC6X4cI/AAAAAAAAAXI/bT8MDHVFgXQ/s512/beginseason4.jpg"; server:"http://diskokosmiko.mx"
 Name:"Cazadores de leyendas T1 [Castellano]" url:"http://diskokosmiko.mx/SeriesHD/cazadores-de-leyendas-dual-t1-44477" img:"http://www.formulatv.com/images/series/posters/900/955/1_m3.jpg"; server:"http://diskokosmiko.mx"
+Name:"Caza tesoros - |T1 - T3| [mp4] [Castellano]" url:"http://diskokosmiko.mx/naredo/relic-hunter-cazatesoros-serie-68251" img:"https://pics.filmaffinity.com/Cazatesoros_Serie_de_TV-815744096-large.jpg"; server:"http://diskokosmiko.mx"
+Name:"Cerca de tu enemigo T1 [mkv] [Castellano]" url:"http://diskokosmiko.mx/SeriesHD/cerca-de-tu-enemigo-t1-46119" img:""; server:"http://diskokosmiko.mx"
 Name:" [Castellano]" url:"" img:""; server:"http://diskokosmiko.mx"
 Name:" [Castellano]" url:"" img:""; server:"http://diskokosmiko.mx"
