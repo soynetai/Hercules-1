@@ -14,7 +14,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     title = "Noticias:"   
     line1 = "Diseño: Netai - Colaboradores: Adryan [Adryanlist], Carles [Catoal]."
     line2 = "Atlantis pasará a formar parte de Hercules."
-    line3 = "Para el correcto funcionamiento del addon por favor descarga e instala Torrentin."
+    line3 = "Para el correcto funcionamiento del addon por favor descarga e instala Torrentin desde mi fuente o la de Nereo."
     xbmcgui.Dialog().ok(title, line1, line2, line3)
     return "http://pastebin.com/raw/XXXXXXXX"
 ]]></expres>
