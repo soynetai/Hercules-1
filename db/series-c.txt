@@ -1,4 +1,8 @@
 Name:"C.S.I New York T1-T9 [Castellano]" url:"http://diskokosmiko.mx/chinchetas/csi-nueva-york-espanol-todas-temporadas-81989" img:"http://images4.fanpop.com/image/photos/20400000/csi-new-york-posters-csi-ny-20408237-339-500.jpg"; server:"http://diskokosmiko.mx"
 Name:"C.S.I Miami T1-T12 (avi) [Castellano]" url:"http://diskokosmiko.mx/titotv/csi-seasons-1-12-complete-2668" img:"https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/CSI_Miami_-_The_Complete_1st_Season_On_DVD.jpg"; server:"http://diskokosmiko.mx"
 Name:"C.S.I Las Vegas T1-T12 (avi) [Castellano]" url:"http://diskokosmiko.mx/YSAGB/csi-las-vegas-66739" img:"https://i.pinimg.com/736x/23/7b/7b/237b7b0854f26289955b0d23b13d7ad6--csi-crime-scene-investigation-crime-scenes.jpg"; server:"http://diskokosmiko.mx"
+Name:"Camelot T1 [Castellano]" url:"http://diskokosmiko.mx/SHIRKAM/camelot-completa-74974" img:"http://es.web.img2.acsta.net/pictures/14/02/21/12/28/408320.jpg"; server:"http://diskokosmiko.mx"
+Name:"Cancion triste de hill street [completa] [Castellano]" url:"http://diskokosmiko.mx/frankiepentangelli/cancion-triste-de-hill-street-1981-40275" img:"https://pics.filmaffinity.com/hill_street_blues_tv_series-971417338-large.jpg"; server:"http://diskokosmiko.mx"
+Name:" [Castellano]" url:"" img:""; server:"http://diskokosmiko.mx"
+Name:" [Castellano]" url:"" img:""; server:"http://diskokosmiko.mx"
 
