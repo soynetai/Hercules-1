@@ -1,1 +1,1 @@
-Name:" [Castellano]" url:"" img:""; server:"http://diskokosmiko.mx"
+Name:" [Castellano]" url:"http://diskokosmiko.mx/SeriesHD/generation-kill-dual-t-u-45719" img:"https://pics.filmaffinity.com/generation_kill-837067946-large.jpg"; server:"http://diskokosmiko.mx"
