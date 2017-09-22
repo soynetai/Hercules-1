@@ -16,7 +16,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     line2 = "Atlantis pasará a formar parte de Hercules."
     line3 = "Para el correcto funcionamiento del addon por favor descarga e instala Torrentin desde mi fuente o la de Nereo."
     xbmcgui.Dialog().ok(title, line1, line2, line3)
-    return "http://pastebin.com/raw/XXXXXXXX"
+    return "http://www.grupo-netai.org/tuto.mp4"
 ]]></expres>
 <page></page>
 </regex>
