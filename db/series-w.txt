@@ -1,1 +1,2 @@
-Name:" [Castellano]" url:"" img:""; server:"http://diskokosmiko.mx"
+Name:"Wataha T1 [mkv] [Castellano]" url:"http://diskokosmiko.mx/SeriesHD/wataha-t1-47463 img:"https://pics.filmaffinity.com/wataha_tv_series-828816858-large.jpg"; server:"http://diskokosmiko.mx"
+Name:"Wichblade [todas] [mp4] [mkv] [Castellano]" url:"http://diskokosmiko.mx/naredo/witchblade-serie-completa-67452"  img:"https://i.pinimg.com/736x/10/c2/02/10c20245d2b4caf96ad7ee5af91178d6--tv-series-witch.jpg"; server:"http://diskokosmiko.mx"
