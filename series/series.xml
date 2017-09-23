@@ -173,7 +173,7 @@
 <!-- LETRA C -->
 
 <item>
-<title>[COLOR orange] [+]SERIES [COLOR white]C[/COLOR][/COLOR][COLOR lime]   [12][/COLOR] </title>
+<title>[COLOR orange] [+]SERIES [COLOR white]C[/COLOR][/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
 
