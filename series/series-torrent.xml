@@ -3,14 +3,21 @@
 <!-- <item>
 <title></title>
 <link>http://ignore</link>
+<thumbnail>http://www.mejortorrent.com/uploads/imagenes/series/112263hd.jpg</thumbnail>
+<fanart></fanart>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/series/series-torrent/0-9/11-22-63.xml</externallink>
+</item> -->
+ <item>
+<title>11-22-63</title>
+<link>http://ignore</link>
 <thumbnail></thumbnail>
 <fanart></fanart>
 <externallink></externallink>
-</item> -->
+</item> 
  <item>
 <title>12 monos</title>
 <link>http://ignore</link>
-<thumbnail></thumbnail>
+<thumbnail>http://www.mejortorrent.com/uploads/imagenes/series/12%20monoshd.jpg</thumbnail>
 <fanart></fanart>
 <externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/series/series-torrent/0-9/12monos.xml</externallink>
 </item>
