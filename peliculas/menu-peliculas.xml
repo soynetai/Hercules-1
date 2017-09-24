@@ -3,6 +3,78 @@
 <items>
 <SetViewMode>500</SetViewMode>
 <item>
+<title>[COLOR orange]Buscar Pelicula [/COLOR][COLOR white] |Diskokosmiko| Stream by Adryan[/COLOR] </title>
+<link>$doregex[lista]</link>
+
+<regex>
+<name>lista</name>
+  <listrepeat><![CDATA[
+         <SetViewMode>55</SetViewMode>
+		 <title>$pyFunction:'[lista.param3]'.replace(".mp4", "  [COLOR blue][I]AdryanList[/I][/COLOR]").replace(".avi", "  [COLOR blue][I]AdryanList[/I][/COLOR]").replace(".mkv", "  [COLOR blue][I]AdryanList[/I][/COLOR]")</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>http://adryanlist.org/adryan/img/adryflix.png</thumbnail>
+		]]></listrepeat>
+<expres><![CDATA[href=\"(.*?,(.*?)\..*?)\".*?preview">(.*?mkv|.*?mp4|.*?avi)<]]><expres>
+<page>http://diskokosmiko.mx/action/SearchFiles?Phrase=hercules&amp;Mode=List&amp;Type=Video&amp;SizeFromMB=0&amp;SizeToMB=0&amp;pageNumber=10</page>
+<rawpost>Phrase=$doregex[search]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/action/SearchFiles</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+
+
+<regex>
+<name>search</name>
+<expres><![CDATA[#$pyFunction
+import xbmc
+import xbmcaddon
+import xbmcgui
+def GetLSProData(page_data,Cookie_Jar,m):
+    dialog = xbmcgui.Dialog()
+    d = dialog.input('Buscar Pelicula: Diskokosmiko', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
+    return d
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[lista.param1]</page>
+<referer>http://diskokosmiko.mx/moipera</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+
+ 
+
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[lista.param1]</page>
+<rawpost>fileId=[lista.param2]&__RequestVerificationToken=$doregex[tok2]</rawpost>
+<referer>http://diskokosmiko.mx[lista.param1]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>tok2</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx[lista.param1]</page>
+<referer>http://diskokosmiko.mx/moipera</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/Buscar.png</thumbnail>
+</item>
+<item>
 <title> [COLOR orange]Buscar[/COLOR][COLOR white] [pelicula Torrent] |Requerido Torrentin|[/COLOR] </title>
 <link>$doregex[makelist2]</link>
 
@@ -76,6 +148,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <link>http://ignore</link>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
 <fanart></fanart>
-<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/series/</externallink>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/series/peliculas-genero.xml</externallink>
 </item>
 </items>
