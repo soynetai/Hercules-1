@@ -1,0 +1,187 @@
+<!-- 
+Fuente: Gnula.nu
+
+regex Para openload
+<item>
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+<fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
+
+<link>$doregex[id3]</link>
+ 
+<regex>
+<name>id3</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import urlresolver
+    url = 'https://openload.co/f/vRdYEddcFps/Before.i.fall.2017.1080p-dual-cast.mp4'
+    try:
+        u = urlresolver.resolve(url)
+    except:
+        u = 'http://www.grupo-netai.org/error.mp4'
+    return u
+]]></expres>
+<page></page>
+</regex>	
+
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]1080p [/COLOR][COLOR lightslategray]  [/COLOR]</title>
+
+<regex><name>nombre</name><expres>Before I Fall</expres><page></page></regex>
+<regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
+<page></page></regex>
+</item>
+
+ Para StreamGo regex 
+ 
+<item>
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+<fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
+
+ <link>$doregex[id3]</link>
+<regex>
+<name>id3</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import urlresolver
+    url = 'https://streamango.com/f/etmplfmolcplccqs/The_mummy_2017_1080p-dual-cast_mp4'
+    try:
+        u = urlresolver.resolve(url)
+    except:
+        u = 'http://www.grupo-netai.org/error.mp4'
+    return u
+]]></expres>
+<page></page>
+</regex>	
+
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]1080p [/COLOR][COLOR lightslategray] sm [/COLOR]</title>
+
+<regex><name>nombre</name><expres>La momia</expres><page></page></regex>
+<regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
+<page></page></regex>
+</item>
+
+regex para Uptobox 
+
+<item>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+<fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
+
+ <link>$doregex[id3]</link>
+<regex>
+<name>id3</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import urlresolver
+    url = 'http://uptobox.com/rha092zqqfu5'
+    try:
+        u = urlresolver.resolve(url)
+    except:
+        u = 'http://www.grupo-netai.org/error.mp4'
+    return u
+]]></expres>
+<page></page>
+</regex>	
+
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine]1080p [/COLOR][COLOR lightslategray] sm [/COLOR]</title>
+
+<regex><name>nombre</name><expres>20th century women</expres><page></page></regex>
+<regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
+<page></page></regex>
+</item>
+
+regex para Yourupload
+
+<item>
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+<fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
+
+ <link>$doregex[id3]</link>
+ 
+<regex>
+<name>id3</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import urlresolver
+    url = 'https://www.yourupload.com/watch/63FIO528Bqmp'
+	try: 
+        u = urlresolver.resolve(url)
+    except:
+        u = 'http://www.grupo-netai.org/error.mp4'
+    return u
+]]></expres>
+<page></page>
+</regex>	
+
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] yu   [/COLOR]</title>
+
+<regex><name>nombre</name><expres>Fist fight</expres><page></page></regex>
+<regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
+<page></page></regex>
+</item>
+-->
+
+<!-- 0-9 @# -->
+<!-- A -->
+<!-- B -->
+<!-- C -->
+<!-- D -->
+<!-- E -->
+<!-- F -->
+<!-- G -->
+<!-- H -->
+<!-- I -->
+<!-- J -->
+<!-- K -->
+<!-- L -->
+<!-- M -->
+<!-- N -->
+<!-- Ñ -->
+<!-- O -->
+<!-- P -->
+<!-- Q -->
+<!-- R -->
+<!-- S -->
+<!-- T -->
+<!-- U -->
+<!-- V -->
+<!-- W -->
+<item>
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+<fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
+
+<link>$doregex[id3]</link>
+ 
+<regex>
+<name>id3</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import urlresolver
+    url = 'https://openload.co/f/XQciX9mQb3I/w0nd3r.w0m4n.2017.hdrip.720p.castellano.mp4'
+    try:
+        u = urlresolver.resolve(url)
+    except:
+        u = 'http://www.grupo-netai.org/error.mp4'
+    return u
+]]></expres>
+<page></page>
+</regex>	
+
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+
+<title>[COLOR orange]$doregex[nombre]  [/COLOR][COLOR white]720p [/COLOR][COLOR gold] [MP4] [/COLOR]</title>
+
+<regex><name>nombre</name><expres>Wonder Woman</expres><page></page></regex>
+<regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
+<page></page></regex>
+</item>
+<!-- X -->
+<!-- Y -->
+<!-- Z -->
