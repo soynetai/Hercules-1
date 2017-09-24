@@ -10,7 +10,7 @@
 <name>lista</name>
   <listrepeat><![CDATA[
          <SetViewMode>55</SetViewMode>
-		 <title>$pyFunction:'[lista.param3]'.replace(".mp4", "  [COLOR white] Hercules[/COLOR]").replace(".avi", "  [COLOR orange] Hercules[/COLOR]").replace(".mkv", "  [COLOR white] Hercules[/COLOR]")</title>
+		 <title>$pyFunction:'[lista.param3]'.replace(".mp4", "  [COLOR white] [MP4] [/COLOR]").replace(".avi", "  [COLOR orange] [AVI] [/COLOR]").replace(".mkv", "  [COLOR white] [MKV] [/COLOR]")</title>
         <link>$doregex[getUrl]</link>
 		<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/Buscar.png</thumbnail>
 		]]></listrepeat>
