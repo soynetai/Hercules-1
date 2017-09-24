@@ -15,7 +15,7 @@ Regex para streamplay
 <expres><![CDATA[#$pyFunction
 def GetLSProData(page_data,Cookie_Jar,m):
     import urlresolver
-    url = 'https://streamplay.to/ey5cn4lj4j9b'
+    url = 'https://streamplay.to/g4snkd0t1utx'
     try:
         u = urlresolver.resolve(url)
     except:
@@ -256,6 +256,35 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- E -->
 <!-- F -->
 <!-- G -->
+<item>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+<fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
+
+<link>$doregex[id3]</link>
+ 
+<regex>
+<name>id3</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import urlresolver
+    url = 'https://streamplay.to/g4snkd0t1utx'
+    try:
+        u = urlresolver.resolve(url)
+    except:
+        u = 'http://www.grupo-netai.org/error.mp4'
+    return u
+]]></expres>
+<page></page>
+</regex>	
+
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<title>[COLOR orange]$doregex[nombre]  [/COLOR][COLOR white]720p [/COLOR][COLOR gold] Castellano [/COLOR]</title>
+
+<regex><name>nombre</name><expres>Gru 3: Mi villano favorito</expres><page></page></regex>
+<regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
+<page></page></regex>
+</item>
 <!-- H -->
 <!-- I -->
 <!-- J -->
