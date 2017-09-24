@@ -74,6 +74,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <item>
 <title>[COLOR orange][+]Peliculas [COLOR white]Por genero [Torrent][/COLOR][/COLOR]</title>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
+<link>http://ignore</link>
 <fanart></fanart>
 <externallink></externallink>
 </item>
