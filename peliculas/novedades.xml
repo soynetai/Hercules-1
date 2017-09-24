@@ -321,7 +321,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>	
 
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR orange]$doregex[nombre]  [/COLOR][COLOR white]720p [/COLOR][COLOR gold] Castellano [/COLOR]</title>
 
