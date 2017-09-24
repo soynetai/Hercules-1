@@ -257,7 +257,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- F -->
 <!-- G -->
 <item>
-<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
 <link>$doregex[id3]</link>
@@ -267,7 +267,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <expres><![CDATA[#$pyFunction
 def GetLSProData(page_data,Cookie_Jar,m):
     import urlresolver
-    url = 'https://streamplay.to/g4snkd0t1utx'
+    url = 'http://streamcloud.eu/5i53enkia61y/d3sp1c4bl3.m3.2017.hdrip.720p.castellano.mp4.html'
     try:
         u = urlresolver.resolve(url)
     except:
@@ -285,6 +285,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
 </item>
+
 <!-- H -->
 <!-- I -->
 <!-- J -->
