@@ -11,7 +11,7 @@
 <name>makelist2</name>
 <listrepeat><![CDATA[
  <SetViewMode>55</SetViewMode>
- <title>[COLOR skyblue][UPPERCASE][B] [makelist2.param3][/B][/UPPERCASE][/COLOR]  </title>
+ <title>[COLOR white] [makelist2.param3][/COLOR]  </title>
 <link>$doregex[makelist]</link>
 <thumbnail>[makelist2.param2]</thumbnail> 
 </regex>
@@ -42,7 +42,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <name>makelist</name>
 <listrepeat><![CDATA[
  <SetViewMode>500</SetViewMode>
- <title>[COLOR lime] [makelist2.param3][/COLOR]  Calidad:[makelist.param1]  Tamaño:[makelist.param2]  </title>
+ <title>[COLOR white] [makelist2.param3][/COLOR]  Calidad:[makelist.param1]  Tamaño:[makelist.param2]  </title>
 <link>plugin://plugin.video.torrentin/?uri=[makelist.param3]</link>
 <thumbnail>[makelist2.param2]</thumbnail> 
 </regex>
