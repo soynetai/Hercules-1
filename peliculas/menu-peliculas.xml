@@ -122,7 +122,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <expres>d>(.*?)<[\w\W\s]{0,7}td>(.*?)\.[\w\W\s]{0,16}href="(.*?)"</expres>
 <page>[makelist2.param1]</page>	
 </regex>
-<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/Buscar.png</thumbnail>
+<thumbnail>http://www.iconsdb.com/icons/preview/green/active-search-2-xxl.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
 
@@ -139,7 +139,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR orange][+]Peliculas [COLOR white]Novedades Torrent[/COLOR][/COLOR]</title>
 <link>http://Ignoreme</link>
 <fanart>http://images6.fanpop.com/image/photos/38300000/Atlantis-Nebula-by-Starkiteckt-starkiteckt-38383517-5000-3125.jpg</fanart>
-<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
+<thumbnail>http://icons.iconarchive.com/icons/studiomx/leomx/256/Download-icon.png</thumbnail>
 <externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/series/novedades-torrent.xml</externallink>
 </item>
 
