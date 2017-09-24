@@ -62,8 +62,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
 <externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/novedades.xml</externallink>
 </item>
-<item>
 
+<item>
 <title>[COLOR orange][+]Peliculas [COLOR white]Novedades Torrent[/COLOR][/COLOR]</title>
 <link>http://Ignoreme</link>
 <fanart>http://images6.fanpop.com/image/photos/38300000/Atlantis-Nebula-by-Starkiteckt-starkiteckt-38383517-5000-3125.jpg</fanart>
@@ -73,9 +73,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <item>
 <title>[COLOR orange][+]Peliculas [COLOR white]Por genero [Torrent][/COLOR][/COLOR]</title>
-<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
 <link>http://ignore</link>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
 <fanart></fanart>
-<externallink></externallink>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/series/</externallink>
 </item>
 </items>
