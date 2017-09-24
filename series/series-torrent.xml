@@ -1,5 +1,22 @@
 <items>
+<!-- 0-9 -->
+<!-- <item>
+<title></title>
+<link>http://ignore</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>
+</item> -->
 
+<!-- 0-9 -->
+
+<item>
+<title>0-9</title>
+<link>http://ignore</link>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
+<fanart></fanart>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/series/series-torrent/0-9/series-torrent-0-9.xml</externallink>
+</item>
 
 <!-- A -->
 
