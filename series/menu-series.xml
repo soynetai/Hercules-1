@@ -5,7 +5,7 @@
 <SetViewMode>55</SetViewMode>
 
 <item>
-<title>[COLOR orange]Buscar[/COLOR] (Solo en Krypton)  [COLOR white] Serie online [/COLOR]</title>
+<title>[COLOR orange]Buscar[/COLOR] [COLOR white] Serie online [/COLOR]</title>
 <link>$doregex[makelist1]</link>
 
 
