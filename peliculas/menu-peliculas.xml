@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <items>
-<SetViewMode>500</SetViewMode>
+<SetViewMode>55</SetViewMode>
 <item>
 <title>[COLOR orange][+]Buscar Pelicula [/COLOR][COLOR white] |regex| by AdryanList[/COLOR] </title>
 <link>$doregex[lista]</link>
@@ -75,7 +75,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/Buscar.png</thumbnail>
 </item>
 <item>
-<title> [COLOR orange][+]Buscar[/COLOR][COLOR white] [pelicula Torrent] |Requerido Torrentin|[/COLOR] </title>
+<title>[COLOR orange][+]Buscar[/COLOR][COLOR white] [pelicula Torrent] |Requerido Torrentin|[/COLOR] </title>
 <link>$doregex[makelist2]</link>
 
 
