@@ -345,7 +345,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR orange]$doregex[nombre]  [/COLOR][COLOR white]|Castellano|[/COLOR][COLOR gold]  [SD]  [/COLOR]</title>
 
-<regex><name>nombre</name><expres>La momia</expres><page></page></regex>
+<regex><name>nombre</name><expres>The Mummy</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
 </item>
@@ -358,9 +358,39 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- Q -->
 <!-- R -->
 <!-- S -->
+<item>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+<fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
+
+ <link>$doregex[id3]</link>
+<regex>
+<name>id3</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import urlresolver
+    url = 'https://streamango.com/f/qtbdsapanamptdec/s4curt1ty_2017_hdrip_720p_latino_gnula_mp4'
+    try:
+        u = urlresolver.resolve(url)
+    except:
+        u = 'http://www.grupo-netai.org/error.mp4'
+    return u
+]]></expres>
+<page></page>
+</regex>	
+
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<title>[COLOR orange]$doregex[nombre]  [/COLOR][COLOR white]720p [/COLOR][COLOR gold] Castellano [/COLOR]</title>
+
+<regex><name>nombre</name><expres>Security</expres><page></page></regex>
+<regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
+<page></page></regex>
+</item>
+
+
 <!-- T -->
 <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
 <link>$doregex[id3]</link>
