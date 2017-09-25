@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
+<SetViewMode>500</SetViewMode>
 <items>
-<SetViewMode>55</SetViewMode>
 <item>
 <title>[COLOR orange][+]Buscar Pelicula [/COLOR][COLOR white] |regex| by AdryanList[/COLOR] </title>
 <link>$doregex[lista]</link>
