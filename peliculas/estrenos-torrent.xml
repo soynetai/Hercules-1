@@ -1,0 +1,107 @@
+<!-- Buscador online Skytorrent -->
+<item>
+<title>   [COLOR orange] Buscar Pelis [/COLOR][COLOR white] En la red [/COLOR] [COLOR gold] Castellano[/COLOR] </title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+ <SetViewMode>55</SetViewMode>
+ <title>[COLOR white] [makelist2.param3][/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<thumbnail>[makelist2.param2]</thumbnail> 
+</regex>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)"[\w\W\s]{0,72}src="(.*?)"[\w\W\s]{0,120}bloque_inferior">(.*?)<]]></expres>
+<page>https://www.skytorrents.in/search/all/ad/1/?l=en-us&amp;q=$doregex[search]</page>	
+</regex>
+
+ 
+<regex>
+<name>search</name>
+<expres><![CDATA[#$pyFunction
+import xbmc
+import xbmcaddon
+import xbmcgui
+def GetLSProData(page_data,Cookie_Jar,m):
+    dialog = xbmcgui.Dialog()
+    d = dialog.input('Buscar [SKYTORRENT]: Nombre de la Pelicua', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
+    return d
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+
+
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+ <SetViewMode>55</SetViewMode>
+ <title>[COLOR line]data 0 [makelist2.param3][/COLOR]  data 1:[makelist.param1]  data 2:[makelist.param2]  </title>
+<link>plugin://plugin.video.quasar/play?uri=[makelist.param3]</link>
+<thumbnail>[makelist2.param2]</thumbnail> 
+</regex>
+]]></listrepeat>
+<expres>d>(.*?)<[\w\W\s]{0,7}td>(.*?)\.[\w\W\s]{0,16}href="(.*?)"</expres>
+<page>[makelist2.param1]</page>	
+</regex>
+</item>
+
+<!-- Aqui acaba -->
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR orange][B]Novedades[/B] [/COLOR][COLOR white] [Castellano] [/COLOR] [COLOR gold] [/COLOR] </title>
+<link>$doregex[makelist2]</link>
+
+
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+ <SetViewMode>55</SetViewMode>
+ <title>[COLOR white] [makelist2.param5][/COLOR]   [COLOR white]Calidad:[makelist2.param3][/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<thumbnail>[makelist2.param2]</thumbnail> 
+</regex>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)"[\w\W\s]{0,72}src="(.*?)"[\w\W\s]{0,110}bloque_superior">(.*?)<[\w\W\s]{0,110}icono\_(.*?).png[\w\W\s]{0,300}bloque_inferior">(.*?)<]]></expres>
+<page>https://pasateatorrent.com</page>	
+</regex>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+ <SetViewMode>55</SetViewMode>
+ <title>[COLOR white] [makelist2.param5][/COLOR] [COLOR gold] Calidad:[makelist.param1] [/COLOR gold][COLOR lime] Tamaño:[makelist.param2] [/COLOR] </title>
+<link>plugin://plugin.video.quasar/play?uri=[makelist.param3]</link>
+<thumbnail>[makelist2.param2]</thumbnail> 
+</regex>
+]]></listrepeat>
+<expres>d>(.*?)<[\w\W\s]{0,7}td>(.*?)\.[\w\W\s]{0,16}href="(.*?)"</expres>
+<page>[makelist2.param1]</page>	
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR orange][B]Novedades[/B] [/COLOR][COLOR white] [Latino] [/COLOR] [COLOR gold] [/COLOR] </title>
+<link>$doregex[makelist]</link>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+ <title>[makelist.param2]</title>
+<link>plugin://plugin.video.quasar/play?uri=[makelist.param1]</link>
+<thumbnail>[makelist2.param2]</thumbnail> 
+</regex>
+]]></listrepeat>
+<expres><![CDATA[href="(magnet.*?)[\w\W\s]{0,30}Download\s(.*?)using]]></expres>
+<page>https://www.skytorrents.in/search/all/ad/1/?l=en-us&amp;q=latino</page>	
+</regex>
+<thumbnail></thumbnail>
+</item>
+
