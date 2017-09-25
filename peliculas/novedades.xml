@@ -390,10 +390,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <!-- T -->
-
-
 <item>
-<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
 
 <link>$doregex[id3]</link>
@@ -403,7 +401,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <expres><![CDATA[#$pyFunction
 def GetLSProData(page_data,Cookie_Jar,m):
     import urlresolver
-    url = 'https://streamplay.to/hcx796mps9nh'
+    url = 'http://streamcloud.eu/xc9q964pw6my/tr4nsf0rm3rs.th3.l4st.kn1ght.2017.brrs.720p.castellano.mp4.html'
     try:
         u = urlresolver.resolve(url)
     except:
@@ -413,14 +411,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>	
 
-<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR orange]$doregex[nombre]  [/COLOR][COLOR white]720p [/COLOR][COLOR gold] Castellano [/COLOR]</title>
 
-<regex><name>nombre</name><expres>Transformers: El ultimo caballero</expres><page></page></regex>
+<regex><name>nombre</name><expres>Transformers - El ultimo caballero</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
 </item>
+
+
 <!-- U -->
 <!-- V -->
 <!-- W -->
