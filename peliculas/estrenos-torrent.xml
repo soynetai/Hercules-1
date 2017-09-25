@@ -1,62 +1,7 @@
-<!-- Buscador online Skytorrent -->
+<SetViewMode>500</SetViewMode>
 <item>
-<title>   [COLOR orange] Buscar Pelicula [/COLOR][COLOR white] En Divx Total: [/COLOR] [COLOR gold] Castellano[/COLOR] </title>
+<title> [COLOR orange][B]Novedades[/B] [/COLOR][COLOR white] [Castellano] [/COLOR] [COLOR gold] [/COLOR] </title>
 <link>$doregex[makelist2]</link>
-
-
-<regex>
-<name>makelist2</name>
-<listrepeat><![CDATA[
- <SetViewMode>55</SetViewMode>
- <title>[COLOR white] [makelist2.param3][/COLOR]  </title>
-<link>$doregex[makelist]</link>
-<thumbnail>[makelist2.param2]</thumbnail> 
-</regex>
-]]></listrepeat>
-<expres><![CDATA[href="(.*?)"[\w\W\s]{0,72}src="(.*?)"[\w\W\s]{0,120}bloque_inferior">(.*?)<]]></expres>
-<page>http://www.divxtotal.org/?s=$doregex[search]</page>	
-</regex>
-
- 
-<regex>
-<name>search</name>
-<expres><![CDATA[#$pyFunction
-import xbmc
-import xbmcaddon
-import xbmcgui
-def GetLSProData(page_data,Cookie_Jar,m):
-    dialog = xbmcgui.Dialog()
-    d = dialog.input('Buscar en [Divxtotal]: Por Nombre:', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
-    return d
-]]></expres>
-<page></page>
-<cookieJar></cookieJar>
-</regex>
-
-
-
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
- <SetViewMode>55</SetViewMode>
- <title>[COLOR line]data 0 [makelist2.param3][/COLOR]  data 1:[makelist.param1]  data 2:[makelist.param2]  </title>
-<link>plugin://plugin.video.quasar/play?uri=[makelist.param3]</link>
-<thumbnail>[makelist2.param2]</thumbnail> 
-</regex>
-]]></listrepeat>
-<expres>d>(.*?)<[\w\W\s]{0,7}td>(.*?)\.[\w\W\s]{0,16}href="(.*?)"</expres>
-<page>[makelist2.param1]</page>	
-</regex>
-</item>
-
-<!-- Aqui acaba -->
-
-
-<item>
-<title> [COLOR lime]•[/COLOR]    [COLOR orange][B]Novedades[/B] [/COLOR][COLOR white] [Castellano] [/COLOR] [COLOR gold] [/COLOR] </title>
-<link>$doregex[makelist2]</link>
-
-
 
 <regex>
 <name>makelist2</name>
@@ -88,7 +33,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title> [COLOR lime]•[/COLOR]    [COLOR orange][B]Novedades[/B] [/COLOR][COLOR white] [Latino] [/COLOR] [COLOR gold] [/COLOR] </title>
+<title>[COLOR orange][B]Novedades[/B] [/COLOR][COLOR white] [Latino] [/COLOR] [COLOR gold] [/COLOR] </title>
 <link>$doregex[makelist]</link>
 
 <regex>
