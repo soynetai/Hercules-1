@@ -4,12 +4,12 @@
 <link>http://ignore</link>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
-<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/series/series-torrent/0-9/11-22-63.xml</externallink>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/menu-peliculas-stream.xml</externallink>
 </item> 
 <item>
 <title>Peliculas Torrent</title>
 <link>http://ignore</link>
 <thumbnail>http://icons.iconarchive.com/icons/studiomx/leomx/256/Download-icon.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
-<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/series/series-torrent/0-9/11-22-63.xml</externallink>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/menu-peliculas-torrent.xml</externallink>
 </item> 
