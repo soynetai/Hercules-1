@@ -28,7 +28,7 @@
 <expres>d>(.*?)<[\w\W\s]{0,7}td>(.*?)\.[\w\W\s]{0,16}href="(.*?)"</expres>
 <page>[makelist2.param1]</page>	
 </regex>
-<thumbnail></thumbnail>
+<thumbnail>http://icons.iconarchive.com/icons/kyo-tux/eko-folders/256/Video-icon.png</thumbnail>
 </item>
 
 
@@ -47,6 +47,6 @@
 <expres><![CDATA[href="(magnet.*?)[\w\W\s]{0,30}Download\s(.*?)using]]></expres>
 <page>https://www.skytorrents.in/search/all/ad/1/?l=en-us&amp;q=latino</page>	
 </regex>
-<thumbnail></thumbnail>
+<thumbnail>https://icon-icons.com/icons2/497/PNG/256/movies-christmas-icon_icon-icons.com_48880.png</thumbnail>
 </item>
 
