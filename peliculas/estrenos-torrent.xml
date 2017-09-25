@@ -1,6 +1,6 @@
 <!-- Buscador online Skytorrent -->
 <item>
-<title>   [COLOR orange] Buscar Pelis [/COLOR][COLOR white] En la red [/COLOR] [COLOR gold] Castellano[/COLOR] </title>
+<title>   [COLOR orange] Buscar Pelicula [/COLOR][COLOR white] En Divx Total: [/COLOR] [COLOR gold] Castellano[/COLOR] </title>
 <link>$doregex[makelist2]</link>
 
 
@@ -14,7 +14,7 @@
 </regex>
 ]]></listrepeat>
 <expres><![CDATA[href="(.*?)"[\w\W\s]{0,72}src="(.*?)"[\w\W\s]{0,120}bloque_inferior">(.*?)<]]></expres>
-<page>https://www.skytorrents.in/search/all/ad/1/?l=en-us&amp;q=$doregex[search]</page>	
+<page>http://www.divxtotal.org/?s=$doregex[search]</page>	
 </regex>
 
  
@@ -26,7 +26,7 @@ import xbmcaddon
 import xbmcgui
 def GetLSProData(page_data,Cookie_Jar,m):
     dialog = xbmcgui.Dialog()
-    d = dialog.input('Buscar [SKYTORRENT]: Nombre de la Pelicua', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
+    d = dialog.input('Buscar en [Divxtotal]: Por Nombre:', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
     return d
 ]]></expres>
 <page></page>
