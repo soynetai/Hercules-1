@@ -21,7 +21,7 @@
 <listrepeat><![CDATA[
  <SetViewMode>55</SetViewMode>
  <title>[COLOR white] [makelist2.param5][/COLOR] [COLOR gold] Calidad:[makelist.param1] [/COLOR gold][COLOR lime] Tamaño:[makelist.param2] [/COLOR] </title>
-<link>plugin://plugin.video.quasar/play?uri=[makelist.param3]</link>
+<link>plugin://plugin.video.torrentin/?uri=[makelist.param3]</link>
 <thumbnail>[makelist2.param2]</thumbnail> 
 </regex>
 ]]></listrepeat>
@@ -40,7 +40,7 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
  <title>[makelist.param2]</title>
-<link>plugin://plugin.video.quasar/play?uri=[makelist.param1]</link>
+<link>plugin://plugin.video.torrentin/?uri=[makelist.param1]</link>
 <thumbnail>[makelist2.param2]</thumbnail> 
 </regex>
 ]]></listrepeat>
