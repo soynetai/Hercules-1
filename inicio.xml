@@ -112,4 +112,11 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>http://www.thebarlowrchigh.co.uk/media/184153/information-icon.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
+ <item>
+<title>[COLOR orange] + [/COLOR] [COLOR white] TV LIVE|Torrentin|  [/COLOR]</title>
+<link>https://raw.githubusercontent.com/Andorth/Hercules/master/programastv/canales.xml</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+ https://raw.githubusercontent.com/Andorth/Hercules/master/programastv/canales.xml
 </items>
