@@ -22,7 +22,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <regex>
 <name>GetPageUrl</name>
 <expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='http://cinestrenostv.tv/canales/nacionales/tve2.php'):
+def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacionales/tve-2.html'):
    import liveresolver
    u = liveresolver.resolve(url)
    return u
@@ -39,7 +39,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://cinestrenostv.tv/canales/nac
 <regex>
 <name>GetPageUrl</name>
 <expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='http://cinestrenostv.tv/canales/nacionales/antena-3.php'):
+def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacionales/antena-3.html'):
    import liveresolver
    u = liveresolver.resolve(url)
    return u
@@ -56,7 +56,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://cinestrenostv.tv/canales/nac
 <regex>
 <name>GetPageUrl</name>
 <expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='http://cinestrenostv.tv/canales/nacionales/la-cuatro.php'):
+def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacionales/cuatro.html'):
    import liveresolver
    u = liveresolver.resolve(url)
    return u
@@ -74,7 +74,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://cinestrenostv.tv/canales/nac
 <regex>
 <name>GetPageUrl</name>
 <expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='http://cinestrenostv.tv/canales/nacionales/telecinco.php'):
+def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacionales/telecinco.html'):
    import liveresolver
    u = liveresolver.resolve(url)
    return u
@@ -85,6 +85,44 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://cinestrenostv.tv/canales/nac
 <thumbnail>http://latelete.tv/img/telecinco.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
+
+<item>
+<title>La sexta</title>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacionales/la-sexta.html'):
+   import liveresolver
+   u = liveresolver.resolve(url)
+   return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://latelete.tv/img/sexta.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Nova</title>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacionales/nova.html'):
+   import liveresolver
+   u = liveresolver.resolve(url)
+   return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://latelete.tv/img/sexta.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
+
+
 
 <!-- MOVISTAR PLUS-->
 <!-- INTERNACIONAL -->
