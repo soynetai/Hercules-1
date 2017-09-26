@@ -90,6 +90,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/tv.png</thumbnail>
 <externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/programastv/programastv.xml</externallink>
 </item>
+ <item>
+<title>[COLOR orange] + [/COLOR] [COLOR orange] TV LIVE [COLOR lime]|Script liveresolver Necesario| version: 0.1.49 [/COLOR][/COLOR]</title>
+<link>http://ignore</link>
+https://raw.githubusercontent.com/Andorth/Hercules/master/programastv/canales.xml
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/programastv/canales.xml</externallink>
+</item>
 <item>
 <title>[COLOR orange]Creditos[/COLOR]</title>
 <link>$doregex[openDialog]</link>
@@ -111,13 +119,5 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 <thumbnail>http://www.thebarlowrchigh.co.uk/media/184153/information-icon.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
-</item>
- <item>
-<title>[COLOR orange] + [/COLOR] [COLOR white] TV LIVE|Torrentin|  [/COLOR]</title>
-<link>http://ignore</link>
-https://raw.githubusercontent.com/Andorth/Hercules/master/programastv/canales.xml
-<thumbnail></thumbnail>
-<fanart></fanart>
-<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/programastv/canales.xml</externallink>
 </item>
 </items>
