@@ -332,7 +332,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <regex>
 <name>GetPageUrl</name>
 <expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacionales/tve-24h-noticas.html'):
+def GetLSProData(page_data,Cookie_Jar,m,url='http://hlsackdn_gl8-lh.akamaihd.net/i/hlsdvrlive_1@81183/index_1500_av-b.m3u8?sd=10&rebase=on'):
    import liveresolver
    u = liveresolver.resolve(url)
    return u
