@@ -5,6 +5,7 @@
 <link>http://ignore</link>
 <thumbnail></thumbnail>
 </item>
+<item>
 <title>La 1</title>
 <link>$doregex[GetPageUrl]</link>
 <regex>
@@ -289,6 +290,8 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <thumbnail>http://vercanalestv.com/logos/fdf.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
+
+
 
 
 
