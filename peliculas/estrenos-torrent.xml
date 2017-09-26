@@ -1,6 +1,6 @@
 <SetViewMode>500</SetViewMode>
 <item>
-<title> [COLOR orange][B]Novedades[/B] [/COLOR][COLOR white] [Castellano] [/COLOR] [COLOR gold] [/COLOR] </title>
+<title> [COLOR orange][B]Novedades[/B] [/COLOR][COLOR white] [Castellano] [/COLOR] [COLOR] [/COLOR] </title>
 <link>$doregex[makelist2]</link>
 
 <regex>
@@ -20,7 +20,7 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
  <SetViewMode>55</SetViewMode>
- <title>[COLOR white] [makelist2.param5][/COLOR] [COLOR gold] Calidad:[makelist.param1] [/COLOR gold][COLOR lime] Tamaño:[makelist.param2] [/COLOR] </title>
+ <title>[COLOR white] [makelist2.param5][/COLOR] [COLOR gold] Calidad:[makelist.param1] [/COLOR][COLOR lime] Tamaño:[makelist.param2] [/COLOR] </title>
 <link>plugin://plugin.video.torrentin/?uri=[makelist.param3]</link>
 <thumbnail>[makelist2.param2]</thumbnail> 
 </regex>
@@ -33,7 +33,7 @@
 
 
 <item>
-<title>[COLOR orange][B]Novedades[/B] [/COLOR][COLOR white] [Latino] [/COLOR] [COLOR gold] [/COLOR] </title>
+<title>[COLOR orange][B]Novedades[/B] [/COLOR][COLOR white] [Latino] [/COLOR] [COLOR] [/COLOR] </title>
 <link>$doregex[makelist]</link>
 
 <regex>
