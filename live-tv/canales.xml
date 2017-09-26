@@ -27,7 +27,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <regex>
 <name>GetPageUrl</name>
 <expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='http://cinestrenostv.tv/canales/nacionales/tve2.php'):
+def GetLSProData(page_data,Cookie_Jar,m,url='http://www.rtve.es/directo/la-2'):
    import liveresolver
    u = liveresolver.resolve(url)
    return u
@@ -332,7 +332,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <regex>
 <name>GetPageUrl</name>
 <expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacionales/tve-24h-noticas.html'):
+def GetLSProData(page_data,Cookie_Jar,m,url='http://www.rtve.es/directo/canal-24h/'):
    import liveresolver
    u = liveresolver.resolve(url)
    return u
