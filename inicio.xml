@@ -114,9 +114,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
  <item>
 <title>[COLOR orange] + [/COLOR] [COLOR white] TV LIVE|Torrentin|  [/COLOR]</title>
-<link>https://raw.githubusercontent.com/Andorth/Hercules/master/programastv/canales.xml</link>
+<link>http://ignore</link>
+https://raw.githubusercontent.com/Andorth/Hercules/master/programastv/canales.xml
 <thumbnail></thumbnail>
 <fanart></fanart>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/programastv/canales.xml</externallink>
 </item>
- https://raw.githubusercontent.com/Andorth/Hercules/master/programastv/canales.xml
 </items>
