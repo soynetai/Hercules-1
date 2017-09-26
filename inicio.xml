@@ -96,7 +96,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 https://raw.githubusercontent.com/Andorth/Hercules/master/programastv/canales.xml
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/livetv.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
-<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/programastv/canales.xml</externallink>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/live-tv/canales.xml</externallink>
 </item>
 <item>
 <title>[COLOR orange]Creditos[/COLOR]</title>
