@@ -14,14 +14,13 @@
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
 <externallink>https://github.com/Andorth/Hercules/tree/master/peliculas/menu-peliculas.xml</externallink>
 </item>
-<! -- <item>
+<item>
 <title>[COLOR orange]Documentales tv [Explora][COLOR blue][I] Addon Necesario[/I][/COLOR][/COLOR]</title>
 <link>http://Ignoreme</link>
 <jsonrpc>plugin://plugin.video.Explora/</jsonrpc>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/icon.png</thumbnail>
 </item>
--->
 <item>
 <title>Explora[COLOR blue][I] Addon Necesario[/I][/COLOR]</title>
 <link>http://Ignoreme</link>
