@@ -19,7 +19,7 @@
 <link>http://Ignoreme</link>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/icon.png</thumbnail>
-<externallink>plugin://plugin.video.Explora/?mode=0&amp;</externallink>
+<externallink>plugin://plugin.video.Explora/mode=none&amp;</externallink>
 </item>
 <item>
 <title>[COLOR orange]Programas tv[/COLOR]</title>
