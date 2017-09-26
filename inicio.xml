@@ -74,7 +74,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <link>http://Ignoreme</link>
 <jsonrpc>plugin://plugin.video.Atlantis/</jsonrpc>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
-<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/atlantis.jpg</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/Andorth/atlantis/master/icon.png</thumbnail>
 </item>
 <item>
 <title>[COLOR orange]Documentales tv[/COLOR]</title>
