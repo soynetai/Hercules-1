@@ -189,7 +189,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <regex>
 <name>GetPageUrl</name>
 <expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='http://vertutele.com/dkiss-online-y-en-directo-por-internet-gratis/'):
+def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacionales/dkiss.html'):
    import liveresolver
    u = liveresolver.resolve(url)
    return u
@@ -256,11 +256,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
 
-<item>
-<title>[COLOR white]prueba url solver[/COLOR]</title>
-<link>http://vercanalestv.com/tv/nacionales/fdf.html</link>
-<thumbnail>http://vercanalestv.com/logos/fdf.png</thumbnail>
-</title>
+
 
 <item>
 <title>[COLOR yellow]Neox[/COLOR]</title>
@@ -317,7 +313,17 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 </item>
 
 
-
+<item><title>Neox</title> <link>https://cdn.opencable.es/hls/live/neox/index.m3u8</link></item>
+<item><title>Nova</title> <link>https://cdn.opencable.es/hls/live/nova/index.m3u8</link></item>
+<item><title>Mega</title> <link>https://cdn.opencable.es/hls/live/mega/index.m3u8</link></item>
+<item><title>Ten</title> <link>https://cdn.opencable.es/hls/live/ten/index.m3u8</link></item>
+<item><title>Divinity</title> <link>https://cdn.opencable.es/hls/live/divinity/index.m3u8</link></item>
+<item><title>Energy</title> <link>https://cdn.opencable.es/hls/live/energy/index.m3u8</link></item>
+<item><title>Cosmo</title> <link>https://cdn.opencable.es/hls/live/co...tan/index.m3u8</link></item>
+<item><title>FDF</title> <link>https://cdn.opencable.es/hls/live/fdf/index.m3u8</link></item>
+<item><title>Clan </title> <link>https://cdn.opencable.es/hls/live/clan/index.m3u8</link></item>
+<item><title>Boing</title> <link>https://cdn.opencable.es/hls/live/boing/index.m3u8</link></item>
+<item><title>Dkiss</title> <link>https://cdn.opencable.es/hls/live/dkiss/index.m3u8</link></item>
 
 <!-- MOVISTAR PLUS-->
 <!-- INTERNACIONAL -->
