@@ -308,7 +308,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 
 <item>
 <title>[COLOR gold] M+ Futbol[/COLOR] </title>
-  <link>$doregex[get-id]|Referer=http://vercanalestv.com/tv/deportes/multifutbol/multi-futbol.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
+  <link>$doregex[get-id]|Referer=http://telefivegb.com/canales/deporte/futbol&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
 <regex>
 <name>get-id</name>
 <expres>source: '(.*?)'</expres>
@@ -319,15 +319,10 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <thumbnail>http://vercanalestv.com/logos/m-futbol.png</thumbnail>   
 </item>
 
-<item>
-<title>M+ Futbol prueba 1</title>
-<urlsolve>http://xxedge53.livesports.pw/live/verfutbolespmd8d7b9cbe039/index.m3u8</urlsolve>
-<thumbnail>http://vercanalestv.com/logos/m-futbol.png</thumbnail>
-</title>
 
 <item>
-<title>M+ Futbol prueba 2</title>
-<link>http://xxedge53.livesports.pw/live/verfutbolespmd8d7b9cbe039/index.m3u8</link>
+<title>M+ Futbol prueba 1</title>
+<link>http://telefivegb.com/canales/deporte/futbol</link>
 <thumbnail>http://vercanalestv.com/logos/m-futbol.png</thumbnail>
 </title>
 
