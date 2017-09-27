@@ -433,7 +433,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/deportes
 <thumbnail></thumbnail>
 </item>
 <item>
-<title>[COLOR orange]National Geographic[/COLOR]</title>
+<title>[COLOR white]National Geographic[/COLOR]</title>
 <link>$doregex[GetPageUrl]</link>
 <regex>
 <name>GetPageUrl</name>
@@ -447,6 +447,24 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/document
 <cookieJar></cookieJar>
 </regex>
 <thumbnail>http://vercanalestv.com/logos/national.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR white]Historia[/COLOR]</title>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/documentales/canal-historia.html'):
+   import liveresolver
+   u = liveresolver.resolve(url)
+   return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vercanalestv.com/logos/Historia.jpg</thumbnail>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
 <!-- INTERNACIONAL -->
