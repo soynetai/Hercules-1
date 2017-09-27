@@ -1,11 +1,11 @@
 <!-- TDT DIGITAL -->
 <item>
-<title>TDT DIGITAL ES</title>
+<title>[COLOR lime]TDT DIGITAL ES[/COLOR]</title>
 <link>http://ignore</link>
 <thumbnail></thumbnail>
 </item>
 <item>
-<title>La 1</title>
+<title>[COLOR yellow]La 1[/COLOR]</title>
 <link>$doregex[GetPageUrl]</link>
 <regex>
 <name>GetPageUrl</name>
@@ -22,7 +22,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
 <item>
-<title>La 2[/COLOR] </title>
+<title>[COLOR yellow]La 2[/COLOR]</title>
 <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embedn.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
 <regex>
 <name>GetPageUrl</name>
@@ -33,7 +33,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
  <thumbnail>http://vercanalestv.com/logos/tve2.png</thumbnail>   </item>
 
 <item>
-<title>[UPPERCASE][COLOR skyblue] ANTENA3 [/UPPERCASE][/COLOR] </title>
+<title>[COLOR yellow]Antena 3[/COLOR]</title>
 <link>$doregex[GetPageUrl]</link>
 <regex>
 <name>GetPageUrl</name>
@@ -50,7 +50,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://a3live-lh.akamaihd.net/i/ant
 
 
 <item>
-<title>[UPPERCASE][COLOR skyblue] CUATRO [/UPPERCASE][/COLOR] </title>
+<title>[COLOR yellow]Cuatro[/COLOR]</title>
  <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embedn.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
 <regex>
 <name>GetPageUrl</name>
@@ -62,17 +62,12 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://a3live-lh.akamaihd.net/i/ant
 </item>
 
 <item>
-<title>Tele cinco</title>
-<link>$doregex[GetPageUrl]</link>
+<title>[COLOR yellow]Telecinco[/COLOR]</title>
+ <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embedn.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
 <regex>
 <name>GetPageUrl</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacionales/telecinco.html'):
-   import liveresolver
-   u = liveresolver.resolve(url)
-   return u
-]]></expres>
-<page></page>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embedn.php?file=telecinco&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
 <thumbnail>http://latelete.tv/img/telecinco.png</thumbnail>
@@ -80,7 +75,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 </item>
 
 <item>
-<title>La sexta</title>
+<title>[COLOR yellow]La sexta[/COLOR]</title>
 <link>$doregex[GetPageUrl]</link>
 <regex>
 <name>GetPageUrl</name>
@@ -98,7 +93,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 </item>
 
 <item>
-<title>Nova</title>
+<title>[COLOR yellow]Nova[/COLOR]</title>
 <link>$doregex[GetPageUrl]</link>
 <regex>
 <name>GetPageUrl</name>
@@ -116,7 +111,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 </item>
 
 <item>
-<title>Divinity</title>
+<title>[COLOR yellow]Divinity[/COLOR]</title>
 <link>$doregex[GetPageUrl]</link>
 <regex>
 <name>GetPageUrl</name>
@@ -134,7 +129,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 </item>
 
 <item>
-<title>A3Series</title>
+<title>[COLOR yellow]A3Series[/COLOR]</title>
 <link>$doregex[GetPageUrl]</link>
 <regex>
 <name>GetPageUrl</name>
@@ -152,7 +147,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://www.vercanalestv.com/tv/naci
 </item>
 
 <item>
-<title>BeMad</title>
+<title>[COLOR yellow]BeMad[/COLOR]</title>
 <link>$doregex[GetPageUrl]</link>
 <regex>
 <name>GetPageUrl</name>
@@ -170,7 +165,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 </item>
 
 <item>
-<title>Energy</title>
+<title>[COLOR yellow]Energy[/COLOR]</title>
 <link>$doregex[GetPageUrl]</link>
 <regex>
 <name>GetPageUrl</name>
@@ -188,7 +183,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 </item>
 
 <item>
-<title>Dkiss</title>
+<title>[COLOR yellow]Dkiss[/COLOR]</title>
 <link>$doregex[GetPageUrl]</link>
 <regex>
 <name>GetPageUrl</name>
@@ -206,7 +201,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://cinestrenostv.tv/canales/emb
 </item>
 
 <item>
-<title>Ten</title>
+<title>[COLOR yellow]Ten[/COLOR]</title>
 <link>$doregex[GetPageUrl]</link>
 <regex>
 <name>GetPageUrl</name>
@@ -225,25 +220,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 
 
 <item>
-<title>Ten</title>
-<link>$doregex[GetPageUrl]</link>
-<regex>
-<name>GetPageUrl</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacionales/ten.html'):
-   import liveresolver
-   u = liveresolver.resolve(url)
-   return u
-]]></expres>
-<page></page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://latelete.tv/img/ten.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>Cosmo</title>
+<title>[COLOR yellow]Cosmo[/COLOR]</title>
 <link>$doregex[GetPageUrl]</link>
 <regex>
 <name>GetPageUrl</name>
@@ -261,7 +238,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://cinestrenostv.tv/canales/emb
 </item>
 
 <item>
-<title>FDF</title>
+<title>[COLOR yellow]FDF[/COLOR]</title>
 <link>$doregex[GetPageUrl]</link>
 <regex>
 <name>GetPageUrl</name>
@@ -279,7 +256,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 </item>
 
 <item>
-<title>Neox</title>
+<title>[COLOR yellow]Neox[/COLOR]</title>
 <link>$doregex[GetPageUrl]</link>
 <regex>
 <name>GetPageUrl</name>
@@ -297,7 +274,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 </item>
 
 <item>
-<title>Mega</title>
+<title>[COLOR yellow]Mega[/COLOR]</title>
 <link>$doregex[GetPageUrl]</link>
 <regex>
 <name>GetPageUrl</name>
@@ -315,7 +292,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 </item>
 
 <item>
-<title>24 Horas</title>
+<title>[COLOR yellow]24 Horas[/COLOR]</title>
 <link>$doregex[GetPageUrl]</link>
 <regex>
 <name>GetPageUrl</name>
@@ -339,7 +316,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <!-- INTERNACIONAL -->
 <!-- DEPORTES -->
 <item>
-<title>National Geographic</title>
+<title>[COLOR orange]National Geographic[/COLOR]</title>
 <link>$doregex[GetPageUrl]</link>
 <regex>
 <name>GetPageUrl</name>
@@ -356,7 +333,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/document
 </item>
 
 <item>
-<title>#0</title>
+<title>[COLOR orange]#0[/COLOR]</title>
 <link>$doregex[GetPageUrl]</link>
 <regex>
 <name>GetPageUrl</name>
