@@ -311,19 +311,14 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <thumbnail>http://vercanalestv.com/logos/24h.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
-
-
-<item><title>Neox</title> <link>https://cdn.opencable.es/hls/live/neox/index.m3u8</link></item>
-<item><title>Nova</title> <link>https://cdn.opencable.es/hls/live/nova/index.m3u8</link></item>
-<item><title>Mega</title> <link>https://cdn.opencable.es/hls/live/mega/index.m3u8</link></item>
-<item><title>Ten</title> <link>https://cdn.opencable.es/hls/live/ten/index.m3u8</link></item>
-<item><title>Divinity</title> <link>https://cdn.opencable.es/hls/live/divinity/index.m3u8</link></item>
-<item><title>Energy</title> <link>https://cdn.opencable.es/hls/live/energy/index.m3u8</link></item>
-<item><title>Cosmo</title> <link>https://cdn.opencable.es/hls/live/co...tan/index.m3u8</link></item>
-<item><title>FDF</title> <link>https://cdn.opencable.es/hls/live/fdf/index.m3u8</link></item>
-<item><title>Clan </title> <link>https://cdn.opencable.es/hls/live/clan/index.m3u8</link></item>
-<item><title>Boing</title> <link>https://cdn.opencable.es/hls/live/boing/index.m3u8</link></item>
-<item><title>Dkiss</title> <link>https://cdn.opencable.es/hls/live/dkiss/index.m3u8</link></item>
+<item><title>[COLOR red] FDF [/COLOR] </title>
+<link>$doregex[get-id]|User-Agent=iPad</link>
+<regex><name>get-id</name>
+<expres>[",\'](h.*m3u8.*?)'</expres>
+<page>http://vertelevisor.com/live/fdf.php</page>
+<referer>http://vertelevisor.com/tv/nacionales/fdf.html</referer>
+</regex>
+<thumbnail>http://vercanalestv.com/logos/fdf.png</thumbnail>   </item>
 
 <!-- MOVISTAR PLUS-->
 <!-- INTERNACIONAL -->
