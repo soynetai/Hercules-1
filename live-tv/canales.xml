@@ -182,30 +182,14 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
 
+
 <item>
-<title>[COLOR pink]Dkiss[/COLOR]</title>
+<title>[COLOR red]Dkiss[/COLOR]</title>
 <link>$doregex[GetPageUrl]</link>
 <regex>
 <name>GetPageUrl</name>
 <expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='http://cinestrenostv.tv/canales/nacionales/dkiss.php'):
-   import liveresolver
-   u = liveresolver.resolve(url)
-   return u
-]]></expres>
-<page></page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://latelete.tv/img/dkiss.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
-</item>
-<item>
-<title>[COLOR pink]Dkiss[/COLOR]</title>
-<link>$doregex[GetPageUrl]</link>
-<regex>
-<name>GetPageUrl</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='http://cinestrenostv.tv/canales/envivo/dkiss.html'):
+def GetLSProData(page_data,Cookie_Jar,m,url='http://vertutele.com/dkiss-online-y-en-directo-por-internet-gratis/'):
    import liveresolver
    u = liveresolver.resolve(url)
    return u
@@ -271,6 +255,12 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <thumbnail>http://vercanalestv.com/logos/fdf.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
+
+<item>
+<title>[COLOR white]prueba url solver[/COLOR]</title>
+<urlsolve>http://vercanalestv.com/tv/nacionales/fdf.html</urlsolve>
+<thumbnail>http://vercanalestv.com/logos/fdf.png</thumbnail>
+</title>
 
 <item>
 <title>[COLOR yellow]Neox[/COLOR]</title>
