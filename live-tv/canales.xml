@@ -279,6 +279,66 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
 
+<item>
+<title>[COLOR orange]M+ Series[/COLOR]</title>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacionales/canal-plus-series.html'):
+   import liveresolver
+   u = liveresolver.resolve(url)
+   return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vercanalestv.com/logos/m-series.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
+
+<!-- MOVISTAR PLUS - Deportes-->
+<item>
+<title>[COLOR lime]Movistar + |Deportes|[/COLOR]</title>
+<link>http://ignore</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[COLOR orange]M+ Partidazo[/COLOR]</title>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='ttp://vercanalestv.com/tv/deportes/canal-plus-partidazo.html'):
+   import liveresolver
+   u = liveresolver.resolve(url)
+   return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vercanalestv.com/logos/m-partidazo.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR orange]M+ Futbol[/COLOR]</title>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/deportes/multifutbol/multi-futbol.html'):
+   import liveresolver
+   u = liveresolver.resolve(url)
+   return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vercanalestv.com/logos/m-futbol.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
 
 
 <!-- TV de Pago -->
