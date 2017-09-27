@@ -307,7 +307,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 
 
 <item>
-<title>[UPPERCASE][COLOR skyblue] M+ Futbol  [/UPPERCASE][/COLOR] </title>
+<title>[COLOR gold] M+ Futbol[/COLOR] </title>
   <link>$doregex[get-id]|Referer=http://vercanalestv.com/tv/deportes/multifutbol/multi-futbol.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
 <regex>
 <name>get-id</name>
