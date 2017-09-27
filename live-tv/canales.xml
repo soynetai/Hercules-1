@@ -316,7 +316,20 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <referer>http://telefivegb.com/canales/deporte/futbol</referer>
 <agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
 </regex>
-<thumbnail>http://vercanalestv.com/logos/m-futbol.png</thumbnail>   </item>
+<thumbnail>http://vercanalestv.com/logos/m-futbol.png</thumbnail>   
+</item>
+
+<item>
+<title>M+ Futbol prueba 1</title>
+<urlsolve>http://xxedge53.livesports.pw/live/verfutbolespmd8d7b9cbe039/index.m3u8</urlsolve>
+<thumbnail>http://vercanalestv.com/logos/m-futbol.png</thumbnail>
+</title>
+
+<item>
+<title>M+ Futbol prueba 2</title>
+<link>http://xxedge53.livesports.pw/live/verfutbolespmd8d7b9cbe039/index.m3u8</link>
+<thumbnail>http://vercanalestv.com/logos/m-futbol.png</thumbnail>
+</title>
 
 
 
