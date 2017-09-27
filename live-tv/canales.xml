@@ -312,8 +312,8 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <regex>
 <name>get-id</name>
 <expres>source: '(.*?)'</expres>
-<page>http://vergol.com/live1/plusdeportes1.php</page>
-<referer>http://vercanalestv.com/tv/deportes/multifutbol/multi-futbol.html</referer>
+<page>http://telefivegb.com/canales/deporte/futbol</page>
+<referer>http://telefivegb.com/canales/deporte/futbol</referer>
 <agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
 </regex>
 <thumbnail>http://vercanalestv.com/logos/m-futbol.png</thumbnail>   </item>
