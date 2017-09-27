@@ -305,31 +305,21 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 </item>
 
 
-<item>
-<title>[COLOR gold]M+ Partidazo[/COLOR]</title>
-<link>$doregex[get-id]|Referer=http://www.vercanalestv.com/tv/deportes/canal-plus-partidazo.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
-<regex>
-<name>get-id</name>
-<expres>source: '(.*?)'</expres>
-<page>http://www.vercanalestv.com/tv/deportes/canal-plus-partidazo.html</page>
-<referer>http://www.vercanalestv.com/tv/deportes/canal-plus-partidazo.html</referer>
-<agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
-</regex>
-<thumbnail>http://vercanalestv.com/logos/m-partidazo.png</thumbnail>   
-</item>
 
 <item>
-<title>[COLOR gold]M+ Futbol[/COLOR]</title>
-<link>$doregex[get-id]|Referer=http://vercanalestv.com/tv/deportes/multifutbol/multi-futbol.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
+<title>[UPPERCASE][COLOR skyblue] M+ Futbol  [/UPPERCASE][/COLOR] </title>
+  <link>$doregex[get-id]|Referer=http://vercanalestv.com/tv/deportes/multifutbol/multi-futbol.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
 <regex>
 <name>get-id</name>
 <expres>source: '(.*?)'</expres>
-<page>http://vercanalestv.com/tv/deportes/canal-plus-futbol.html</page>
-<referer>http://vercanalestv.com/tv/deportes/canal-plus-futbol.html</referer>
+<page>http://vergol.com/live1/plusdeportes1.php</page>
+<referer>http://vercanalestv.com/tv/deportes/multifutbol/multi-futbol.html</referer>
 <agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
 </regex>
-<thumbnail>http://vercanalestv.com/logos/m-futbol.png</thumbnail>   
-</item>
+<thumbnail>http://vercanalestv.com/logos/m-futbol.png</thumbnail>   </item>
+
+
+
 
 <item>
 <title>[COLOR gold] M+ Deportes 1[/COLOR] </title>
@@ -356,9 +346,28 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 </regex>
 <thumbnail>http://vercanalestv.com/logos/m-deportes-2.png</thumbnail>   
 </item>
+<!-- TV premium  Deportes-->
+<item>
+<title>[COLOR lime]Tv Premium |Deportes|[/COLOR]</title>
+<link>http://ignore</link>
+<thumbnail></thumbnail>
 
+</item>
+<item>
+<title>[COLOR gold]La liga tv[/COLOR] </title>
+<link>$doregex[get-id]|Referer=&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
+<regex>
+<name>get-id</name>
+<expres>source: '(.*?)'</expres>
+<page></page>
+<referer></referer>
+<agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
+</regex>
+<thumbnail>http://vercanalestv.com/logos/m-deportes-2.png</thumbnail>   
+</item>
 
-<!-- TV de Pago -->
+<!-- TV premium  -->
+
 <item>
 <title>[COLOR lime]Premium TV[/COLOR]</title>
 <link>http://ignore</link>
