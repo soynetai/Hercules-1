@@ -199,6 +199,23 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://cinestrenostv.tv/canales/nac
 <thumbnail>http://latelete.tv/img/dkiss.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
+<item>
+<title>[COLOR pink]Dkiss[/COLOR]</title>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://cinestrenostv.tv/canales/envivo/dkiss.html'):
+   import liveresolver
+   u = liveresolver.resolve(url)
+   return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://latelete.tv/img/dkiss.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
 
 <item>
 <title>[COLOR yellow]Ten[/COLOR]</title>
