@@ -33,38 +33,32 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
  <thumbnail>http://vercanalestv.com/logos/tve2.png</thumbnail>   </item>
 
 <item>
-<title>Antena 3</title>
+<title>[UPPERCASE][COLOR skyblue] ANTENA3 [/UPPERCASE][/COLOR] </title>
 <link>$doregex[GetPageUrl]</link>
 <regex>
 <name>GetPageUrl</name>
 <expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='http://verdirectotv.com/tv/nacionales/antena3.html'):
-   import liveresolver
-   u = liveresolver.resolve(url)
-   return u
+def GetLSProData(page_data,Cookie_Jar,m,url='http://a3live-lh.akamaihd.net/i/antena3_1@35248/index_2_av-b.m3u8'):
+    import liveresolver
+    u = liveresolver.resolve(url)
+    return u
 ]]></expres>
 <page></page>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://latelete.tv/img/antena3.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
-</item>
+<thumbnail>http://www.vercanalestv.com/ver-antena-3-online-y-en-directo-24h-gratis/</thumbnail>   </item>
+
+
 <item>
-<title>Cuatro</title>
-<link>$doregex[GetPageUrl]</link>
+<title>[UPPERCASE][COLOR skyblue] CUATRO [/UPPERCASE][/COLOR] </title>
+ <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embedn.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
 <regex>
 <name>GetPageUrl</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='http://cinestrenostv.tv/canales/nacionales/la-cuatro.php'):
-   import liveresolver
-   u = liveresolver.resolve(url)
-   return u
-]]></expres>
-<page></page>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embedn.php?file=lacuatro&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
 <thumbnail>http://latelete.tv/img/cuatro.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
 
 <item>
