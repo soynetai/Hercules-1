@@ -44,7 +44,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://www.vercanalestv.com/ver-tve
 <regex>
 <name>GetPageUrl</name>
 <expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacionales/antena-3.html'):
+def GetLSProData(page_data,Cookie_Jar,m,url='http://www.vercanalestv.com/ver-antena-3-online-y-en-directo-24h-gratis/'):
    import liveresolver
    u = liveresolver.resolve(url)
    return u
@@ -61,7 +61,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <regex>
 <name>GetPageUrl</name>
 <expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='http://cinestrenostv.tv/canales/nacionales/la-cuatro.php'):
+def GetLSProData(page_data,Cookie_Jar,m,url='http://www.vercanalestv.com/ver-cuatro-en-directo-y-online-gratis-fuera-de-espana-la-cuatro-hd-online/'):
    import liveresolver
    u = liveresolver.resolve(url)
    return u
@@ -79,7 +79,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://cinestrenostv.tv/canales/nac
 <regex>
 <name>GetPageUrl</name>
 <expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacionales/telecinco.html'):
+def GetLSProData(page_data,Cookie_Jar,m,url='http://www.vercanalestv.com/ver-telecinco-online-y-directo-gratis-fuera-de-espana/'):
    import liveresolver
    u = liveresolver.resolve(url)
    return u
