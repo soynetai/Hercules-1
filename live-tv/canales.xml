@@ -258,7 +258,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 
 <item>
 <title>[COLOR white]prueba url solver[/COLOR]</title>
-<urlsolve>http://vercanalestv.com/tv/nacionales/fdf.html</urlsolve>
+<link>http://vercanalestv.com/tv/nacionales/fdf.html</link>
 <thumbnail>http://vercanalestv.com/logos/fdf.png</thumbnail>
 </title>
 
