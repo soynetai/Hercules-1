@@ -298,30 +298,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 </item>
 
 <!-- MOVISTAR PLUS - Deportes-->
-<item>
-<title>[COLOR lime]Movistar + | Deportes |[/COLOR]</title>
-<link>http://ignore</link>
-<thumbnail></thumbnail>
-</item>
 
-
-<item>
-<title>[COLOR orange]M+ futbol[/COLOR]</title>
-<link>$doregex[GetPageUrl]</link>
-<regex>
-<name>GetPageUrl</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/deportes/canal-plus-futbol.html'):
-   import liveresolver
-   u = liveresolver.resolve(url)
-   return u
-]]></expres>
-<page></page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://vercanalestv.com/logos/m-futbol.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
-</item>
 
 
 <item>
@@ -350,114 +327,6 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/deportes
 <thumbnail>http://vercanalestv.com/logos/m-deportes-2.png</thumbnail>   
 </item>
 
-<item>
-<title>[COLOR orange]Gol TV[/COLOR]</title>
-<link>$doregex[GetPageUrl]</link>
-<regex>
-<name>GetPageUrl</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/deportes/goltv.html'):
-   import liveresolver
-   u = liveresolver.resolve(url)
-   return u
-]]></expres>
-<page></page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://vercanalestv.com/logos/goltv.jpg</thumbnail>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>[COLOR orange]Being Sport[/COLOR]</title>
-<link>$doregex[GetPageUrl]</link>
-<regex>
-<name>GetPageUrl</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='http://www.vercanalestv.com/tv/deportes/bein-sport.html'):
-   import liveresolver
-   u = liveresolver.resolve(url)
-   return u
-]]></expres>
-<page></page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://vercanalestv.com/logos/bein-sports.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
-</item>
-
-
-<item>
-<title>[COLOR orange]Fox Sports[/COLOR]</title>
-<link>$doregex[GetPageUrl]</link>
-<regex>
-<name>GetPageUrl</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/deportes/fox-sports.html'):
-   import liveresolver
-   u = liveresolver.resolve(url)
-   return u
-]]></expres>
-<page></page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://vercanalestv.com/logos/foxsports.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>[COLOR orange]Fox Sports 2[/COLOR]</title>
-<link>$doregex[GetPageUrl]</link>
-<regex>
-<name>GetPageUrl</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/deportes/fox-sports-2.html'):
-   import liveresolver
-   u = liveresolver.resolve(url)
-   return u
-]]></expres>
-<page></page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://vercanalestv.com/logos/foxsports.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>[COLOR orange]Eurosports[/COLOR]</title>
-<link>$doregex[GetPageUrl]</link>
-<regex>
-<name>GetPageUrl</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='hhttp://vercanalestv.com/tv/deportes/eurosport.html'):
-   import liveresolver
-   u = liveresolver.resolve(url)
-   return u
-]]></expres>
-<page></page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://vercanalestv.com/logos/eurosport-logo.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>[COLOR orange]Moto GP[/COLOR]</title>
-<link>$doregex[GetPageUrl]</link>
-<regex>
-<name>GetPageUrl</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/deportes/moto-gp.html'):
-   import liveresolver
-   u = liveresolver.resolve(url)
-   return u
-]]></expres>
-<page></page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://vercanalestv.com/logos/motosgp.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
-</item>
 
 <item>
 <title>[COLOR orange]F1[/COLOR]</title>
@@ -465,7 +334,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/deportes
 <regex>
 <name>GetPageUrl</name>
 <expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/deportes/formula-1.html'):
+def GetLSProData(page_data,Cookie_Jar,m,url='http://verliga.net/tv/verliga-9.html'):
    import liveresolver
    u = liveresolver.resolve(url)
    return u
