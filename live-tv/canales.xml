@@ -1,3 +1,8 @@
+<item>
+<title>[COLOR lime]Algunos canales necesitan el addon Sportsdevil para funcionar[/COLOR]</title>
+<link>http://ignore</link>
+<thumbnail></thumbnail>
+</item>
 <!-- TDT DIGITAL -->
 <item>
 <title>[COLOR lime][B]TDT DIGITAL ES[/B][/COLOR]</title>
@@ -501,7 +506,6 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/deportes
 </item>
 
 
-
 <!-- TV premium  -->
 
 <item>
@@ -568,25 +572,12 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/document
 </item>
 
 <item>
-<title>[COLOR white]Odisea[/COLOR]</title>
-<parentalblock>true</parentalblock>
-<link>$doregex[GetPageUrl]</link>
-<regex>
-<name>GetPageUrl</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='http://cinestrenostv.tv/canales/embed/documentales/odisea.html'):
-   import liveresolver
-   u = liveresolver.resolve(url)
-   return u
-]]></expres>
-<page></page>
-<cookieJar></cookieJar>
-</regex>
+<title>[COLOR orange]Odisea [COLOR lime][I]Sportsdevil Requerido[/I][/COLOR][/COLOR] </title>
+<sportsdevil>http://vercanalestv.com/tv/documentales/odisea.html</sportsdevil>
+<referer>http://vercanalestv.com/tv/documentales/odisea.html</referer>
 <thumbnail>http://vercanalestv.com/logos/odisea.png</thumbnail>
-
+<fanart>http://fotos.subefotos.com/e6782fc224874d5c09eee3f4bd86f14ao.jpg</fanart>
 </item>
-
-
 
 <item>
 <title>[COLOR white]Discovery[/COLOR]</title>
@@ -608,12 +599,124 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/document
 </item>
 
 <item>
-<title>[COLOR orange]Odisea[/COLOR] [COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
-<sportsdevil>http://cinestrenostv.tv/canales/embed/documentales/odisea.html</sportsdevil>
-<referer>http://cinestrenostv.tv/canales/embed/documentales/odisea.html</referer>
-<thumbnail>http://vercanalestv.com/logos/discovery-channel.jpg</thumbnail>
+<title>[COLOR white]Crimen Investigacion[/COLOR]</title>
+<parentalblock>true</parentalblock>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/documentales/crimen-investigacion.html'):
+   import liveresolver
+   u = liveresolver.resolve(url)
+   return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vercanalestv.com/logos/ci.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
+
+
+<item>
+<title>[COLOR white]Calle 13[/COLOR]</title>
+<parentalblock>true</parentalblock>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacionales/calle-13.html'):
+   import liveresolver
+   u = liveresolver.resolve(url)
+   return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vercanalestv.com/imagenes/calle13.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
+
+
+<item>
+<title>[COLOR white]Fox[/COLOR]</title>
+<parentalblock>true</parentalblock>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacionales/fox.html'):
+   import liveresolver
+   u = liveresolver.resolve(url)
+   return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vercanalestv.com/logos/fox.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
+
+
+<item>
+<title>[COLOR white]Fox life[/COLOR]</title>
+<parentalblock>true</parentalblock>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacionales/fox-life.html'):
+   import liveresolver
+   u = liveresolver.resolve(url)
+   return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vercanalestv.com/logos/foxlife.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR white]AXN[/COLOR]</title>
+<parentalblock>true</parentalblock>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacionales/axn.html'):
+   import liveresolver
+   u = liveresolver.resolve(url)
+   return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vercanalestv.com/logos/axn.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR white]TNT[/COLOR]</title>
+<parentalblock>true</parentalblock>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacionales/tnt.html'):
+   import liveresolver
+   u = liveresolver.resolve(url)
+   return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vercanalestv.com/logos/tnt.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
+
+
+
 
 <!-- INTERNACIONAL -->
 <item>
