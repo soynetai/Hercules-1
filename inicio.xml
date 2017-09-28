@@ -92,7 +92,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 <item>
 <title>[COLOR gold] + [/COLOR] [COLOR orange] TV LIVE [/COLOR]</title>
-«link>NA</link>
+<link>NA</link>
 <externallink>$doregex[getinput]</externallink>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/livetv.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
