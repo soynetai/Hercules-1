@@ -469,7 +469,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://lacalleochotv.org/magu/espan
 <item>
 <title>[COLOR gold]F1[/COLOR] </title>
 <parentalblock>true</parentalblock>
-<parentalblock>true</parentalblock>
+
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
@@ -621,14 +621,26 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/document
 <thumbnail>https://superrepo.org/static/images/icons/original/xrepository.unofficialsportsdevil.png.pagespeed.ic.cFk-CYyRuh.png</thumbnail>
 </item>
 
-<item>
-			<title>SportDevil-10</title>
-				<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=$doregex[get-delink]%26referer=http://www.show-sport.com</link>
+<item> 
+  <title>[COLOR orange]Moto gp [COLOR lime][I] Sportsdevil requerido [/I][/COLOR][/COLOR]</title>   
+  <premium>True</premium> 
+  <link>ignore</link> 
+  <jsonrpc>plugin://plugin.video.SportsDevil/?item=url=http://vercanalestv.com/tv/deportes/moto-gp.html&amp;mode=1</jsonrpc>
+  <thumbnail>http://moochbar.co.uk/wp-content/uploads/2013/07/Live-Sports.jpg</thumbnail>
+  <fanart>http://www.pixhoster.info/f/2016-07/7ff17756f5a69a200cf7788b25a438a3.jpg</fanart>
+</item>
+
+	<streaminginfo>
+		<cname>Moto GP</cname>
+		<item>
+			<title>[COLOR white]Moto GP[/COLOR] [COLOR lime][I]Sportsdevil Requerido[/I][/COLOR]</title>
+				<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=$doregex[get-delink]%26referer=http://vercanalestv.com/tv/deportes/moto-gp.html</link>
 				<regex>
 				<name>get-delink</name>
-				<expres>max10source src="(.*?)"</expres>
-				<page>https://dl.dropboxusercontent.com/s/ao05mmwnerx08eu/bein3.xml</page>
+				<expres>moto gp src="(.*?)"</expres>
+				<page>http://vercanalestv.com/tv/deportes/moto-gp.html</page>
 				</regex> 
-</item>
+		</item>
+	</streaminginfo>
 
 
