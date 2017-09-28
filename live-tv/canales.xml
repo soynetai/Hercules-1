@@ -606,11 +606,17 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/document
 </item>
 
 <item>
-<title>Bein / Liga BBVA</title>
+<title>MOTO GP PRUEBA</title>
 <link>$doregex[url]</link>
 <regex>
 	<name>url</name>
-	<expres>$pyFunction:vipracing.decrypt_vipracing('http://www.streamlive.to/embedplayer_new2.php?channel=72400',False,False,'http://vipracing.info/')</expres>
+	<expres>
+	<![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://www.vercanalestv.com/ver-motogp-en-directo-y-online-24h-gratis/'):
+   import liveresolver
+   u = liveresolver.resolve(url)
+   return u
+]]></expres>
 	<page></page>
 </regex>
 <thumbnail></thumbnail>
