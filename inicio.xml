@@ -91,7 +91,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/programastv/programastv.xml</externallink>
 </item>
 <item>
-<title>[COLOR gold] + [/COLOR] [COLOR orange] TV LIVE [/COLOR]</title>
+<title>[COLOR gold] * [/COLOR] [COLOR orange] TV LIVE [/COLOR]</title>
 <link>NA</link>
 <externallink>$doregex[getinput]</externallink>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/livetv.png</thumbnail>
