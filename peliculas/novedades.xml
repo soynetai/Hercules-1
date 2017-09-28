@@ -442,8 +442,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <item>
 <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
-
- <link>$doregex[id3]</link>
+<link>$doregex[id3]</link>
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
