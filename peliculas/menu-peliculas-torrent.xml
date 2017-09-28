@@ -76,6 +76,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <link>http://ignore</link>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
-<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/series/peliculas-genero.xml</externallink>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/peliiculas-genero.xml</externallink>
 </item>
 </items>
