@@ -101,18 +101,21 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <name>getinput</name>
  
 <expres><![CDATA[#$pyFunction
-import xbmcgui,xbmc, xbmcaddon, time, base64,
+import xbmcgui,xbmc, xbmcaddon, time, 
+import base64
  
 def GetLSProData(page_data,Cookie_Jar,m,txt='Contraseña'):
     addon = xbmcaddon.Addon('plugin.video.Hercules')
     addon_version = addon.getAddonInfo('version')
     profile = xbmc.translatePath(addon.getAddonInfo('profile').decode('utf-8'))
-    encrypt = 'cHJlbWl1bQ=='.decode('base64')
+    catoal = 'cHJlbWl1bQ=='.decode('base64')
+
  
     solver = InputWindow( txt=txt)
     solution = solver.get()
-    if solution == 'encrypt':
-        return "https://raw.githubusercontent.com/Andorth/Hercules/master/live-tv/canales.xml"
+    if solution == 'premium':
+    return "catoal"
+    <!-- "https://raw.githubusercontent.com/Andorth/Hercules/master/live-tv/canales.xml" -->
  
 class InputWindow(xbmcgui.WindowDialog):
     def __init__(self, *args, **kwargs):
