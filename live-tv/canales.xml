@@ -614,6 +614,21 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/document
 <thumbnail></thumbnail>
 </item>
 
+<!-- Sportsdevil -->
+<item>
+<title>[COLOR lime]SportsDevil[/COLOR]</title>
+<link>http://ignore</link>
+<thumbnail>https://superrepo.org/static/images/icons/original/xrepository.unofficialsportsdevil.png.pagespeed.ic.cFk-CYyRuh.png</thumbnail>
+</item>
 
+<item>
+			<title>SportDevil-10</title>
+				<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=$doregex[get-delink]%26referer=http://www.show-sport.com</link>
+				<regex>
+				<name>get-delink</name>
+				<expres>max10source src="(.*?)"</expres>
+				<page>https://dl.dropboxusercontent.com/s/ao05mmwnerx08eu/bein3.xml</page>
+				</regex> 
+</item>
 
 
