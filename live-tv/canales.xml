@@ -598,6 +598,13 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/document
 </item>
 
 <item>
+<title>[COLOR orange]NAT GEO WILD[/COLOR] [COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://vergol.com/live/nationalwild.php</sportsdevil>                                        
+<referer>http://www.vercanalestv.com/ver-nat-geo-wild-online-y-gratis-por-internet-las-24h-gratis-en-vivo/</referer>
+<thumbnail>http://vercanalestv.com/logos/natgeo.png</thumbnail>
+</item>
+
+<item>
 <title>[COLOR white]Crimen Investigacion[/COLOR]</title>
 <parentalblock>true</parentalblock>
 <link>$doregex[GetPageUrl]</link>
