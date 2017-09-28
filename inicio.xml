@@ -114,11 +114,11 @@ def GetLSProData(page_data,Cookie_Jar,m,txt='Contraseña'):
         return "https://raw.githubusercontent.com/Andorth/Hercules/master/live-tv/canales.xml"
  
 class InputWindow(xbmcgui.WindowDialog):
-    def init(self, *args, **kwargs):
+    def __init__(self, *args, **kwargs):
  
         self.txt = kwargs.get('txt','')
  
-        xbmcgui.WindowXMLDialog.init(self)
+        xbmcgui.WindowXMLDialog.__init__(self)
         #self.addControl(self.txt)
         path = xbmcaddon.Addon().getAddonInfo('path')
         self.kbd = xbmc.Keyboard()
