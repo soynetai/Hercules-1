@@ -1,7 +1,7 @@
 <item>
-<title>[COLOR orange]Acceso autorizado ! Entra al addon![/COLOR]</title>
+<title>[COLOR orange]AVENZY[COLOR blue][I] Acceso autorizado ![/I] Debe tener instalado el addon.[/COLOR][/COLOR]</title>
 <link>http://Ignoreme</link>
-<jsonrpc>plugin://plugin.video.avenzy/</jsonrpc>
+<jsonrpc>plugin://plugin.video.avezy/</jsonrpc>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
-<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/avenzy.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/Andorth/atlantis/master/icon.png</thumbnail>
 </item>
