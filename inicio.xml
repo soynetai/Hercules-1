@@ -140,7 +140,7 @@ class InputWindow(xbmcgui.WindowDialog):
 </item>
 
 <item>
-<title>[COLOR orange]AVENZY - NETAI[/COLOR]</title>
+<title>[COLOR orange] Deportes - Arenavision [/COLOR]</title>
 <link>NA</link>
 <externallink>$doregex[getinput]</externallink>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/avenzy.png</thumbnail>
@@ -160,7 +160,7 @@ def GetLSProData(page_data,Cookie_Jar,m,txt='Contraseña'):
     solver = InputWindow( txt=txt)
     solution = solver.get()
     if solution == 'premium':
-        return "<jsonrpc>plugin://plugin.video.Explora/</jsonrpc>"
+        return "https://raw.githubusercontent.com/Andorth/Hercules/master/live-tv/avenzy.xml"
  
 class InputWindow(xbmcgui.WindowDialog):
     def __init__(self, *args, **kwargs):
