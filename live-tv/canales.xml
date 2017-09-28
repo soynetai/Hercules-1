@@ -1,6 +1,6 @@
 <!-- TDT DIGITAL -->
 <item>
-<title>[COLOR lime]TDT DIGITAL ES[/COLOR]</title>
+<title>[COLOR lime][B]TDT DIGITAL ES[/B][/COLOR]</title>
 <link>http://ignore</link>
 <thumbnail></thumbnail>
 </item>
@@ -224,7 +224,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/deportes
 <!-- MOVISTAR PLUS-->
 <item>
 <parentalblock>true</parentalblock>
-<title>[COLOR lime]Movistar +[/COLOR]</title>
+<title>[COLOR lime][B]Movistar +[/B][/COLOR]</title>
 <link>http://ignore</link>
 <thumbnail></thumbnail>
 </item>
@@ -351,7 +351,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 
 
 <item>
-<title>[COLOR gold]M+ Deportes 1[/COLOR] </title>
+<title>[COLOR gold][B]M+ Deportes 1[/B][/COLOR] </title>
 <parentalblock>true</parentalblock>
 <link>$doregex[get-id]|Referer=http://vercanalestv.com/tv/deportes/canal-plus-deportes.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
 <regex>
@@ -505,7 +505,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/deportes
 <!-- TV premium  -->
 
 <item>
-<title>[COLOR lime]Premium TV[/COLOR]</title>
+<title>[COLOR lime][B]Premium TV[/B][/COLOR]</title>
 <parentalblock>true</parentalblock>
 <link>http://ignore</link>
 <thumbnail></thumbnail>
@@ -617,14 +617,14 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/document
 
 <!-- INTERNACIONAL -->
 <item>
-<title>[COLOR lime]Internacional[/COLOR]</title>
+<title>[COLOR lime][B]Internacional[/B][/COLOR]</title>
 <link>http://ignore</link>
 <thumbnail></thumbnail>
 </item>
 
 <!-- Sportsdevil -->
 <item>
-<title>[COLOR lime]SportsDevil[/COLOR][COLOR gold][I]Addon Requerido[/I][/COLOR]</title>
+<title>[COLOR lime][B]SportsDevil[/B][/COLOR][COLOR gold][I] Addon Requerido[/I][/COLOR]</title>
 <link>http://ignore</link>
 <thumbnail>https://superrepo.org/static/images/icons/original/xrepository.unofficialsportsdevil.png.pagespeed.ic.cFk-CYyRuh.png</thumbnail>
 </item>
