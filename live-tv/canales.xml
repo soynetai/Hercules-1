@@ -440,38 +440,6 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 
 
 <item>
-<title>[COLOR gold]Moto GP[/COLOR] </title>
-<parentalblock>true</parentalblock>
-<link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
-<regex>
-<name>GetPageUrl</name>
-<expres>source: '(.*?)'</expres>
-<page>http://cinestrenostv.tv/canales/deportes/motogp.php</page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://vercanalestv.com/logos/motosgp.png</thumbnail>   
-</item>
-
-<item>
-<title>[COLOR orange]La Liga 123[/COLOR]</title>
-<parentalblock>true</parentalblock>
-<link>$doregex[GetPageUrl]</link>
-<regex>
-<name>GetPageUrl</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='http://lacalleochotv.org/magu/espana2/motogp2.html'):
-   import liveresolver
-   u = liveresolver.resolve(url)
-   return u
-]]></expres>
-<page></page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://vercanalestv.com/logos/motosgp.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
-</item>
-
-<item>
 <title>[COLOR gold]F1[/COLOR] </title>
 <parentalblock>true</parentalblock>
 
@@ -485,25 +453,6 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://lacalleochotv.org/magu/espan
 <thumbnail>http://vercanalestv.com/logos/f1.jpeg</thumbnail>   
 </item>
 
-
-<item>
-<title>[COLOR orange]La Liga 123[/COLOR]</title>
-<parentalblock>true</parentalblock>
-<link>$doregex[GetPageUrl]</link>
-<regex>
-<name>GetPageUrl</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/deportes/multi-liga-2/canal-plus-liga-2.html'):
-   import liveresolver
-   u = liveresolver.resolve(url)
-   return u
-]]></expres>
-<page></page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://vercanalestv.com/logos/laliga123.jpg</thumbnail>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
-</item>
 
 
 <!-- TV premium  -->
@@ -571,13 +520,6 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/document
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
 
-<item>
-<title>[COLOR orange]Odisea [COLOR lime][I]Sportsdevil Requerido[/I][/COLOR][/COLOR] </title>
-<sportsdevil>http://vercanalestv.com/tv/documentales/odisea.html</sportsdevil>
-<referer>http://vercanalestv.com/tv/documentales/odisea.html</referer>
-<thumbnail>http://vercanalestv.com/logos/odisea.png</thumbnail>
-<fanart>http://fotos.subefotos.com/e6782fc224874d5c09eee3f4bd86f14ao.jpg</fanart>
-</item>
 
 <item>
 <title>[COLOR white]Discovery[/COLOR]</title>
@@ -617,25 +559,6 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/document
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
 
-
-<item>
-<title>[COLOR white]Calle 13[/COLOR]</title>
-<parentalblock>true</parentalblock>
-<link>$doregex[GetPageUrl]</link>
-<regex>
-<name>GetPageUrl</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacionales/calle-13.html'):
-   import liveresolver
-   u = liveresolver.resolve(url)
-   return u
-]]></expres>
-<page></page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://vercanalestv.com/imagenes/calle13.jpg</thumbnail>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
-</item>
 
 
 <item>
@@ -716,8 +639,6 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 </item>
 
 
-
-
 <!-- INTERNACIONAL -->
 <item>
 <title>[COLOR lime][B]Internacional[/B][/COLOR]</title>
@@ -739,6 +660,19 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <thumbnail>http://vercanalestv.com/logos/motosgp.png</thumbnail>
 </item>
 
+<item>
+<title>[COLOR orange]La Liga TV[/COLOR] [COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://vercanalestv.com/tv/deportes/laligatv.html</sportsdevil>
+<referer>http://vercanalestv.com/tv/deportes/laligatv.html</referer>
+<thumbnail>http://vercanalestv.com/imagenes/laligatv.jpg</thumbnail>
+</item>
+
+<item>
+<title>[COLOR orange][/COLOR] [COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://vercanalestv.com/tv/deportes/multi-liga-2/canal-plus-liga-2.html</sportsdevil>
+<referer>http://vercanalestv.com/tv/deportes/multi-liga-2/canal-plus-liga-2.html</referer>
+<thumbnail>http://vercanalestv.com/logos/laliga123.jpg</thumbnail>
+</item>
 
 
 
