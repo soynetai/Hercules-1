@@ -98,6 +98,14 @@ https://raw.githubusercontent.com/Andorth/Hercules/master/programastv/canales.xm
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 <externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/live-tv/canales.xml</externallink>
 </item>
+ <item>
+<title>[COLOR orange] + [/COLOR] [COLOR orange] TV LIVE (Privado) [COLOR lime]|Script liveresolver Necesario| version: 0.1.49 [/COLOR][/COLOR]</title>
+<link>http://ignore</link>
+https://raw.githubusercontent.com/Andorth/Hercules/master/programastv/canales.xml
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/livetv.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/live-tv/canales.xml</externallink>
+</item>
 <item>
 <title>[COLOR orange]Creditos[/COLOR]</title>
 <link>$doregex[openDialog]</link>
