@@ -108,7 +108,7 @@ def GetLSProData(page_data,Cookie_Jar,m,txt='Contraseña'):
     addon = xbmcaddon.Addon('plugin.video.Hercules')
     addon_version = addon.getAddonInfo('version')
     profile = xbmc.translatePath(addon.getAddonInfo('profile').decode('utf-8'))
-    catoal = 'cHJlbWl1bQ=='.decode('base64')
+    catoal = 'aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FuZG9ydGgvSGVyY3VsZXMvbWFzdGVyL2xpdmUtdHYvY2FuYWxlcy54bWw='.decode('base64')
 
  
     solver = InputWindow( txt=txt)
