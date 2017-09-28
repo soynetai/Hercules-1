@@ -603,7 +603,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/document
 
 <!-- Sportsdevil -->
 <item>
-<title>[COLOR lime]SportsDevil[/COLOR]</title>
+<title>[COLOR lime]SportsDevil[/COLOR][COLOR gold][I]Addon Requerido[/I][/COLOR]</title>
 <link>http://ignore</link>
 <thumbnail>https://superrepo.org/static/images/icons/original/xrepository.unofficialsportsdevil.png.pagespeed.ic.cFk-CYyRuh.png</thumbnail>
 </item>
