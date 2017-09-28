@@ -102,7 +102,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
  
 <expres><![CDATA[#$pyFunction
 import xbmcgui,xbmc, xbmcaddon, time, 
-import base64
+
  
 def GetLSProData(page_data,Cookie_Jar,m,txt='Contraseña'):
     addon = xbmcaddon.Addon('plugin.video.Hercules')
@@ -114,8 +114,8 @@ def GetLSProData(page_data,Cookie_Jar,m,txt='Contraseña'):
     solver = InputWindow( txt=txt)
     solution = solver.get()
     if solution == 'premium':
-    return "catoal"
-    <!-- "https://raw.githubusercontent.com/Andorth/Hercules/master/live-tv/canales.xml" -->
+    return "https://raw.githubusercontent.com/Andorth/Hercules/master/live-tv/canales.xml"
+    
  
 class InputWindow(xbmcgui.WindowDialog):
     def __init__(self, *args, **kwargs):
