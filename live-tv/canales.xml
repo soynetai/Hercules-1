@@ -353,8 +353,8 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <thumbnail>http://cinestrenostv.tv/img/series.png</thumbnail>
 </item>
 	
-	<item>
-<title>[COLOR orange]  M+ Series xtra[/COLOR] [I] Requerido Sportsdevil[/I][/COLOR</title>
+<item>
+<title>[COLOR orange]M+ Series xtra [I] Requerido Sportsdevil[/I][/COLOR][/COLOR]</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</link>
 <regex>
 <name>GetPageUrl</name>
