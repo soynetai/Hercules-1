@@ -91,7 +91,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/programastv/programastv.xml</externallink>
 </item>
 <item>
-<title>[COLOR gold] + [/COLOR] [COLOR orange] TV LIVE [/COLOR]</title>
+<title>[COLOR orange] TV LIVE [/COLOR]</title>
 <link>NA</link>
 <externallink>$doregex[getinput]</externallink>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/livetv.png</thumbnail>
@@ -101,21 +101,17 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <name>getinput</name>
  
 <expres><![CDATA[#$pyFunction
-import xbmcgui,xbmc, xbmcaddon, time, 
-
+import xbmcgui,xbmc, xbmcaddon, time
  
 def GetLSProData(page_data,Cookie_Jar,m,txt='Contraseña'):
     addon = xbmcaddon.Addon('plugin.video.Hercules')
     addon_version = addon.getAddonInfo('version')
     profile = xbmc.translatePath(addon.getAddonInfo('profile').decode('utf-8'))
-    catoal = 'aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FuZG9ydGgvSGVyY3VsZXMvbWFzdGVyL2xpdmUtdHYvY2FuYWxlcy54bWw='.decode('base64')
-
  
     solver = InputWindow( txt=txt)
     solution = solver.get()
     if solution == 'premium':
-    return "https://raw.githubusercontent.com/Andorth/Hercules/master/live-tv/canales.xml"
-    
+        return "https://raw.githubusercontent.com/Andorth/Hercules/master/live-tv/canales.xml"
  
 class InputWindow(xbmcgui.WindowDialog):
     def __init__(self, *args, **kwargs):
