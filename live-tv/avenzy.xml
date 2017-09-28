@@ -1,7 +1,7 @@
 <item>
 <title>[COLOR orange]Acceso autorizado ! Entra al addon![/COLOR]</title>
 <link>http://Ignoreme</link>
-<jsonrpc>plugin.video.avezy</jsonrpc>
+<jsonrpc>plugin://plugin.video.avenzy/</jsonrpc>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/avenzy.png</thumbnail>
 </item>
