@@ -568,11 +568,25 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/document
 </item>
 
 <item>
-<title>[COLOR orange]Odisea[/COLOR] [COLOR white][I]Requerido Sportsdevil[/I][/COLOR]</title>
-<sportsdevil>http://vercanalestv.com/tv/documentales/odisea.html</sportsdevil>
-<referer>http://vercanalestv.com/tv/documentales/odisea.html</referer>
+<title>[COLOR white]Odisea[/COLOR]</title>
+<parentalblock>true</parentalblock>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://cinestrenostv.tv/canales/embed/documentales/odisea.html'):
+   import liveresolver
+   u = liveresolver.resolve(url)
+   return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
 <thumbnail>http://vercanalestv.com/logos/odisea.png</thumbnail>
+
 </item>
+
+
 
 <item>
 <title>[COLOR white]Discovery[/COLOR]</title>
@@ -593,6 +607,13 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/document
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
 
+<item>
+<title>[COLOR orange]Odisea[/COLOR] [COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://cinestrenostv.tv/canales/embed/documentales/odisea.html</sportsdevil>
+<referer>http://cinestrenostv.tv/canales/embed/documentales/odisea.html</referer>
+<thumbnail>http://vercanalestv.com/logos/discovery-channel.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
 
 <!-- INTERNACIONAL -->
 <item>
