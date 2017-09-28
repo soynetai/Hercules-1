@@ -533,24 +533,6 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/document
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
 
-<item>
-<title>[COLOR white]National Geographic Wild[/COLOR]</title>
-<parentalblock>true</parentalblock>
-<link>$doregex[GetPageUrl]</link>
-<regex>
-<name>GetPageUrl</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url=''):
-   import liveresolver
-   u = liveresolver.resolve(url)
-   return u
-]]></expres>
-<page></page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://vercanalestv.com/logos/natgeo.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
-</item>
 
 <item>
 <title>[COLOR white]Historia[/COLOR]</title>
@@ -598,7 +580,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/document
 </item>
 
 <item>
-<title>[COLOR orange]NAT GEO WILD[/COLOR] [COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<title>[COLOR orange]Nat Geo Wild[/COLOR] [COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
 <sportsdevil>http://vergol.com/live/nationalwild.php</sportsdevil>                                        
 <referer>http://www.vercanalestv.com/ver-nat-geo-wild-online-y-gratis-por-internet-las-24h-gratis-en-vivo/</referer>
 <thumbnail>http://vercanalestv.com/logos/natgeo.png</thumbnail>
@@ -650,7 +632,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 </item>
 
 <item>
-<title>[COLOR orange]CALLE 13[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<title>[COLOR orange]Calle 13[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
 <sportsdevil>http://livesports.pw/embedn.php?file=calltrees&width=650&height=397&autostart=true</sportsdevil>
 <referer>http://cinestrenostv.tv/canales/nacionales/calle13.php</referer>
 <thumbnail>http://vercanalestv.com/logos/calle-13.jpg</thumbnail>
