@@ -668,7 +668,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 </item>
 
 <item>
-<title>[COLOR orange][/COLOR] [COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<title>[COLOR orange]La Liga 123[/COLOR] [COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
 <sportsdevil>http://vercanalestv.com/tv/deportes/multi-liga-2/canal-plus-liga-2.html</sportsdevil>
 <referer>http://vercanalestv.com/tv/deportes/multi-liga-2/canal-plus-liga-2.html</referer>
 <thumbnail>http://vercanalestv.com/logos/laliga123.jpg</thumbnail>
