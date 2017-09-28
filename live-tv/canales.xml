@@ -520,6 +520,12 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/document
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
 
+<item>
+<title>[COLOR orange]ODISEA[/COLOR] [COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://livesports.pw/embedn.php?file=odiseatelef&width=650&height=400</sportsdevil>                                     
+<referer>http://www.vercanalestv.com/ver-canal-odisea-gratis-online-y-directo-por-internet/</referer>
+<thumbnail>http://vercanalestv.com/logos/odisea.png</thumbnail>
+</item>
 
 <item>
 <title>[COLOR white]Discovery[/COLOR]</title>
@@ -559,7 +565,12 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/document
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
 
-
+<item>
+<title>[COLOR orange]AXN WHITE[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://cinestrenostv.tv/canales/nacionales/axnwhite.php</sportsdevil>
+<referer>http://cinestrenostv.tv/canales/envivo/axnwhite.html</referer>
+<thumbnail>http://vercanalestv.com/logos/axnwhite.png</thumbnail>
+</item>
 
 <item>
 <title>[COLOR white]Fox[/COLOR]</title>
@@ -578,6 +589,13 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 </regex>
 <thumbnail>http://vercanalestv.com/logos/fox.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR orange]CALLE 13[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://livesports.pw/embedn.php?file=calltrees&width=650&height=397&autostart=true</sportsdevil>
+<referer>http://cinestrenostv.tv/canales/nacionales/calle13.php</referer>
+<thumbnail>http://vercanalestv.com/logos/calle-13.jpg</thumbnail>
 </item>
 
 
@@ -662,8 +680,8 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 
 <item>
 <title>[COLOR orange]La Liga TV[/COLOR] [COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
-<sportsdevil>http://vercanalestv.com/tv/deportes/laligatv.html</sportsdevil>
-<referer>http://vercanalestv.com/tv/deportes/laligatv.html</referer>
+<sportsdevil>http://livesports.pw/embed.php?file=barliga&width=650&height=397</sportsdevil>
+		<referer>http://verplusonline.com/laligatv/</referer>
 <thumbnail>http://vercanalestv.com/imagenes/laligatv.jpg</thumbnail>
 </item>
 
@@ -674,19 +692,13 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <thumbnail>http://vercanalestv.com/logos/laliga123.jpg</thumbnail>
 </item>
 
-<!-- Sportdevil Canales -->
 <item>
-<title>[COLOR lime][B]Sportdevil Canales[/B][/COLOR]</title>
-<link>http://ignore</link>
-<thumbnail></thumbnail>
+<title>[COLOR red]Partidazo[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://vergol.com/live3/beinliga.php</sportsdevil>
+<referer>http://www.vercanalestv.com/tv/deportes/plus-partidazo.html</referer>
+<thumbnail>http://vercanalestv.com/imagenes/movistar-partidazo.png</thumbnail>
 </item>
 
-<item>
-<title>[COLOR orange]Odisea[/COLOR] [COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
-<sportsdevil>http://vercanalestv.com/tv/documentales/odisea.html</sportsdevil>
-<referer>http://vercanalestv.com/tv/documentales/odisea.html</referer>
-<thumbnail>http://vercanalestv.com/logos/odisea.png</thumbnail>
-</item>
 
 
 
