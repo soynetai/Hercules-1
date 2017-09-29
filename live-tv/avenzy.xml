@@ -51,7 +51,7 @@
 
 <item>
 <parentalblock>true</parentalblock> 
-<title>[COLOR white][B]  Arenavision (Arena Sports) [/B][/COLOR]</title>
+<title>[COLOR white][B]  Arenavision (Canales) [/B][/COLOR]</title>
 <parentalblock>true</parentalblock> 
 <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ArenaSports+Acestreams</link>
 			<regex>
@@ -77,4 +77,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
  <thumbnail>https://raw.githubusercontent.com/Andorth/ArenaSports/master/icon.png</thumbnail>
   <fanart>https://raw.githubusercontent.com/Andorth/ArenaSports/master/fanart.jpg</fanart>
 </item>
+
+<item>
+<title>[COLOR orange]Arena Sports[/COLOR]</title>
+<parentalblock>true</parentalblock> 
+<link>http://Ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Andorth/netai/master/test/main.xml</externallink>
+<fanart>https://raw.githubusercontent.com/Andorth/ArenaSports/master/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/Andorth/ArenaSports/master/icon.png</thumbnail>
+</item>
+
+
 
