@@ -1,0 +1,10 @@
+<item>
+<title>Liga 123</title>
+<link>$doregex[url]|User-Agent=Mozilla/5.0 (Linux; Android 5.1.1; Nexus 6 Build/LYZ28E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Mobile Safari/537.36</link>
+<regex>
+<name>url</name>
+<expres>source src="(.*?)"</expres>
+<page>http://vercanalestv.com/tv/deportes/multi-liga-2/canal-plus-liga-2.html</page>
+<referer>http://www.vercanalestv.com/ver-canal-plus-liga-2-en-directo-partidos-de-2o-division-gratis/</referer>
+</regex>
+</item>
