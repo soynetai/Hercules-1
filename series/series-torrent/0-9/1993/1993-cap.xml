@@ -7,7 +7,7 @@
 </item>
 <item>
 <title>[COLOR orange] 1993 [/COLOR] [COLOR white] 01 |Torrentin| 720p [/COLOR]</title>
-<link>plugin://plugin.video.torrentin/?uri=http://www.mejortorrent.com/uploads/torrents/series/1993_1_720p_01.torrent</link>
+<link>plugin://plugin.video.quasar/play?uri=http://www.mejortorrent.com/uploads/torrents/series/1993_1_720p_01.torrent</link>
 <thumbnail>https://i0.wp.com/assets.cineserie.com/wp-content/uploads/2017/05/396672.jpg</thumbnail>
 <fanart></fanart>
 </item>
