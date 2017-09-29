@@ -143,7 +143,7 @@ class InputWindow(xbmcgui.WindowDialog):
 <title>[COLOR orange] Deportes - Arenavision [/COLOR]</title>
 <link>NA</link>
 <externallink>$doregex[getinput]</externallink>
-<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/avenzy.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/Andorth/ArenaSports/master/icon.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
  
 <regex>
