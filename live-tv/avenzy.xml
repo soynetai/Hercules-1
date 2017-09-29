@@ -1,12 +1,6 @@
 <item>
-<title>[COLOR white]Bienvenidos a la seccion de deportes: Este contenido es privado. Algunas cosas requieren de autorizacion para poderlas ver.[/COLOR]</title>
-<link>http://Ignoreme</link>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
-<thumbnail>https://www.dvial.es/1112-large_default/senal-prohibido-el-paso.jpg</thumbnail>
-</item>
-<item>
 <parentalblock>true</parentalblock> 
-<title>[COLOR orange]AVENZY[COLOR blue][I] Acceso autorizado ![/I] Debe tener instalado el addon avenzy[/COLOR][/COLOR]</title>
+<title>[COLOR orange]AVENZY[COLOR blue][I] Debe tener instalado el addon avenzy[/I] [/COLOR][/COLOR]</title>
 <link>http://Ignoreme</link>
 <jsonrpc>plugin://plugin.video.avezy/</jsonrpc>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
@@ -46,7 +40,7 @@
 <referer>http://arenavision2017.tk/iguide</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/laliga.png</thumbnail>
+<thumbnail>http://cdn.bleacherreport.net/images/team_logos/328x328/la_liga.png</thumbnail>
 </item>
 
 <item>
