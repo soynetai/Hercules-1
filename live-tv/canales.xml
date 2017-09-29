@@ -485,6 +485,12 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 </item>
 
 <item>
+<title>[COLOR orange]La Liga 123[/COLOR]</title>
+<link>http://piedra12.pedromo.online/live/liga123/index.m3u8</link>
+<thumbnail><thumbnail>http://vercanalestv.com/logos/laliga123.jpg</thumbnail></thumbnail>
+</item>
+
+<item>
 <title>[COLOR orange]Partidazo[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
 <sportsdevil>http://vergol.com/live3/beinliga.php</sportsdevil>
 <referer>http://www.vercanalestv.com/tv/deportes/plus-partidazo.html</referer>
