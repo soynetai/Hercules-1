@@ -881,20 +881,13 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 
 <item>
 <parentalblock>true</parentalblock>
-<title>[COLOR ligthgreen]Playboy TV[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
-<sportsdevil>http://vercanalestv.com/tv/nacionales/playboy.html</sportsdevil>
-<referer>http://www.vercanalestv.com/ver-canal-playboy-en-vivo-24h/</referer>
-<thumbnail>http://vercanalestv.com/tv/nacionales/playboy.html</thumbnail>
-</item>
-
-
-<item>
-<parentalblock>true</parentalblock>
-<title>[COLOR ligthgreen]Playboy TV En vivo[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<title>[COLOR orange]Playboy[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
 <sportsdevil>http://vercanalestv.com/tv/nacionales/playboy.html</sportsdevil>
 <referer>http://www.vercanalestv.com/ver-playboy-en-vivo-gratis-por-internet/</referer>
-<thumbnail>http://vercanalestv.com/imagenes/playboy-tv.jpg</thumbnail>
+<thumbnail>http://vercanalestv.com/imagenes/playboy-tv.jpg</thumbnail> 
 </item>
+	
+
 
 
 
