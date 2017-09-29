@@ -188,7 +188,27 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 </item>
 
 
-
+<item>
+<title>[COLOR orange]DISNEY CHANNEL[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://livesports.pw/embedn.php?file=disneychannel&width=650&height=397</sportsdevil>
+<referer>http://telefivegb.com/canales/animacion/disneychannel</referer>
+<thumbnail>https://lh3.googleusercontent.com/-YILqKHLvgw0/V8tSUMWsI7I/AAAAAAAAAgs/ZsvrWuhhCkcWZdgoRs_ELPfC226P6NLhACEw/h120/disneychannel.png</thumbnail>
+</item>
+	
+	
+<item>
+<title>[COLOR orange]NICKELODEON[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://livesports.pw/embed.php?file=nickelones&width=588&height=397</sportsdevil>
+<referer>http://telefivegb.com/animacion/ver-nick-online-y-en-directo-gratis-las-24h/</referer>
+<thumbnail>https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAyrAAAAJGRkM2UxMzk3LTRkNTgtNDRiOS05ZDZjLThkNjQxYjkyNzU2NQ.png</thumbnail>
+</item>
+	
+<item>
+<title>[COLOR orange]BOING[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://livesports.pw/embed.php?file=boing&width=650&height=397</sportsdevil>
+<referer>http://verplusonline.com/ver-boing-online-gratis-en-vivo-directo/</referer>
+<thumbnail>http://www.boing.es/sites/boinges/themes/boing_theme/logo-es.png</thumbnail>
+</item>
 
 
 <!-- MOVISTAR PLUS-->
@@ -551,7 +571,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/document
 <thumbnail>http://latelete.tv/img/discoverymax.png</thumbnail>
 </item>
 
-http://vercanalestv.com/tv/documentales/discovery-max.html
+
 
 <item>
 <title>[COLOR orange]Nat Geo Wild[/COLOR] [COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
@@ -606,6 +626,13 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 </item>
 
 <item>
+<title>[COLOR orange]A&E[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://livesports.pw/embedn.php?file=anadetelefive&width=650&height=400</sportsdevil>
+<referer>http://cinestrenostv.tv/canales/envivo/ae.html</referer>
+<thumbnail>http://cinestrenostv.tv/img/ae.png</thumbnail>
+</item>
+
+<item>
 <title>[COLOR orange]Calle 13[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
 <sportsdevil>http://livesports.pw/embedn.php?file=calltrees&width=650&height=397&autostart=true</sportsdevil>
 <referer>http://cinestrenostv.tv/canales/nacionales/calle13.php</referer>
@@ -631,6 +658,15 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <thumbnail>http://vercanalestv.com/logos/foxlife.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
+
+<item>
+<title>[COLOR orange]FOX Action[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://vercanalestv.com/tv/latino/fox-action.html</sportsdevil>
+<referer>http://www.vercanalestv.com/ver-fox-premium-action-en-vivo-gratis-por-internet-en-directo/</referer>
+<thumbnail>http://vercanalestv.com/logos/fox-premium-action-hd.png</thumbnail>
+</item>
+
+
 
 <item>
 <title>[COLOR white]AXN[/COLOR]</title>
@@ -670,13 +706,96 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
 
+<item>
+<title>[COLOR orange]Dark[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<parentalblock>true</parentalblock>
+<sportsdevil>http://livesports.pw/embedn.php?file=darkes&width=650&height=397</sportsdevil>
+<referer>http://cinestrenostv.tv/canales/envivo/dark.html</referer>
+<thumbnail>http://cinestrenostv.tv/img/dark.jpg</thumbnail>
+</item>
+
+<item>
+<parentalblock>true</parentalblock>
+<title>[COLOR orange]SYFY[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://livesports.pw/embedn.php?file=sysfesp&width=650&height=397&autoplay=true</sportsdevil>
+<referer>http://telefivegb.com/canales/series/sysf</referer>
+<thumbnail>https://lh6.googleusercontent.com/-upF4CnxYPpc/UVWqDS3DQZI/AAAAAAAAAGg/OIFCu5nsyjs/w463-h328-p-o/syfy.jpg</thumbnail>
+</item>
+
+<item>
+<title>[COLOR orange]HOLLYWOOD[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://livesports.pw/embedn.php?file=hollywesp&width=650&height=397&autoplay=true</sportsdevil>
+<referer>http://telefivegb.com/canales/pelis/hollywood</referer>
+<thumbnail>https://lh3.googleusercontent.com/-NIKUf7DhHEo/V8tSUpFiA4I/AAAAAAAAAgs/RZHwibnrFW8kUm4lTKCOKd2IpXS_9yF7QCEw/h120/hollywood.png </thumbnail> 
+</item>
+
+	
+<item>
+<parentalblock>true</parentalblock>
+<title>[COLOR orange]TCM[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://livesports.pw/embed.php?file=tcmesp&width=650&height=397&autoplay=true</sportsdevil>
+<referer>http://telefivegb.com/canales/pelis/tcm</referer>
+<thumbnail>http://verplusonline.com/wp-content/uploads/2015/09/tcm.png </thumbnail> 
+</item>
+	
+
+<item>
+<parentalblock>true</parentalblock>
+<title>[COLOR orange]COMEDY CENTRAL[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://livesports.pw/embedn.php?file=comedycentral&width=650&height=400</sportsdevil>
+<referer>http://www.vercanalestv.com/ver-paramount-comedy-online-y-en-directo-las-24h/</referer>
+<thumbnail>http://vercanalestv.com/logos/comedycentral.png</thumbnail>
+</item>
+
+
 
 <!-- INTERNACIONAL -->
 <item>
-<title>[COLOR lime][B]Internacional[/B][/COLOR]</title>
+<title>[COLOR lime][B]Internacional |MEXICO|[/B][/COLOR]</title>
 <link>http://ignore</link>
 <thumbnail></thumbnail>
 </item>
+
+<item>
+<title>[COLOR ligthgreen]Telemundo[/COLOR] | Mexico |[COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://vercanalestv.com/tv/mexico/telemundo.html</sportsdevil>
+<referer>http://www.vercanalestv.com/ver-telemundo-hd-gratis-online-en-internet-en-vivo/</referer>
+<thumbnail>http://vercanalestv.com/imagenes/telemundo.jpg</thumbnail>
+</item>
+
+<item>
+<title>[COLOR ligthgreen]Azteca 13[/COLOR] | Mexico |[COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://vercanalestv.com/tv/mexico/azteca-13.html</sportsdevil>
+<referer>http://www.vercanalestv.com/ver-azteca-13-tv-en-vivo-online-gratis/</referer>
+<thumbnail>http://vercanalestv.com/imagenes/azteca13.jpg</thumbnail>
+</item>
+
+<item>
+<title>[COLOR ligthgreen]FOX LATINO[/COLOR] | Mexico |[COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://vercanalestv.com/tv/latino/fox.html</sportsdevil>
+<referer>http://www.vercanalestv.com/fox-latino-en-vivo-por-internet/</referer>
+<thumbnail>http://vercanalestv.com/imagenes/fox-latino.jpg</thumbnail>
+</item>
+
+<item>
+<title>[COLOR lime][B]Internacional |COLOMBIA|[/B][/COLOR]</title>
+<link>http://ignore</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[COLOR ligthgreen]FOX LATINO[/COLOR] | Mexico |[COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://vercanalestv.com/tv/colombia/caracol-television.html</sportsdevil>
+<referer>http://www.vercanalestv.com/canal-caracol-en-vivo-por-internet/</referer>
+<thumbnail>http://vercanalestv.com/imagenes/caracoltv.jpg</thumbnail>
+</item>
+
+
+
+
+
+
+
 
 <!-- ADULTOS -->
 <item>
@@ -759,4 +878,24 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <thumbnail>http://vercanalestv.com/logos/canal-hot.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
+
+<item>
+<title>[COLOR white]Playboy[/COLOR]</title>
+<parentalblock>true</parentalblock>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacionales/playboy.html'):
+   import liveresolver
+   u = liveresolver.resolve(url)
+   return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vercanalestv.com/logos/playboy.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
+
 
