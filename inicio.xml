@@ -187,6 +187,14 @@ class InputWindow(xbmcgui.WindowDialog):
 <page></page>
 </regex>
 </item>
+    
+<item>
+<title>[COLOR orange]Pruebas[/COLOR]</title>
+<link>http://Ignoreme</link>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/tv.png</fanart>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/tv.png</thumbnail>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/live-tv/liga123.xml</externallink>
+</item>
 
 <item>
 <title>[COLOR orange]Creditos[/COLOR]</title>
