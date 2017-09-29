@@ -14,7 +14,7 @@
 </item>
 <item>
 <parentalblock>true</parentalblock> 
-<title>[COLOR lime]•[/COLOR][COLOR orange]  [B]LA LIGA[/B][/COLOR]</title>
+<title>[COLOR orange][B]LA LIGA[/B][/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -51,7 +51,7 @@
 
 <item>
 <parentalblock>true</parentalblock> 
-<title>[COLOR white][B]  Arenavision (Canales) [/B][/COLOR]</title>
+<title>[COLOR orange][B] Arenavision (Canales) [/B][/COLOR]</title>
 <parentalblock>true</parentalblock> 
 <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ArenaSports+Acestreams</link>
 			<regex>
