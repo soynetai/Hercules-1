@@ -880,22 +880,22 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 </item>
 
 <item>
-<title>[COLOR white]Playboy[/COLOR]</title>
 <parentalblock>true</parentalblock>
-<link>$doregex[GetPageUrl]</link>
-<regex>
-<name>GetPageUrl</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacionales/playboy.html'):
-   import liveresolver
-   u = liveresolver.resolve(url)
-   return u
-]]></expres>
-<page></page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://vercanalestv.com/logos/playboy.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+<title>[COLOR ligthgreen]Playboy TV[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://vercanalestv.com/tv/nacionales/playboy.html</sportsdevil>
+<referer>http://www.vercanalestv.com/ver-canal-playboy-en-vivo-24h/</referer>
+<thumbnail>http://vercanalestv.com/tv/nacionales/playboy.html</thumbnail>
 </item>
+
+
+<item>
+<parentalblock>true</parentalblock>
+<title>[COLOR ligthgreen]Playboy TV En vivo[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://vercanalestv.com/tv/nacionales/playboy.html</sportsdevil>
+<referer>http://www.vercanalestv.com/ver-playboy-en-vivo-gratis-por-internet/</referer>
+<thumbnail>http://vercanalestv.com/imagenes/playboy-tv.jpg</thumbnail>
+</item>
+
+
 
 
