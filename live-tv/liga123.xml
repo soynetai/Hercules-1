@@ -1,7 +1,7 @@
 <item>
 <title>[COLOR orange]LA LIGA 123[/COLOR] [COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
 <sportsdevil>http://vercanalestv.com/tv/deportes/multi-liga-2/canal-plus-liga-2.html</sportsdevil>                                        
-<referer>http://www.vercanalestv.com/</referer>
+<referer>http://www.vercanalestv.com/ver-canal-plus-liga-2-en-directo-partidos-de-2o-division-gratis/</referer>
 <thumbnail>http://vercanalestv.com/logos/laliga123.jpg</thumbnail>
 </item>
 
@@ -16,7 +16,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/deportes
    u = liveresolver.resolve(url)
    return u
 ]]></expres>
-<page></page>
+<page>http://www.vercanalestv.com/ver-canal-plus-liga-2-en-directo-partidos-de-2o-division-gratis/</page>
 <cookieJar></cookieJar>
 </regex>
 <thumbnail>http://latelete.tv/img/divinity.png</thumbnail>
