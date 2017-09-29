@@ -4,6 +4,12 @@
 <thumbnail></thumbnail>
 </item> -->
 <!-- 0@#9-->
+
+<item>
+<title>[B][COLOR orange]12 Trampas - HDRip[/B][/COLOR][COLOR lime] Torrent [COLOR yellow] Requiere Torrentin[/COLOR][/COLOR]</title>
+<link>plugin://plugin.video.torrentin/?uri=http://files.pasateatorrent.com/torrents/peliculas/12-trampas-2-bluray-rip.torrent</link>
+<thumbnail>https://pasateatorrent.com/wp-content/uploads/2016/11/12_rounds_reloaded-175297229-large.jpg</thumbnail>
+</item>
 <item>
 <title>[B][COLOR orange]12 Trampas - 1080HD[/B][/COLOR][COLOR lime] Torrent [COLOR yellow] Requiere Torrentin[/COLOR][/COLOR]</title>
 <link>plugin://plugin.video.torrentin/?uri=http://files.pasateatorrent.com/torrents/peliculas/12-trampas-2-bluray-1080p.torrent</link>
@@ -12,10 +18,20 @@
 <item>
 <title>[B][COLOR orange]13 Horas: Los Soldados Secretos De Bengasi - MICRO HD|1080HD|4k[/B][/COLOR][COLOR lime] Torrent [COLOR yellow] Requiere Torrentin[/COLOR][/COLOR]</title>
 <link>plugin://plugin.video.torrentin/?uri=http://files.pasateatorrent.com/torrents/peliculas/13_Horas_MicroHD_1080p.torrent</link>
-<link>plugin://plugin.video.torrentin/?uri=http://files.pasateatorrent.com/torrents/peliculas/13_Horas_BluRay_1080p.torrent</link>
-<link>plugin://plugin.video.torrentin/?uri=http://files.pasateatorrent.com/torrents/peliculas/13_Horas_Los_Soldados_BluRay_4K.torrent</link>
-<thumbnail></thumbnail>
+<thumbnail>https://pasateatorrent.com/wp-content/uploads/2016/11/13_hours_the_secret_soldiers_of_benghazi-604218830-large.jpg</thumbnail>
 </item>
+<item>
+<title>[B][COLOR orange]13 Horas: Los Soldados Secretos De Bengasi - 1080HD[/B][/COLOR][COLOR lime] Torrent [COLOR yellow] Requiere Torrentin[/COLOR][/COLOR]</title>
+<link>plugin://plugin.video.torrentin/?uri=http://files.pasateatorrent.com/torrents/peliculas/13_Horas_BluRay_1080p.torrent</link>
+<thumbnail>https://pasateatorrent.com/wp-content/uploads/2016/11/13_hours_the_secret_soldiers_of_benghazi-604218830-large.jpg</thumbnail>
+</item>
+<item>
+<title>[B][COLOR orange]13 Horas: Los Soldados Secretos De Bengasi - 4k[/B][/COLOR][COLOR lime] Torrent [COLOR yellow] Requiere Torrentin[/COLOR][/COLOR]</title>
+<link>plugin://plugin.video.torrentin/?uri=http://files.pasateatorrent.com/torrents/peliculas/13_Horas_Los_Soldados_BluRay_4K.torrent</link>
+<thumbnail>https://pasateatorrent.com/wp-content/uploads/2016/11/13_hours_the_secret_soldiers_of_benghazi-604218830-large.jpg</thumbnail>
+</item>
+
+
 <!-- A -->
 
 <!-- B -->
