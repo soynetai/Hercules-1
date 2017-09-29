@@ -4,3 +4,21 @@
 <referer>http://www.vercanalestv.com/</referer>
 <thumbnail>http://vercanalestv.com/logos/laliga123.jpg</thumbnail>
 </item>
+
+<item>
+<title>[COLOR yellow]Laliga 123[/COLOR]</title>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/deportes/multi-liga-2/canal-plus-liga-2.html'):
+   import liveresolver
+   u = liveresolver.resolve(url)
+   return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://latelete.tv/img/divinity.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
