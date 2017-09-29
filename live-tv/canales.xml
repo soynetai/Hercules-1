@@ -791,17 +791,6 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 </item>
 
 
-<!-- LISTA M3U Futbol -->
-<item>
-<title>[COLOR ligthgreen]Futbol[/COLOR] | Movistar+ |[COLOR white]M3U[/COLOR]</title>
-<link>ignore</link>
-<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/live-tv/liga123.xml</externallink>
-<thumbnail>http://vercanalestv.com/logos/bein-laliga.jpg</thumbnail>
-</item>
-
-
-
-
 
 <!-- ADULTOS -->
 <item>
