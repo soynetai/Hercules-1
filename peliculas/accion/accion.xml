@@ -45,6 +45,22 @@
 <link>plugin://plugin.video.quasar/play?uri=http://files.pasateatorrent.com/torrents/peliculas/16-calles-microhd-1080-px.torrent</link>
 <thumbnail>https://pasateatorrent.com/wp-content/uploads/2017/04/16_calles-841972025-large.jpg</thumbnail>
 </item>
+<item>
+<title>[B][COLOR orange]60 Segundos - [COLOR white]1080HD[/B][/COLOR][COLOR lime] Torrent [COLOR yellow] Requiere quasar[/COLOR][/COLOR]</title>
+<link>plugin://plugin.video.quasar/play?uri=http://files.pasateatorrent.com/torrents/peliculas/60-segundos-microhd-1080-px.torrent</link>
+<thumbnail>https://pasateatorrent.com/wp-content/uploads/2017/05/gone_in_60_seconds-385080720-large.jpg</thumbnail>
+</item>
+<item>
+<title>[B][COLOR orange]300 - [COLOR white]1080HD[/B][/COLOR][COLOR lime] Torrent [COLOR yellow] Requiere quasar[/COLOR][/COLOR]</title>
+<link>plugin://plugin.video.quasar/play?uri=http://files.pasateatorrent.com/torrents/peliculas/300-microhd-1080-px.torrent</link>
+<thumbnail>https://pasateatorrent.com/wp-content/uploads/2017/04/300-274692460-large.jpg</thumbnail>
+</item>
+<item>
+<title>[B][COLOR orange]300 - [COLOR white]1080HD[/B][/COLOR][COLOR lime] Torrent [COLOR yellow] Requiere quasar[/COLOR][/COLOR]</title>
+<link>plugin://plugin.video.quasar/play?uri=http://files.pasateatorrent.com/torrents/peliculas/300_BluRay_1080p.torrent</link>
+<thumbnail>https://pasateatorrent.com/wp-content/uploads/2017/04/300-274692460-large.jpg</thumbnail>
+</item>
+
 <!-- A -->
 <item>
 <title>[B][COLOR orange]A todo Gas - MICRO HD[/B][/COLOR][COLOR white][/COLOR][COLOR lime] Torrent [COLOR yellow] Requiere quasar[/COLOR][/COLOR]</title>
@@ -122,6 +138,12 @@
 <thumbnail>https://pasateatorrent.com/wp-content/uploads/2017/04/the_fate_of_the_furious-720946563-large.jpg</thumbnail>
 </item>
 
+<item>
+<title>[B][COLOR orange]A Todo Gas 8 - 4K [/B][/COLOR][COLOR white][/COLOR][COLOR lime] Torrent [COLOR yellow] Requiere quasar[/COLOR][/COLOR]</title>
+<link>plugin://plugin.video.quasar/play?uri=http://files.pasateatorrent.com/torrents/peliculas/Fast_and_furious_8_4k.torrent</link>
+<thumbnail>https://pasateatorrent.com/wp-content/uploads/2017/04/the_fate_of_the_furious-720946563-large.jpg</thumbnail>
+</item>
+
 <!-- B -->
 <!-- C -->
 <!-- D -->
@@ -140,6 +162,17 @@
 <!-- p -->
 <!-- Q -->
 <!-- R -->
+<item>
+<title>[B][COLOR orange]Acorralado (Rambo) - 1080HD [/B][/COLOR][COLOR white][/COLOR][COLOR lime] Torrent [COLOR yellow] Requiere quasar[/COLOR][/COLOR]</title>
+<link>plugin://plugin.video.quasar/play?uri=http://files.pasateatorrent.com/torrents/peliculas/saga-rambo-microhd-1080-px.torrent</link>
+<thumbnail>https://pasateatorrent.com/wp-content/uploads/2017/02/Acorralado_Rambo-430459130-large.jpg</thumbnail>
+</item>
+<item>
+<title>[B][COLOR orange]Acorralado (Rambo) - 1080HD [/B][/COLOR][COLOR white][/COLOR][COLOR lime] Torrent [COLOR yellow] Requiere quasar[/COLOR][/COLOR]</title>
+<link>plugin://plugin.video.quasar/play?uri=http://files.pasateatorrent.com/torrents/peliculas/Rambo_1_BDremux_1080_px.torrent</link>
+<thumbnail>https://pasateatorrent.com/wp-content/uploads/2017/02/Acorralado_Rambo-430459130-large.jpg</thumbnail>
+</item>
+
 <!-- S -->
 <!-- T -->
 <!-- U -->
