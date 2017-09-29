@@ -10,110 +10,96 @@
 <link>http://Ignoreme</link>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/tv.png</fanart>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/programastv/programastv.xml</externallink>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/animacion/animacion.xml</externallink>
 </item>
 <item>
 <title>[COLOR orange]AVENTURAS[/COLOR]</title>
 <link>http://Ignoreme</link>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/tv.png</fanart>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/programastv/programastv.xml</externallink>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/aventuras/aventuras.xml</externallink>
 </item>
 <item>
 <title>[COLOR orange]BELICAS[/COLOR]</title>
 <link>http://Ignoreme</link>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/tv.png</fanart>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/programastv/programastv.xml</externallink>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/belicas/belicas.xml</externallink>
 </item>
 <item>
 <title>[COLOR orange]CIENCIA FICCION[/COLOR]</title>
 <link>http://Ignoreme</link>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/tv.png</fanart>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/programastv/programastv.xml</externallink>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/ciencia_ficcion/ciencia-ficcion.xml</externallink>
 </item>
 <item>
 <title>[COLOR orange]COMEDIA[/COLOR]</title>
 <link>http://Ignoreme</link>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/tv.png</fanart>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/programastv/programastv.xml</externallink>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/comedia/comedia.xml</externallink>
 </item>
 <item>
 <title>[COLOR orange]DRAMA[/COLOR]</title>
 <link>http://Ignoreme</link>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/tv.png</fanart>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/programastv/programastv.xml</externallink>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/drama/drama.xml</externallink>
 </item>
 <item>
 <title>[COLOR orange]FAMILIAR[/COLOR]</title>
 <link>http://Ignoreme</link>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/tv.png</fanart>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/programastv/programastv.xml</externallink>
+<externallink>https://github.com/Andorth/Hercules/blob/master/peliculas/familiar/familiar.xml</externallink>
 </item>
 <item>
 <title>[COLOR orange]FANTASTICO[/COLOR]</title>
 <link>http://Ignoreme</link>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/tv.png</fanart>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/programastv/programastv.xml</externallink>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/fantastico/fantastico.xml</externallink>
 </item>
 <item>
 <title>[COLOR orange]INFANTIL[/COLOR]</title>
 <link>http://Ignoreme</link>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/tv.png</fanart>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/programastv/programastv.xml</externallink>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/infantil/infantil.xml</externallink>
 </item>
 <item>
 <title>[COLOR orange]INTRIGA[/COLOR]</title>
 <link>http://Ignoreme</link>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/tv.png</fanart>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/programastv/programastv.xml</externallink>
-</item>
-<item>
-<title>[COLOR orange]MUSICAL[/COLOR]</title>
-<link>http://Ignoreme</link>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/tv.png</fanart>
-<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/programastv/programastv.xml</externallink>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/intriga/intriga.xml</externallink>
 </item>
 <item>
 <title>[COLOR orange]NACIONAL[/COLOR]</title>
 <link>http://Ignoreme</link>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/tv.png</fanart>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/programastv/programastv.xml</externallink>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/nacional/nacional.xml</externallink>
 </item>
 <item>
 <title>[COLOR orange]ROMANCE[/COLOR]</title>
 <link>http://Ignoreme</link>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/tv.png</fanart>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/programastv/programastv.xml</externallink>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/romance/romance.xml</externallink>
 </item>
 <item>
 <title>[COLOR orange]SUSPENCE[/COLOR]</title>
 <link>http://Ignoreme</link>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/tv.png</fanart>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/programastv/programastv.xml</externallink>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/suspense/suspence.xml</externallink>
 </item>
 <item>
 <title>[COLOR orange]TERROR[/COLOR]</title>
 <link>http://Ignoreme</link>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/tv.png</fanart>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/programastv/programastv.xml</externallink>
-</item>
-<item>
-<title>[COLOR orange]WENSTERN[/COLOR]</title>
-<link>http://Ignoreme</link>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/tv.png</fanart>
-<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/programastv/programastv.xml</externallink>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/terror/terror.xml</externallink>
 </item>
