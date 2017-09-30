@@ -2,7 +2,7 @@
 <SetViewMode>500</SetViewMode>
 <items>
 <item>
-<title>[COLOR orange][+]Buscar[/COLOR][COLOR white] [pelicula Torrent] |Requerido Torrentin|[/COLOR] </title>
+<title>[COLOR orange][+]Buscar[/COLOR][COLOR white] [pelicula Torrent] |Requerido Quasar|[/COLOR] </title>
 <link>$doregex[makelist2]</link>
 
 
@@ -42,7 +42,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <listrepeat><![CDATA[
  <SetViewMode>500</SetViewMode>
  <title>[COLOR white] [makelist2.param3][/COLOR]  Calidad:[makelist.param1]  Tamaño:[makelist.param2]  </title>
-<link>plugin://plugin.video.torrentin/?uri=[makelist.param3]</link>
+<link>plugin://plugin.video.quasar/play?uri=[makelist.param3]</link>
 <thumbnail>[makelist2.param2]</thumbnail> 
 </regex>
 ]]></listrepeat>
