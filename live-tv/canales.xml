@@ -189,25 +189,25 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 
 
 <item>
-<title>[COLOR orange]DISNEY CHANNEL[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<title>[COLOR yellow]Disney Channel[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
 <sportsdevil>http://livesports.pw/embedn.php?file=disneychannel&width=650&height=397</sportsdevil>
 <referer>http://telefivegb.com/canales/animacion/disneychannel</referer>
 <thumbnail>https://lh3.googleusercontent.com/-YILqKHLvgw0/V8tSUMWsI7I/AAAAAAAAAgs/ZsvrWuhhCkcWZdgoRs_ELPfC226P6NLhACEw/h120/disneychannel.png</thumbnail>
 </item>
-	
-	
+
 <item>
-<title>[COLOR orange]NICKELODEON[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
-<sportsdevil>http://livesports.pw/embed.php?file=nickelones&width=588&height=397</sportsdevil>
-<referer>http://telefivegb.com/animacion/ver-nick-online-y-en-directo-gratis-las-24h/</referer>
-<thumbnail>https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAyrAAAAJGRkM2UxMzk3LTRkNTgtNDRiOS05ZDZjLThkNjQxYjkyNzU2NQ.png</thumbnail>
-</item>
-	
-<item>
-<title>[COLOR orange]BOING[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<title>[COLOR yellow]Boing[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
 <sportsdevil>http://livesports.pw/embed.php?file=boing&width=650&height=397</sportsdevil>
 <referer>http://verplusonline.com/ver-boing-online-gratis-en-vivo-directo/</referer>
 <thumbnail>http://www.boing.es/sites/boinges/themes/boing_theme/logo-es.png</thumbnail>
+</item>
+
+<item>
+<parentalblock>true</parentalblock>
+<title>[COLOR yellow]Nickelodeon[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://livesports.pw/embed.php?file=nickelones&width=588&height=397</sportsdevil>
+<referer>http://telefivegb.com/animacion/ver-nick-online-y-en-directo-gratis-las-24h/</referer>
+<thumbnail>https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAyrAAAAJGRkM2UxMzk3LTRkNTgtNDRiOS05ZDZjLThkNjQxYjkyNzU2NQ.png</thumbnail>
 </item>
 
 
@@ -237,6 +237,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 </item>
 
 <item>
+<parentalblock>true</parentalblock>
 <title>[COLOR orange]M+ Estrenos[/COLOR]</title>
 <parentalblock>true</parentalblock>
 <link>$doregex[GetPageUrl]</link>
@@ -256,6 +257,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 </item>
 
 <item>
+<parentalblock>true</parentalblock>
 <title>[COLOR orange]M+ Accion[/COLOR]</title>
 <parentalblock>true</parentalblock>
 <link>$doregex[GetPageUrl]</link>
@@ -275,6 +277,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 </item>
 
 <item>
+<parentalblock>true</parentalblock>
 <title>[COLOR orange]M+ Cine[/COLOR]</title>
 <parentalblock>true</parentalblock>
 <link>$doregex[GetPageUrl]</link>
@@ -294,6 +297,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 </item>
 
 <item>
+<parentalblock>true</parentalblock>
 <title>[COLOR orange]M+ Comedia[/COLOR]</title>
 <parentalblock>true</parentalblock>
 <link>$doregex[GetPageUrl]</link>
@@ -313,6 +317,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 </item>
 
 <item>
+<parentalblock>true</parentalblock>
 <title>[COLOR orange]M+ Series[/COLOR]</title>
 <parentalblock>true</parentalblock>
 <link>$doregex[GetPageUrl]</link>
@@ -332,6 +337,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 </item>
 
 <item>
+<parentalblock>true</parentalblock>
 <title>[COLOR orange]M+ Series[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
 <sportsdevil>http://livesports.pw/embedn.php?file=mseries&width=650&height=397&autostart=true</sportsdevil>
 <referer>http://telefivegb.com/canales/series/m_series</referer>	
@@ -339,6 +345,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 </item>
 	
 <item>
+<parentalblock>true</parentalblock>
 <title>[COLOR orange]M+ Series xtra [I] Requerido Sportsdevil[/I][/COLOR]</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</link>
 <regex>
@@ -359,6 +366,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 
 
 <item>
+<parentalblock>true</parentalblock>
 <title>[COLOR gold][B]M+ Deportes 1[/B][/COLOR] </title>
 <parentalblock>true</parentalblock>
 <link>$doregex[get-id]|Referer=http://vercanalestv.com/tv/deportes/canal-plus-deportes.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
@@ -373,6 +381,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 </item>
 
 <item>
+<parentalblock>true</parentalblock>
 <title>[COLOR gold]M+ Deportes 2[/COLOR] </title>
 <parentalblock>true</parentalblock>
 <link>$doregex[get-id]|Referer=http://vercanalestv.com/tv/deportes/canal-plus-deportes-2.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
@@ -387,7 +396,9 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 </item>
 
 
+
 <item>
+<parentalblock>true</parentalblock>
 <title>[COLOR gold]Bein LaLiga[/COLOR] </title>
 <parentalblock>true</parentalblock>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</link>
@@ -401,6 +412,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 </item>
 
 <item>
+<parentalblock>true</parentalblock>
 <title>[COLOR gold]La Liga TV[/COLOR] </title>
 <parentalblock>true</parentalblock>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
@@ -414,6 +426,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 </item>
 
 <item>
+<parentalblock>true</parentalblock>
 <title>[COLOR gold]Bein Sport[/COLOR] </title>
 <parentalblock>true</parentalblock>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
@@ -428,6 +441,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 
 
 <item>
+<parentalblock>true</parentalblock>
 <title>[COLOR gold]Gol TV[/COLOR] </title>
 <parentalblock>true</parentalblock>
 <link>$doregex[get-id]|Referer=http://verdirectotv.com/tv/digitales/plus-series.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
@@ -443,6 +457,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 
 
 <item>
+<parentalblock>true</parentalblock>
 <title>[COLOR gold]F1[/COLOR] </title>
 <parentalblock>true</parentalblock>
 
@@ -458,12 +473,14 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 
 <!-- Sportsdevil Deportes-->
 <item>
+<parentalblock>true</parentalblock>
 <title>[COLOR lime][B]SportsDevil Deportes[/B][/COLOR][COLOR gold][I] Addon Requerido[/I][/COLOR]</title>
 <link>http://ignore</link>
 <thumbnail>https://superrepo.org/static/images/icons/original/xrepository.unofficialsportsdevil.png.pagespeed.ic.cFk-CYyRuh.png</thumbnail>
 </item>
 
 <item>
+<parentalblock>true</parentalblock>
 <title>[COLOR orange]Moto GP[/COLOR] [COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
 <sportsdevil>http://www.vercanalestv.com/tv/deportes/motogp-opcion2.html</sportsdevil>
 <referer>http://www.vercanalestv.com/tv/deportes/motogp-opcion2.html</referer>
@@ -471,20 +488,17 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 </item>
 
 <item>
+<parentalblock>true</parentalblock>
 <title>[COLOR orange]La Liga TV[/COLOR] [COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
 <sportsdevil>http://livesports.pw/embed.php?file=barliga&width=650&height=397</sportsdevil>
 		<referer>http://verplusonline.com/laligatv/</referer>
 <thumbnail>http://vercanalestv.com/imagenes/laligatv.jpg</thumbnail>
 </item>
 
-<item>
-<title>[COLOR orange]La Liga 123[/COLOR] [COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
-<sportsdevil>http://vercanalestv.com/tv/deportes/multi-liga-2/canal-plus-liga-2.php</sportsdevil>
-<referer>http://vercanalestv.com/tv/deportes/multi-liga-2/canal-plus-liga-2.html</referer>
-<thumbnail>http://vercanalestv.com/logos/laliga123.jpg</thumbnail>
-</item>
+
 
 <item>
+<parentalblock>true</parentalblock>
 <title>[COLOR orange]Partidazo[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
 <sportsdevil>http://vergol.com/live3/beinliga.php</sportsdevil>
 <referer>http://www.vercanalestv.com/tv/deportes/plus-partidazo.html</referer>
@@ -493,12 +507,22 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 
 <!-- TV premium  -->
 
+
 <item>
 <title>[COLOR lime][B]Premium TV[/B][/COLOR]</title>
 <parentalblock>true</parentalblock>
 <link>http://ignore</link>
 <thumbnail></thumbnail>
 </item>
+
+<item>
+<title>[COLOR white] Gran Hermano Requiere sportsdevil[/COLOR] </title>
+<sportsdevil>http://cinestrenostv.tv/canales/envivo/gh650.html</sportsdevil>
+<referer>http://cinestrenostv.tv/canales/envivo/gh650.html</referer>
+<thumbnail>http://vercanalestv.com/imagenes/gh17.png</thumbnail>   
+</item>
+
+
 <item>
 <title>[COLOR white]National Geographic[/COLOR]</title>
 <parentalblock>true</parentalblock>
@@ -749,51 +773,9 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 
 
 
-<!-- INTERNACIONAL -->
-<item>
-<title>[COLOR lime][B]Internacional |MEXICO|[/B][/COLOR]</title>
-<link>http://ignore</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>[COLOR ligthgreen]Telemundo[/COLOR] | Mexico |[COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
-<sportsdevil>http://vercanalestv.com/tv/mexico/telemundo.html</sportsdevil>
-<referer>http://www.vercanalestv.com/ver-telemundo-hd-gratis-online-en-internet-en-vivo/</referer>
-<thumbnail>http://vercanalestv.com/imagenes/telemundo.jpg</thumbnail>
-</item>
-
-<item>
-<title>[COLOR ligthgreen]Azteca 13[/COLOR] | Mexico |[COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
-<sportsdevil>http://vercanalestv.com/tv/mexico/azteca-13.html</sportsdevil>
-<referer>http://www.vercanalestv.com/ver-azteca-13-tv-en-vivo-online-gratis/</referer>
-<thumbnail>http://vercanalestv.com/imagenes/azteca13.jpg</thumbnail>
-</item>
-
-<item>
-<title>[COLOR ligthgreen]FOX LATINO[/COLOR] | Mexico |[COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
-<sportsdevil>http://vercanalestv.com/tv/latino/fox.html</sportsdevil>
-<referer>http://www.vercanalestv.com/fox-latino-en-vivo-por-internet/</referer>
-<thumbnail>http://vercanalestv.com/imagenes/fox-latino.jpg</thumbnail>
-</item>
-
-<item>
-<title>[COLOR lime][B]Internacional |COLOMBIA|[/B][/COLOR]</title>
-<link>http://ignore</link>
-<thumbnail></thumbnail>
-</item>
-
-<item>
-<title>[COLOR ligthgreen]FOX LATINO[/COLOR] | Mexico |[COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
-<sportsdevil>http://vercanalestv.com/tv/colombia/caracol-television.html</sportsdevil>
-<referer>http://www.vercanalestv.com/canal-caracol-en-vivo-por-internet/</referer>
-<thumbnail>http://vercanalestv.com/imagenes/caracoltv.jpg</thumbnail>
-</item>
-
-
-
 <!-- ADULTOS -->
 <item>
+<parentalblock>true</parentalblock>
 <title>[COLOR lime][B]ADULTOS[/B][/COLOR]</title>
 <link>http://ignore</link>
 <thumbnail></thumbnail>
