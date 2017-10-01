@@ -5,18 +5,18 @@
 
 
 
-Transformers: El último caballero (2017) http://streamcloud.eu/xc9q964pw6my/tr4nsf0rm3rs.th3.l4st.kn1ght.2017.brrs.720p.castellano.mp4.html
-Wonder Woman (2017) https://streamango.com/f/tneqemnnrtfmaqlo/w0nd3r_w0m4n_2017_hdrip_720p_castellano_mp4
-
-
 <item>
-<link>$doregex[url]</link>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+<fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
+
+ <link>$doregex[id3]</link>
+ 
 <regex>
-<name>url</name>
+<name>id3</name>
 <expres><![CDATA[#$pyFunction
 def GetLSProData(page_data,Cookie_Jar,m):
     import urlresolver
-    url = 'https://streamango.com/f/mrkrfprodmmnsqke/The_bad_batch_2016_1080p-dual-cast_mp4'
+    url = ' Url de la pelicula'
     try:
         u = urlresolver.resolve(url)
     except:
@@ -25,15 +25,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
-<regex>
-<name></name>
-<expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<title>[COLOR orange] Baywatch: Los vigilantes de la playa (2017) [/COLOR][COLOR white] 720p. [/COLOR][COLOR gold] HD [/COLOR]</title>
-<regex><name>nombre</name><expres></expres><page></page></regex>
-<page></page>
-</regex>
-<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BNTA4MjQ0ODQzNF5BMl5BanBnXkFtZTgwNzA5NjYzMjI@._V1_UX182_CR0,0,182,268_AL_.jpg</thumbnail> 
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<title>[COLOR orange]$doregex[nombre]  [/COLOR][COLOR white] [/COLOR]</title>
+
+<regex><name>nombre</name><expres> Nombre de la Pelicula </expres><page></page></regex>
+<regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
+<page></page></regex>
 </item>
+
+
 
 
 
@@ -99,32 +100,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- E -->
 <!-- F -->
 <!-- G -->
-<item>
-<thumbnail>http://gnula.nu/wp-content/uploads/2017/06/Despicable_Me_3_poster_usa.jpg</thumbnail>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
-    import urlresolver
-    url = 'http://streamcloud.eu/5i53enkia61y/d3sp1c4bl3.m3.2017.hdrip.720p.castellano.mp4.html'
-    try:
-        u = urlresolver.resolve(url)
-    except:
-        u = 'http://www.grupo-netai.org/error.mp4'
-    return u
-]]></expres>
-<page></page>
-</regex>
-<regex>
-<name></name>
-<expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<title>[COLOR orange] Gru 3: Mivillano favorito (2017) [/COLOR][COLOR white] 720p. [/COLOR][COLOR gold] HD [/COLOR]</title>
-<regex><name>nombre</name><expres></expres><page></page></regex>
-<page></page>
-</regex>
-</item>
-
 <!-- H -->
 <!-- I -->
 <!-- J -->
@@ -155,66 +130,45 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 </item>
 <!-- L -->
+<item>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+<fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
+
+ <link>$doregex[id3]</link>
+ 
+<regex>
+<name>id3</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import urlresolver
+    url = 'https://streamango.com/f/etmplfmolcplccqs/The_mummy_2017_1080p-dual-cast_mp4'
+    try:
+        u = urlresolver.resolve(url)
+    except:
+        u = 'http://www.grupo-netai.org/error.mp4'
+    return u
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<title>[COLOR orange]$doregex[nombre]  [/COLOR][COLOR white] [/COLOR]</title>
+
+<regex><name>nombre</name><expres>La momia (2017)</expres><page></page></regex>
+<regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
+<page></page></regex>
+</item>
+
 <!-- M -->
 <!-- N -->
 <!-- Ñ -->
 <!-- O -->
 <!-- P -->
-<item>
-<thumbnail>http://gnula.nu/wp-content/uploads/2017/03/Pirates_of_the_Caribbean_Dead_Men_Tell_No_Tales_poster_usa.jpg</thumbnail>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
-    import urlresolver
-    url = 'https://streamplay.to/ey5cn4lj4j9b'
-    try:
-        u = urlresolver.resolve(url)
-    except:
-        u = 'http://www.grupo-netai.org/error.mp4'
-    return u
-]]></expres>
-<page></page>
-</regex>
-<regex>
-<name></name>
-<expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<title>[COLOR orange]Piratas del caribe 5 - La venganza de Salazar (2017)[/COLOR][COLOR white] 720p. [/COLOR][COLOR gold] HD [/COLOR]</title>
-<regex><name>nombre</name><expres></expres><page></page></regex>
-<page></page>
-</regex>
-</item>
-
 <!-- Q -->
 <!-- R -->
 <!-- S -->
 <!-- T -->
-<item>
-<thumbnail>http://gnula.nu/wp-content/uploads/2017/09/Transformers_The_Last_Knight5.gif</thumbnail>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
-    import urlresolver
-    url = 'http://streamcloud.eu/xc9q964pw6my/tr4nsf0rm3rs.th3.l4st.kn1ght.2017.brrs.720p.castellano.mp4.html'
-    try:
-        u = urlresolver.resolve(url)
-    except:
-        u = 'http://www.grupo-netai.org/error.mp4'
-    return u
-]]></expres>
-<page></page>
-</regex>
-<regex>
-<name></name>
-<expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<title>[COLOR orange]Transformers: El último caballero (2017) (2017)[/COLOR][COLOR white] 720p. [/COLOR][COLOR gold] HD [/COLOR]</title>
-<regex><name>nombre</name><expres></expres><page></page></regex>
-<page></page>
-</regex>
-</item>
+
 <!-- U -->
 <!-- V -->
 <!-- W -->
@@ -248,8 +202,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
 </item>
-
-
 
 <!-- X -->
 <!-- Y -->
