@@ -4,8 +4,7 @@
 
 
 
-Logan (2017) http://uptobox.com/ymmqfgxslt0p
-La momia (2017) http://streamcloud.eu/zdgp8eb482vq/th3.mummy.2017.hdrip.720p.castellano.mp4.html
+
 Transformers: El último caballero (2017) http://streamcloud.eu/xc9q964pw6my/tr4nsf0rm3rs.th3.l4st.kn1ght.2017.brrs.720p.castellano.mp4.html
 Wonder Woman (2017) https://streamango.com/f/tneqemnnrtfmaqlo/w0nd3r_w0m4n_2017_hdrip_720p_castellano_mp4
 
@@ -123,9 +122,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://pasateatorrent.com/wp-content/uploads/2017/07/El-c%C3%ADrculo.jpg</thumbnail> 
 </item>
 
-
-<!-- F -->
-<!-- G -->
 <item>
 <link>$doregex[url]</link>
 <regex>
@@ -133,7 +129,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <expres><![CDATA[#$pyFunction
 def GetLSProData(page_data,Cookie_Jar,m):
     import urlresolver
-    url = 'http://streamcloud.eu/5i53enkia61y/d3sp1c4bl3.m3.2017.hdrip.720p.castellano.mp4.html'
+    url = 'http://uptobox.com/8vhwr4ypj6m2'
     try:
         u = urlresolver.resolve(url)
     except:
@@ -145,12 +141,37 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name></name>
 <expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<title>[COLOR orange]Gru 3: Mi villano favorito (2017) [/COLOR][COLOR white] 720p. [/COLOR][COLOR gold] HD [/COLOR]</title>
+<title>[COLOR orange]El circulo (2017) [/COLOR][COLOR white] 720p. [/COLOR][COLOR gold] HD [/COLOR]</title>
 <regex><name>nombre</name><expres></expres><page></page></regex>
 <page></page>
 </regex>
-<thumbnail>https://pasateatorrent.com/wp-content/uploads/2017/07/Gru_3_Mi_villano_favorito-346342282-large.jpg</thumbnail> 
+<thumbnail>https://pasateatorrent.com/wp-content/uploads/2017/07/El-c%C3%ADrculo.jpg</thumbnail> 
 </item>
+<item>
+<title>[COLOR orange]El circulo (2017) [/COLOR][COLOR white] 720p. [/COLOR][COLOR gold] HD [/COLOR]</title>
+<link>$doregex[id3]</link>
+<regex>
+<name>id3</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+   import urlresolver
+   url = 'http://uptobox.com/8vhwr4ypj6m2'
+   try:
+       u = urlresolver.resolve(url)
+   except:
+       u = 'http://www.grupo-netai.org/error.mp4'
+   return u
+]]></expres>
+<page></page>
+</regex> 
+<thumbnail>https://pasateatorrent.com/wp-content/uploads/2017/07/El-c%C3%ADrculo.jpg</thumbnail>       
+<item>
+
+
+<!-- F -->
+<!-- G -->
+
+
 
 <!-- H -->
 <!-- I -->
@@ -254,7 +275,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name></name>
 <expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<title>[COLOR orange]Logan (2017) [/COLOR][COLOR white] 720p. [/COLOR][COLOR gold] HD [/COLOR]</title>
+<title>[COLOR orange]Logan (2017) [/COLOR][COLOR white]1080p.[/COLOR][COLOR gold] HD [/COLOR]</title>
 <regex><name>nombre</name><expres></expres><page></page></regex>
 <page></page>
 </regex>
