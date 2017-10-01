@@ -1,11 +1,9 @@
 
 <!--  Regex para streamplay,streamcloud,openload,StreamGo,Uptobox,Yourupload
 
-El círculo (2017) http://uptobox.com/8vhwr4ypj6m2
-Gru 3: Mi villano favorito (2017) http://streamcloud.eu/5i53enkia61y/d3sp1c4bl3.m3.2017.hdrip.720p.castellano.mp4.html
-It (Eso) (2017) https://streamango.com/f/kekmtmanoscptott/1t_2017_tshq_castellano_mp4
-It (Eso) (2017) https://streamango.com/f/kekmtmanoscptott/1t_2017_tshq_castellano_mp4
-Kimi no na wa (your name) https://streamango.com/f/dlqsdqoeakltnrkl/k1m1_n0_n4_w4_2016_hdrip_720p_castellano_mp4
+
+
+
 Logan (2017) http://uptobox.com/ymmqfgxslt0p
 La momia (2017) http://streamcloud.eu/zdgp8eb482vq/th3.mummy.2017.hdrip.720p.castellano.mp4.html
 Transformers: El último caballero (2017) http://streamcloud.eu/xc9q964pw6my/tr4nsf0rm3rs.th3.l4st.kn1ght.2017.brrs.720p.castellano.mp4.html
@@ -156,11 +154,62 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <!-- H -->
 <!-- I -->
-<!-- J -->
-<!-- K -->
-<!-- L -->
 <item>
  <thumbnail>https://pasateatorrent.com/wp-content/uploads/2017/06/La_momia-387983691-large.jpg</thumbnail> 
+<fanart></fanart>
+<link>$doregex[id3]</link>
+<regex>
+<name>id3</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import urlresolver
+    url = 'https://streamango.com/f/kekmtmanoscptott/1t_2017_tshq_castellano_mp4'
+    try:
+        u = urlresolver.resolve(url)
+    except:
+        u = 'http://www.grupo-netai.org/error.mp4'
+    return u
+]]></expres>
+<page></page>
+</regex>	
+<thumbnail>https://pasateatorrent.com/wp-content/uploads/2017/09/Untitled-1-1.jpg</thumbnail> 
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<title>[COLOR orange]It (Eso) (2017) [/COLOR][COLOR white] 720p. [/COLOR][COLOR gold] HD [/COLOR]</title>
+<regex><name>nombre</name><expres>La momia</expres><page></page></regex>
+<regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
+<page></page></regex>
+</item>
+<!-- J -->
+<!-- K -->
+<item>
+<thumbnail>https://i0.wp.com/www.elblogdeyes.com/wp-content/uploads/2017/07/your-name_102874.jpg</thumbnail>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import urlresolver
+    url = 'https://streamango.com/f/dlqsdqoeakltnrkl/k1m1_n0_n4_w4_2016_hdrip_720p_castellano_mp4'
+    try:
+        u = urlresolver.resolve(url)
+    except:
+        u = 'http://www.grupo-netai.org/error.mp4'
+    return u
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name></name>
+<expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<title>[COLOR orange]Kimi no na wa (your name) (2017) [/COLOR][COLOR white] 720p. [/COLOR][COLOR gold] HD [/COLOR]</title>
+<regex><name>nombre</name><expres></expres><page></page></regex>
+<page></page>
+</regex>
+<thumbnail>https://i0.wp.com/www.elblogdeyes.com/wp-content/uploads/2017/07/your-name_102874.jpg</thumbnail> 
+</item>
+<!-- L -->
+<item>
+ <thumbnail>https://pasateatorrent.com/wp-content/uploads/2017/09/Untitled-1-1.jpg</thumbnail> 
 <fanart></fanart>
 <link>$doregex[id3]</link>
 <regex>
@@ -177,12 +226,39 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>	
-<thumbnail>https://pasateatorrent.com/wp-content/uploads/2017/06/La_momia-387983691-large.jpg</thumbnail> 
+<thumbnail>https://pasateatorrent.com/wp-content/uploads/2017/03/Logan-990914206-large.jpg</thumbnail> 
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR orange]La momia (2017) [/COLOR][COLOR white] 720p. [/COLOR][COLOR gold] HD [/COLOR]</title>
 <regex><name>nombre</name><expres>La momia</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
+</item>
+
+<item>
+<thumbnail></thumbnail>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import urlresolver
+    url = 'http://uptobox.com/ymmqfgxslt0p'
+    try:
+        u = urlresolver.resolve(url)
+    except:
+        u = 'http://www.grupo-netai.org/error.mp4'
+    return u
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name></name>
+<expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<title>[COLOR orange]Logan (2017) [/COLOR][COLOR white] 720p. [/COLOR][COLOR gold] HD [/COLOR]</title>
+<regex><name>nombre</name><expres></expres><page></page></regex>
+<page></page>
+</regex>
+<thumbnail>https://pasateatorrent.com/wp-content/uploads/2017/03/Logan-990914206-large.jpg</thumbnail> 
 </item>
 
 <!-- M -->
