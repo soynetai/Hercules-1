@@ -42,6 +42,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- A -->
 <!-- B -->
 <item>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BNTA4MjQ0ODQzNF5BMl5BanBnXkFtZTgwNzA5NjYzMjI@._V1_UX182_CR0,0,182,268_AL_.jpg</thumbnail> 
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
@@ -64,10 +65,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex><name>nombre</name><expres></expres><page></page></regex>
 <page></page>
 </regex>
-<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BNTA4MjQ0ODQzNF5BMl5BanBnXkFtZTgwNzA5NjYzMjI@._V1_UX182_CR0,0,182,268_AL_.jpg</thumbnail> 
 </item>
 
 <item>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BNTA4MjQ0ODQzNF5BMl5BanBnXkFtZTgwNzA5NjYzMjI@._V1_UX182_CR0,0,182,268_AL_.jpg</thumbnail> 
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
@@ -90,7 +91,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex><name>nombre</name><expres></expres><page></page></regex>
 <page></page>
 </regex>
-<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BNTA4MjQ0ODQzNF5BMl5BanBnXkFtZTgwNzA5NjYzMjI@._V1_UX182_CR0,0,182,268_AL_.jpg</thumbnail> 
 </item>
 
 <!-- C -->
@@ -99,6 +99,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- F -->
 <!-- G -->
 <item>
+<thumbnail>http://gnula.nu/wp-content/uploads/2017/06/Despicable_Me_3_poster_usa.jpg</thumbnail>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
@@ -121,7 +122,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex><name>nombre</name><expres></expres><page></page></regex>
 <page></page>
 </regex>
-<thumbnail>http://gnula.nu/wp-content/uploads/2017/06/Despicable_Me_3_poster_usa.jpg</thumbnail> 
 </item>
 
 <!-- H -->
@@ -152,7 +152,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex><name>nombre</name><expres></expres><page></page></regex>
 <page></page>
 </regex>
-<thumbnail>https://i0.wp.com/www.elblogdeyes.com/wp-content/uploads/2017/07/your-name_102874.jpg</thumbnail> 
 </item>
 <!-- L -->
 <!-- M -->
@@ -161,7 +160,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- O -->
 <!-- P -->
 <item>
-<thumbnail>https://i0.wp.com/www.elblogdeyes.com/wp-content/uploads/2017/07/your-name_102874.jpg</thumbnail>
+<thumbnail>http://gnula.nu/wp-content/uploads/2017/03/Pirates_of_the_Caribbean_Dead_Men_Tell_No_Tales_poster_usa.jpg</thumbnail>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
@@ -184,7 +183,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex><name>nombre</name><expres></expres><page></page></regex>
 <page></page>
 </regex>
-<thumbnail>http://gnula.nu/wp-content/uploads/2017/03/Pirates_of_the_Caribbean_Dead_Men_Tell_No_Tales_poster_usa.jpg</thumbnail> 
 </item>
 
 <!-- Q -->
@@ -192,7 +190,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- S -->
 <!-- T -->
 <item>
-<thumbnail>https://i0.wp.com/www.elblogdeyes.com/wp-content/uploads/2017/07/your-name_102874.jpg</thumbnail>
+<thumbnail>http://gnula.nu/wp-content/uploads/2017/09/Transformers_The_Last_Knight5.gif</thumbnail>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
@@ -215,13 +213,12 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex><name>nombre</name><expres></expres><page></page></regex>
 <page></page>
 </regex>
-<thumbnail>http://gnula.nu/wp-content/uploads/2017/09/Transformers_The_Last_Knight5.gif</thumbnail> 
 </item>
 <!-- U -->
 <!-- V -->
 <!-- W -->
 <item>
-<thumbnail>https://i0.wp.com/www.elblogdeyes.com/wp-content/uploads/2017/07/your-name_102874.jpg</thumbnail>
+<thumbnail>http://gnula.nu/wp-content/uploads/2017/06/Wonder_Woman_poster_final_usa.jpg</thumbnail>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
@@ -244,7 +241,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex><name>nombre</name><expres></expres><page></page></regex>
 <page></page>
 </regex>
-<thumbnail>http://gnula.nu/wp-content/uploads/2017/06/Wonder_Woman_poster_final_usa.jpg</thumbnail> 
 </item>
 
 <!-- X -->
