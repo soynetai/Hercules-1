@@ -55,7 +55,7 @@
 <listrepeat><![CDATA[
 <SetViewMode>55</SetViewMode>
 <title>[COLOR white][makelist.param1] [COLOR yellow] [makelist.param2]  [COLOR gold] [makelist.param4][/COLOR][/COLOR][/COLOR]  [COLOR red] [makelist.param5][/COLOR] </title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Futbol+[makelist.param5]</link>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Futbol+[makelist.param4]</link>
 			<regex>
 			<name>hash</name> 
 			<expres>this.loadPlayer\("(.*?)"</expres>
