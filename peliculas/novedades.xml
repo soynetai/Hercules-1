@@ -98,86 +98,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- E -->
 <!-- F -->
 <!-- G -->
-
-<item>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
-    import urlresolver
-    url = 'https://powvideo.net/dsc7a7yu7462'
-    try:
-        u = urlresolver.resolve(url)
-    except:
-        u = 'http://www.grupo-netai.org/error.mp4'
-    return u
-]]></expres>
-<page></page>
-</regex>
-<regex>
-<name></name>
-<expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<title>[COLOR orange] Gru 3: Mi villano favorito (2017) [/COLOR][COLOR white] 720p. [/COLOR][COLOR gold] HD [/COLOR]</title>
-<regex><name>nombre</name><expres></expres><page></page></regex>
-<page></page>
-</regex>
-<thumbnail>http://gnula.nu/wp-content/uploads/2017/06/Despicable_Me_3_poster_usa.jpg</thumbnail> 
-</item>
-
-<item>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
-    import urlresolver
-    url = 'https://streamplay.to/g4snkd0t1utx'
-    try:
-        u = urlresolver.resolve(url)
-    except:
-        u = 'http://www.grupo-netai.org/error.mp4'
-    return u
-]]></expres>
-<page></page>
-</regex>
-<regex>
-<name></name>
-<expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<title>[COLOR orange] Gru 3: Mi villano favorito (2017) [/COLOR][COLOR white] 720p. [/COLOR][COLOR gold] HD [/COLOR]</title>
-<regex><name>nombre</name><expres></expres><page></page></regex>
-<page></page>
-</regex>
-<thumbnail>http://gnula.nu/wp-content/uploads/2017/06/Despicable_Me_3_poster_usa.jpg</thumbnail> 
-</item>
-
 <!-- H -->
 <!-- I -->
-<item>
- <thumbnail>https://pasateatorrent.com/wp-content/uploads/2017/06/La_momia-387983691-large.jpg</thumbnail> 
-<fanart></fanart>
-<link>$doregex[id3]</link>
-<regex>
-<name>id3</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
-    import urlresolver
-    url = 'https://streamango.com/f/kekmtmanoscptott/1t_2017_tshq_castellano_mp4'
-    try:
-        u = urlresolver.resolve(url)
-    except:
-        u = 'http://www.grupo-netai.org/error.mp4'
-    return u
-]]></expres>
-<page></page>
-</regex>	
-<thumbnail>https://pasateatorrent.com/wp-content/uploads/2017/09/Untitled-1-1.jpg</thumbnail> 
-<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<title>[COLOR orange]It (Eso) (2017) [/COLOR][COLOR white] 720p. [/COLOR][COLOR gold] HD [/COLOR]</title>
-<regex><name>nombre</name><expres>La momia</expres><page></page></regex>
-<regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
-<page></page></regex>
-</item>
 <!-- J -->
 <!-- K -->
 <item>
@@ -207,58 +129,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://i0.wp.com/www.elblogdeyes.com/wp-content/uploads/2017/07/your-name_102874.jpg</thumbnail> 
 </item>
 <!-- L -->
-<item>
- <thumbnail>https://pasateatorrent.com/wp-content/uploads/2017/09/Untitled-1-1.jpg</thumbnail> 
-<fanart></fanart>
-<link>$doregex[id3]</link>
-<regex>
-<name>id3</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
-    import urlresolver
-    url = 'https://streamplay.to/310jqfqzokvc'
-    try:
-        u = urlresolver.resolve(url)
-    except:
-        u = 'http://www.grupo-netai.org/error.mp4'
-    return u
-]]></expres>
-<page></page>
-</regex>	
-<thumbnail>https://pasateatorrent.com/wp-content/uploads/2017/03/Logan-990914206-large.jpg</thumbnail> 
-<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<title>[COLOR orange]La momia (2017) [/COLOR][COLOR white] 720p. [/COLOR][COLOR gold] HD [/COLOR]</title>
-<regex><name>nombre</name><expres>La momia</expres><page></page></regex>
-<regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
-<page></page></regex>
-</item>
-
-<item>
-<thumbnail>https://pasateatorrent.com/wp-content/uploads/2017/03/Logan-990914206-large.jpg</thumbnail>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
-    import urlresolver
-    url = 'http://uptobox.com/ymmqfgxslt0p'
-    try:
-        u = urlresolver.resolve(url)
-    except:
-        u = 'http://www.grupo-netai.org/error.mp4'
-    return u
-]]></expres>
-<page></page>
-</regex>
-<regex>
-<name></name>
-<expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<title>[COLOR orange]Logan (2017) [/COLOR][COLOR white]1080p.[/COLOR][COLOR gold] HD [/COLOR]</title>
-<regex><name>nombre</name><expres></expres><page></page></regex>
-<page></page>
-</regex>
-</item>
-
 <!-- M -->
 <!-- N -->
 <!-- Ñ -->
@@ -272,15 +142,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- V -->
 <!-- W -->
 <item>
- <thumbnail>https://pasateatorrent.com/wp-content/uploads/2017/09/Untitled-1-1.jpg</thumbnail> 
-<fanart></fanart>
-<link>$doregex[id3]</link>
+<thumbnail>https://i0.wp.com/www.elblogdeyes.com/wp-content/uploads/2017/07/your-name_102874.jpg</thumbnail>
+<link>$doregex[url]</link>
 <regex>
-<name>id3</name>
+<name>url</name>
 <expres><![CDATA[#$pyFunction
 def GetLSProData(page_data,Cookie_Jar,m):
     import urlresolver
-    url = 'https://streamplay.to/p5rkfepnybf1'
+    url = 'http://uptobox.com/qrfrw29x0ekr'
     try:
         u = urlresolver.resolve(url)
     except:
@@ -288,13 +157,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return u
 ]]></expres>
 <page></page>
-</regex>	
-<thumbnail>http://gnula.nu/wp-content/uploads/2017/06/Wonder_Woman_poster_final_usa.jpg</thumbnail> 
-<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+</regex>
+<regex>
+<name></name>
+<expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR orange]Wonder Woman (2017) [/COLOR][COLOR white] 720p. [/COLOR][COLOR gold] HD [/COLOR]</title>
-<regex><name>nombre</name><expres>La momia</expres><page></page></regex>
-<regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
-<page></page></regex>
+<regex><name>nombre</name><expres></expres><page></page></regex>
+<page></page>
+</regex>
+<thumbnail>http://gnula.nu/wp-content/uploads/2017/06/Wonder_Woman_poster_final_usa.jpg</thumbnail> 
 </item>
 
 <!-- X -->
