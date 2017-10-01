@@ -1,275 +1,132 @@
 
 <!--  Regex para streamplay,streamcloud,openload,StreamGo,Uptobox,Yourupload
+Los vigilantes de la playa (2017) https://streamango.com/f/mrsapatcfrrktdro/b4yw4tch_2017_hdrip_720p_castellano_mp4
+Los vigilantes de la playa (2017) http://uptobox.com/nvq0h59zvo8f
+El círculo (2017) http://uptobox.com/8vhwr4ypj6m2
+Gru 3: Mi villano favorito (2017) http://streamcloud.eu/5i53enkia61y/d3sp1c4bl3.m3.2017.hdrip.720p.castellano.mp4.html
+It (Eso) (2017) https://streamango.com/f/kekmtmanoscptott/1t_2017_tshq_castellano_mp4
+It (Eso) (2017) https://streamango.com/f/kekmtmanoscptott/1t_2017_tshq_castellano_mp4
+Kimi no na wa (your name) https://streamango.com/f/dlqsdqoeakltnrkl/k1m1_n0_n4_w4_2016_hdrip_720p_castellano_mp4
+Logan (2017) http://uptobox.com/ymmqfgxslt0p
+La momia (2017) http://streamcloud.eu/zdgp8eb482vq/th3.mummy.2017.hdrip.720p.castellano.mp4.html
+Transformers: El último caballero (2017) http://streamcloud.eu/xc9q964pw6my/tr4nsf0rm3rs.th3.l4st.kn1ght.2017.brrs.720p.castellano.mp4.html
+Wonder Woman (2017) https://streamango.com/f/tneqemnnrtfmaqlo/w0nd3r_w0m4n_2017_hdrip_720p_castellano_mp4
+
+
 <item>
-<title>[COLOR orange]nombre[/COLOR]</title>
-<link>$doregex[GetPageUrl]</link>
+<thumbnail></thumbnail> 
+<fanart></fanart>
+<link>$doregex[url]</link>
 <regex>
-<name>GetPageUrl</name>
+<name>url</name>
 <expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='url del video'):
-   import liveresolver
-   u = urlresolver.resolve(url)
-   return u
+def GetLSProData(page_data,Cookie_Jar,m):
+    import urlresolver
+    url = 'https://streamango.com/f/mrkrfprodmmnsqke/The_bad_batch_2016_1080p-dual-cast_mp4'
+    try:
+        u = urlresolver.resolve(url)
+    except:
+        u = 'http://www.grupo-netai.org/error.mp4'
+    return u
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>http://latelete.tv/img/tve1.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+<regex>
+<name></name>
+<expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<title>[COLOR orange]  [/COLOR][COLOR white]  [/COLOR][COLOR gold]  [/COLOR]</title>
+<regex><name>nombre</name><expres>The Bad batch</expres><page></page></regex>
+<page></page>
+</regex>
+<thumbnail></thumbnail> 
 </item>
+
+
 -->
 
 <!-- 0-9 @# -->
 <!-- A -->
 <!-- B -->
 <item>
-<title>[COLOR orange]Baywatch: Los vigilantes de la playa (2017)[/COLOR]</title>
-<link>$doregex[GetPageUrl]</link>
+<link>$doregex[url]</link>
 <regex>
-<name>GetPageUrl</name>
+<name>url</name>
 <expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='https://streamango.com/f/mrsapatcfrrktdro/b4yw4tch_2017_hdrip_720p_castellano_mp4'):
-   import liveresolver
-   u = urlresolver.resolve(url)
-   return u
+def GetLSProData(page_data,Cookie_Jar,m):
+    import urlresolver
+    url = 'https://streamango.com/f/mrkrfprodmmnsqke/The_bad_batch_2016_1080p-dual-cast_mp4'
+    try:
+        u = urlresolver.resolve(url)
+    except:
+        u = 'http://www.grupo-netai.org/error.mp4'
+    return u
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BNTA4MjQ0ODQzNF5BMl5BanBnXkFtZTgwNzA5NjYzMjI@._V1_UX182_CR0,0,182,268_AL_.jpg</thumbnail>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+<regex>
+<name></name>
+<expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<title>[COLOR orange] Baywatch: Los vigilantes de la playa (2017) [/COLOR][COLOR white] 720p. [/COLOR][COLOR gold] HD [/COLOR]</title>
+<regex><name>nombre</name><expres></expres><page></page></regex>
+<page></page>
+</regex>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BNTA4MjQ0ODQzNF5BMl5BanBnXkFtZTgwNzA5NjYzMjI@._V1_UX182_CR0,0,182,268_AL_.jpg</thumbnail> 
 </item>
 
 <item>
-<title>[COLOR orange]Baywatch: Los vigilantes de la playa (2017)[/COLOR]</title>
-<link>$doregex[GetPageUrl]</link>
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+<fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
+
+ <link>$doregex[id3]</link>
+ 
 <regex>
-<name>GetPageUrl</name>
+<name>id3</name>
 <expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='http://uptobox.com/nvq0h59zvo8f'):
-   import liveresolver
-   u = urlresolver.resolve(url)
-   return u
+def GetLSProData(page_data,Cookie_Jar,m):
+    import urlresolver
+    url = 'https://streamango.com/f/mrkrfprodmmnsqke/The_bad_batch_2016_1080p-dual-cast_mp4'
+    try:
+        u = urlresolver.resolve(url)
+    except:
+        u = 'http://adryanlist.org/error.mp4'
+    return u
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BNTA4MjQ0ODQzNF5BMl5BanBnXkFtZTgwNzA5NjYzMjI@._V1_UX182_CR0,0,182,268_AL_.jpg</thumbnail>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+
+ <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
+<title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] sm  [/COLOR]</title>
+
+<regex><name>nombre</name><expres>The Bad batch</expres><page></page></regex>
+<regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
+<page></page></regex>
 </item>
+
 
 <!-- C -->
 <!-- D -->
 <!-- E -->
-<item>
-<title>[COLOR orange]El círculo (2017)[/COLOR]</title>
-<link>$doregex[GetPageUrl]</link>
-<regex>
-<name>GetPageUrl</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='http://uptobox.com/8vhwr4ypj6m2'):
-   import liveresolver
-   u = urlresolver.resolve(url)
-   return u
-]]></expres>
-<page></page>
-</regex>
-<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMjY2OTM2Njc3Ml5BMl5BanBnXkFtZTgwNDgzODU3MTI@._V1_UX182_CR0,0,182,268_AL_.jpg</thumbnail>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
-</item>
-
-
 <!-- F -->
 <!-- G -->
-<item>
-<title>[COLOR orange]Gru 3: Mi villano favorito (2017)[/COLOR]</title>
-<link>$doregex[GetPageUrl]</link>
-<regex>
-<name>GetPageUrl</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='http://streamcloud.eu/5i53enkia61y/d3sp1c4bl3.m3.2017.hdrip.720p.castellano.mp4.html'):
-   import liveresolver
-   u = urlresolver.resolve(url)
-   return u
-]]></expres>
-<page></page>
-</regex>
-<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BNjUyNzQ2MTg3Ml5BMl5BanBnXkFtZTgwNzE4NDM3MTI@._V1_UX182_CR0,0,182,268_AL_.jpg</thumbnail>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
-</item>
-
 <!-- H -->
 <!-- I -->
-
-<item>
-<title>[COLOR orange]It (Eso) (2017)[/COLOR]</title>
-<link>$doregex[GetPageUrl]</link>
-<regex>
-<name>GetPageUrl</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='http://uptobox.com/72em0xcmi2gs'):
-   import liveresolver
-   u = urlresolver.resolve(url)
-   return u
-]]></expres>
-<page></page>
-</regex>
-<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BYjg1YTRkNzQtODgyYi00MTQ5LThiMDYtNDJjMWRjNTdjZDZlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UX182_CR0,0,182,268_AL_.jpg</thumbnail>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>[COLOR orange]It (Eso) (2017)[/COLOR]</title>
-<link>$doregex[GetPageUrl]</link>
-<regex>
-<name>GetPageUrl</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='https://streamango.com/f/kekmtmanoscptott/1t_2017_tshq_castellano_mp4'):
-   import liveresolver
-   u = urlresolver.resolve(url)
-   return u
-]]></expres>
-<page></page>
-</regex>
-<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BYjg1YTRkNzQtODgyYi00MTQ5LThiMDYtNDJjMWRjNTdjZDZlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UX182_CR0,0,182,268_AL_.jpg</thumbnail>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
-</item>
-
 <!-- J -->
 <!-- K -->
-<item>
-<title>[COLOR orange]Kimi no na wa (your name)[/COLOR]</title>
-<link>$doregex[GetPageUrl]</link>
-<regex>
-<name>GetPageUrl</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='https://streamango.com/f/dlqsdqoeakltnrkl/k1m1_n0_n4_w4_2016_hdrip_720p_castellano_mp4'):
-   import liveresolver
-   u = urlresolver.resolve(url)
-   return u
-]]></expres>
-<page></page>
-</regex>
-<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BODRmZDVmNzUtZDA4ZC00NjhkLWI2M2UtN2M0ZDIzNDcxYThjL2ltYWdlXkEyXkFqcGdeQXVyNTk0MzMzODA@._V1_UX182_CR0,0,182,268_AL_.jpg</thumbnail>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
-</item>
-
-
 <!-- L -->
-
-<item>
-<title>[COLOR orange]La momia (2017)[/COLOR]</title>
-<link>$doregex[GetPageUrl]</link>
-<regex>
-<name>GetPageUrl</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='http://streamcloud.eu/zdgp8eb482vq/th3.mummy.2017.hdrip.720p.castellano.mp4.html'):
-   import liveresolver
-   u = urlresolver.resolve(url)
-   return u
-]]></expres>
-<page></page>
-</regex>
-<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BODg1NTIxMzEtM2NmMi00MDQ2LWE5YjYtZTgxYmNhZTQxYWIzXkEyXkFqcGdeQXVyNDYzODU1ODM@._V1_UX182_CR0,0,182,268_AL_.jpg</thumbnail>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
-</item>
-<item>
-<title>[COLOR orange]Logan (2017)[/COLOR]</title>
-<link>$doregex[GetPageUrl]</link>
-<regex>
-<name>GetPageUrl</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='http://uptobox.com/ymmqfgxslt0p'):
-   import liveresolver
-   u = urlresolver.resolve(url)
-   return u
-]]></expres>
-<page></page>
-</regex>
-<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMjQwODQwNTg4OV5BMl5BanBnXkFtZTgwMTk4MTAzMjI@._V1_UX182_CR0,0,182,268_AL_.jpg</thumbnail>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
-</item>
-
 <!-- M -->
 <!-- N -->
 <!-- Ñ -->
 <!-- O -->
 <!-- P -->
-
 <!-- Q -->
 <!-- R -->
 <!-- S -->
-
-<item>
-<title>[COLOR orange]Security (2017) Latino[/COLOR]</title>
-<link>$doregex[GetPageUrl]</link>
-<regex>
-<name>GetPageUrl</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='https://streamango.com/f/qtbdsapanamptdec/s4curt1ty_2017_hdrip_720p_latino_gnula_mp4'):
-   import liveresolver
-   u = urlresolver.resolve(url)
-   return u
-]]></expres>
-<page></page>
-</regex>
-<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BNzYzNjMwNzktYzYwMS00MTdlLWFlZWEtNzFiZDRjYzRiNjZmXkEyXkFqcGdeQXVyMTg0MzgwODA@._V1_UY268_CR13,0,182,268_AL_.jpg</thumbnail>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
-</item>
-
-
 <!-- T -->
-<item>
-<title>[COLOR orange]Transformers: El último caballero (2017)[/COLOR]</title>
-<link>$doregex[GetPageUrl]</link>
-<regex>
-<name>GetPageUrl</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='http://streamcloud.eu/xc9q964pw6my/tr4nsf0rm3rs.th3.l4st.kn1ght.2017.brrs.720p.castellano.mp4.html'):
-   import liveresolver
-   u = urlresolver.resolve(url)
-   return u
-]]></expres>
-<page></page>
-</regex>
-<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMTk3OTI3MDk4N15BMl5BanBnXkFtZTgwNDg2ODIyMjI@._V1_UY268_CR0,0,182,268_AL_.jpg</thumbnail>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
-</item>
 <!-- U -->
 <!-- V -->
 <!-- W -->
-<item>
-<title>[COLOR orange]Wonder Woman (2017)[/COLOR]</title>
-<link>$doregex[GetPageUrl]</link>
-<regex>
-<name>GetPageUrl</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='https://openload.co/f/XQciX9mQb3I/w0nd3r.w0m4n.2017.hdrip.720p.castellano.mp4'):
-   import liveresolver
-   u = urlresolver.resolve(url)
-   return u
-]]></expres>
-<page></page>
-</regex>
-<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BNDFmZjgyMTEtYTk5MC00NmY0LWJhZjktOWY2MzI5YjkzODNlXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_UX182_CR0,0,182,268_AL_.jpg</thumbnail>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
-</item>
-
-
-
-<item>
-<title>[COLOR orange]Wonder Woman (2017)[/COLOR]</title>
-<link>$doregex[GetPageUrl]</link>
-<regex>
-<name>GetPageUrl</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='https://streamango.com/f/tneqemnnrtfmaqlo/w0nd3r_w0m4n_2017_hdrip_720p_castellano_mp4'):
-   import liveresolver
-   u = urlresolver.resolve(url)
-   return u
-]]></expres>
-<page></page>
-</regex>
-<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BNDFmZjgyMTEtYTk5MC00NmY0LWJhZjktOWY2MzI5YjkzODNlXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_UX182_CR0,0,182,268_AL_.jpg</thumbnail>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
-</item>
 <!-- X -->
 <!-- Y -->
 <!-- Z -->
