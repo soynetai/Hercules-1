@@ -19,7 +19,7 @@
 <name>makelist2</name>
 <listrepeat><![CDATA[
 <SetwatchMode>55</SetwatchMode>
-<title>[COLOR lightslategray][makelist2.param2] [COLOR skyblue][makelist2.param3] [COLOR deepskyblue] [B][makelist2.param5][/B] [/COLOR][/COLOR][/COLOR]</title>
+<title>[COLOR white][makelist2.param2] [COLOR orange][makelist2.param3] [COLOR red] [B][makelist2.param5][/B] [/COLOR][/COLOR][/COLOR]</title>
 <link>$doregex[makelist]</link>
 ]]></listrepeat>
 <expres>"id":"(.*?)","fecha":"(.*?)","hora":"(.*?)","categoria":"(.*?)","titulo":"(.*?)"</expres>
