@@ -100,9 +100,11 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- D -->
 <!-- E -->
 <item>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+<fanart></fanart>
+<link>$doregex[id3]</link>
+ <regex>
+<name>id3</name>
 <expres><![CDATA[#$pyFunction
 def GetLSProData(page_data,Cookie_Jar,m):
     import urlresolver
@@ -110,20 +112,21 @@ def GetLSProData(page_data,Cookie_Jar,m):
     try:
         u = urlresolver.resolve(url)
     except:
-        u = 'http://www.grupo-netai.org/error.mp4'
+        u = 'http://adryanlist.org/error.mp4'
     return u
 ]]></expres>
 <page></page>
 </regex>
-<regex>
-<name></name>
-<expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<title>[COLOR orange] El Circulo (2017) [/COLOR][COLOR white] 720p. [/COLOR][COLOR gold] HD [/COLOR]</title>
-<regex><name>nombre</name><expres></expres><page></page></regex>
-<page></page>
-</regex>
-<thumbnail>https://pasateatorrent.com/wp-content/uploads/2017/07/El-c%C3%ADrculo.jpg</thumbnail> 
+
+ <thumbnail></thumbnail> 
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<title>[COLOR orange] El circulo [/COLOR][COLOR white] 720p. [/COLOR][COLOR gold] uptobox  [/COLOR]</title>
+<regex><name>nombre</name><expres>El circule</expres><page></page></regex>
+<regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
+<page></page></regex>
 </item>
+
+
 <!-- F -->
 <!-- G -->
 <!-- H -->
