@@ -1,7 +1,6 @@
 
 <!--  Regex para streamplay,streamcloud,openload,StreamGo,Uptobox,Yourupload
-Los vigilantes de la playa (2017) https://streamango.com/f/mrsapatcfrrktdro/b4yw4tch_2017_hdrip_720p_castellano_mp4
-Los vigilantes de la playa (2017) http://uptobox.com/nvq0h59zvo8f
+
 El círculo (2017) http://uptobox.com/8vhwr4ypj6m2
 Gru 3: Mi villano favorito (2017) http://streamcloud.eu/5i53enkia61y/d3sp1c4bl3.m3.2017.hdrip.720p.castellano.mp4.html
 It (Eso) (2017) https://streamango.com/f/kekmtmanoscptott/1t_2017_tshq_castellano_mp4
@@ -14,8 +13,6 @@ Wonder Woman (2017) https://streamango.com/f/tneqemnnrtfmaqlo/w0nd3r_w0m4n_2017_
 
 
 <item>
-<thumbnail></thumbnail> 
-<fanart></fanart>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
@@ -34,11 +31,11 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name></name>
 <expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<title>[COLOR orange]  [/COLOR][COLOR white]  [/COLOR][COLOR gold]  [/COLOR]</title>
-<regex><name>nombre</name><expres>The Bad batch</expres><page></page></regex>
+<title>[COLOR orange] Baywatch: Los vigilantes de la playa (2017) [/COLOR][COLOR white] 720p. [/COLOR][COLOR gold] HD [/COLOR]</title>
+<regex><name>nombre</name><expres></expres><page></page></regex>
 <page></page>
 </regex>
-<thumbnail></thumbnail> 
+<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BNTA4MjQ0ODQzNF5BMl5BanBnXkFtZTgwNzA5NjYzMjI@._V1_UX182_CR0,0,182,268_AL_.jpg</thumbnail> 
 </item>
 
 
@@ -74,40 +71,59 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
-<fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
-
- <link>$doregex[id3]</link>
- 
+<link>$doregex[url]</link>
 <regex>
-<name>id3</name>
+<name>url</name>
 <expres><![CDATA[#$pyFunction
 def GetLSProData(page_data,Cookie_Jar,m):
     import urlresolver
-    url = 'https://streamango.com/f/mrkrfprodmmnsqke/The_bad_batch_2016_1080p-dual-cast_mp4'
+    url = 'http://uptobox.com/nvq0h59zvo8f'
     try:
         u = urlresolver.resolve(url)
     except:
-        u = 'http://adryanlist.org/error.mp4'
+        u = 'http://www.grupo-netai.org/error.mp4'
     return u
 ]]></expres>
 <page></page>
 </regex>
-
- <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
-<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<info> ---- Recuerda hacer tu donacion para seguir mejorando Adryanlist en     http://paypal.me/Adryanlist</info>
-<title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR aquamarine] [/COLOR][COLOR lightslategray] sm  [/COLOR]</title>
-
-<regex><name>nombre</name><expres>The Bad batch</expres><page></page></regex>
-<regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
-<page></page></regex>
+<regex>
+<name></name>
+<expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<title>[COLOR orange] Baywatch: Los vigilantes de la playa (2017) [/COLOR][COLOR white] 720p. [/COLOR][COLOR gold] HD [/COLOR]</title>
+<regex><name>nombre</name><expres></expres><page></page></regex>
+<page></page>
+</regex>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BNTA4MjQ0ODQzNF5BMl5BanBnXkFtZTgwNzA5NjYzMjI@._V1_UX182_CR0,0,182,268_AL_.jpg</thumbnail> 
 </item>
-
 
 <!-- C -->
 <!-- D -->
 <!-- E -->
+<item>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import urlresolver
+    url = 'http://uptobox.com/8vhwr4ypj6m2'
+    try:
+        u = urlresolver.resolve(url)
+    except:
+        u = ''
+    return u
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name></name>
+<expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<title>[COLOR orange] El círculo (2017) [/COLOR][COLOR white] 720p. [/COLOR][COLOR gold] HD [/COLOR]</title>
+<regex><name>nombre</name><expres></expres><page></page></regex>
+<page></page>
+</regex>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BNTA4MjQ0ODQzNF5BMl5BanBnXkFtZTgwNzA5NjYzMjI@._V1_UX182_CR0,0,182,268_AL_.jpg</thumbnail> 
+</item>
 <!-- F -->
 <!-- G -->
 <!-- H -->
