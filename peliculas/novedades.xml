@@ -96,82 +96,60 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- C -->
 <!-- D -->
 <!-- E -->
-<item>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
-    import urlresolver
-    url = 'http://uptobox.com/8vhwr4ypj6m2'
-    try:
-        u = urlresolver.resolve(url)
-    except:
-        u = 'http://www.grupo-netai.org/error.mp4'
-    return u
-]]></expres>
-<page></page>
-</regex>
-<regex>
-<name></name>
-<expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<title>[COLOR orange]El circulo (2017) [/COLOR][COLOR white] 720p. [/COLOR][COLOR gold] HD [/COLOR]</title>
-<regex><name>nombre</name><expres></expres><page></page></regex>
-<page></page>
-</regex>
-<thumbnail>https://pasateatorrent.com/wp-content/uploads/2017/07/El-c%C3%ADrculo.jpg</thumbnail> 
-</item>
-
-<item>
-<link>$doregex[url]</link>
-<regex>
-<name>url</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
-    import urlresolver
-    url = 'http://uptobox.com/8vhwr4ypj6m2'
-    try:
-        u = urlresolver.resolve(url)
-    except:
-        u = 'http://www.grupo-netai.org/error.mp4'
-    return u
-]]></expres>
-<page></page>
-</regex>
-<regex>
-<name></name>
-<expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<title>[COLOR orange]El circulo (2017) [/COLOR][COLOR white] 720p. [/COLOR][COLOR gold] HD [/COLOR]</title>
-<regex><name>nombre</name><expres></expres><page></page></regex>
-<page></page>
-</regex>
-<thumbnail>https://pasateatorrent.com/wp-content/uploads/2017/07/El-c%C3%ADrculo.jpg</thumbnail> 
-</item>
-<item>
-<title>[COLOR orange]El circulo (2017) [/COLOR][COLOR white] 720p. [/COLOR][COLOR gold] HD [/COLOR]</title>
-<link>$doregex[id3]</link>
-<regex>
-<name>id3</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
-   import urlresolver
-   url = 'http://uptobox.com/8vhwr4ypj6m2'
-   try:
-       u = urlresolver.resolve(url)
-   except:
-       u = 'http://www.grupo-netai.org/error.mp4'
-   return u
-]]></expres>
-<page></page>
-</regex> 
-<thumbnail>https://pasateatorrent.com/wp-content/uploads/2017/07/El-c%C3%ADrculo.jpg</thumbnail>       
-<item>
-
-
 <!-- F -->
 <!-- G -->
 
+<item>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import urlresolver
+    url = 'https://powvideo.net/dsc7a7yu7462'
+    try:
+        u = urlresolver.resolve(url)
+    except:
+        u = 'http://www.grupo-netai.org/error.mp4'
+    return u
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name></name>
+<expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<title>[COLOR orange] Gru 3: Mi villano favorito (2017) [/COLOR][COLOR white] 720p. [/COLOR][COLOR gold] HD [/COLOR]</title>
+<regex><name>nombre</name><expres></expres><page></page></regex>
+<page></page>
+</regex>
+<thumbnail>http://gnula.nu/wp-content/uploads/2017/06/Despicable_Me_3_poster_usa.jpg</thumbnail> 
+</item>
 
+<item>
+<link>$doregex[url]</link>
+<regex>
+<name>url</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import urlresolver
+    url = 'https://streamplay.to/g4snkd0t1utx'
+    try:
+        u = urlresolver.resolve(url)
+    except:
+        u = 'http://www.grupo-netai.org/error.mp4'
+    return u
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name></name>
+<expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<title>[COLOR orange] Gru 3: Mi villano favorito (2017) [/COLOR][COLOR white] 720p. [/COLOR][COLOR gold] HD [/COLOR]</title>
+<regex><name>nombre</name><expres></expres><page></page></regex>
+<page></page>
+</regex>
+<thumbnail>http://gnula.nu/wp-content/uploads/2017/06/Despicable_Me_3_poster_usa.jpg</thumbnail> 
+</item>
 
 <!-- H -->
 <!-- I -->
@@ -293,6 +271,32 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- U -->
 <!-- V -->
 <!-- W -->
+<item>
+ <thumbnail>https://pasateatorrent.com/wp-content/uploads/2017/09/Untitled-1-1.jpg</thumbnail> 
+<fanart></fanart>
+<link>$doregex[id3]</link>
+<regex>
+<name>id3</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import urlresolver
+    url = 'https://streamplay.to/p5rkfepnybf1'
+    try:
+        u = urlresolver.resolve(url)
+    except:
+        u = 'http://www.grupo-netai.org/error.mp4'
+    return u
+]]></expres>
+<page></page>
+</regex>	
+<thumbnail>http://gnula.nu/wp-content/uploads/2017/06/Wonder_Woman_poster_final_usa.jpg</thumbnail> 
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<title>[COLOR orange]Wonder Woman (2017) [/COLOR][COLOR white] 720p. [/COLOR][COLOR gold] HD [/COLOR]</title>
+<regex><name>nombre</name><expres>La momia</expres><page></page></regex>
+<regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
+<page></page></regex>
+</item>
+
 <!-- X -->
 <!-- Y -->
 <!-- Z -->
