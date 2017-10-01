@@ -100,6 +100,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- D -->
 <!-- E -->
 <item>
+<title></title>
 <link>$doregex[url]</link>
 <regex>
 <name>url</name>
@@ -115,14 +116,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
-<regex>
-<name></name>
-<expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<title>[COLOR orange] El círculo (2017) [/COLOR][COLOR white] 720p. [/COLOR][COLOR gold] HD [/COLOR]</title>
-<regex><name>nombre</name><expres></expres><page></page></regex>
-<page></page>
-</regex>
-<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BNTA4MjQ0ODQzNF5BMl5BanBnXkFtZTgwNzA5NjYzMjI@._V1_UX182_CR0,0,182,268_AL_.jpg</thumbnail> 
+<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMjY2OTM2Njc3Ml5BMl5BanBnXkFtZTgwNDgzODU3MTI@._V1_UX182_CR0,0,182,268_AL_.jpg</thumbnail>
 </item>
 <!-- F -->
 <!-- G -->
