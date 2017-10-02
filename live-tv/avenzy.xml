@@ -1,20 +1,18 @@
 <item>
 <title>[COLOR orange]  [B]Arena Sports[/B][/COLOR] [COLOR white] |Categorias| [/COLOR]</title>
-<SetViewMode>55</SetViewMode>
+
 <link>$doregex[makelist3]</link>
 
 <regex>
 <name>makelist3</name>
 <listrepeat><![CDATA[
 <SetViewMode>55</SetViewMode>
-<title>[COLOR orange][B][makelist3.param1] [/B] [COLOR white][[makelist3.param2]]  [/COLOR][/COLOR]</title>
+<title>[COLOR white][B][makelist3.param1] [/B] [COLOR gold][[makelist3.param2]]  [/COLOR][/COLOR]</title>
 <link>$doregex[makelist2]</link>
 ]]></listrepeat>
 <expres>categoria":"(.*?)","items":"(.*?)"</expres>
 <page>https://avezy.xyz/json.php</page>
 </regex>
-
-
 
 <regex>
 <name>makelist2</name>
@@ -32,12 +30,11 @@
 <page></page>
 </regex>
 
-
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
 <SetwatchMode>55</SetwatchMode>
-<title> [COLOR orange] [B][makelist2.param5][/B] [/COLOR][COLOR green] Canal  [makelist.param1]  [/COLOR][COLOR gold]idioma: [COLOR red][makelist.param3] [/COLOR][/COLOR]</title>
+<title> [COLOR white] [B][makelist2.param5][/B] [/COLOR]  Canal:  [makelist.param1]  idioma:[makelist.param3] </title>
 <link>plugin://program.plexus/?url=[makelist.param2]&amp;mode=1&amp;name=Adryanlist</link>
 </item>	
 ]]></listrepeat>
@@ -48,7 +45,6 @@
 
 <thumbnail>https://raw.githubusercontent.com/Andorth/ArenaSports/master/icon.png</thumbnail>
 </item>
-
 
 <regex>
 <name>makelist</name>
