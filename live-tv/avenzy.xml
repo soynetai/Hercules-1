@@ -1,5 +1,4 @@
 <item>
-<parentalblock>true</parentalblock> 
 <title>[COLOR orange]  [B]Arena Sports[/B][/COLOR] [COLOR white] |Categorias| [/COLOR]</title>
 <SetViewMode>55</SetViewMode>
 <link>$doregex[makelist3]</link>
@@ -46,7 +45,6 @@
 </item>
 
 <item>
-<parentalblock>true</parentalblock> 
 <title>[COLOR orange]  [B]Arena Sports[/B][/COLOR] [COLOR white] |Futbol| [/COLOR]</title>
 <SetViewMode>55</SetViewMode>
 <link>$doregex[makelist2]</link>
