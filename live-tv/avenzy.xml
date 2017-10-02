@@ -38,12 +38,12 @@
 <link>plugin://program.plexus/?url=[makelist.param2]&amp;mode=1&amp;name=Adryanlist</link>
 </item>	
 ]]></listrepeat>
-<expres>canal":"(.+?)".*?acestream:/(.*?)".*?idioma":"(.*?)"</expres>
+<expres>canal":"(.+?)".*?acestream:\\\/\\\/(.*?)".*?idioma":"(.*?)"</expres>
 <page>https://avezy.xyz/json.php?action=listado_canales&amp;evento=[makelist2.param1]</page>
 </regex>
 
 
-<thumbnail>http://adryanlist.org/adryan/img/acestreams.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/Andorth/ArenaSports/master/icon.png</thumbnail>
 </item>
 
 
