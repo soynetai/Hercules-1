@@ -42,6 +42,35 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <!-- 0-9 @# -->
 <!-- A -->
+<item>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+<fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
+
+ <link>$doregex[id3]</link>
+ 
+<regex>
+<name>id3</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import urlresolver
+    url = 'https://streamango.com/f/febbempdbmraefns/Anacleto_agente_secreto_HDRip_EliteTorrent_net_avi_mp4'
+    try:
+        u = urlresolver.resolve(url)
+    except:
+        u = 'http://www.grupo-netai.org/error.mp4'
+    return u
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<title>[COLOR orange]$doregex[nombre]  [/COLOR][COLOR white] [/COLOR]</title>
+
+<regex><name>nombre</name><expres> Anacleto: agente secreto</expres><page></page></regex>
+<regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
+<page></page></regex>
+</item>
+
 <!-- B -->
 
 <item>
@@ -70,7 +99,65 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 </item>
 
+<item>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+<fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
+
+ <link>$doregex[id3]</link>
+ 
+<regex>
+<name>id3</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import urlresolver
+    url = 'https://streamango.com/f/qpeekopdtocbmesm/Ballerina_microHD_EliteTorrent_net_mkv_mp4'
+    try:
+        u = urlresolver.resolve(url)
+    except:
+        u = 'http://www.grupo-netai.org/error.mp4'
+    return u
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<title>[COLOR orange]$doregex[nombre]  [/COLOR][COLOR white] [/COLOR]</title>
+
+<regex><name>nombre</name><expres>Ballerina</expres><page></page></regex>
+<regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
+<page></page></regex>
+</item>
+
+
 <!-- C -->
+<item>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+<fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
+
+ <link>$doregex[id3]</link>
+ 
+<regex>
+<name>id3</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import urlresolver
+    url = 'https://streamango.com/f/nepfpsqlddqcrfsm/Canta_mkv_mp4'
+    try:
+        u = urlresolver.resolve(url)
+    except:
+        u = 'http://www.grupo-netai.org/error.mp4'
+    return u
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<title>[COLOR orange]$doregex[nombre]  [/COLOR][COLOR white] [/COLOR]</title>
+
+<regex><name>nombre</name><expres>¡Canta!</expres><page></page></regex>
+<regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
+<page></page></regex>
+</item>
 <!-- D -->
 <!-- E -->
 <item>
@@ -173,6 +260,35 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <expres><![CDATA[#$pyFunction
 def GetLSProData(page_data,Cookie_Jar,m):
     import urlresolver
+    url = 'https://streamango.com/f/manprqtrltasokfd/La_La_Land_La_ciudad_de_las_estrellas_mkv_mp4'
+    try:
+        u = urlresolver.resolve(url)
+    except:
+        u = 'http://www.grupo-netai.org/error.mp4'
+    return u
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<title>[COLOR orange]$doregex[nombre]  [/COLOR][COLOR white] [/COLOR]</title>
+
+<regex><name>nombre</name><expres>La La Land: La ciudad de las estrellas</expres><page></page></regex>
+<regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
+<page></page></regex>
+</item>
+
+<item>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+<fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
+
+ <link>$doregex[id3]</link>
+ 
+<regex>
+<name>id3</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import urlresolver
     url = 'https://streamango.com/f/etmplfmolcplccqs/The_mummy_2017_1080p-dual-cast_mp4'
     try:
         u = urlresolver.resolve(url)
@@ -184,7 +300,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<title>[COLOR orange]$doregex[nombre]  [/COLOR][COLOR white] 1080p. [/COLOR]</title>
+<title>[COLOR orange]$doregex[nombre]  [/COLOR][COLOR white][/COLOR]</title>
 
 <regex><name>nombre</name><expres>La momia (2017)</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
@@ -213,7 +329,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<title>[COLOR orange]$doregex[nombre]  [/COLOR][COLOR white] 1080p. [/COLOR]</title>
+<title>[COLOR orange]$doregex[nombre]  [/COLOR][COLOR white][/COLOR]</title>
 
 <regex><name>nombre</name><expres>La bella y la bestia</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
@@ -275,7 +391,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<title>[COLOR orange]$doregex[nombre]  [/COLOR][COLOR white] [/COLOR]</title>
+<title>[COLOR red]$doregex[nombre]  [/COLOR][COLOR white] Pronto! [/COLOR]</title>
 
 <regex><name>nombre</name><expres>Piratas del Caribe: La venganza de Salazar</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
