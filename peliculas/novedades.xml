@@ -154,7 +154,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR orange]$doregex[nombre]  [/COLOR][COLOR white] [/COLOR]</title>
 
-<regex><name>nombre</name><expres>¡Canta!</expres><page></page></regex>
+<regex><name>nombre</name><expres>¡Canta! (2016)</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
 </item>
