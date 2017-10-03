@@ -73,7 +73,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
 <item>
-<title>[COLOR orange][+]Peliculas  [COLOR white]Novedades Stream[/COLOR][/COLOR]</title>
+<title>[COLOR orange][+]Peliculas  [COLOR white]Cartelera[/COLOR][/COLOR]</title>
 <link>http://Ignoreme</link>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
