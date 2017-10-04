@@ -68,7 +68,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://www.iconeasy.com/icon/png/Application/iChat%20multi-colours/iChat%20groen.png</thumbnail>
+<thumbnail>http://recopila2.es/blog/wp-content/uploads/2016/03/hqdefault.jpg</thumbnail>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
 
