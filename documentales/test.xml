@@ -1,6 +1,6 @@
 
 <item>
-<title>Buscador de documentales</title>
+<title>*Buscador de documentales</title>
 <link>$doregex[makelist]</link>
 <thumbnail>http://vignette3.wikia.nocookie.net/logopedia/images/7/76/Youtube-logo_2005-2009.jpg</thumbnail>
 <regex>
