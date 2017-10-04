@@ -105,7 +105,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <link>http://Ignoreme</link>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/tv.png</fanart>
 <thumbnail>http://4.bp.blogspot.com/_VfB5wZAMGEU/TJxzn3lKfbI/AAAAAAAAAWg/86Pu__RHqR0/s1600/documentales.png</thumbnail>
-<externallink>https://github.com/Andorth/atlantis/blob/master/documentales/incio.xml</externallink>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/documentales/incio.xml</externallink>
 </item>
 <item>
 <title>[COLOR orange]Programas tv[/COLOR]</title>
