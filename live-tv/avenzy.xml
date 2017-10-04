@@ -60,6 +60,35 @@
 <thumbnail>https://raw.githubusercontent.com/Andorth/ArenaSports/master/icon.png</thumbnail>
 </item>
 
+
+<item>
+<title>[COLOR orange][B]Arenavision:[/B] [COLOR white]Canales:[/COLOR][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<item><title> [COLOR orange] Canal: [makelist.param2][/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ArenaSports + [makelist.param2]</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://arenavision2017.tk/[makelist.param1]</page>
+			<referer>http://arenavision2017.tk</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+ <thumbnail>http://1.bp.blogspot.com/-GZfR6HXoeWU/UvembREuV5I/AAAAAAAAS6I/pKy1zp9N1cs/s1600/arenavision.jpg</thumbnail>
+</item>	
+]]></listrepeat>
+<expres><![CDATA[href=" /(.*?)".*?>(A.*?)<]]></expres>
+<page>http://arenavision2017.tk</page>
+<Agent>Mozilla</Agent>
+<referer>http://arenavision2017.tk</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+ <thumbnail>http://1.bp.blogspot.com/-GZfR6HXoeWU/UvembREuV5I/AAAAAAAAS6I/pKy1zp9N1cs/s1600/arenavision.jpg</thumbnail>
+</item>
+
+
 <item>
 <title>[COLOR orange]  [B]Arena Sports[/B][/COLOR] [COLOR white] |Futbol| [/COLOR]</title>
 <SetViewMode>55</SetViewMode>
