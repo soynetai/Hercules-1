@@ -79,7 +79,7 @@
  <thumbnail>http://1.bp.blogspot.com/-GZfR6HXoeWU/UvembREuV5I/AAAAAAAAS6I/pKy1zp9N1cs/s1600/arenavision.jpg</thumbnail>
 </item>	
 ]]></listrepeat>
-<expres><![CDATA[href=" /(.*?)".*?>(A.*?)<]]></expres>
+<expres><![CDATA[href="\(.*?)".*?>(A.*?)<]]></expres>
 <page>http://arenavision2017.tk</page>
 <Agent>Mozilla</Agent>
 <referer>http://arenavision2017.tk</referer>
