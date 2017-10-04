@@ -25,7 +25,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR orange]Canal Nereo: [COLOR white]Hercules[/COLOR][COLOR]</title>
+<title>[COLOR orange]Canal Nereo: [COLOR white]Hercules[/COLOR][/COLOR]</title>
 <link>$doregex[openDialog]</link>
 <regex>
 <name>openDialog</name>
