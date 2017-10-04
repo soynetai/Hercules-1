@@ -122,7 +122,7 @@
 			<setcookie>beget=begetok</setcookie>
 			</regex>
 			<regex>
-			<name>canal</name> 			<expres>$pyFunction:'[makelist.param5]'.replace('>4','04').replace('>5','05').replace('>6','06').replace('>7','07').replace('>8','08').replace('>9','09').replace('>10','10').replace('>11','11').replace('>12','12').replace('>13','13').replace('>14','14').replace('>15','15').replace('>16','16').replace('>17','17').replace('>18','18').replace('>19','19').replace('>20','20').replace('>21','21').replace('>22','22').replace('>23','23').replace('>24','24').replace('>25','25').replace('>26','26').replace('>27','27').replace('>28','28').replace('>29','29').replace('>30','30').replace('>31','31').replace('>32','32').replace('>33','33').replace('>34','34').replace('>35','35').replace('>1','01').replace('>2','02').replace('>3','03')</expres>
+			<name>canal</name> 			<expres>$pyFunction:'[makelist.param5]'.replace(' AV 4','04').replace(' AV 5','05').replace(' AV 6','06').replace(' AV 7','07').replace(' AV 8','08').replace(' AV 9','09').replace(' AV 10','10').replace(' AV 11','11').replace(' AV 12','12').replace(' AV 13','13').replace(' AV 14','14').replace(' AV 15','15').replace(' AV 16','16').replace(' AV 17','17').replace(' AV 18','18').replace(' AV 19','19').replace(' AV 20','20').replace(' AV 21','21').replace(' AV 22','22').replace(' AV 23','23').replace(' AV 24','24').replace(' AV 25','25').replace(' AV 26','26').replace(' AV 27','27').replace(' AV 28','28').replace(' AV 29','29').replace(' AV 30','30').replace(' AV 31','31').replace(' AV 32','32').replace(' AV 33','33').replace(' AV 34','34').replace(' AV 35','35').replace(' AV 1','01').replace(' AV 2','02').replace(' AV 3','03')</expres>
 			<page></page>
 			</regex>
 			
