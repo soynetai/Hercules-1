@@ -1,0 +1,45 @@
+
+<item>
+<title>[COLOR orange]BUSCAR[/COLOR]</title>
+<link>$doregex[makelist]</link> 
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<SetViewMode>55</SetViewMode>
+<title>[COLOR white][makelist.param2] [/COLOR]   </title>
+<link>http:$doregex[link]</link>
+<thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[h3.*?href="(.*?)".*?title="(.*?)"]]></expres>
+<page>https://www.youtube.com/results?search_query=documentales+$doregex[search]</page>
+</regex>
+
+<regex>
+<name>search</name>
+<expres><![CDATA[#$pyFunction
+import xbmc
+import xbmcaddon
+import xbmcgui
+def GetLSProData(page_data,Cookie_Jar,m):
+    dialog = xbmcgui.Dialog()
+    d = dialog.input('Buscar Documental:', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
+    return d
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+
+
+<regex>
+<name>link</name>
+<expres>\"(.*?)"</expres>
+<page>https://www.youtube.com/watch?v=$doregex[id]</page>
+</regex>
+<regex>
+<name>id</name>
+<expres>v=(.*?)"</expres>
+<page>[makelist.param1]</page>
+</regex>
+<thumbnail></thumbnail>
+</item>
