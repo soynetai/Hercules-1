@@ -1,5 +1,5 @@
 <item>
-<title>[COLOR skyblue]BUSCAR[/COLOR]</title>
+<title>[COLOR orange]BUSCAR[/COLOR]</title>
 <link>$doregex[makelist]</link> 
 
 <regex>
@@ -7,7 +7,7 @@
 <listrepeat><![CDATA[
 
 <title>[COLOR white][makelist.param2] [/COLOR]   </title>
-<link>http:$doregex[link]</link>
+<link>https://www.youtube.com/watch?v=$doregex[link]</link>
 <thumbnail></thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;]]></expres>
@@ -29,7 +29,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 </regex>
 <regex>
-<name>makelist2</name>
+<name>link</name>
 <listrepeat><![CDATA[
 <title>[makelist.param1]</title>
 <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
