@@ -101,11 +101,11 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/atlantis.png</thumbnail>
 </item>
 <item>
-<title>[COLOR red]Documentales[/COLOR][COLOR white]En pruebas[/COLOR]</title>
+<title>[COLOR red]Documentales[/COLOR][COLOR white][/COLOR]</title>
 <link>http://Ignoreme</link>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/tv.png</fanart>
 <thumbnail>http://4.bp.blogspot.com/_VfB5wZAMGEU/TJxzn3lKfbI/AAAAAAAAAWg/86Pu__RHqR0/s1600/documentales.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/documentales/test.xml</externallink>
+<externallink>https://github.com/Andorth/atlantis/blob/master/documentales/incio.xml</externallink>
 </item>
 <item>
 <title>[COLOR orange]Programas tv[/COLOR]</title>
@@ -214,15 +214,15 @@ class InputWindow(xbmcgui.WindowDialog):
 </regex>
 </item>
     
-<!-- 
+
 <item>
 <title>[COLOR orange]Pruebas[/COLOR]</title>
 <link>http://Ignoreme</link>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/tv.png</fanart>
-<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/tv.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/live-tv/liga123.xml</externallink>
+<fanart></fanart>
+<thumbnail>http://4.bp.blogspot.com/_VfB5wZAMGEU/TJxzn3lKfbI/AAAAAAAAAWg/86Pu__RHqR0/s1600/documentales.png</thumbnail>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/documentales/test.xml</externallink>
 </item>
--->
+
 
 <item>
 <title>[COLOR orange]Creditos[/COLOR]</title>
