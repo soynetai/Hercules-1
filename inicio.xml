@@ -24,8 +24,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
 
-<!--<item>
-<title>[COLOR orange]Tutorial de Hercules[/COLOR]</title>
+<item>
+<title>[COLOR orange]Canal Nereo: [COLOR white]Hercules[/COLOR][COLOR]</title>
 <link>$doregex[openDialog]</link>
 <regex>
 <name>openDialog</name>
@@ -39,14 +39,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
     line2 = "En el siguiente video te informaremos de como sacarle el maximo partido a Hercules. El addon que agrupa a todos los addons del Grupo Netai."
     line3 = "Es necesario tener instalados Los addons: Quasar,Explora,Plexus,Sportsdevil para que funcione todo corrctamente. - Tambien recomendamos que instales nuestro wizard Netai que esta configurado para que Hercules funcione al 100%" 
     xbmcgui.Dialog().ok(__addonname__, line1, line2, line3)
-    return "http://www.grupo-netai.org/tuto.mp4"
+    return "https://archive.org/download/HerculesCANALNEREO/Hercules-CANALNEREO.mp4"
 ]]></expres>
 <page></page>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://www.iconeasy.com/icon/png/Application/iChat%20multi-colours/iChat%20groen.png</thumbnail>
+<thumbnail>https://i.ytimg.com/vi/5wPLUdvXBuE/hqdefault.jpg</thumbnail>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
-</item>-->
+</item>
     
  <item>
 <title>[COLOR orange]Mini Tutorial de QUASAR[/COLOR]</title>
@@ -63,7 +63,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     line2 = "En el siguiente video te informaremos de como sacarle el maximo partido a Quasar."
     line3 = "Es necesario tener instalados Los addons: Quasar,Explora,Plexus,Sportsdevil para que funcione todo correctamente. " 
     xbmcgui.Dialog().ok(__addonname__, line1, line2, line3)
-    return "http://www.grupo-netai.org/tutorial.mp4"
+    return "https://archive.org/download/tutorial_201710/tutorial.mp4"
 ]]></expres>
 <page></page>
 <cookieJar></cookieJar>
