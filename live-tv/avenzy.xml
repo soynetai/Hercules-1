@@ -1,5 +1,5 @@
 <item>
-<title>[COLOR yellow]•[/COLOR][COLOR orange]  [B]Arena Sports[/B][/COLOR] [COLOR white] |Categorias| [/COLOR]</title>
+<title>[COLOR yellow]•[/COLOR][COLOR orange][B]  Arena Sports[/B][/COLOR] [COLOR white] |Categorias| [/COLOR]</title>
 
 <link>$doregex[makelist3]</link>
 
@@ -45,7 +45,7 @@
 </item>
 
 <item>
-<title>[COLOR yellow]•[/COLOR][COLOR orange][B] Arenavision:[/B] [COLOR white]Canales:[/COLOR][/COLOR]</title>
+<title>[COLOR yellow]•[/COLOR][COLOR orange][B]  Arenavision:[/B] [COLOR white]Canales:[/COLOR][/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -72,7 +72,7 @@
 </item>
 
 <item>
-<title>[COLOR yellow]•[/COLOR][COLOR orange][B] Eventos en Arenavision:  [/COLOR][/B]</title>
+<title>[COLOR yellow]•[/COLOR][COLOR orange][B]  Eventos en Arenavision:  [/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -106,7 +106,7 @@
 </item>
 
 <item>
-<title>[COLOR yellow]•[/COLOR][COLOR orange]  [B]FUTBOL[/B][/COLOR] [COLOR white] Eventos: [/COLOR]</title>
+<title>[COLOR yellow]•[/COLOR][COLOR orange][B]  FUTBOL[/B][/COLOR] [COLOR white] Eventos: [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
