@@ -1,6 +1,6 @@
 <!-- Categorias documentalia tv -->
 <item>
-<title>[COLOR orange][+]Universo[/COLOR]</title>
+<title>[COLOR orange][+][COLOR white]Universo[/COLOR][/COLOR]</title>
 <link>$doregex[makelist]</link>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/Buscar.png</thumbnail>
 <regex>
@@ -54,7 +54,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 </item>
 <item>
-<title>[COLOR orange][+]Animales[/COLOR]</title>
+<title>[COLOR orange][+][COLOR white]Animales[/COLOR][/COLOR]</title>
 <link>$doregex[makelist]</link>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/Buscar.png</thumbnail>
 <regex>
@@ -86,7 +86,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 import requests,xbmcgui,xbmc, re,time, xbmcaddon
 def GetLSProData(page_data,Cookie_Jar,m):
  
- categoria= 'documental+animales+hd'
+ categoria= 'Documentales animales hd'
  url = 'https://www.youtube.com/results?search_query=' + categoria.replace(' ', '+')
  req = requests.get(url)
  list1 = re.findall('yt-lockup-c.+?a\shref=".watch.v=([^"]+)".+?\s\stitle="([^"]+)"\s', req.categoria)
