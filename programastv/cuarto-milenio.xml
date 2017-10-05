@@ -1,7 +1,7 @@
 <item>
 <title>[COLOR orange]Puedes buscar mas en el buscador.[COLOR lime]+[/COLOR][COLOR white]Capitulos sueltos [/COLOR][/COLOR]</title>
 <link>$doregex[makelist]</link>
-<thumbnail>http://e02-elmundo.uecdn.es/television/programacion-tv/img/programas/fe/15870.png</thumbnail>
+<thumbnail>https://static-1.ivooxcdn.com/canales/8/5/7/9/8071485169758_XXL.jpg</thumbnail>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
