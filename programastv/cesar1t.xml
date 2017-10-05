@@ -1,7 +1,7 @@
 <item>
-<title>[COLOR orange]El encantador de perros[COLOR lime]+[/COLOR][COLOR white] 1 Temporada[/COLOR][/COLOR]</title>
+<title>[COLOR orange][COLOR lime]+[/COLOR][COLOR white] 1 Temporada [/COLOR][/COLOR]</title>
 <link>$doregex[makelist]</link>
-<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/documentales.png</thumbnail>
+<thumbnail>http://e02-elmundo.uecdn.es/television/programacion-tv/img/programas/fe/15870.png</thumbnail>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
