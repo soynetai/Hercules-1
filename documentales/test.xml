@@ -1,7 +1,7 @@
 <item>
 <title>[COLOR orange][+]Buscar[/COLOR]</title>
 <link>$doregex[makelist]</link>
-<thumbnail>http://vignette3.wikia.nocookie.net/logopedia/images/7/76/Youtube-logo_2005-2009.jpg</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/Buscar.png</thumbnail>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
@@ -32,7 +32,7 @@ import requests,xbmcgui,xbmc, re,time, xbmcaddon
 def GetLSProData(page_data,Cookie_Jar,m):
  
  text=takeInputFortext('Enter search string')
- url = 'https://www.youtube.com/results?q=' + text.replace(' ', 'tutoriales+')
+ url = 'https://www.youtube.com/results?search_query=' + text.replace(' ', '+')
  req = requests.get(url)
  list1 = re.findall('yt-lockup-c.+?a\shref=".watch.v=([^"]+)".+?\s\stitle="([^"]+)"\s', req.text)
  
