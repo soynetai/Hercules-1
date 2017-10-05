@@ -1,5 +1,5 @@
 <item>
-<title>[COLOR orange][B]El encantador de perros[/B][COLOR lime] [/COLOR][COLOR white] 1 Temporada[/COLOR][/COLOR]</title>
+<title>[COLOR orange]El encantador de perros[COLOR lime]+[/COLOR][COLOR white] 1 Temporada[/COLOR][/COLOR]</title>
 <link>$doregex[makelist]</link>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/documentales.png</thumbnail>
 <regex>
@@ -31,7 +31,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 import requests,xbmcgui,xbmc, re,time, xbmcaddon
 def GetLSProData(page_data,Cookie_Jar,m):
  
- text = 'cesar millan el encantador de perros temporada 1'
+ text = 'cesar millan el encantador de perros primera temporada'
  url = 'https://www.youtube.com/results?search_query=' + text.replace(' ', '+')
  req = requests.get(url)
  list1 = re.findall('yt-lockup-c.+?a\shref=".watch.v=([^"]+)".+?\s\stitle="([^"]+)"\s', req.text)

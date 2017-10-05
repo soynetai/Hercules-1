@@ -84,7 +84,7 @@ class InputWindow(xbmcgui.WindowDialog):
 </item>
 
 <item>
-<title>[COLOR orange][B]Cesar Millan - El encantador de perros[/B][/COLOR] [COLOR white] temporada 1 [/COLOR]</title>
+<title>[COLOR orange][B]Cesar Millan - El encantador de perros[/B][/COLOR] [COLOR white][/COLOR]</title>
 <link>$doregex[makelist2]</link>
 <info>Cesar Millan: 1 Temporada del encantador de perros.</info>
 <externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/programastv/cesar1t.xml</externallink>
