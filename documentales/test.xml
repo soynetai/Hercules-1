@@ -10,7 +10,7 @@
 <thumbnail>https://i.ytimg.com/vi/[makelist.param1]/hqdefault.jpg</thumbnail>
 ]]></listrepeat>
 <expres>u'(.+?)', u'(.+?)'</expres>
-<page>https://www.youtube.com/results?search_query=doculentales+$doregex[search]</page>
+<page>$doregex[search]</page>
 </regex>
  
 <regex>
@@ -32,7 +32,7 @@ import requests,xbmcgui,xbmc, re,time, xbmcaddon
 def GetLSProData(page_data,Cookie_Jar,m):
  
  text=takeInputFortext('Enter search string')
- url = 'https://www.youtube.com/results?q=' + text.replace(' ', '+')
+ url = 'https://www.youtube.com/results?q=tutoriales' + text.replace(' ', '+')
  req = requests.get(url)
  list1 = re.findall('yt-lockup-c.+?a\shref=".watch.v=([^"]+)".+?\s\stitle="([^"]+)"\s', req.text)
  
