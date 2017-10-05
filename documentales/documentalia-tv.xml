@@ -11,7 +11,7 @@
 <thumbnail>https://i.ytimg.com/vi/[makelist.param1]/hqdefault.jpg</thumbnail>
 ]]></listrepeat>
 <expres>u'(.+?)', u'(.+?)'</expres>
-<page>$doregex[categoria]</page>
+<page>$doregex[link]</page>
 </regex>
  
 <regex>
@@ -27,24 +27,24 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
  
 <regex>
-<name>categoria</name>
+<name>link</name>
 <expres><![CDATA[#$pyFunction
 import requests,xbmcgui,xbmc, re,time, xbmcaddon
 def GetLSProData(page_data,Cookie_Jar,m):
  
- categoria= 'Universo'
- url = 'https://www.youtube.com/results?search_query=' + categoria.replace(' ', '+')
+ text = 'Universo'
+ url = 'https://www.youtube.com/results?search_query=' + text.replace(' ', '+')
  req = requests.get(url)
- list1 = re.findall('yt-lockup-c.+?a\shref=".watch.v=([^"]+)".+?\s\stitle="([^"]+)"\s', req.categoria)
+ list1 = re.findall('yt-lockup-c.+?a\shref=".watch.v=([^"]+)".+?\s\stitle="([^"]+)"\s', req.text)
  
  count = 500
  while count > 1:
    try:
-     url = 'https://www.youtube.com' + re.findall('a href="([^"]+)".+<\/a>\n <\/div>', req.categoria)[0]
+     url = 'https://www.youtube.com' + re.findall('a href="([^"]+)".+<\/a>\n <\/div>', req.tex)[0]
    except:
      return list1
    req = requests.get(url)
-   list2 = re.findall('yt-lockup-c.+?a\shref=".watch.v=([^"]+)".+?\s\stitle="([^"]+)"\s', req.categoria)
+   list2 = re.findall('yt-lockup-c.+?a\shref=".watch.v=([^"]+)".+?\s\stitle="([^"]+)"\s', req.text)
    list1 = list1 + list2
    count = count - 1
  return list1
@@ -65,7 +65,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://i.ytimg.com/vi/[makelist.param1]/hqdefault.jpg</thumbnail>
 ]]></listrepeat>
 <expres>u'(.+?)', u'(.+?)'</expres>
-<page>$doregex[categoria]</page>
+<page>$doregex[link]</page>
 </regex>
  
 <regex>
@@ -81,24 +81,24 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
  
 <regex>
-<name>categoria</name>
+<name>link</name>
 <expres><![CDATA[#$pyFunction
 import requests,xbmcgui,xbmc, re,time, xbmcaddon
 def GetLSProData(page_data,Cookie_Jar,m):
  
- link = 'animales'
- url = 'https://www.youtube.com/results?search_query=' + link.replace(' ', '+')
+ text = 'animales'
+ url = 'https://www.youtube.com/results?search_query=' + text.replace(' ', '+')
  req = requests.get(url)
- list1 = re.findall('yt-lockup-c.+?a\shref=".watch.v=([^"]+)".+?\s\stitle="([^"]+)"\s', req.link)
+ list1 = re.findall('yt-lockup-c.+?a\shref=".watch.v=([^"]+)".+?\s\stitle="([^"]+)"\s', req.text)
  
  count = 500
  while count > 1:
    try:
-     url = 'https://www.youtube.com' + re.findall('a href="([^"]+)".+<\/a>\n <\/div>', req.link)[0]
+     url = 'https://www.youtube.com' + re.findall('a href="([^"]+)".+<\/a>\n <\/div>', req.text)[0]
    except:
      return list1
    req = requests.get(url)
-   list2 = re.findall('yt-lockup-c.+?a\shref=".watch.v=([^"]+)".+?\s\stitle="([^"]+)"\s', req.link)
+   list2 = re.findall('yt-lockup-c.+?a\shref=".watch.v=([^"]+)".+?\s\stitle="([^"]+)"\s', req.text)
    list1 = list1 + list2
    count = count - 1
  return list1
