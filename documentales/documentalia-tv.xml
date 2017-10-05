@@ -37,7 +37,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
  req = requests.get(url)
  list1 = re.findall('yt-lockup-c.+?a\shref=".watch.v=([^"]+)".+?\s\stitle="([^"]+)"\s', req.categoria)
  
- count = 50
+ count = 500
  while count > 1:
    try:
      url = 'https://www.youtube.com' + re.findall('a href="([^"]+)".+<\/a>\n <\/div>', req.categoria)[0]
@@ -86,20 +86,24 @@ def GetLSProData(page_data,Cookie_Jar,m):
 import requests,xbmcgui,xbmc, re,time, xbmcaddon
 def GetLSProData(page_data,Cookie_Jar,m):
  
- categoria= 'Documentales animales hd'
- url = 'https://www.youtube.com/results?search_query=' + categoria.replace(' ', '+')
+ link = 'animales'
+ url = 'https://www.youtube.com/results?search_query=' + link.replace(' ', '+')
  req = requests.get(url)
- list1 = re.findall('yt-lockup-c.+?a\shref=".watch.v=([^"]+)".+?\s\stitle="([^"]+)"\s', req.categoria)
-
+ list1 = re.findall('yt-lockup-c.+?a\shref=".watch.v=([^"]+)".+?\s\stitle="([^"]+)"\s', req.link)
+ 
+ count = 500
+ while count > 1:
    try:
-     url = 'https://www.youtube.com' + re.findall('a href="([^"]+)".+<\/a>\n <\/div>', req.categoria)[0]
+     url = 'https://www.youtube.com' + re.findall('a href="([^"]+)".+<\/a>\n <\/div>', req.link)[0]
    except:
      return list1
    req = requests.get(url)
-   list2 = re.findall('yt-lockup-c.+?a\shref=".watch.v=([^"]+)".+?\s\stitle="([^"]+)"\s', req.categoria)
+   list2 = re.findall('yt-lockup-c.+?a\shref=".watch.v=([^"]+)".+?\s\stitle="([^"]+)"\s', req.link)
    list1 = list1 + list2
-   return list1 
-   ]]></expres>
+   count = count - 1
+ return list1
+ 
+]]></expres>
 <page></page>
 </regex>
 </item>
