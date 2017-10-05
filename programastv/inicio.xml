@@ -99,3 +99,20 @@ class InputWindow(xbmcgui.WindowDialog):
 <thumbnail>http://e02-elmundo.uecdn.es/television/programacion-tv/img/programas/fe/15870.png<thumbnail>
 <fanart>http://e02-elmundo.uecdn.es/television/programacion-tv/img/programas/fe/15870.png<fanart>
 </item>
+<item>
+<title>[COLOR orange][B]Buscadores de fantasmas[/B][/COLOR] [COLOR white][/COLOR]</title>
+<link>$doregex[makelist2]</link>
+<info>Cazadores de fantasmas - serie documental.</info>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/programastv/buscadores-de-fantasmas.xml</externallink>
+<thumbnail>https://buscadoresdefantasmas.com/wp-content/uploads/2016/10/ghost-adventures-poster.jpg<thumbnail>
+<fanart><fanart>
+</item>
+<item>
+<title>[COLOR orange][B]Cuarto milenio[/B][/COLOR] [COLOR white]Programas sueltos[/COLOR]</title>
+<link>$doregex[makelist2]</link>
+<info>Cazadores de fantasmas - serie documental.</info>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/programastv/cuarto-milenio.xml</externallink>
+<thumbnail><thumbnail>
+<fanart><fanart>
+</item>
+
