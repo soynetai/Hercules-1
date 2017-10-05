@@ -84,7 +84,7 @@ class InputWindow(xbmcgui.WindowDialog):
 </item>
 
 <item>
-<title>[COLOR orange][B]Categorias[/B][/COLOR] [COLOR white] Categorias [/COLOR]</title>
+<title>[COLOR orange][B]Documentales[/B][/COLOR] [COLOR white] Por Categorias [/COLOR]</title>
 <link>$doregex[makelist2]</link>
 <info>Todas las categorias de Documentalia.</info>
 <externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/documentales/documentalia-tv.xml</externallink>
@@ -92,12 +92,4 @@ class InputWindow(xbmcgui.WindowDialog):
 <fanart>https://yt3.ggpht.com/-PffQf1WmI2U/AAAAAAAAAAI/AAAAAAAAAAA/Z3eaLPrvd6Y/s100-c-k-no-mo-rj-c0xffffff/photo.jpg<fanart>
 </item>
 
-<item>
-<title>[COLOR orange][B]DOCUMENTALES EN ESPAÑOL[/B][/COLOR] [COLOR white] Categorias [/COLOR]</title>
-<link>$doregex[makelist2]</link>
-<info>Todas las categorias de Documentalia.</info>
-<externallink></externallink>
-<thumbnail>https://yt3.ggpht.com/-PffQf1WmI2U/AAAAAAAAAAI/AAAAAAAAAAA/Z3eaLPrvd6Y/s100-c-k-no-mo-rj-c0xffffff/photo.jpg<thumbnail>
-<fanart>https://yt3.ggpht.com/-PffQf1WmI2U/AAAAAAAAAAI/AAAAAAAAAAA/Z3eaLPrvd6Y/s100-c-k-no-mo-rj-c0xffffff/photo.jpg<fanart>
-</item>
 
