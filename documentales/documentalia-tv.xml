@@ -90,9 +90,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
  url = 'https://www.youtube.com/results?search_query=' + categoria.replace(' ', '+')
  req = requests.get(url)
  list1 = re.findall('yt-lockup-c.+?a\shref=".watch.v=([^"]+)".+?\s\stitle="([^"]+)"\s', req.categoria)
- 
- count = 50
- while count > 1:
+
    try:
      url = 'https://www.youtube.com' + re.findall('a href="([^"]+)".+<\/a>\n <\/div>', req.categoria)[0]
    except:
@@ -100,10 +98,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
    req = requests.get(url)
    list2 = re.findall('yt-lockup-c.+?a\shref=".watch.v=([^"]+)".+?\s\stitle="([^"]+)"\s', req.categoria)
    list1 = list1 + list2
-   count = count - 1
- return list1
- 
-]]></expres>
+   return list1 
+   ]]></expres>
 <page></page>
 </regex>
 </item>
