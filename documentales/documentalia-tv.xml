@@ -37,10 +37,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
  req = requests.get(url)
  list1 = re.findall('yt-lockup-c.+?a\shref=".watch.v=([^"]+)".+?\s\stitle="([^"]+)"\s', req.text)
  
- count = 500
+ count = 15
  while count > 1:
    try:
-     url = 'https://www.youtube.com' + re.findall('a href="([^"]+)".+<\/a>\n <\/div>', req.tex)[0]
+    url = 'https://www.youtube.com' + re.findall('a href="([^"]+)".+Siguiente', req.text)[0]
    except:
      return list1
    req = requests.get(url)
@@ -91,18 +91,18 @@ def GetLSProData(page_data,Cookie_Jar,m):
  req = requests.get(url)
  list1 = re.findall('yt-lockup-c.+?a\shref=".watch.v=([^"]+)".+?\s\stitle="([^"]+)"\s', req.text)
  
- count = 500
+ count = 15
  while count > 1:
    try:
-     url = 'https://www.youtube.com' + re.findall('a href="([^"]+)".+<\/a>\n <\/div>', req.text)[0]
+    url = 'https://www.youtube.com' + re.findall('a href="([^"]+)".+Siguiente', req.text)[0]
    except:
-     return list1
+    return list1
    req = requests.get(url)
    list2 = re.findall('yt-lockup-c.+?a\shref=".watch.v=([^"]+)".+?\s\stitle="([^"]+)"\s', req.text)
    list1 = list1 + list2
    count = count - 1
  return list1
- 
+  
 ]]></expres>
 <page>https://www.youtube.com/channel/UCiwazSMPs2OQuljxifCvSiA</page>
 </regex>
