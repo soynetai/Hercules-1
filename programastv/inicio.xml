@@ -91,3 +91,11 @@ class InputWindow(xbmcgui.WindowDialog):
 <thumbnail>http://e02-elmundo.uecdn.es/television/programacion-tv/img/programas/fe/15870.png<thumbnail>
 <fanart>http://e02-elmundo.uecdn.es/television/programacion-tv/img/programas/fe/15870.png<fanart>
 </item>
+<item>
+<title>[COLOR orange][B]Cesar Millan - El lider de la manada[/B][/COLOR] [COLOR white][/COLOR]</title>
+<link>$doregex[makelist2]</link>
+<info>Cesar Millan: 1 Temporada del encantador de perros.</info>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/programastv/lider.xml</externallink>
+<thumbnail>http://e02-elmundo.uecdn.es/television/programacion-tv/img/programas/fe/15870.png<thumbnail>
+<fanart>http://e02-elmundo.uecdn.es/television/programacion-tv/img/programas/fe/15870.png<fanart>
+</item>

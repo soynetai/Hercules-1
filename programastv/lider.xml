@@ -1,0 +1,108 @@
+<item>
+<title>[COLOR orange][COLOR lime]+[/COLOR][COLOR white]1 Temporada[/COLOR][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<thumbnail>http://e02-elmundo.uecdn.es/television/programacion-tv/img/programas/fe/15870.png</thumbnail>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist.param2]</title>
+<link>$doregex[resolve]</link>
+<thumbnail>https://i.ytimg.com/vi/[makelist.param1]/hqdefault.jpg</thumbnail>
+]]></listrepeat>
+<expres>u'(.+?)', u'(.+?)'</expres>
+<page>$doregex[link]</page>
+</regex>
+ 
+<regex>
+<name>resolve</name>
+<expres><![CDATA[#$pyFunction
+import urlresolver
+def GetLSProData(page_data,Cookie_Jar,m):
+ url = 'https://www.youtube.com/watch?v=[makelist.param1]'
+ streamLink = urlresolver.resolve(url)
+ return streamLink
+]]></expres>
+<page>https://www.youtube.com/results?search_query=cesar+millan+el+lider+de+la+manada+temporada+1+</page>
+</regex>
+ 
+<regex>
+<name>link</name>
+<expres><![CDATA[#$pyFunction
+import requests,xbmcgui,xbmc, re,time, xbmcaddon
+def GetLSProData(page_data,Cookie_Jar,m):
+ 
+ text = 'cesar millan el lider de la manada temporada 1'
+ url = 'https://www.youtube.com/results?search_query=' + text.replace(' ', '+')
+ req = requests.get(url)
+ list1 = re.findall('yt-lockup-c.+?a\shref=".watch.v=([^"]+)".+?\s\stitle="([^"]+)"\s', req.text)
+ 
+ count = 15
+ while count > 1:
+   try:
+    url = 'https://www.youtube.com' + re.findall('a href="([^"]+)".+Siguiente', req.text)[0]
+   except:
+     return list1
+   req = requests.get(url)
+   list2 = re.findall('yt-lockup-c.+?a\shref=".watch.v=([^"]+)".+?\s\stitle="([^"]+)"\s', req.text)
+   list1 = list1 + list2
+   count = count - 1
+ return list1
+ 
+]]></expres>
+<page>https://www.youtube.com/results?search_query=cesar+millan+el+lider+de+la+manada+temporada+1+</page>
+</regex>
+</item>
+<item>
+<title>[COLOR orange][COLOR lime]+[/COLOR][COLOR white]2 Temporada[/COLOR][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<thumbnail>http://e02-elmundo.uecdn.es/television/programacion-tv/img/programas/fe/15870.png</thumbnail>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist.param2]</title>
+<link>$doregex[resolve]</link>
+<thumbnail>https://i.ytimg.com/vi/[makelist.param1]/hqdefault.jpg</thumbnail>
+]]></listrepeat>
+<expres>u'(.+?)', u'(.+?)'</expres>
+<page>$doregex[link]</page>
+</regex>
+ 
+<regex>
+<name>resolve</name>
+<expres><![CDATA[#$pyFunction
+import urlresolver
+def GetLSProData(page_data,Cookie_Jar,m):
+ url = 'https://www.youtube.com/watch?v=[makelist.param1]'
+ streamLink = urlresolver.resolve(url)
+ return streamLink
+]]></expres>
+<page>https://www.youtube.com/results?search_query=cesar+millan+el+lider+de+la+manada+temporada+1+</page>
+</regex>
+ 
+<regex>
+<name>link</name>
+<expres><![CDATA[#$pyFunction
+import requests,xbmcgui,xbmc, re,time, xbmcaddon
+def GetLSProData(page_data,Cookie_Jar,m):
+ 
+ text = 'cesar millan el lider de la manada temporada 2'
+ url = 'https://www.youtube.com/results?search_query=' + text.replace(' ', '+')
+ req = requests.get(url)
+ list1 = re.findall('yt-lockup-c.+?a\shref=".watch.v=([^"]+)".+?\s\stitle="([^"]+)"\s', req.text)
+ 
+ count = 15
+ while count > 1:
+   try:
+    url = 'https://www.youtube.com' + re.findall('a href="([^"]+)".+Siguiente', req.text)[0]
+   except:
+     return list1
+   req = requests.get(url)
+   list2 = re.findall('yt-lockup-c.+?a\shref=".watch.v=([^"]+)".+?\s\stitle="([^"]+)"\s', req.text)
+   list1 = list1 + list2
+   count = count - 1
+ return list1
+ 
+]]></expres>
+<page>https://www.youtube.com/results?search_query=cesar+millan+el+lider+de+la+manada+temporada+1+</page>
+</regex>
+</item>
