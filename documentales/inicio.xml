@@ -32,7 +32,7 @@ import requests,xbmcgui,xbmc, re,time, xbmcaddon
 def GetLSProData(page_data,Cookie_Jar,m):
  
  text=takeInputFortext('Enter search string')
- url = 'https://www.youtube.com/results?search_query=' + text.replace(' ', '+')
+ url = 'https://www.youtube.com/results?search_query=documentales' + text.replace(' ', '+')
  req = requests.get(url)
  list1 = re.findall('yt-lockup-c.+?a\shref=".watch.v=([^"]+)".+?\s\stitle="([^"]+)"\s', req.text)
  
@@ -84,7 +84,7 @@ class InputWindow(xbmcgui.WindowDialog):
 </item>
 
 <item>
-<title>[COLOR orange][B]DOCUMENTALIA TV[/B][/COLOR] [COLOR white] Categorias [/COLOR]</title>
+<title>[COLOR orange][B]Categorias[/B][/COLOR] [COLOR white] Categorias [/COLOR]</title>
 <link>$doregex[makelist2]</link>
 <info>Todas las categorias de Documentalia.</info>
 <externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/documentales/documentalia-tv.xml</externallink>
