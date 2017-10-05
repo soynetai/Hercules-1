@@ -1,13 +1,20 @@
 <!-- Categorias documentalia tv -->
+<!-- <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link> -->
 
 <item>
-<title>[COLOR gold]*Documentales sobre el Universo[/COLOR]</title>
+<title>[COLOR gold]*Documentales sobre el Universo[/COLOR] Con URL LIVE RESOLVER</title>
 <link>$doregex[makelist]</link>
 <regex>
             <name>makelist</name>
             <listrepeat><![CDATA[
                         <title>[makelist.param1]</title>
-                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                         import urlresolver
+                         url = 'https://www.youtube.com/watch?v=[makelist.param2]&list=PLmV3HGaGxSDyiKB7kbK8oubA7LOIngD1Z'
+                         try:
+                         u = urlresolver.resolve(url)
+                         except:
+                         u = 'http://www.grupo-netai.org/error.mp4'
+                         return u
                         <thumbnail>https://i.ytimg.com/vi/[makelist.param1]/hqdefault.jpg</thumbnail>
 						<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
             ]]></listrepeat>
@@ -15,4 +22,22 @@
             <page>https://www.youtube.com/watch?v=QVzXMDZ1xfs&list=PLmV3HGaGxSDyiKB7kbK8oubA7LOIngD1Z</page>
              <cookieJar></cookieJar>
 </regex>
+</item>
+
+<item>
+<title>[COLOR gold]*Documentales sobre el Universo[/COLOR] Con Addon youtube</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param1]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                        <thumbnail>http://i.imgur.com/oWyDQSv.jpg</thumbnail>
+						<fanart>http://images6.alphacoders.com/439/439710.jpg</fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page></page>
+             <cookieJar></cookieJar>
+</regex>
+
 </item>
