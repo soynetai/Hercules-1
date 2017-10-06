@@ -838,3 +838,10 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <referer>http://www.vercanalestv.com/ver-playboy-en-vivo-gratis-por-internet/</referer>
 <thumbnail>http://vercanalestv.com/imagenes/playboy-tv.jpg</thumbnail> 
 </item>
+
+<item>
+<parentalblock>true</parentalblock>
+<title>[COLOR orange]prueba[/COLOR]</title>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/live-tv/programacion.xml</externallink>
+<thumbnail></thumbnail> 
+</item>
