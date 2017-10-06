@@ -1,8 +1,21 @@
+
 <item>
-<title>[COLOR lime]Algunos canales necesitan el addon Sportsdevil para funcionar[/COLOR]</title>
-<link>http://ignore</link>
-<thumbnail></thumbnail>
-</item>
+<title>Guia TV Movistar</title>
+ <link>$doregex[makelist]</link>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR orange][B][makelist.param1][/B][/COLOR][COLOR green][makelist.param2] [makelist.param3][/COLOR][COLOR yellow][makelist.param4] [makelist.param5][/COLOR]</title>
+<link>Ignore thisistheshit_saludos_netai!</link>
+<thumbnail>https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/000/185/2a3/35da564.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[title=.*?n\s(.*?)"|"(ahora.*?)">\n\s\s\s(.*?)\n|date">(.*?)</span>\n\s\s\s(.*)\n]]></expres>
+<page>http://www.formulatv.com/programacion/</page>
+</regex>
+<thumbnail>https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/000/185/2a3/35da564.jpg</thumbnail>
+<info>Cortesia de Adryanlist </info>
+ </item>
 <!-- TDT DIGITAL -->
 <item>
 <title>[COLOR lime][B]TDT DIGITAL ES[/B][/COLOR]</title>
