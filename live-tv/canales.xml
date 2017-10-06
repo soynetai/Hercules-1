@@ -840,7 +840,6 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 </item>
 
 <item>
-<parentalblock>true</parentalblock>
 <title>[COLOR orange]prueba[/COLOR]</title>
 <externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/live-tv/programacion.xml</externallink>
 <thumbnail></thumbnail> 
