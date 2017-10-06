@@ -1,12 +1,12 @@
 
 <item>
-<title>Guia TV Movistar</title>
+<title>[COLOR white][B]Guia TV Movistar[/B] [/COLOR] Fuente: http://www.formulatv.com | By Adryan |</title>
  <link>$doregex[makelist]</link>
 
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLOR orange][B][makelist.param1][/B][/COLOR][COLOR green][makelist.param2] [makelist.param3][/COLOR][COLOR yellow][makelist.param4] [makelist.param5][/COLOR]</title>
+<title>[COLOR orange][B][makelist.param1][/B][/COLOR][COLOR gold]Emitiendo [makelist.param2] [makelist.param3][/COLOR][COLOR white] | Despues: | [COLOR yellow][makelist.param4][/COLOR][COLOR white]| Mas Tarde: |[/COLOR][COLOR yellow] [makelist.param5][/COLOR]</title>
 <link>Ignore thisistheshit_saludos_netai!</link>
 <thumbnail>https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/000/185/2a3/35da564.jpg</thumbnail>
 ]]></listrepeat>
