@@ -1,0 +1,85 @@
+
+<item>
+ <title>Cuarto Milenio</title>
+ <link>$doregex[video]</link>
+
+ <regex>
+ <name>video</name>
+<expres><![CDATA[#$pyFunction
+import urlresolver
+def GetLSProData(page_data,Cookie_Jar,m):
+   url = '$doregex[GetUrl]'
+   streamLink = urlresolver.resolve(url)
+   return streamLink
+]]></expres>
+ <page></page>
+<cookieJar></cookieJar>
+<agent>Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0</agent>
+<Referer>$doregex[GetUrl]</Referer>
+<Accept>*/*</Accept>
+</regex>
+
+ <regex>
+ <name>GetUrl</name>
+<expres><![CDATA["og:url" content="(.*?)"]]></expres>
+ <page>$doregex[GetPageUrl]</page>
+<cookieJar></cookieJar>
+<agent>Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0</agent>
+<Referer>$doregex[GetPageUrl]</Referer>
+<Accept>*/*</Accept>
+<Connection>keep-alive</Connection>
+</regex>
+
+ <regex>
+ <name>GetPageUrl</name>
+<expres><![CDATA[href="(.*?)".*?class="hoster-player"]]></expres>
+ <page>http://www.cuatro.com/cuarto-milenio/3010689/videos.html</page>
+<cookieJar></cookieJar>
+<agent>Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0</agent>
+<Referer>http://www.cuatro.com/cuarto-milenio/</Referer>
+<Accept>*/*</Accept>
+<Connection>keep-alive</Connection>
+</regex>
+ </item>
+<item>
+
+<title>Cuarto Milenio</title>
+<link>$doregex[makelist2]</link> 
+
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+<SetViewMode>55</SetViewMode>
+<title>[COLOR white][makelist2.param2] [/COLOR]   </title>
+<link>$doregex[makelist]</link> 
+<thumbnail>http://elrincon.tv/wp-content/uploads/2013/10/cm_logo_grande.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[h3.*?href="(.*?)".*?white\;\">(.*?)<]]></expres>
+<page>http://www.cuatro.com/cuarto-milenio/3010689/videos.html</page>
+</regex>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<SetViewMode>55</SetViewMode>
+<title>[COLOR white][makelist.param2] [/COLOR]   </title>
+<link>http:$doregex[link]</link>
+<thumbnail>http://elrincon.tv/wp-content/uploads/2013/10/cm_logo_grande.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[h3.*?href="(.*?)".*?title="(.*?)"]]></expres>
+<page>[makelist2.param1]</page>
+</regex>
+
+<regex>
+<name>link</name>
+<expres>\"(.*?)"</expres>
+<page></page>
+</regex>
+<regex>
+<name>id2</name>
+<expres>\(".*?)"</expres>
+<page>[makelist.param1]</page>
+</regex>
+<thumbnail></thumbnail>
+</item>

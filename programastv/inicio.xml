@@ -114,5 +114,14 @@ class InputWindow(xbmcgui.WindowDialog):
 <externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/programastv/cuarto-milenio.xml</externallink>
 <thumbnail><thumbnail>
 <fanart><fanart>
-</item>
 
+</item>
+<item>
+<title>[COLOR orange][B]Cuarto milenio[/B][/COLOR] [COLOR white] WEB CUATRO[/COLOR]</title>
+<link>$doregex[makelist2]</link>
+<info>Cazadores de fantasmas - serie documental.</info>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/programastv/cuarto.xml</externallink>
+<thumbnail>http://elrincon.tv/wp-content/uploads/2013/10/cm_logo_grande.jpg<thumbnail>
+<fanart><fanart>
+
+</item>
