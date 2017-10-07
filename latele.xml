@@ -1,26 +1,27 @@
+
 <item>
-<title>Latele.tv Acestream </title>
-<thumbnail></thumbnail>
-<link>$doregex[makelist]</link>
+<title>Amazing Facts TV [COLOR yellow] ($doregex[getliveflag])[/COLOR]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=$doregex[getID]</link>
 
 <regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-    <title> [makelist.param2] </title>
-    <link>plugin://program.plexus/?mode=1&amp;name=[makelist.param2]&amp;url=$doregex[get-link]</link>
-    <thumbnail>http://latelete.tv/img/[makelist.param3]</thumbnail>
-]]></listrepeat>
-<expres>a href="(http:\/\/latelete\.tv\/\d*-([^"]+)\.html)"><p.*?\/([^"]+)"</expres>
-<page>http://latelete.tv/</page>  
+<name>getliveflag</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+  import re
+  try:
+      return re.findall('yt-badge-live" \W(Live now)', page_data)[0]
+  except:
+      return 'Archive'
+]]></expres>
+<page>https://www.youtube.com/channel/UCVAmiFwV2Azq4vZ5h4bVj5A</page>
 </regex>
 
 <regex>
-<name>get-link</name>
-<expres>\(.*?)"</expres>
-<page>[makelist.param1]</page>
-<referer>http://latelete.tv/</referer>
-<cookieJar></cookieJar>
+<name>getID</name>
+<expres>data-context-item-id="([^"]+)</expres>
+<page>https://www.youtube.com/channel/UC6VJE6cD8ZPpe6ZOtVtlBTA</page>
 </regex>
-
-<!--Note : You can modify  the  /sportivnye/  for more pages ...-->
+<thumbnail>https://lh3.googleusercontent.com/LtoXBkeNAb_AbqEn29AFWkQW5fc1uvblpvY-tV_O4nS8plcECNXaWJeUgsaTuX5O-dtd_w=s85</thumbnail>
+<fanart>http://fluidm.in/wp-content/uploads/2015/11/television.jpg</fanart>
 </item>
+
