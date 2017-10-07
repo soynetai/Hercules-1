@@ -124,7 +124,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <item>
 <title>[COLOR orange]Adryanlist[COLOR blue] Addon Necesario e instalado [/COLOR] Hermanos de Mexico[/COLOR]</title>
 <link>http://Ignoreme</link>
-<jsonrpc>plugin://plugin.video.adryanlist/</jsonrpc>
+    <externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/list.xml</externallink>
 <fanart>https://i.ytimg.com/vi/SCDAU0N1y4g/maxresdefault.jpg</fanart>
 <thumbnail>https://pbs.twimg.com/profile_images/900488110240219136/-L6a8pq1.jpg</thumbnail>
 </item>
