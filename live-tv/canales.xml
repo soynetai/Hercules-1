@@ -219,24 +219,11 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 </item>
 
 
-
-
-<item>
-<title>[UPPERCASE][COLOR orange]  #0[/UPPERCASE][/COLOR] </title>
-<link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</link>
-<regex>
-<name>GetPageUrl</name>
-<expres>source: '(.*?)'</expres>
-<page>http://cinestrenostv.tv/canales/envivo/plus2.html</page>
-<agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
-</regex>
-<thumbnail>http://latelete.tv/img/plus0.png</thumbnail>   </item>
-
 <item>
 <parentalblock>true</parentalblock>
-<title>[COLOR orange]#0[/COLOR] |Opcion 2| [COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
-<sportsdevil>http://cinestrenostv.tv/canales/embed/nacionales/plus1.html</sportsdevil>
-<referer>http://cinestrenostv.tv/canales/envivo/plus2.html</referer>
+<title>[COLOR orange]#0[/COLOR] [COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://cinestrenostv.tv/canales/envivo/plus2.html</sportsdevil>
+<referer>http://vertutele.com/ver-canal-movistar-0-hd-online-en-directo-gratis-por-internet-24h/</referer>
 <thumbnail>http://latelete.tv/img/plus0.png</thumbnail>
 </item>
 
