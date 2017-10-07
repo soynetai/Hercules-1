@@ -1,4 +1,3 @@
-
 <item>
 <title>[B][COLOR white]VER -> Guia TV MOVISTAR:[/B][/COLOR] </title>
  <link>$doregex[makelist]</link>
@@ -17,11 +16,7 @@
 <info>Cortesia de Adryanlist </info>
  </item>
 <!-- TDT DIGITAL -->
-<item>
-<title>[COLOR lime][B]TDT DIGITAL ES[/B][/COLOR]</title>
-<link>http://ignore</link>
-<thumbnail></thumbnail>
-</item>
+
 <item>
 <title>[COLOR yellow]La 1[/COLOR]</title>
 <link>$doregex[GetPageUrl]</link>
@@ -232,10 +227,19 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed.php?file=pluscero&amp;width=650&amp;height=397</page>
+<page>http://cinestrenostv.tv/canales/envivo/plus2.html</page>
 <agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
 </regex>
-<thumbnail>http://vercanalestv.com/logos/canal-0.png</thumbnail>   </item>
+<thumbnail>http://latelete.tv/img/plus0.png</thumbnail>   </item>
+
+<item>
+<parentalblock>true</parentalblock>
+<title>[COLOR orange]#0[/COLOR] |Opcion 2| [COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://cinestrenostv.tv/canales/embed/nacionales/plus1.html</sportsdevil>
+<referer>http://cinestrenostv.tv/canales/envivo/plus2.html</referer>
+<thumbnail>http://latelete.tv/img/plus0.png</thumbnail>
+</item>
+
 
 
 <item>
@@ -837,10 +841,4 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <sportsdevil>http://vercanalestv.com/tv/nacionales/playboy.html</sportsdevil>
 <referer>http://www.vercanalestv.com/ver-playboy-en-vivo-gratis-por-internet/</referer>
 <thumbnail>http://vercanalestv.com/imagenes/playboy-tv.jpg</thumbnail> 
-</item>
-
-<item>
-<title>[COLOR orange]prueba[/COLOR]</title>
-<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/live-tv/programacion.xml</externallink>
-<thumbnail></thumbnail> 
 </item>
