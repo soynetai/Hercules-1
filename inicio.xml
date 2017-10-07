@@ -110,6 +110,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
 <externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/menu-peliculas.xml</externallink>
 </item>
+<!--
 <item>
 <title>[COLOR orange][B]CINE[/B]| Torrent|[/COLOR] [COLOR white]8 Salas [/COLOR]</title>
 <link>$doregex[makelist2]</link>
@@ -119,8 +120,17 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>http://2.bp.blogspot.com/-BVohvFCC10E/TtH-CXSR2VI/AAAAAAAAABM/qvE_blfg04o/s320/logo%252Bcine%252Bcamara.jpg<thumbnail>
 <fanart>https://image.freepik.com/foto-gratis/resumen-degradado-de-negro-de-lujo-con-fondo-negro-vignette-backgr_1258-275.jpg<fanart>
 </item>
+-->
 <item>
-<title>[COLOR orange]Explora[COLOR blue][I] Addon Necesario[/I][/COLOR][/COLOR]</title>
+<title>[COLOR orange]Adryanlist[COLOR blue] Addon Necesario e instalado [/COLOR] Hermanos de Mexico[/COLOR]</title>
+<link>http://Ignoreme</link>
+<jsonrpc>plugin://plugin.video.adryanlist/</jsonrpc>
+<fanart>https://i.ytimg.com/vi/SCDAU0N1y4g/maxresdefault.jpg</fanart>
+<thumbnail>https://pbs.twimg.com/profile_images/900488110240219136/-L6a8pq1.jpg</thumbnail>
+</item>
+ 
+<item>
+<title>[COLOR orange]Explora[COLOR blue] Addon Necesario e instalado[/COLOR][/COLOR]</title>
 <link>http://Ignoreme</link>
 <jsonrpc>plugin://plugin.video.Explora/</jsonrpc>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
@@ -147,6 +157,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/tv.png</thumbnail>
 <externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/programastv/inicio.xml</externallink>
 </item>
+
 <!--
 <item>
 <title>[COLOR orange] TV LIVE [/COLOR]</title>
