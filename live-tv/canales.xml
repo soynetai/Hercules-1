@@ -218,14 +218,20 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <thumbnail>https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAyrAAAAJGRkM2UxMzk3LTRkNTgtNDRiOS05ZDZjLThkNjQxYjkyNzU2NQ.png</thumbnail>
 </item>
 
-
 <item>
 <parentalblock>true</parentalblock>
-<title>[COLOR orange]#0[/COLOR] [COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
-<sportsdevil>http://cinestrenostv.tv/canales/envivo/plus2.html</sportsdevil>
-<referer>http://vertutele.com/ver-canal-movistar-0-hd-online-en-directo-gratis-por-internet-24h/</referer>
-<thumbnail>http://latelete.tv/img/plus0.png</thumbnail>
+<title>[COLOR orange]0#[/COLOR] [COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://vercanalestv.com/tv/nacionales/canal-plus-1.html</sportsdevil>
+<referer>http://vercanalestv.com/tv/nacionales/canal-plus-1.html</referer>
+<thumbnail>http://vercanalestv.com/logos/canal-0.png</thumbnail>
 </item>
+
+<item>
+<title> [COLOR lime][B]0#[/B] [/COLOR][COLOR white] [B]f4mtester [/B] [/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://kdsajkcasadjsab77676das99saghdshhdds.sitenow.me/live/plus0_cec1693/chunklist.m3u8</link>
+<thumbnail>http://vercanalestv.com/logos/canal-0.png</thumbnail>
+</item>
+
 
 
 
@@ -383,13 +389,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <thumbnail>http://vercanalestv.com/logos/m-deportes-2.png</thumbnail>   
 </item>
 
-<item>
-<parentalblock>true</parentalblock>
-<title>[COLOR orange]La Liga 123  - Multicanal -[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
-<sportsdevil>http://vercanalestv.com/tv/deportes/multi-liga-2/canal-plus-liga-2.html</sportsdevil>
-<referer>http://vercanalestv.com/tv/deportes/multi-liga-2/canal-plus-liga-2.html</referer>	
-<thumbnail>http://vercanalestv.com/logos/laliga123.jpg</thumbnail>
-</item>
+
 
 <item>
 <parentalblock>true</parentalblock>
