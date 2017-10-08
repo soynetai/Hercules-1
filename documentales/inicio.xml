@@ -108,23 +108,22 @@ class InputWindow(xbmcgui.WindowDialog):
 </regex>  
 <thumbnail>https://i.ytimg.com/vi/[makelist.param1]/hqdefault.jpg</thumbnail>
 </item>
- 
+  
 <item>
-<title>[COLOR orange][B]Documentales [/B] [COLOR white]Grandes Documentales 2[/COLOR]</title>
+<SetViewMode>500</SetViewMode>
+<title>[COLOR orange][B]Documentales[/B] [COLOR white]Grandes Documentales 2[/COLOR]</title>
 <link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
+<regex><name>makelist</name>
+<listrepeat><![CDATA[   
 <title>[makelist.param1]</title>
 <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
 <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
 ]]></listrepeat>
-<expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
-<page>https://www.youtube.com/watch?v=UCUh-JaqgVO1s29x6e49tHCw&amp;list=PL7Gl77owRvTsML00ZUZ0iKOZ8ZjqA2NWL</page> https://www.youtube.com/watch?v=hjxciYc-htQ&list=PL7Gl77owRvTsML00ZUZ0iKOZ8ZjqA2NWL&index=1
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://tallerdedocus.jorgepemar.com/wp-content/uploads/2015/02/taller-cine-documental-b.png</thumbnail>
-<fanart></fanart>
+<expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
+<!-- Lista todo el contenido del canal. -->
+<page>https://www.youtube.com/channel/UCUh-JaqgVO1s29x6e49tHCw</page>
+</regex>  
+<thumbnail>https://i.ytimg.com/vi/[makelist.param1]/hqdefault.jpg</thumbnail>
 </item>
 </items>
 
