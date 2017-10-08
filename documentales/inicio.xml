@@ -120,7 +120,7 @@ class InputWindow(xbmcgui.WindowDialog):
 <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
 ]]></listrepeat>
 <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
-<page>https://www.youtube.com/watch?v=XmYes07RY6Y&amp;list=PLTTs6PlYWB9G6W2OdUgeZuDPrj1lT6MqQ</page>
+<page>https://www.youtube.com/watch?v=UCUh-JaqgVO1s29x6e49tHCw&amp;list=PL7Gl77owRvTsML00ZUZ0iKOZ8ZjqA2NWL</page> https://www.youtube.com/watch?v=hjxciYc-htQ&list=PL7Gl77owRvTsML00ZUZ0iKOZ8ZjqA2NWL&index=1
 <cookieJar></cookieJar>
 </regex>
 <thumbnail>http://tallerdedocus.jorgepemar.com/wp-content/uploads/2015/02/taller-cine-documental-b.png</thumbnail>
