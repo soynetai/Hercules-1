@@ -250,7 +250,7 @@ class InputWindow(xbmcgui.WindowDialog):
 </regex>
 </item>
 
-    
+<!--    
 <item>
 <title>[COLOR orange]Pruebas No Funciona[/COLOR]</title>
 <link>http://Ignoreme</link>
@@ -258,6 +258,7 @@ class InputWindow(xbmcgui.WindowDialog):
 <thumbnail>https://www.testdevelocidad.es/app/uploads/2016/08/Ace-Stream-Logo.png</thumbnail>
 <externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/documentales/busqueda.xml</externallink>
 </item>
+-->
 
 
 
