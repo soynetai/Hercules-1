@@ -106,14 +106,14 @@
 </item>
 
 <item>
-<title>[COLOR yellow]•[/COLOR][COLOR orange][B]  FUTBOL[/B][/COLOR] [COLOR white] Eventos: [/COLOR]</title>
+<title>[COLOR orange]  [B]LIGA DE ESPAÑA:[/B][/COLOR] [COLOR white] 1 Division [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<SetViewMode>55</SetViewMode>
-<title>[COLOR white][makelist.param1] [COLOR orange] [makelist.param2]  [COLOR gold][makelist.param4][/COLOR][/COLOR][/COLOR]  [COLOR red] [makelist.param5][/COLOR] </title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Futbol+[COLOR gold][makelist.param4][/COLOR]</link>
+<SetViewMode>505</SetViewMode>
+<title>[COLOR orange][makelist.param1] [COLOR white] [makelist.param2]  [COLOR gold] [makelist.param4][/COLOR][/COLOR][/COLOR]  [COLOR red]AV  [makelist.param5][/COLOR] </title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Futbol+[makelist.param4]</link>
 			<regex>
 			<name>hash</name> 
 			<expres>this.loadPlayer\("(.*?)"</expres>
@@ -122,33 +122,219 @@
 			<setcookie>beget=begetok</setcookie>
 			</regex>
 			<regex>
-			<name>canal</name> 			<expres>$pyFunction:'[makelist.param5]'.replace(' AV 4','04').replace(' AV 5','05').replace(' AV 6','06').replace(' AV 7','07').replace(' AV 8','08').replace(' AV 9','09').replace(' AV 10','10').replace(' AV 11','11').replace(' AV 12','12').replace(' AV 13','13').replace(' AV 14','14').replace(' AV 15','15').replace(' AV 16','16').replace(' AV 17','17').replace(' AV 18','18').replace(' AV 19','19').replace(' AV 20','20').replace(' AV 21','21').replace(' AV 22','22').replace(' AV 23','23').replace(' AV 24','24').replace(' AV 25','25').replace(' AV 26','26').replace(' AV 27','27').replace(' AV 28','28').replace(' AV 29','29').replace(' AV 30','30').replace(' AV 31','31').replace(' AV 32','32').replace(' AV 33','33').replace(' AV 34','34').replace(' AV 35','35').replace(' AV 1','01').replace(' AV 2','02').replace(' AV 3','03')</expres>
+			<name>canal</name> 
+			<expres>$pyFunction:'[makelist.param5]'.replace('4','04').replace('5','05').replace('6','06').replace('7','07').replace('8','08').replace('9','09').replace('10','10').replace('11','11').replace('12','12').replace('13','13').replace('14','14').replace('15','15').replace('16','16').replace('17','17').replace('18','18').replace('19','19').replace('20','20').replace('21','21').replace('22','22').replace('23','23').replace('24','24').replace('25','25').replace('26','26').replace('27','27').replace('28','28').replace('29','29').replace('30','30').replace('31','31').replace('32','32').replace('33','33').replace('34','34').replace('35','35').replace('1','01').replace('2','02').replace('3','03')</expres>
 			<page></page>
 			</regex>
 			
-<thumbnail>https://raw.githubusercontent.com/Andorth/Futbol/master/images/icon.png</thumbnail>
+			<thumbnail>https://raw.githubusercontent.com/Andorth/Futbol/master/images/laliga.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/Andorth/Futbol/master/images/fanart.jpg</fanart>
 </item>	
 ]]></listrepeat>
-<expres><![CDATA[230px">(.*?)<[\w\W\s]{0,50}px">(.*?)CEST[\w\W\s]{0,53}px">(.*?)<[\w\W\s]{0,53}$doregex[select][\w\W\s]{0,50}px">(.*?)<[\w\W\s]{0,50}px"(>[0-9]+)]]></expres>
+<expres><![CDATA[230px">(.*?)<[\w\W\s]{0,50}px">(.*?)CEST[\w\W\s]{0,53}px">(.*?)<[\w\W\s]{0,53}SPANISH LA LIGA[\w\W\s]{0,50}px">(.*?)<[\w\W\s]{0,50}px">([0-9]+)]]></expres>
 <page>http://arenavision2017.tk/iguide</page>
 <Agent>Mozilla</Agent>
 <referer>http://arenavision2017.tk/iguide</referer>
 <setcookie>beget=begetok</setcookie>
 </regex>
 
- <regex>
-<name>select</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
-   import xbmcgui
-   dialog = xbmcgui.Dialog()
-   ret = dialog.select('Elige un Liga ', ['LA LIGA', 'LA LIGA 2', 'PREMIER LEAGUE', 'UEFA CHAMPIONS LEAGUE', 'UEFA EUROPA LEAGUE', 'COPA DE ESPAÑA', 'COPA LIBERTADORES', 'COPA SUDAMERICANA', 'MEXICO LIGA MX', 'MEXICO COPA MX', 'ARGENTINA SUPERLIGA'])
-   lists = ['SPANISH LA LIGA', 'SPANISH LA LIGA 2', 'PREMIER LEAGUE', 'UEFA CHAMPIONS LEAGUE', 'UEFA EUROPA LEAGUE',  'SPANISH CUP', 'COPA LIBERTADORES', 'COPA SUDAMERICANA', 'MEXICO LIGA MX', 'MEXICO COPA MX',  'ARGENTINA SUPERLIGA']
-   return lists[ret]
-]]></expres>
-<page></page>
-</regex>
- 
-</regex><thumbnail>https://raw.githubusercontent.com/Andorth/Futbol/master/images/futbol.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Futbol/master/images/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Futbol/master/images/fanart.jpg</fanart>
 </item>
+
+<item>
+<title>[COLOR orange]  [B]LIGA DE ESPAÑA:[/B][/COLOR] [COLOR white] 1 Division [/COLOR] Opcion 2 </title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<SetViewMode>505</SetViewMode>
+<title>[COLOR orange][makelist.param1] [COLOR white] [makelist.param2]  [COLOR gold] [makelist.param4][/COLOR][/COLOR][/COLOR]  [COLOR red]AV  [makelist.param5][/COLOR] </title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Futbol+[makelist.param4]</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://arenavision.in/$doregex[canal]</page>
+			<referer>http://arenavision.in</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+			<regex>
+			<name>canal</name> 
+			<expres>$pyFunction:'[makelist.param5]'.replace('4','04').replace('5','05').replace('6','06').replace('7','07').replace('8','08').replace('9','09').replace('10','10').replace('11','11').replace('12','12').replace('13','13').replace('14','14').replace('15','15').replace('16','16').replace('17','17').replace('18','18').replace('19','19').replace('20','20').replace('21','21').replace('22','22').replace('23','23').replace('24','24').replace('25','25').replace('26','26').replace('27','27').replace('28','28').replace('29','29').replace('30','30').replace('31','31').replace('32','32').replace('33','33').replace('34','34').replace('35','35').replace('1','01').replace('2','02').replace('3','03')</expres>
+			<page></page>
+			</regex>
+			
+			<thumbnail>https://raw.githubusercontent.com/Andorth/Futbol/master/images/laliga.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Futbol/master/images/fanart.jpg</fanart>
+</item>	
+]]></listrepeat>
+<expres><![CDATA[230px">(.*?)<[\w\W\s]{0,50}px">(.*?)CEST[\w\W\s]{0,53}px">(.*?)<[\w\W\s]{0,53}SPANISH LA LIGA[\w\W\s]{0,50}px">(.*?)<[\w\W\s]{0,50}px">([0-9]+)]]></expres>
+<page>http://arenavision.in/iguide</page>
+<Agent>Mozilla</Agent>
+<referer>http://arenavision.in/iguide</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+
+<thumbnail>https://raw.githubusercontent.com/Andorth/Futbol/master/images/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Futbol/master/images/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR orange]  [B]LIGA DE ESPAÑA:[/B][/COLOR] [COLOR white] 2 Division [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<SetViewMode>505</SetViewMode>
+<title>[COLOR orange][makelist.param1] [COLOR white] [makelist.param2]  [COLOR gold] [makelist.param4][/COLOR][/COLOR][/COLOR]  [COLOR red]AV  [makelist.param5][/COLOR] </title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Futbol+[makelist.param4]</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://arenavision.in/$doregex[canal]</page>
+			<referer>http://arenavision.in</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+			<regex>
+			<name>canal</name> 
+			<expres>$pyFunction:'[makelist.param5]'.replace('4','04').replace('5','05').replace('6','06').replace('7','07').replace('8','08').replace('9','09').replace('10','10').replace('11','11').replace('12','12').replace('13','13').replace('14','14').replace('15','15').replace('16','16').replace('17','17').replace('18','18').replace('19','19').replace('20','20').replace('21','21').replace('22','22').replace('23','23').replace('24','24').replace('25','25').replace('26','26').replace('27','27').replace('28','28').replace('29','29').replace('30','30').replace('31','31').replace('32','32').replace('33','33').replace('34','34').replace('35','35').replace('1','01').replace('2','02').replace('3','03')</expres>
+			<page></page>
+			</regex>
+			
+			<thumbnail>https://raw.githubusercontent.com/Andorth/Futbol/master/images/LaLiga-123.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Futbol/master/images/fanart.jpg</fanart>
+</item>	
+]]></listrepeat>
+<expres><![CDATA[230px">(.*?)<[\w\W\s]{0,50}px">(.*?)CEST[\w\W\s]{0,53}px">(.*?)<[\w\W\s]{0,53}SPANISH LA LIGA 2[\w\W\s]{0,50}px">(.*?)<[\w\W\s]{0,50}px">([0-9]+)]]></expres>
+<page>http://arenavision.in/iguide</page>
+<Agent>Mozilla</Agent>
+<referer>http://arenavision.in/iguide</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+
+<thumbnail>https://raw.githubusercontent.com/Andorth/Futbol/master/images/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Futbol/master/images/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR orange]  [B]LIGA DE ESPAÑA:[/B][/COLOR] [COLOR white]UEFA CHAMPIONS LEAGUE[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<SetViewMode>505</SetViewMode>
+<title>[COLOR orange][makelist.param1] [COLOR white] [makelist.param2]  [COLOR gold] [makelist.param4][/COLOR][/COLOR][/COLOR]  [COLOR red]AV  [makelist.param5][/COLOR] </title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Futbol+[makelist.param4]</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://arenavision.in/$doregex[canal]</page>
+			<referer>http://arenavision.in</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+			<regex>
+			<name>canal</name> 
+			<expres>$pyFunction:'[makelist.param5]'.replace('4','04').replace('5','05').replace('6','06').replace('7','07').replace('8','08').replace('9','09').replace('10','10').replace('11','11').replace('12','12').replace('13','13').replace('14','14').replace('15','15').replace('16','16').replace('17','17').replace('18','18').replace('19','19').replace('20','20').replace('21','21').replace('22','22').replace('23','23').replace('24','24').replace('25','25').replace('26','26').replace('27','27').replace('28','28').replace('29','29').replace('30','30').replace('31','31').replace('32','32').replace('33','33').replace('34','34').replace('35','35').replace('1','01').replace('2','02').replace('3','03')</expres>
+			<page></page>
+			</regex>
+			
+			<thumbnail>https://raw.githubusercontent.com/Andorth/Futbol/master/images/uefa_champions.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Futbol/master/images/fanart.jpg</fanart>
+</item>	
+]]></listrepeat>
+<expres><![CDATA[230px">(.*?)<[\w\W\s]{0,50}px">(.*?)CEST[\w\W\s]{0,53}px">(.*?)<[\w\W\s]{0,53}UEFA CHAMPIONS LEAGUE[\w\W\s]{0,50}px">(.*?)<[\w\W\s]{0,50}px">([0-9]+)]]></expres>
+<page>http://arenavision.in/iguide</page>
+<Agent>Mozilla</Agent>
+<referer>http://arenavision.in/iguide</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+
+<thumbnail>https://raw.githubusercontent.com/Andorth/Futbol/master/images/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Futbol/master/images/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR orange]  [B]LIGA DE ESPAÑA:[/B][/COLOR] [COLOR white] UEFA LEAGUE [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<SetViewMode>505</SetViewMode>
+<title>[COLOR orange][makelist.param1] [COLOR white] [makelist.param2]  [COLOR gold] [makelist.param4][/COLOR][/COLOR][/COLOR]  [COLOR red]AV  [makelist.param5][/COLOR] </title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Futbol+[makelist.param4]</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://arenavision.in/$doregex[canal]</page>
+			<referer>http://arenavision.in</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+			<regex>
+			<name>canal</name> 
+			<expres>$pyFunction:'[makelist.param5]'.replace('4','04').replace('5','05').replace('6','06').replace('7','07').replace('8','08').replace('9','09').replace('10','10').replace('11','11').replace('12','12').replace('13','13').replace('14','14').replace('15','15').replace('16','16').replace('17','17').replace('18','18').replace('19','19').replace('20','20').replace('21','21').replace('22','22').replace('23','23').replace('24','24').replace('25','25').replace('26','26').replace('27','27').replace('28','28').replace('29','29').replace('30','30').replace('31','31').replace('32','32').replace('33','33').replace('34','34').replace('35','35').replace('1','01').replace('2','02').replace('3','03')</expres>
+			<page></page>
+			</regex>
+			
+			<thumbnail>https://raw.githubusercontent.com/Andorth/Futbol/master/images/UEFA-Europa-League.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Futbol/master/images/fanart.jpg</fanart>
+</item>	
+]]></listrepeat>
+<expres><![CDATA[230px">(.*?)<[\w\W\s]{0,50}px">(.*?)CEST[\w\W\s]{0,53}px">(.*?)<[\w\W\s]{0,53}UEFA EUROPA LEAGUE[\w\W\s]{0,50}px">(.*?)<[\w\W\s]{0,50}px">([0-9]+)]]></expres>
+<page>http://arenavision.in/iguide</page>
+<Agent>Mozilla</Agent>
+<referer>http://arenavision.in/iguide</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+
+<thumbnail>https://raw.githubusercontent.com/Andorth/Futbol/master/images/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Futbol/master/images/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR orange]  [B]LIGA DE ESPAÑA:[/B][/COLOR] [COLOR white] COPA DEL REY [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<SetViewMode>505</SetViewMode>
+<title>[COLOR orange][makelist.param1] [COLOR white] [makelist.param2]  [COLOR gold] [makelist.param4][/COLOR][/COLOR][/COLOR]  [COLOR red]AV  [makelist.param5][/COLOR] </title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Futbol+[makelist.param4]</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://arenavision.in/$doregex[canal]</page>
+			<referer>http://arenavision.in</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+			<regex>
+			<name>canal</name> 
+			<expres>$pyFunction:'[makelist.param5]'.replace('4','04').replace('5','05').replace('6','06').replace('7','07').replace('8','08').replace('9','09').replace('10','10').replace('11','11').replace('12','12').replace('13','13').replace('14','14').replace('15','15').replace('16','16').replace('17','17').replace('18','18').replace('19','19').replace('20','20').replace('21','21').replace('22','22').replace('23','23').replace('24','24').replace('25','25').replace('26','26').replace('27','27').replace('28','28').replace('29','29').replace('30','30').replace('31','31').replace('32','32').replace('33','33').replace('34','34').replace('35','35').replace('1','01').replace('2','02').replace('3','03')</expres>
+			<page></page>
+			</regex>
+			
+			<thumbnail>https://raw.githubusercontent.com/Andorth/Futbol/master/images/Copa_del_Rey_de_Futbol.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Futbol/master/images/fanart.jpg</fanart>
+</item>	
+]]></listrepeat>
+<expres><![CDATA[230px">(.*?)<[\w\W\s]{0,50}px">(.*?)CEST[\w\W\s]{0,53}px">(.*?)<[\w\W\s]{0,53}SPANISH CUP[\w\W\s]{0,50}px">(.*?)<[\w\W\s]{0,50}px">([0-9]+)]]></expres>
+<page>http://arenavision.in/iguide</page>
+<Agent>Mozilla</Agent>
+<referer>http://arenavision.in/iguide</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+
+<thumbnail>https://raw.githubusercontent.com/Andorth/Futbol/master/images/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Futbol/master/images/fanart.jpg</fanart>
+</item>
+
+
+
+
+
+
+
+
+
+
+
+
