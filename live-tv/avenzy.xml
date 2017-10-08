@@ -117,7 +117,7 @@
 <thumbnail></thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[title="(\d+.*?)\s-\s(.*?)".href="(.*?)"]]></expres>
-<page>http://www.goalsarena.org/en/video/liga-bbva</page>
+<page>http://www.goalsarena.org/en/video/</page>
 <referer>http://www.goalsarena.org/</referer>
 <agent>Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.04</agent>
 <cookieJar></cookieJar>
@@ -133,7 +133,7 @@
 <name>getUrl</name>
 <expres><![CDATA[<a  href="([^"]+)]]></expres>
 <page>$doregex[getiframe]</page>
-<referer>http://www.goalsarena.org/en/video/liga-bbva</referer>
+<referer>http://www.goalsarena.org/en/video/</referer>
 <cookieJar></cookieJar>
 </regex>
 </item>
