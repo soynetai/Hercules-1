@@ -259,16 +259,16 @@ class InputWindow(xbmcgui.WindowDialog):
 <page></page>
 </regex>
 </item>
+
     
-<!--
 <item>
-<title>[COLOR orange]Pruebas[/COLOR]</title>
+<title>[COLOR orange]Pruebas No Funciona[/COLOR]</title>
 <link>http://Ignoreme</link>
 <fanart></fanart>
 <thumbnail>https://www.testdevelocidad.es/app/uploads/2016/08/Ace-Stream-Logo.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/live-tv/latele.xml</externallink>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/documentales/busqueda.xml</externallink>
 </item>
--->
+
 
 
 <item>
