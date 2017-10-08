@@ -82,20 +82,33 @@ class InputWindow(xbmcgui.WindowDialog):
 <page></page>
 </regex>
 </item>
+<channels>
 
-<item>
-<title>Documentalia TV [COLOR yellow]$doregex[getliveflag][/COLOR]</title>
-<link>plugin://plugin.video.youtube/play/?video_id=$doregex[getID]</link>
-<regex>
-<name>getliveflag</name>
-<expres>span class="yt-badge</expres>
-<page>https://www.youtube.com/channel/UCiwazSMPs2OQuljxifCvSiA</page>
-</regex>
-<regex>
-<name>getID</name>
-<expres>data-context-item-id="([^"]+)</expres>
-<page>https://www.youtube.com/channel/UCiwazSMPs2OQuljxifCvSiA</page>
-</regex>
-<thumbnail>https://i.ytimg.com/vi/[makelist.param1]/hqdefault.jpg</thumbnail>
-<fanart>https://i.ytimg.com/vi/[makelist.param1]/hqdefault.jpg</fanart>
-</item>
+    <channel>
+    <name>DOCUMENTALIA TV</name>
+     <regex>
+      <name>documentales</name
+     <expres>u'(.+?)', u'(.+?)'</expres>
+    <thumbnail>http://www.findjesus.tv/picture_library/findJesus.jpg</thumbnail>
+    <fanart>http://goo.gl/dtB8T9</fanart>
+        <items>
+            <item>
+                <title>$doregex[documentales]</title>
+                <link>plugin://plugin.video.youtube/play/?video_id=$doregex[getID]</link>
+                <regex>
+                <name>getID</name>
+                <expres>data-context-item-id="([^"]+)</expres>
+                <page>https://www.youtube.com/channel/UCiwazSMPs2OQuljxifCvSiA</page>
+               </regex>
+                <thumbnail>https://i.ytimg.com/vi/[makelist.param1]/hqdefault.jpg</thumbnail>
+                <fanart></fanart>
+            </item>
+
+            <item>
+               <title>documentales sobre el Universo</title>
+               <link>ignorme</link>
+               <jsonrpc>plugin://plugin.video.youtube.com/watch?v=QVzXMDZ1xfs&list=PLmV3HGaGxSDyiKB7kbK8oubA7LOIngD1Z</jsonrpc>
+               <thumbnail>https://i.ytimg.com/vi/b2yFnRyw558/hqdefault.jpg</thumbnail>
+           </item>
+        </items>
+    </channel>
