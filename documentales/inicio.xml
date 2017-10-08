@@ -91,5 +91,14 @@ class InputWindow(xbmcgui.WindowDialog):
 <thumbnail>https://yt3.ggpht.com/-PffQf1WmI2U/AAAAAAAAAAI/AAAAAAAAAAA/Z3eaLPrvd6Y/s100-c-k-no-mo-rj-c0xffffff/photo.jpg<thumbnail>
 <fanart>https://yt3.ggpht.com/-PffQf1WmI2U/AAAAAAAAAAI/AAAAAAAAAAA/Z3eaLPrvd6Y/s100-c-k-no-mo-rj-c0xffffff/photo.jpg<fanart>
 </item>
+ 
+ <item>
+<title>[COLOR orange][B]DOCUMENTALIA[/B][/COLOR] [COLOR white] TV [/COLOR]</title>
+<link>$doregex[makelist2]</link>
+<info>Documentales</info>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/documentales/documentalia.xml</externallink>
+<thumbnail>https://yt3.ggpht.com/-PffQf1WmI2U/AAAAAAAAAAI/AAAAAAAAAAA/Z3eaLPrvd6Y/s100-c-k-no-mo-rj-c0xffffff/photo.jpg<thumbnail>
+<fanart>https://yt3.ggpht.com/-PffQf1WmI2U/AAAAAAAAAAI/AAAAAAAAAAA/Z3eaLPrvd6Y/s100-c-k-no-mo-rj-c0xffffff/photo.jpg<fanart>
+</item>
 
 
