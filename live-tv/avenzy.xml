@@ -106,40 +106,6 @@
 </item>
 
 <item>
-<title>[COLOR orange]• RESUMEN [/COLOR]LA LIGA |goalsarena.org| |RESUMEN JUGADAS|</title>
-<link>$doregex[makelist]</link>
-<thumbnail>http://goalsarena.goalsarena.netdna-cdn.com/templates/gk_sportmaxum/xlogo.png.pagespeed.ic.F0IzaQsJmf.webp</thumbnail>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR dodgerblue]([makelist.param1])[/COLOR][COLOR gold] [makelist.param2][/COLOR]</title>
-<link>http:$doregex[getUrl]</link>
-<thumbnail></thumbnail>
-]]></listrepeat>
-<expres><![CDATA[title="(\d+.*?)\s-\s(.*?)".href="(.*?)"]]></expres>
-<page>http://www.goalsarena.org/en/video/</page>
-<referer>http://www.goalsarena.org/</referer>
-<agent>Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.04</agent>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>getiframe</name>
-<expres><![CDATA[<iframe src="([^"]+)]]></expres>
-<page>[makelist.param3]</page>
-<referer>http://www.goalsarena.org/</referer>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>getUrl</name>
-<expres><![CDATA[<a  href="([^"]+)]]></expres>
-<page>$doregex[getiframe]</page>
-<referer>http://www.goalsarena.org/en/video/</referer>
-<cookieJar></cookieJar>
-</regex>
-</item>
-
-
-<item>
 <title>[COLOR orange]  [B]LIGA DE ESPAÑA:[/B][/COLOR] [COLOR white] 1 Division [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
@@ -533,4 +499,3 @@
 </regex>
 </item>
 
-http://www.goalsarena.org/en/video/liga-bbva
