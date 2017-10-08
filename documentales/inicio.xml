@@ -92,13 +92,21 @@ class InputWindow(xbmcgui.WindowDialog):
 <fanart>https://yt3.ggpht.com/-PffQf1WmI2U/AAAAAAAAAAI/AAAAAAAAAAA/Z3eaLPrvd6Y/s100-c-k-no-mo-rj-c0xffffff/photo.jpg<fanart>
 </item>
  
- <item>
-<title>[COLOR orange][B]DOCUMENTALIA[/B][/COLOR] [COLOR white] TV [/COLOR]</title>
-<link>$doregex[makelist2]</link>
-<info>Documentales</info>
-<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/documentales/documentalia.xml</externallink>
-<thumbnail>https://yt3.ggpht.com/-PffQf1WmI2U/AAAAAAAAAAI/AAAAAAAAAAA/Z3eaLPrvd6Y/s100-c-k-no-mo-rj-c0xffffff/photo.jpg<thumbnail>
-<fanart>https://yt3.ggpht.com/-PffQf1WmI2U/AAAAAAAAAAI/AAAAAAAAAAA/Z3eaLPrvd6Y/s100-c-k-no-mo-rj-c0xffffff/photo.jpg<fanart>
+<item>
+<SetViewMode>500</SetViewMode>
+<title>[COLOR orange][B]Documentalia TV[/B] [COLOR white]Grandes Documentales[/COLOR] Requiere Addon Youtube.</title>
+<link>$doregex[makelist]</link>
+<regex><name>makelist</name>
+<listrepeat><![CDATA[   
+<title>[makelist.param1]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+]]></listrepeat>
+<expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
+<!-- Lista todo el contenido del canal. -->
+<page>https://www.youtube.com/channel/UCiwazSMPs2OQuljxifCvSiA</page>
+</regex>  
+<thumbnail>https://i.ytimg.com/vi/[makelist.param1]/hqdefault.jpg</thumbnail>
 </item>
 
 
