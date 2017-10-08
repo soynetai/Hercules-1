@@ -1,5 +1,6 @@
-<item> 
-<title>[COLOR orange][B]Documentalia TV[/B] [COLOR white] Ultimos documentales[/COLOR]</title>
+<item>
+<SetViewMode>500</SetViewMode>
+<title>[COLOR orange][B]Documentalia TV[/B] [COLOR white] Ultimos documentales[/COLOR] Requiere Addon Youtube.</title>
 <link>$doregex[makelist]</link>
 <regex><name>makelist</name>
 <listrepeat><![CDATA[   
