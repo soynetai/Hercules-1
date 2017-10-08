@@ -18,7 +18,7 @@
 <expres><![CDATA[#$pyFunction
 import urlresolver
 def GetLSProData(page_data,Cookie_Jar,m):
- url = 'https://www.youtube.com/watch?v=[makelist.param1]'
+ url = 'https://www.youtube.com/play/?video_id=[makelist.param2]'
 youtube = urlresolver.resolve(url)
  return youtube
 ]]></expres>
@@ -26,3 +26,4 @@ youtube = urlresolver.resolve(url)
 </regex>
 <thumbnail></thumbnail>
 </item>
+
