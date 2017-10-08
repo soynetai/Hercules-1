@@ -110,17 +110,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
 <externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/menu-peliculas.xml</externallink>
 </item>
-<!--
-<item>
-<title>[COLOR orange][B]CINE[/B]| Torrent|[/COLOR] [COLOR white]8 Salas [/COLOR]</title>
-<link>$doregex[makelist2]</link>
-
-<info>8 salas de diversion para ver las ultimas peliculas que estrenan en tu cine. Recomendamos que vayas al cine.</info>
-<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/Cine-torrent.xml</externallink>
-<thumbnail>http://2.bp.blogspot.com/-BVohvFCC10E/TtH-CXSR2VI/AAAAAAAAABM/qvE_blfg04o/s320/logo%252Bcine%252Bcamara.jpg<thumbnail>
-<fanart>https://image.freepik.com/foto-gratis/resumen-degradado-de-negro-de-lujo-con-fondo-negro-vignette-backgr_1258-275.jpg<fanart>
-</item>
--->
 <item>
 <title>[COLOR orange]Adryanlist[COLOR blue] Addon Necesario e instalado [/COLOR] Hermanos de Mexico[/COLOR]</title>
 <link>http://Ignoreme</link>
