@@ -72,7 +72,7 @@
 </item>
 
 <item>
-<title>[COLOR yellow]•[/COLOR][COLOR orange][B]  *Eventos en Arenavision:  [/COLOR][/B]</title>
+<title>[COLOR yellow]•[/COLOR][COLOR orange][B]  Eventos en Arenavision:  [/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -89,7 +89,7 @@
 			</regex>
 				<regex>
 			<name>canal</name> 
-			<expres>$pyFunction:'[makelist.param6]'.replace('/4','04').replace('/05','05').replace('/06','06').replace('/07','07').replace('/08','08').replace('/09','09').replace('/10','10').replace('/11','11').replace('/12','12').replace('/13','13').replace('/14','14').replace('/15','15').replace('/16','16').replace('/17','17').replace('/18','18').replace('/19','19').replace('/20','20').replace('/21','21').replace('/22','22').replace('/23','23').replace('/24','24').replace('/25','25').replace('/26','26').replace('/27','27').replace('/28','28').replace('/29','29').replace('/30','30').replace('/31','31').replace('/32','32').replace('/33','33').replace('/34','34').replace('/35','35').replace('/01','01').replace('/02','02').replace('/03','03')</expres>
+			<expres>$pyFunction:'[makelist.param6]'.replace('4','/04').replace('5','/05').replace('6','/06').replace('7','/07').replace('8','/08').replace('9','/09').replace('10','/10').replace('11','/11').replace('12','/12').replace('13','/13').replace('14','/14').replace('15','/15').replace('16','/16').replace('17','/17').replace('18','/18').replace('19','/19').replace('20','/20').replace('21','/21').replace('22','/22').replace('23','/23').replace('24','/24').replace('25','/25').replace('26','/26').replace('27','/27').replace('28','/28').replace('29','/29').replace('30','/30').replace('31','/31').replace('32','/32').replace('33','/33').replace('34','/34').replace('35','/35').replace('01','/01').replace('02','/02').replace('03','/03')</expres>
 			<page></page>
 			</regex>
 			
@@ -106,7 +106,7 @@
 </item>
 
 <item>
-<title>[COLOR orange]  [B]*LIGA DE ESPAÑA:[/B][/COLOR] [COLOR white] 1 Division [/COLOR]</title>
+<title>[COLOR orange]  [B]LIGA DE ESPAÑA:[/B][/COLOR] [COLOR white] 1 Division [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -123,7 +123,7 @@
 			</regex>
 				<regex>
 			<name>canal</name> 
-			<expres>$pyFunction:'[makelist.param6]'.replace('/4','04').replace('/05','05').replace('/06','06').replace('/07','07').replace('/08','08').replace('/09','09').replace('/10','10').replace('/11','11').replace('/12','12').replace('/13','13').replace('/14','14').replace('/15','15').replace('/16','16').replace('/17','17').replace('/18','18').replace('/19','19').replace('/20','20').replace('/21','21').replace('/22','22').replace('/23','23').replace('/24','24').replace('/25','25').replace('/26','26').replace('/27','27').replace('/28','28').replace('/29','29').replace('/30','30').replace('/31','31').replace('/32','32').replace('/33','33').replace('/34','34').replace('/35','35').replace('/01','01').replace('/02','02').replace('/03','03')</expres>
+			<expres>$pyFunction:'[makelist.param6]'.replace('4','/04').replace('5','/05').replace('6','/06').replace('7','/07').replace('8','/08').replace('9','/09').replace('10','/10').replace('11','/11').replace('12','/12').replace('13','/13').replace('14','/14').replace('15','/15').replace('16','/16').replace('17','/17').replace('18','/18').replace('19','/19').replace('20','/20').replace('21','/21').replace('22','/22').replace('23','/23').replace('24','/24').replace('25','/25').replace('26','/26').replace('27','/27').replace('28','/28').replace('29','/29').replace('30','/30').replace('31','/31').replace('32','/32').replace('33','/33').replace('34','/34').replace('35','/35').replace('01','/01').replace('02','/02').replace('03','/03')</expres>
 			<page></page>
 			</regex>
 			
@@ -159,7 +159,7 @@
 			</regex>
 				<regex>
 			<name>canal</name> 
-			<expres>$pyFunction:'[makelist.param6]'.replace('/4','04').replace('/05','05').replace('/06','06').replace('/07','07').replace('/08','08').replace('/09','09').replace('/10','10').replace('/11','11').replace('/12','12').replace('/13','13').replace('/14','14').replace('/15','15').replace('/16','16').replace('/17','17').replace('/18','18').replace('/19','19').replace('/20','20').replace('/21','21').replace('/22','22').replace('/23','23').replace('/24','24').replace('/25','25').replace('/26','26').replace('/27','27').replace('/28','28').replace('/29','29').replace('/30','30').replace('/31','31').replace('/32','32').replace('/33','33').replace('/34','34').replace('/35','35').replace('/01','01').replace('/02','02').replace('/03','03')</expres>
+			<expres>$pyFunction:'[makelist.param6]'.replace('4','/04').replace('5','/05').replace('6','/06').replace('7','/07').replace('8','/08').replace('9','/09').replace('10','/10').replace('11','/11').replace('12','/12').replace('13','/13').replace('14','/14').replace('15','/15').replace('16','/16').replace('17','/17').replace('18','/18').replace('19','/19').replace('20','/20').replace('21','/21').replace('22','/22').replace('23','/23').replace('24','/24').replace('25','/25').replace('26','/26').replace('27','/27').replace('28','/28').replace('29','/29').replace('30','/30').replace('31','/31').replace('32','/32').replace('33','/33').replace('34','/34').replace('35','/35').replace('01','/01').replace('02','/02').replace('03','/03')</expres>
 			<page></page>
 			</regex>
 			
@@ -195,7 +195,7 @@
 			</regex>
 				<regex>
 			<name>canal</name> 
-			<expres>$pyFunction:'[makelist.param6]'.replace('/4','04').replace('/05','05').replace('/06','06').replace('/07','07').replace('/08','08').replace('/09','09').replace('/10','10').replace('/11','11').replace('/12','12').replace('/13','13').replace('/14','14').replace('/15','15').replace('/16','16').replace('/17','17').replace('/18','18').replace('/19','19').replace('/20','20').replace('/21','21').replace('/22','22').replace('/23','23').replace('/24','24').replace('/25','25').replace('/26','26').replace('/27','27').replace('/28','28').replace('/29','29').replace('/30','30').replace('/31','31').replace('/32','32').replace('/33','33').replace('/34','34').replace('/35','35').replace('/01','01').replace('/02','02').replace('/03','03')</expres>
+			<expres>$pyFunction:'[makelist.param6]'.replace('4','/04').replace('5','/05').replace('6','/06').replace('7','/07').replace('8','/08').replace('9','/09').replace('10','/10').replace('11','/11').replace('12','/12').replace('13','/13').replace('14','/14').replace('15','/15').replace('16','/16').replace('17','/17').replace('18','/18').replace('19','/19').replace('20','/20').replace('21','/21').replace('22','/22').replace('23','/23').replace('24','/24').replace('25','/25').replace('26','/26').replace('27','/27').replace('28','/28').replace('29','/29').replace('30','/30').replace('31','/31').replace('32','/32').replace('33','/33').replace('34','/34').replace('35','/35').replace('01','/01').replace('02','/02').replace('03','/03')</expres>
 			<page></page>
 			</regex>
 			
@@ -231,7 +231,7 @@
 			</regex>
 				<regex>
 			<name>canal</name> 
-			<expres>$pyFunction:'[makelist.param6]'.replace('/4','04').replace('/05','05').replace('/06','06').replace('/07','07').replace('/08','08').replace('/09','09').replace('/10','10').replace('/11','11').replace('/12','12').replace('/13','13').replace('/14','14').replace('/15','15').replace('/16','16').replace('/17','17').replace('/18','18').replace('/19','19').replace('/20','20').replace('/21','21').replace('/22','22').replace('/23','23').replace('/24','24').replace('/25','25').replace('/26','26').replace('/27','27').replace('/28','28').replace('/29','29').replace('/30','30').replace('/31','31').replace('/32','32').replace('/33','33').replace('/34','34').replace('/35','35').replace('/01','01').replace('/02','02').replace('/03','03')</expres>
+			<expres>$pyFunction:'[makelist.param6]'.replace('4','/04').replace('5','/05').replace('6','/06').replace('7','/07').replace('8','/08').replace('9','/09').replace('10','/10').replace('11','/11').replace('12','/12').replace('13','/13').replace('14','/14').replace('15','/15').replace('16','/16').replace('17','/17').replace('18','/18').replace('19','/19').replace('20','/20').replace('21','/21').replace('22','/22').replace('23','/23').replace('24','/24').replace('25','/25').replace('26','/26').replace('27','/27').replace('28','/28').replace('29','/29').replace('30','/30').replace('31','/31').replace('32','/32').replace('33','/33').replace('34','/34').replace('35','/35').replace('01','/01').replace('02','/02').replace('03','/03')</expres>
 			<page></page>
 			</regex>
 			
@@ -267,7 +267,7 @@
 			</regex>
 				<regex>
 			<name>canal</name> 
-			<expres>$pyFunction:'[makelist.param6]'.replace('/4','04').replace('/05','05').replace('/06','06').replace('/07','07').replace('/08','08').replace('/09','09').replace('/10','10').replace('/11','11').replace('/12','12').replace('/13','13').replace('/14','14').replace('/15','15').replace('/16','16').replace('/17','17').replace('/18','18').replace('/19','19').replace('/20','20').replace('/21','21').replace('/22','22').replace('/23','23').replace('/24','24').replace('/25','25').replace('/26','26').replace('/27','27').replace('/28','28').replace('/29','29').replace('/30','30').replace('/31','31').replace('/32','32').replace('/33','33').replace('/34','34').replace('/35','35').replace('/01','01').replace('/02','02').replace('/03','03')</expres>
+			<expres>$pyFunction:'[makelist.param6]'.replace('4','/04').replace('5','/05').replace('6','/06').replace('7','/07').replace('8','/08').replace('9','/09').replace('10','/10').replace('11','/11').replace('12','/12').replace('13','/13').replace('14','/14').replace('15','/15').replace('16','/16').replace('17','/17').replace('18','/18').replace('19','/19').replace('20','/20').replace('21','/21').replace('22','/22').replace('23','/23').replace('24','/24').replace('25','/25').replace('26','/26').replace('27','/27').replace('28','/28').replace('29','/29').replace('30','/30').replace('31','/31').replace('32','/32').replace('33','/33').replace('34','/34').replace('35','/35').replace('01','/01').replace('02','/02').replace('03','/03')</expres>
 			<page></page>
 			</regex>
 			
@@ -301,9 +301,9 @@
 			<referer>http://arenavision2017.tk</referer>
 			<setcookie>beget=begetok</setcookie>
 			</regex>
-				<regex>
+		<regex>
 			<name>canal</name> 
-			<expres>$pyFunction:'[makelist.param6]'.replace('/4','04').replace('/05','05').replace('/06','06').replace('/07','07').replace('/08','08').replace('/09','09').replace('/10','10').replace('/11','11').replace('/12','12').replace('/13','13').replace('/14','14').replace('/15','15').replace('/16','16').replace('/17','17').replace('/18','18').replace('/19','19').replace('/20','20').replace('/21','21').replace('/22','22').replace('/23','23').replace('/24','24').replace('/25','25').replace('/26','26').replace('/27','27').replace('/28','28').replace('/29','29').replace('/30','30').replace('/31','31').replace('/32','32').replace('/33','33').replace('/34','34').replace('/35','35').replace('/01','01').replace('/02','02').replace('/03','03')</expres>
+			<expres>$pyFunction:'[makelist.param6]'.replace('4','/04').replace('5','/05').replace('6','/06').replace('7','/07').replace('8','/08').replace('9','/09').replace('10','/10').replace('11','/11').replace('12','/12').replace('13','/13').replace('14','/14').replace('15','/15').replace('16','/16').replace('17','/17').replace('18','/18').replace('19','/19').replace('20','/20').replace('21','/21').replace('22','/22').replace('23','/23').replace('24','/24').replace('25','/25').replace('26','/26').replace('27','/27').replace('28','/28').replace('29','/29').replace('30','/30').replace('31','/31').replace('32','/32').replace('33','/33').replace('34','/34').replace('35','/35').replace('01','/01').replace('02','/02').replace('03','/03')</expres>
 			<page></page>
 			</regex>
 			
@@ -322,7 +322,7 @@
 </item>
 
 <item>
-<title>[COLOR orange]  [B]*EVENTOS:[/B][/COLOR] [COLOR white] FIFA WORLD CUP QUALIFIERS [/COLOR]</title>
+<title>[COLOR orange]  [B]EVENTOS:[/B][/COLOR] [COLOR white] FIFA WORLD CUP QUALIFIERS [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -337,9 +337,9 @@
 			<referer>http://arenavision2017.tk</referer>
 			<setcookie>beget=begetok</setcookie>
 			</regex>
-				<regex>
+		<regex>
 			<name>canal</name> 
-			<expres>$pyFunction:'[makelist.param6]'.replace('/4','04').replace('/05','05').replace('/06','06').replace('/07','07').replace('/08','08').replace('/09','09').replace('/10','10').replace('/11','11').replace('/12','12').replace('/13','13').replace('/14','14').replace('/15','15').replace('/16','16').replace('/17','17').replace('/18','18').replace('/19','19').replace('/20','20').replace('/21','21').replace('/22','22').replace('/23','23').replace('/24','24').replace('/25','25').replace('/26','26').replace('/27','27').replace('/28','28').replace('/29','29').replace('/30','30').replace('/31','31').replace('/32','32').replace('/33','33').replace('/34','34').replace('/35','35').replace('/01','01').replace('/02','02').replace('/03','03')</expres>
+			<expres>$pyFunction:'[makelist.param6]'.replace('4','/04').replace('5','/05').replace('6','/06').replace('7','/07').replace('8','/08').replace('9','/09').replace('10','/10').replace('11','/11').replace('12','/12').replace('13','/13').replace('14','/14').replace('15','/15').replace('16','/16').replace('17','/17').replace('18','/18').replace('19','/19').replace('20','/20').replace('21','/21').replace('22','/22').replace('23','/23').replace('24','/24').replace('25','/25').replace('26','/26').replace('27','/27').replace('28','/28').replace('29','/29').replace('30','/30').replace('31','/31').replace('32','/32').replace('33','/33').replace('34','/34').replace('35','/35').replace('01','/01').replace('02','/02').replace('03','/03')</expres>
 			<page></page>
 			</regex>
 			
@@ -358,7 +358,7 @@
 </item>
 
 <item>
-<title>[COLOR orange][B]*EVENTOS:[/B][/COLOR] [COLOR white] USA NBA PRESEASON [/COLOR]</title>
+<title>[COLOR orange][B]EVENTOS:[/B][/COLOR] [COLOR white] USA NBA PRESEASON [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -373,9 +373,9 @@
 			<referer>http://arenavision2017.tk</referer>
 			<setcookie>beget=begetok</setcookie>
 			</regex>
-				<regex>
+		<regex>
 			<name>canal</name> 
-			<expres>$pyFunction:'[makelist.param6]'.replace('/4','04').replace('/05','05').replace('/06','06').replace('/07','07').replace('/08','08').replace('/09','09').replace('/10','10').replace('/11','11').replace('/12','12').replace('/13','13').replace('/14','14').replace('/15','15').replace('/16','16').replace('/17','17').replace('/18','18').replace('/19','19').replace('/20','20').replace('/21','21').replace('/22','22').replace('/23','23').replace('/24','24').replace('/25','25').replace('/26','26').replace('/27','27').replace('/28','28').replace('/29','29').replace('/30','30').replace('/31','31').replace('/32','32').replace('/33','33').replace('/34','34').replace('/35','35').replace('/01','01').replace('/02','02').replace('/03','03')</expres>
+			<expres>$pyFunction:'[makelist.param6]'.replace('4','/04').replace('5','/05').replace('6','/06').replace('7','/07').replace('8','/08').replace('9','/09').replace('10','/10').replace('11','/11').replace('12','/12').replace('13','/13').replace('14','/14').replace('15','/15').replace('16','/16').replace('17','/17').replace('18','/18').replace('19','/19').replace('20','/20').replace('21','/21').replace('22','/22').replace('23','/23').replace('24','/24').replace('25','/25').replace('26','/26').replace('27','/27').replace('28','/28').replace('29','/29').replace('30','/30').replace('31','/31').replace('32','/32').replace('33','/33').replace('34','/34').replace('35','/35').replace('01','/01').replace('02','/02').replace('03','/03')</expres>
 			<page></page>
 			</regex>
 			
@@ -390,6 +390,43 @@
 </regex>
 
 <thumbnail>https://www.logodesignlove.com/images/classic/nba-logo.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Futbol/master/images/fanart.jpg</fanart>
+</item>
+
+
+<item>
+<title>[COLOR orange]  [B]BALOCESTO:[/B][/COLOR] Liga ACB[COLOR white] Se muestran si hay eventos. [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<SetViewMode>55</SetViewMode>
+<title>[COLOR orange][makelist.param1] [/COLOR]  [COLOR yellow][makelist.param2] [/COLOR][COLOR red][makelist.param3] [/COLOR] [COLOR white][B][makelist.param5] [/B] [/COLOR][COLOR gold] [makelist.param7] [/COLOR]  [COLOR red][[makelist.param4]] [/COLOR]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ArenaSport+[makelist.param5]+Arenavision</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://arenavision2017.tk/$doregex[canal]</page>
+			<referer>http://arenavision2017.tk</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+		<regex>
+			<name>canal</name> 
+			<expres>$pyFunction:'[makelist.param6]'.replace('4','/04').replace('5','/05').replace('6','/06').replace('7','/07').replace('8','/08').replace('9','/09').replace('10','/10').replace('11','/11').replace('12','/12').replace('13','/13').replace('14','/14').replace('15','/15').replace('16','/16').replace('17','/17').replace('18','/18').replace('19','/19').replace('20','/20').replace('21','/21').replace('22','/22').replace('23','/23').replace('24','/24').replace('25','/25').replace('26','/26').replace('27','/27').replace('28','/28').replace('29','/29').replace('30','/30').replace('31','/31').replace('32','/32').replace('33','/33').replace('34','/34').replace('35','/35').replace('01','/01').replace('02','/02').replace('03','/03')</expres>
+			<page></page>
+			</regex>
+			
+			<thumbnail>https://raw.githubusercontent.com/Andorth/ArenaSports/master/icon.png</thumbnail>
+ 
+]]></listrepeat>
+<expres><![CDATA[230px">(.*?)<[\w\W\s]{0,50}px">(.*?)CEST[\w\W\s]{0,53}px">(.*?)<[\w\W\s]{0,53}USA NBA PRESEASON[\w\W\s]{0,50}px">(.*?)<[\w\W\s]{0,50}px">([0-9]+)]]></expres>
+<page>http://arenavision2017.tk/iguide</page>
+<Agent>Mozilla</Agent>
+<referer>http://arenavision2017.tk/iguide</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+
+<thumbnail>https://raw.githubusercontent.com/Andorth/Futbol/master/images/icon.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/Andorth/Futbol/master/images/fanart.jpg</fanart>
 </item>
 
@@ -409,9 +446,9 @@
 			<referer>http://arenavision2017.tk</referer>
 			<setcookie>beget=begetok</setcookie>
 			</regex>
-				<regex>
+		<regex>
 			<name>canal</name> 
-			<expres>$pyFunction:'[makelist.param6]'.replace('/4','04').replace('/05','05').replace('/06','06').replace('/07','07').replace('/08','08').replace('/09','09').replace('/10','10').replace('/11','11').replace('/12','12').replace('/13','13').replace('/14','14').replace('/15','15').replace('/16','16').replace('/17','17').replace('/18','18').replace('/19','19').replace('/20','20').replace('/21','21').replace('/22','22').replace('/23','23').replace('/24','24').replace('/25','25').replace('/26','26').replace('/27','27').replace('/28','28').replace('/29','29').replace('/30','30').replace('/31','31').replace('/32','32').replace('/33','33').replace('/34','34').replace('/35','35').replace('/01','01').replace('/02','02').replace('/03','03')</expres>
+			<expres>$pyFunction:'[makelist.param6]'.replace('4','/04').replace('5','/05').replace('6','/06').replace('7','/07').replace('8','/08').replace('9','/09').replace('10','/10').replace('11','/11').replace('12','/12').replace('13','/13').replace('14','/14').replace('15','/15').replace('16','/16').replace('17','/17').replace('18','/18').replace('19','/19').replace('20','/20').replace('21','/21').replace('22','/22').replace('23','/23').replace('24','/24').replace('25','/25').replace('26','/26').replace('27','/27').replace('28','/28').replace('29','/29').replace('30','/30').replace('31','/31').replace('32','/32').replace('33','/33').replace('34','/34').replace('35','/35').replace('01','/01').replace('02','/02').replace('03','/03')</expres>
 			<page></page>
 			</regex>
 			
