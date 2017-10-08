@@ -94,7 +94,7 @@ class InputWindow(xbmcgui.WindowDialog):
  
 <item>
 <SetViewMode>500</SetViewMode>
-<title>[COLOR orange][B]Documentalia TV[/B] [COLOR white]Grandes Documentales[/COLOR] Requiere Addon Youtube.</title>
+<title>[COLOR orange][B]Documentales[/B] [COLOR white]Grandes Documentales[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex><name>makelist</name>
 <listrepeat><![CDATA[   
@@ -108,5 +108,24 @@ class InputWindow(xbmcgui.WindowDialog):
 </regex>  
 <thumbnail>https://i.ytimg.com/vi/[makelist.param1]/hqdefault.jpg</thumbnail>
 </item>
+ 
+<item>
+<title>[COLOR orange][B]Documentales [/B] [COLOR white]Grandes Documentales 2[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist.param1]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+]]></listrepeat>
+<expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+<page>https://www.youtube.com/watch?v=XmYes07RY6Y&amp;list=PLTTs6PlYWB9G6W2OdUgeZuDPrj1lT6MqQ</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://tallerdedocus.jorgepemar.com/wp-content/uploads/2015/02/taller-cine-documental-b.png</thumbnail>
+<fanart></fanart>
+</item>
+</items>
 
 
