@@ -95,6 +95,7 @@ class InputWindow(xbmcgui.WindowDialog):
 <item>
 <SetViewMode>500</SetViewMode>
 <title>[COLOR orange][B]Documentales[/B] [COLOR white]Grandes Documentales[/COLOR]</title>
+ <thumbnail>http://microgdl.com/wp-content/uploads/2012/03/documental_ambiental_blog.jpg</thumbnail>
 <link>$doregex[makelist]</link>
 <regex><name>makelist</name>
 <listrepeat><![CDATA[   
@@ -112,6 +113,7 @@ class InputWindow(xbmcgui.WindowDialog):
 <item>
 <SetViewMode>500</SetViewMode>
 <title>[COLOR orange][B]Documentales[/B] [COLOR white]Grandes Documentales 2[/COLOR]</title>
+ <thumbnail>http://www.trewhelaschool.cl/wp-content/uploads/2017/06/documental.jpg</thumbnail>
 <link>$doregex[makelist]</link>
 <regex><name>makelist</name>
 <listrepeat><![CDATA[   
