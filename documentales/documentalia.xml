@@ -1,29 +1,15 @@
-<!-- Con url resolver -->
-<item>
-<title>Documentalia TV</title>
+<item> 
+<title>[COLOR orange][B]Documentalia TV[/B] [COLOR white] Ultimos documentales[/COLOR]</title>
 <link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[makelist.param2]</title>
-<link>$doregex[resolve]</link>
-<thumbnail>https://i.ytimg.com/vi/[makelist.param1]/hqdefault.jpg</thumbnail>
+<regex><name>makelist</name>
+<listrepeat><![CDATA[   
+<title>[makelist.param1]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
 ]]></listrepeat>
 <expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
-<page>https://www.youtube.com/channel/UCiwazSMPs2OQuljxifCvSiA</page> <!-- Aqui va el canal -->
-</regex>
-
-<regex>
-<name>resolve</name>
-<expres><![CDATA[#$pyFunction
-import urlresolver
-def GetLSProData(page_data,Cookie_Jar,m):
- url = 'https://www.youtube.com/play/?video_id=[makelist.param2]'
-youtube = urlresolver.resolve(url)
- return youtube
-]]></expres>
-<page></page>
-</regex>
-<thumbnail></thumbnail>
+<!-- Lista todo el contenido del canal. -->
+<page>https://www.youtube.com/channel/UCiwazSMPs2OQuljxifCvSiA</page>
+</regex>  
+<thumbnail>https://i.ytimg.com/vi/[makelist.param1]/hqdefault.jpg</thumbnail>
 </item>
-
