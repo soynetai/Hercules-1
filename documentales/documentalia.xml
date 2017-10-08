@@ -1,6 +1,6 @@
 <!-- Con url resolver -->
 <item>
-<title> <!-- tirulo del canal --></title>
+<title>Documentalia TV</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -9,7 +9,7 @@
 <link>$doregex[resolve]</link>
 <thumbnail>https://i.ytimg.com/vi/[makelist.param1]/hqdefault.jpg</thumbnail>
 ]]></listrepeat>
-<expres>u'(.+?)', u'(.+?)'</expres>
+<expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
 <page>https://www.youtube.com/channel/UCiwazSMPs2OQuljxifCvSiA</page> <!-- Aqui va el canal -->
 </regex>
 
