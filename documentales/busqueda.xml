@@ -82,33 +82,28 @@ class InputWindow(xbmcgui.WindowDialog):
 <page></page>
 </regex>
 </item>
-<channels>
+<item>
+<title>Amazing Facts TV [COLOR yellow] ($doregex[getliveflag])[/COLOR]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=$doregex[getID]</link>
 
-    <channel>
-    <name>DOCUMENTALIA TV</name>
-     <regex>
-      <name>documentales</name
-     <expres>u'(.+?)', u'(.+?)'</expres>
-    <thumbnail>http://www.findjesus.tv/picture_library/findJesus.jpg</thumbnail>
-    <fanart>http://goo.gl/dtB8T9</fanart>
-        <items>
-            <item>
-                <title>$doregex[documentales]</title>
-                <link>plugin://plugin.video.youtube/play/?video_id=$doregex[getID]</link>
-                <regex>
-                <name>getID</name>
-                <expres>data-context-item-id="([^"]+)</expres>
-                <page>https://www.youtube.com/channel/UCiwazSMPs2OQuljxifCvSiA</page>
-               </regex>
-                <thumbnail>https://i.ytimg.com/vi/[makelist.param1]/hqdefault.jpg</thumbnail>
-                <fanart></fanart>
-            </item>
+<regex>
+<name>getliveflag</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+  import re
+  try:
+      return re.findall('yt-badge-live" \W(Live now)', page_data)[0]
+  except:
+      return 'Archive'
+]]></expres>
+<page>https://www.youtube.com/channel/UCVAmiFwV2Azq4vZ5h4bVj5A</page>
+</regex>
 
-            <item>
-               <title>documentales sobre el Universo</title>
-               <link>ignorme</link>
-               <jsonrpc>plugin://plugin.video.youtube.com/watch?v=QVzXMDZ1xfs&list=PLmV3HGaGxSDyiKB7kbK8oubA7LOIngD1Z</jsonrpc>
-               <thumbnail>https://i.ytimg.com/vi/b2yFnRyw558/hqdefault.jpg</thumbnail>
-           </item>
-        </items>
-    </channel>
+<regex>
+<name>getID</name>
+<expres>data-context-item-id="([^"]+)</expres>
+<page>https://www.youtube.com/channel/UC6VJE6cD8ZPpe6ZOtVtlBTA</page>
+</regex>
+<thumbnail>https://lh3.googleusercontent.com/LtoXBkeNAb_AbqEn29AFWkQW5fc1uvblpvY-tV_O4nS8plcECNXaWJeUgsaTuX5O-dtd_w=s85</thumbnail>
+<fanart>http://fluidm.in/wp-content/uploads/2015/11/television.jpg</fanart>
+</item>
