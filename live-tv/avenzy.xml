@@ -84,8 +84,8 @@
 <title>[COLOR orange][B][makelist3.param1] [/B] [COLOR gold][[makelist3.param2]]  [COLOR yellow][makelist2.param3] [COLOR red] [B][makelist2.param5][/B]  [/COLOR][/COLOR][/COLOR][/COLOR]</title>
 <link>$doregex[makelist2]</link>
 ]]></listrepeat>
-<expres>items":"(.*?)"</expres>
-<page>https://avezy.xyz/json.php</page>
+<expres>categoria":"(.*?)",items":"(.*?)"</expres>
+<page>https://avezy.xyz/json.php?cat=SOCCER</page>
 </regex>
 
 <regex>
