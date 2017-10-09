@@ -85,7 +85,7 @@
 <link>$doregex[makelist2]</link>
 ]]></listrepeat>
 <expres>categoria":"(.*?)","items":"(.*?)"</expres>
-<page>https://avezy.xyz/json.php?cat=soccer</page>
+<page>https://avezy.xyz/json.php</page>
 </regex>
 
 <regex>
@@ -100,7 +100,7 @@
 </regex>
 <regex>
 <name>cate</name>
-<expres>$pyFunction:('[makelist3.param1]').replace(' ','+')</expres>
+<expres>$pyFunction:('[makelist3.param1]').replace(' ','soccer+')</expres>
 <page></page>
 </regex>
 
