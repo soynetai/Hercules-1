@@ -71,40 +71,6 @@
  <thumbnail>http://1.bp.blogspot.com/-GZfR6HXoeWU/UvembREuV5I/AAAAAAAAS6I/pKy1zp9N1cs/s1600/arenavision.jpg</thumbnail>
 </item>
 
-<!-- 
-
-Listado guia de Avezy:
-
--->
-
-<item>
-<title>GUIA EVENTOS</title>
-<link>$doregex[makelist]</link>
-<regex>
- <name>makelist</name>
- <listrepeat><![CDATA[
-   <title>[makelist.param2]</title>
-   <link>$doregex[makelist2]</link>
-   <thumbnail>NA</thumbnail>
- ]]></listrepeat>
- <expres>categoria":"(.*?)","items":"(.*?)"</expres>
- <page>https://avezy.xyz/json.php</page>
- <setcookie>beget=begetok</setcookie>
-</regex>
-<regex>
-<name>makelist2</name>
-<listrepeat><![CDATA[
-<title>[makelist2.param2] - [makelist2.param3]</title>
-<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ArenaSports + [makelist.param2]</link>
-<thumbnail>NA</thumbnail>
-]]></listrepeat>
-<expres>canal":"(.+?)".*?acestream:\\\/\\\/(.*?)".*?idioma":"(.*?)"</expres>
-<page>https://avezy.xyz/json.php?action=listado_canales&amp;evento=[makelist2.param1]</page>
-<referer></referer>
-<cookieJar></cookieJar>
-</regex>
-</item>
-
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR orange][B]LA LIGA ESPAÑOLA[/B][/COLOR] [COLOR white]1 y 2 Division[/COLOR]</title>
 <link>$doregex[makelist]</link>
