@@ -108,7 +108,7 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
 <SetwatchMode>55</SetwatchMode>
-<title> [COLOR white] [B][makelist2.param5][/B] Canal: AV [COLOR red][B][makelist.param1][/B]  idioma:[COLOR white[makelist.param3] [/COLOR][/COLOR][/COLOR]</title>
+<title> [COLOR white] [B][makelist2.param5][/B] [COLOR gold] Canal: [COLOR red][B][makelist.param1][/B]  idioma:[COLOR gold [makelist.param3] [/COLOR][/COLOR][/COLOR][/COLOR]</title>
 <link>plugin://program.plexus/?url=[makelist.param2]&amp;mode=1&amp;name=Futbol</link>
 </item>	
 ]]></listrepeat>
