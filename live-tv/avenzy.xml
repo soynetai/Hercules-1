@@ -84,8 +84,8 @@
 <title>[COLOR orange][B][makelist3.param1] [/B] [COLOR gold][[makelist3.param2]]  [COLOR yellow][makelist2.param3] [COLOR red] [B][makelist2.param5][/B]  [/COLOR][/COLOR][/COLOR][/COLOR]</title>
 <link>$doregex[makelist2]</link>
 ]]></listrepeat>
-<expres>categoria":"(.*?)",items":"(.*?)"</expres>
-<page>https://avezy.xyz/json.php?cat=SOCCER</page>
+<expres>categoria":"soccer",items":"(.*?)"</expres>
+<page>https://avezy.xyz/json.php</page>
 </regex>
 
 <regex>
@@ -95,7 +95,7 @@
 <title>[COLOR orange][makelist2.param2] [COLOR white][makelist2.param3] [COLOR red] [B][makelist2.param5][/B] [/COLOR][/COLOR][/COLOR]</title>
 <link>$doregex[makelist]</link>
 ]]></listrepeat>
-<expres>"id":"(.*?)","fecha":"(.*?)","hora":"(.*?)","categoria":"(.*?)","titulo":"(.*?)"</expres>
+<expres>"id":"(.*?)","fecha":"(.*?)","hora":"(.*?)","categoria":"soccer","titulo":"(.*?)"</expres>
 <page>https://avezy.xyz/json.php?action=listado_eventos&amp;cat=$doregex[cate]</page>
 </regex>
 <regex>
