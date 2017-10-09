@@ -112,7 +112,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/menu-peliculas.xml</externallink>
 </item>
 <item>
-<title>[COLOR orange]Adryanlist[COLOR blue] Addon Necesario e instalado [/COLOR] Hermanos de Mexico[/COLOR]</title>
+<title>[COLOR orange]Adryanlist[COLOR red] Addon Necesario [/COLOR][/COLOR]</title>
 <link>http://Ignoreme</link>
     <externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/list.xml</externallink>
 <fanart>https://i.ytimg.com/vi/SCDAU0N1y4g/maxresdefault.jpg</fanart>
@@ -120,7 +120,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
  
 <item>
-<title>[COLOR orange]Explora[COLOR blue] Addon Necesario e instalado[/COLOR][/COLOR]</title>
+<title>[COLOR orange]Explora[COLOR red] Addon Necesario e instalado[/COLOR][/COLOR]</title>
 <link>http://Ignoreme</link>
 <jsonrpc>plugin://plugin.video.Explora/</jsonrpc>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
