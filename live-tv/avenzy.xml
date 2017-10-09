@@ -1,5 +1,5 @@
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR orange][B]  Arena Sports[/B][/COLOR] [COLOR white] |Categorias| [/COLOR]</title>
+<title>[COLOR lime]•[/COLOR][COLOR orange][B] Arena Sports[/B][/COLOR] [COLOR white] |Categorias| [/COLOR]</title>
 
 <link>$doregex[makelist3]</link>
 
@@ -45,7 +45,7 @@
 </item>
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR orange][B]  Arenavision:[/B] [COLOR white]Canales:[/COLOR][/COLOR]</title>
+<title>[COLOR lime]•[/COLOR][COLOR orange][B] Arenavision:[/B] [COLOR white]Canales:[/COLOR][/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -520,7 +520,7 @@
 -->
 
 <item>
-<title>[COLOR lime]• RESUMEN [/COLOR] Jugadas |goalsarena.org| |EN|</title>
+<title>[COLOR lime]• RESUMEN[/COLOR] Jugadas |goalsarena.org| |EN|</title>
 <link>$doregex[makelist]</link>
 <thumbnail>http://goalsarena.goalsarena.netdna-cdn.com/templates/gk_sportmaxum/xlogo.png.pagespeed.ic.F0IzaQsJmf.webp</thumbnail>
 <regex>
