@@ -73,7 +73,7 @@
 <!-- Modifico Avezy para que me muestre solo futbol -->
 
 <item>
-<title>[COLOR orange][B]FUTBOL[/B][/COLOR] [COLOR white] Todo el Futbol[/COLOR]</title>
+<title>[COLOR red]•[/COLOR][COLOR orange][B]FUTBOL[/B][/COLOR] [COLOR white] Todo el Futbol[/COLOR]</title>
 <SetViewMode>55</SetViewMode>
 <link>$doregex[makelist3]</link>
 
