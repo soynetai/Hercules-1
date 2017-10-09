@@ -70,61 +70,44 @@
 </regex>
  <thumbnail>http://1.bp.blogspot.com/-GZfR6HXoeWU/UvembREuV5I/AAAAAAAAS6I/pKy1zp9N1cs/s1600/arenavision.jpg</thumbnail>
 </item>
-<!-- Modifico Avezy para que me muestre solo futbol -->
+
+<!-- 
+
+Listado guia de Avezy:
+
+-->
 
 <item>
-<title>[COLOR red]•[/COLOR][COLOR orange]  [B]Futbol[/B][/COLOR] [COLOR white] [/COLOR]</title>
-<SetViewMode>55</SetViewMode>
-<link>$doregex[makelist3]</link>
-
+<title>GUIA EVENTOS</title>
+<link>$doregex[makelist]</link>
 <regex>
-<name>makelist3</name>
-<listrepeat><![CDATA[
-<SetViewMode>55</SetViewMode>
-<title>[COLOR orange][B][makelist3.param1] [/B] [COLOR white][[makelist3.param2]]  [/COLOR][/COLOR]</title>
-<link>$doregex[makelist2]</link>
-]]></listrepeat>
-<expres>categoria":"(.*?)","items":"(.*?)"</expres>
-<page>https://avezy.xyz/json.php?cat=soccer</page>
+ <name>makelist</name>
+ <listrepeat><![CDATA[
+   <title>[makelist.param2]</title>
+   <link>$doregex[makelist2]</link>
+   <thumbnail>NA</thumbnail>
+ ]]></listrepeat>
+ <expres>categoria":"(.*?)","items":"(.*?)"</expres>
+ <page>https://avezy.xyz/json.php</page>
+ <setcookie>beget=begetok</setcookie>
 </regex>
-
 <regex>
 <name>makelist2</name>
 <listrepeat><![CDATA[
-<SetwatchMode>55</SetwatchMode>
-<title>[COLOR gold][makelist2.param2] [COLOR white][makelist2.param3] [COLOR red] [B][makelist2.param5][/B] [/COLOR][/COLOR][/COLOR]</title>
-<link>$doregex[makelist]</link>
-]]></listrepeat>
-<expres>"id":"(.*?)","fecha":"(.*?)","hora":"(.*?)","categoria":"(.*?)","titulo":"(.*?)"</expres>
-<page>https://avezy.xyz/json.php?action=listado_eventos&amp;cat=$doregex[makelist]</page>
-</regex>
-<regex>
-<name>cate</name>
-<expres>$pyFunction:('[makelist3.param1]').replace(' ','+')</expres>
-<page></page>
-</regex>
-
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<SetwatchMode>55</SetwatchMode>
-<title> [COLOR white] [B][makelist2.param5][/B] [COLOR gold] Canal: [COLOR red][B][makelist.param1][/B]  idioma:[COLOR gold [makelist.param3] [/COLOR][/COLOR][/COLOR][/COLOR]</title>
-<link>plugin://program.plexus/?url=[makelist.param2]&amp;mode=1&amp;name=Futbol</link>
-</item>	
+<title>[makelist2.param2] - [makelist2.param3]</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ArenaSports + [makelist.param2]</link>
+<thumbnail>NA</thumbnail>
 ]]></listrepeat>
 <expres>canal":"(.+?)".*?acestream:\\\/\\\/(.*?)".*?idioma":"(.*?)"</expres>
 <page>https://avezy.xyz/json.php?action=listado_canales&amp;evento=[makelist2.param1]</page>
+<referer></referer>
+<cookieJar></cookieJar>
 </regex>
-
-
-<thumbnail>https://raw.githubusercontent.com/Andorth/Futbol/master/images/icon.png</thumbnail>
 </item>
 
+<!-- 
 
 
-
-
-<!--
 <item>
 <title>[COLOR yellow]•[/COLOR][COLOR orange][B]  Eventos en Arenavision:  [/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
@@ -158,7 +141,7 @@
  </regex>
 <thumbnail>https://raw.githubusercontent.com/Andorth/ArenaSports/master/icon.png</thumbnail>
 </item>
--->
+<!--
 <item>
 <title>[COLOR red]  [B]LIGA DE ESPAÑA:[/B][/COLOR] [COLOR white] 1 Division [/COLOR]</title>
 <link>$doregex[makelist]</link>
