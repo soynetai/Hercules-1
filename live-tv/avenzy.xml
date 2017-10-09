@@ -70,7 +70,53 @@
 </regex>
  <thumbnail>http://1.bp.blogspot.com/-GZfR6HXoeWU/UvembREuV5I/AAAAAAAAS6I/pKy1zp9N1cs/s1600/arenavision.jpg</thumbnail>
 </item>
+<!-- Modifico Avezy para que me muestre solo futbol -->
 
+<item>
+<title>[COLOR orange][B]FUTBOL[/B][/COLOR] [COLOR white] Todo el Futbol[/COLOR]</title>
+<SetViewMode>55</SetViewMode>
+<link>$doregex[makelist3]</link>
+
+<regex>
+<name>makelist3</name>
+<listrepeat><![CDATA[
+<SetViewMode>55</SetViewMode>
+<title>[COLOR orange][B][makelist3.param1] [/B] [COLOR gold][[makelist3.param2]]  [COLOR yellow][makelist2.param3] [COLOR red] [B][makelist2.param5][/B]  [/COLOR][/COLOR][/COLOR][/COLOR]</title>
+<link>$doregex[makelist2]</link>
+]]></listrepeat>
+<expres>items":"(.*?)"</expres>
+<page>https://avezy.xyz/json.php</page>
+</regex>
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+<SetwatchMode>55</SetwatchMode>
+<title>[COLOR orange][makelist2.param2] [COLOR white][makelist2.param3] [COLOR red] [B][makelist2.param5][/B] [/COLOR][/COLOR][/COLOR]</title>
+<link>$doregex[makelist]</link>
+]]></listrepeat>
+<expres>"id":"(.*?)","fecha":"(.*?)","hora":"(.*?)","titulo":"(.*?)"</expres>
+<page>https://avezy.xyz/json.php?cat=SOCCER</page>
+</regex>
+
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<SetwatchMode>55</SetwatchMode>
+<title> [COLOR deepskyblue] [B][makelist2.param5][/B] [/COLOR] [I] Canal  [makelist.param1]  idioma:[makelist.param3] [/I]</title>
+<link>plugin://program.plexus/?url=[makelist.param2]&amp;mode=1&amp;name=Adryanlist</link>
+</item>	
+]]></listrepeat>
+<expres>canal":"(.+?)".*?acestream:\\\/\\\/(.*?)".*?idioma":"(.*?)"</expres>
+<page>https://avezy.xyz/json.php?action=listado_canales&amp;evento=[makelist2.param1]</page>
+</regex>
+
+<thumbnail>https://raw.githubusercontent.com/Andorth/Futbol/master/images/icon.png</thumbnail>
+</item>
+
+
+<!--
 <item>
 <title>[COLOR yellow]•[/COLOR][COLOR orange][B]  Eventos en Arenavision:  [/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
@@ -465,6 +511,8 @@
 <thumbnail>http://www.brandcrowd.com/gallery/brands/pictures/picture13300305644685.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/Andorth/Futbol/master/images/fanart.jpg</fanart>
 </item>
+
+-->
 
 <item>
 <title>[COLOR orange]• RESUMEN [/COLOR] Jugadas |goalsarena.org| |EN|</title>
