@@ -85,7 +85,7 @@
 <link>$doregex[makelist2]</link>
 ]]></listrepeat>
 <expres>categoria":"(.*?)","items":"(.*?)"</expres>
-<page>https://avezy.xyz/json.php</page>
+<page>https://avezy.xyz/json.php?cat=soccer</page>
 </regex>
 
 <regex>
@@ -96,11 +96,11 @@
 <link>$doregex[makelist]</link>
 ]]></listrepeat>
 <expres>"id":"(.*?)","fecha":"(.*?)","hora":"(.*?)","categoria":"(.*?)","titulo":"(.*?)"</expres>
-<page>https://avezy.xyz/json.php?action=listado_eventos&amp;cat=$doregex[cate]</page>
+<page>https://avezy.xyz/json.php?action=listado_eventos&amp;cat=$doregex[makelist]</page>
 </regex>
 <regex>
 <name>cate</name>
-<expres>$pyFunction:('[makelist3.param1]').replace(' ','soccer+')</expres>
+<expres>$pyFunction:('[makelist3.param1]').replace(' ','+')</expres>
 <page></page>
 </regex>
 
@@ -109,7 +109,7 @@
 <listrepeat><![CDATA[
 <SetwatchMode>55</SetwatchMode>
 <title> [COLOR white] [B][makelist2.param5][/B] Canal: AV [COLOR red][B][makelist.param1][/B]  idioma:[COLOR white[makelist.param3] [/COLOR][/COLOR][/COLOR]</title>
-<link>plugin://program.plexus/?url=[makelist.param2]&amp;mode=1&amp;name=Adryanlist</link>
+<link>plugin://program.plexus/?url=[makelist.param2]&amp;mode=1&amp;name=Futbol</link>
 </item>	
 ]]></listrepeat>
 <expres>canal":"(.+?)".*?acestream:\\\/\\\/(.*?)".*?idioma":"(.*?)"</expres>
