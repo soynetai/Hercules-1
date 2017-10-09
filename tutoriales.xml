@@ -90,7 +90,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>https://yt3.ggpht.com/-HogW-BE-XOs/AAAAAAAAAAI/AAAAAAAAAAA/V9zLyItNyCA/s900-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+<thumbnail>http://bimchannel.net/wp-content/uploads/2015/05/Videos-R.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
 
