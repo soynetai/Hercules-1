@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>Bienvenidos a Hercules:</title>
+<link>$doregex[select]</link>
+
+<regex>
+<name>select</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import xbmcgui
+    dialog = xbmcgui.Dialog()
+    ret = dialog.select(['Con presentacion', 'Sin presentacion'])
+    regex = ['$doregex[si-presentacion]', '$doregex[no-presentacion]']
+    return regex[ret]
+]]></expres>
+<page></page>
+</regex>
+
+<regex>
+<name>si-presentacion</name>
+<expres><![CDATA[#$pyFunction
+import xbmcaddon
+import xbmcgui
+
+def GetLSProData(page_data,Cookie_Jar,m):
+    file = 'https://archive.org/download/comenzamos-720/comenzamos-720.mp4'
+    xbmc.Player().play(file)
+	return "https://raw.githubusercontent.com/Andorth/Hercules/master/inicio.xml"
+	]]></expres>
+<page></page>
+</regex>
+
+<regex>
+<name></name>
+<expres>https://raw.githubusercontent.com/Andorth/Hercules/master/inicio.xml</expres>
+<page></page>
+</regex>
+</item>
