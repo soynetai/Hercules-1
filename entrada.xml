@@ -2,7 +2,6 @@
 
 <item>
 <title>Bienvenidos a Hercules:</title>
-<htumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/icon.png</thumbnail>
 <link>$doregex[select]</link>
 
 <regex>
@@ -11,8 +10,8 @@
 def GetLSProData(page_data,Cookie_Jar,m):
     import xbmcgui
     dialog = xbmcgui.Dialog()
-    ret = dialog.select(['presentacion', 'no-presentacion'])
-    regex = ['$doregex[si-presentacion]', '$doregex[no-presentacion]']
+    ret = dialog.select(['Con presentacion', 'Sin presentacion'])
+    regex = ['$doregex[presentacion]', '$doregex[no-presentacion]']
     return regex[ret]
 ]]></expres>
 <page></page>
