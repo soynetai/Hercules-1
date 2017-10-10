@@ -19,8 +19,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>Intro</name>
 <expres>
-<![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
+
     line1 = "Atencion: "
     line2 = "Nosotros no alojamos contenido en nuestro addon."
     line3 = "Este addon solo tiene enlaces a webs publicas de internet que son de acceso gratuito."
@@ -30,7 +29,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     file = 'https://archive.org/download/comenzamos-720/comenzamos-720.mp4'
     xbmc.Player().play(file)
 	return = "https://raw.githubusercontent.com/Andorth/Hercules/master/inicio.xml"
-]]>
+
 </expres>
 <page></page>
 </regex>
@@ -38,15 +37,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>No-intro</name>
 <expres>
-<![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
+
     line1 = "Atencion: "
     line2 = "Nosotros no alojamos contenido en nuestro addon."
     line3 = "Este addon solo tiene enlaces a webs publicas de internet que son de acceso gratuito."
 
     xbmcgui.Dialog().ok(__addonname__, line1, line2, line3)
 	return = "https://raw.githubusercontent.com/Andorth/Hercules/master/inicio.xml"
-]]>
+
 </expres>
 <page></page>
 </regex>
