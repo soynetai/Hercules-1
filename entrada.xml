@@ -14,7 +14,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     line2 = "Solo enlaza contenido de la web publica. Por medio de enlaces. Utiliza este addon con responsabilidad."
     line3 = "Todo el material expuesto es propiedad de sus respectivos dueños." 
     xbmcgui.Dialog().ok(__addonname__, line1, line2, line3)
-    return ""
+    return "https://raw.githubusercontent.com/Andorth/Hercules/master/inicio.xml"
 ]]></expres>
 <page></page>
 <cookieJar></cookieJar>
