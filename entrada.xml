@@ -11,6 +11,7 @@
 <item>
 <title>[COLOR orange]Ver Intro[/COLOR]</title>
 <link>$doregex[openDialog]</link>
+<thumbnail>http://www.teaminternetmarketing.com/wp-content/uploads/2011/09/video-marketing.jpg</thumbnail>
 <regex>
 <name>openDialog</name>
 <expres><![CDATA[#$pyFunction
@@ -28,7 +29,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://www.teaminternetmarketing.com/wp-content/uploads/2011/09/video-marketing.jpg</thumbnail>
+
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
 <item>
