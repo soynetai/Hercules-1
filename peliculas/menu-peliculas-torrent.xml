@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <SetViewMode>500</SetViewMode>
 <items>
-<item>
+<!--<item>
 <title>[COLOR orange][+]Buscar[/COLOR][COLOR white] [pelicula Torrent] |Requerido Quasar|[/COLOR] </title>
 <link>$doregex[makelist2]</link>
 
@@ -52,7 +52,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>http://www.iconsdb.com/icons/preview/green/active-search-2-xxl.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
-
+-->
+<item>
+<title>[COLOR orange]Buscador Torrent[COLOR white]Fuera de servicio.[/COLOR] Lo sentimos[/COLOR]</title>
+<link>http://Ignoreme</link>
+<fanart>http://images6.fanpop.com/image/photos/38300000/Atlantis-Nebula-by-Starkiteckt-starkiteckt-38383517-5000-3125.jpg</fanart>
+<thumbnail>https://s21.es/1338-thickbox_default/fuera-de-servicio-con-rotulo.jpg</thumbnail>
+<externallink></externallink>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
 
 <item>
 <title>[COLOR orange][+]Peliculas [COLOR white]Estrenos Torrent[/COLOR][/COLOR]</title>
