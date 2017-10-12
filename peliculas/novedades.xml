@@ -449,7 +449,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
+<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BOGU1ZDgxNWMtOTEyZi00MjZjLWI2Y2QtYjMxMTNmOTJlMzRmXkEyXkFqcGdeQXVyMjQ3NzUxOTM@._V1_UY268_CR2,0,182,268_AL_.jpg</thumbnail> 
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR orange]$doregex[nombre]  [/COLOR][COLOR white] 720p. [/COLOR]</title>
 
@@ -462,7 +462,7 @@ su hijo pequeño, con el que lleva seis meses sin hablarse desde que salió del 
 un vasco de origen senegalés. Este viaje multicultural pondrá a prueba la tolerancia y la capacidad de perdonar de una familia tan disfuncional como cualquier otra, 
 en el que tendrán que aprender a aceptarse los unos a los otros, con sus virtudes y defectos.</info>
 
-<regex><name>nombre</name><expres>Señor, dame paciencia</expres><page></page></regex>
+<regex><name>nombre</name><expres>Señor, dame paciencia (2017)</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
 </item>
