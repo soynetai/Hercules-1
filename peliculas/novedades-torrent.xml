@@ -7,43 +7,38 @@
 <thumbnail>https://pasateatorrent.com/wp-content/uploads/2017/05/Alien_Covenant-949552389-large.jpg</thumbnail>
 </item>
 
-<item>
-<title>[B][COLOR orange]Altitude - 720HD[/B][/COLOR][COLOR lime] Torrent [COLOR yellow] Requiere quasar[/COLOR][/COLOR]</title>
-<link>plugin://plugin.video.quasar/play?uri=http://www.mejortorrent.com/uploads/torrents/peliculas/Altitude_HDRip.torrent</link>
-<fanart>http://www.dvdsreleasedates.com/posters/300/A/Altitude-2017.jpg</fanart>
-<thumbnail>https://pics.filmaffinity.com/altitude-374177208-large.jpg</thumbnail>
-</item>
-
 
 <!-- B -->
 <item>
-<title>[B][COLOR orange]Blackway - 1080HD[/B][/COLOR][COLOR lime] Torrent [COLOR yellow] Requiere quasar[/COLOR][/COLOR]</title>
-<link>plugin://plugin.video.quasar/play?uri=http://files.pasateatorrent.com/torrents/peliculas/Blackway_MicroHD.torrent</link>
-<fanart>https://pasateatorrent.com/wp-content/uploads/2017/08/Blackway.jpg</fanart>
-<thumbnail>https://pasateatorrent.com/wp-content/uploads/2017/08/Blackway.jpg</thumbnail>
+<title>[B][COLOR orange]Baby driver- 1080HD[/B][/COLOR][COLOR lime] Torrent [COLOR yellow] Requiere quasar[/COLOR][/COLOR]</title>
+<link>plugin://plugin.video.quasar/play?uri=https://github.com/Andorth/Hercules/blob/master/torrents/99878_baby-driver-microhd-1080p-ac3-5-1-dts-5-1-castellano-ac3-5-1-ingles-subs-es-en.torrent?raw=true</link>
+<fanart>http://www.newpct1.com/pictures/f/thumbs/99881_baby-driver-blurayrip-ac3-5-1-espaa-a-ol-castellano-2017.jpg</fanart>
+<thumbnail>http://www.newpct1.com/pictures/f/thumbs/99881_baby-driver-blurayrip-ac3-5-1-espaa-a-ol-castellano-2017.jpg</thumbnail>
 </item>
+
 <!-- C -->
 <!-- D -->
 <item>
-<title>[B][COLOR orange]Desnudo - Naked 1080HD[/B][/COLOR][COLOR yellow] Requiere quasar[/COLOR][/COLOR]</title>
-<link>plugin://plugin.video.quasar/play?uri=http://files.pasateatorrent.com/torrents/peliculas/Desnudo_HDRip.torrent</link>
-<link>plugin://plugin.video.quasar/play?uri=http://files.pasateatorrent.com/torrents/peliculas/Desnudo_MicroHD.torrent</link>
-<link>plugin://plugin.video.quasar/play?uri=http://files.pasateatorrent.com/torrents/peliculas/Desnudo_Bluray.torrent</link>
-<fanart>https://pasateatorrent.com/wp-content/uploads/2017/08/Desnudo.jpg</fanart>
-<thumbnail>https://pasateatorrent.com/wp-content/uploads/2017/08/Desnudo.jpg</thumbnail>
+<title>[B][COLOR orange]Drones - 1080HD[/B][/COLOR][COLOR lime] Torrent [COLOR yellow] Requiere quasar[/COLOR][/COLOR]</title>
+<link>plugin://plugin.video.quasar/play?uri=https://github.com/Andorth/Hercules/blob/master/torrents/99880_drones-microhd-1080p-ac3-5-1-castellano-ac3-5-1-ingles-subs-es-en.torrent?raw=true</link>
+<fanart>http://www.newpct1.com/pictures/f/thumbs/99844_drones-bluray-rip-ac3-5-1-espaa-a-ol-castellano-2017.jpg</fanart>
+<thumbnail>http://www.newpct1.com/pictures/f/thumbs/99844_drones-bluray-rip-ac3-5-1-espaa-a-ol-castellano-2017.jpg</thumbnail>
 </item>
+
 <!-- E -->
 <!-- F -->
-<!-- G -->
 <item>
-<title>[B][COLOR orange]GOAT - 1080HD[/B][/COLOR][COLOR lime] Torrent [COLOR yellow] Requiere quasar[/COLOR][/COLOR]</title>
-<link>plugin://plugin.video.quasar/play?uri=http://files.pasateatorrent.com/torrents/peliculas/Goat_MicroHD.torrent</link>
-<fanart>https://pasateatorrent.com/wp-content/uploads/2017/09/CF9in3b.jpg</fanart>
-<thumbnail>https://pasateatorrent.com/wp-content/uploads/2017/09/CF9in3b.jpg</thumbnail>
+<title>[B][COLOR orange]Fe de Etarras - 1080HD[/B][/COLOR][COLOR lime] Torrent [COLOR yellow] Requiere quasar[/COLOR][/COLOR]</title>
+<link>plugin://plugin.video.quasar/play?uri=https://github.com/Andorth/Hercules/blob/master/torrents/99934_fe-de-erratas-blurayrip-ac3-5-1-espaa-a-ol-castellano-2017.torrent?raw=true</link>
+<fanart>http://www.newpct1.com/pictures/f/mediums/99934_fe-de-erratas-blurayrip-ac3-5-1-espaa-a-ol-castellano-2017.jpg</fanart>
+<thumbnail>http://www.newpct1.com/pictures/f/mediums/99934_fe-de-erratas-blurayrip-ac3-5-1-espaa-a-ol-castellano-2017.jpg</thumbnail>
 </item>
+
+<!-- G -->
+
 <item>
 <title>[B][COLOR orange]Guardianes de la galaxia 2 - 1080HD[/B][/COLOR][COLOR yellow] Requiere quasar[/COLOR][/COLOR]</title>
-http://www.mejortorrent.com/uploads/torrents/peliculas/Guardianes_de_la_galaxia_Vol_2.torrent
+
 <link>plugin://plugin.video.quasar/play?uri=http://www.mejortorrent.com/uploads/torrents/peliculas/Guardianes_de_la_Galaxia_Vol_2_MicroHD_1080p.torrent</link>
 <link>plugin://plugin.video.quasar/play?uri=http://www.mejortorrent.com/uploads/torrents/peliculas/Guardianes_de_la_Galaxia_Vol_2_BluRay_1080p.torrent</link>
 <fanart>https://pics.filmaffinity.com/guardians_of_the_galaxy_vol_2-755407784-large.jpg</fanart>
@@ -61,28 +56,33 @@ http://www.mejortorrent.com/uploads/torrents/peliculas/Guardianes_de_la_galaxia_
 <item>
 <title>[B][COLOR orange]John wick 2: pacto de sangre - 1080HD[/B][/COLOR][COLOR lime] Torrent [COLOR yellow] Requiere quasar[/COLOR][/COLOR]</title>
 <link>plugin://plugin.video.quasar/play?uri=http://files.pasateatorrent.com/torrents/peliculas/John_wick_2_pacto_de_sangre_MicroHD.torrent</link>
-<link>plugin://plugin.video.quasar/play?uri=http://files.pasateatorrent.com/torrents/peliculas/John_wick_2_pacto_de_sangre_Bluray.torrent</link>
+
 <fanart>https://pasateatorrent.com/wp-content/uploads/2017/08/John-Wick-2-Pacto-de-sangre.jpg</fanart>
 <thumbnail>https://pasateatorrent.com/wp-content/uploads/2017/08/John-Wick-2-Pacto-de-sangre.jpg</thumbnail>
 </item>
 
 <!-- J -->
 <!-- K -->
+<item>
+<title>[B][COLOR orange]Kidnap - 1080p.[/B][/COLOR][COLOR lime] Torrent [COLOR yellow] Requiere quasar[/COLOR][/COLOR]</title>
+<link>plugin://plugin.video.quasar/play?uri=https://github.com/Andorth/Hercules/blob/master/torrents/99886_kidnap-bluray-rip-ac3-5-1-espaa-a-ol-castellano-2017.torrent?raw=true</link>
+<fanart>http://www.newpct1.com/pictures/f/thumbs/99886_kidnap-bluray-rip-ac3-5-1-espaa-a-ol-castellano-2017.jpg</fanart>
+<thumbnail>http://www.newpct1.com/pictures/f/thumbs/99886_kidnap-bluray-rip-ac3-5-1-espaa-a-ol-castellano-2017.jpg</thumbnail>
+</item>
+
 <!-- L -->
 <item>
 <title>[B][COLOR orange]La bella y la bestia - 1080HD[/B][/COLOR][COLOR yellow] Requiere quasar[/COLOR]</title>
-<link>plugin://plugin.video.quasar/play?uri=http://www.mejortorrent.com/uploads/torrents/peliculas/La_Bella_y_la_Bestia_DVDRip.torrent</link>
+
 <link>plugin://plugin.video.quasar/play?uri=http://www.mejortorrent.com/uploads/torrents/peliculas/La_Bella_y_la_Bestia_MicroHD_1080p.torrent</link>
-<link>plugin://plugin.video.quasar/play?uri=http://www.mejortorrent.com/uploads/torrents/peliculas/La_Bella_y_la_Bestia_BluRay_1080p.torrent</link>
+
 <fanart>http://es.web.img3.acsta.net/pictures/17/01/09/09/56/256507.jpg</fanart>
 <thumbnail>http://es.web.img3.acsta.net/pictures/17/01/09/09/56/256507.jpg</thumbnail>
 </item>
 
 <item>
 <title>[B][COLOR orange]Logan - 1080HD[/B][/COLOR] [COLOR yellow] Requiere quasar[/COLOR]</title>
-<link>plugin://plugin.video.quasar/play?uri=http://files.pasateatorrent.com/torrents/peliculas/Logan_HDRip.torrent</link>
 <link>plugin://plugin.video.quasar/play?uri=http://files.pasateatorrent.com/torrents/peliculas/Logan_MicroHD.torrent</link>
-<link>plugin://plugin.video.quasar/play?uri=http://files.pasateatorrent.com/torrents/peliculas/Logan_Bluray.torrent</link>
 <fanart>https://upload.wikimedia.org/wikipedia/en/3/37/Logan_2017_poster.jpg</fanart>
 <thumbnail>https://upload.wikimedia.org/wikipedia/en/3/37/Logan_2017_poster.jpg</thumbnail>
 </item>
@@ -98,7 +98,6 @@ http://www.mejortorrent.com/uploads/torrents/peliculas/Guardianes_de_la_galaxia_
 <item>
 <title>[B][COLOR orange]Nunca digas su nombre - 1080HD[/B][/COLOR][COLOR lime] Torrent [COLOR yellow] Requiere quasar[/COLOR][/COLOR]</title>
 <link>plugin://plugin.video.quasar/play?uri=http://www.mejortorrent.com/uploads/torrents/peliculas/Nunca_Digas_Su_Nombre_MicroHD_1080p.torrent</link>
-<link>plugin://plugin.video.quasar/play?uri=http://www.mejortorrent.com/uploads/torrents/peliculas/Nunca_Digas_Su_Nombre_BluRay_1080p.torrent</link>
 <fanart>http://www.mejortorrent.com/uploads/imagenes/peliculas/Nunca%20digas%20su%20nombreb.jpg</fanart>
 <thumbnail>http://www.mejortorrent.com/uploads/imagenes/peliculas/Nunca%20digas%20su%20nombreb.jpg</thumbnail>
 </item>
@@ -108,7 +107,26 @@ http://www.mejortorrent.com/uploads/torrents/peliculas/Guardianes_de_la_galaxia_
 <!-- p -->
 <!-- Q -->
 <!-- R -->
+<item>
+<title>[B][COLOR orange]Richard La cigueña - 1080p.[/B][/COLOR][COLOR lime] Torrent [COLOR yellow] Requiere quasar[/COLOR][/COLOR]</title>
+<link>plugin://plugin.video.quasar/play?uri=https://github.com/Andorth/Hercules/blob/master/torrents/99837_richard-la-ciguea-a-a-blurayrip-ac3-5-1-espaa-a-ol-castellano-2017.torrent?raw=true</link>
+<fanart>http://www.newpct1.com/pictures/f/mediums/99837_richard-la-ciguea-a-a-blurayrip-ac3-5-1-espaa-a-ol-castellano-2017.jpg</fanart>
+<thumbnail>http://www.newpct1.com/pictures/f/mediums/99837_richard-la-ciguea-a-a-blurayrip-ac3-5-1-espaa-a-ol-castellano-2017.jpg</thumbnail>
+</item>
 <!-- S -->
+<item>
+<title>[B][COLOR orange]Señor, Dame paciencia - 720p.[/B][/COLOR][COLOR lime] Torrent [COLOR yellow] Requiere quasar[/COLOR][/COLOR]</title>
+<link>plugin://plugin.video.quasar/play?uri=https://mejortorrent.website/uploads/torrents/peliculas/sea-a-or-dame-paciencia-2017-bluray-720p-x264-mkv-ac3-5-1-castellano%202,86gb.torrent?raw=true</link>
+<fanart>https://ddmix.net/wp-content/uploads/2017/10/Se%C3%B1or-dame-paciencia.jpg</fanart>
+<thumbnail>https://ddmix.net/wp-content/uploads/2017/10/Se%C3%B1or-dame-paciencia.jpg</thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR orange]Señor, Dame paciencia - 1080p.[/B][/COLOR][COLOR lime] Torrent [COLOR yellow] Requiere quasar[/COLOR][/COLOR]</title>
+<link>plugin://plugin.video.quasar/play?uri=https://github.com/Andorth/Hercules/blob/master/torrents/Se%C3%B1or.dame.paciencia.m1080p..mkv.1.torrent?raw=true</link>
+<fanart>https://ddmix.net/wp-content/uploads/2017/10/Se%C3%B1or-dame-paciencia.jpg</fanart>
+<thumbnail>https://ddmix.net/wp-content/uploads/2017/10/Se%C3%B1or-dame-paciencia.jpg</thumbnail>
+</item>
 <!-- T -->
 <!-- U -->
 <!-- V -->
