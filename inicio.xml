@@ -134,7 +134,7 @@ class InputWindow(xbmcgui.WindowDialog):
 </item>
 -->
     
-<item>
+<!-- <item>
 <parentalblock>true</parentalblock>
 <title>[COLOR orange] Deportes - Arenavision [/COLOR]</title>
 <link>NA</link>
