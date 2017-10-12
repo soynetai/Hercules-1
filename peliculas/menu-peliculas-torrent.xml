@@ -62,7 +62,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
 -->
-
+<!--
 <item>
 <title>[COLOR orange][+]Peliculas [COLOR white]Estrenos Torrent[/COLOR][/COLOR]</title>
 <link>http://Ignoreme</link>
@@ -71,7 +71,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/estrenos-torrent.xml</externallink>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
-
+-->
 <item>
 <title>[COLOR orange][+]Peliculas [COLOR white]Novedades Torrent[/COLOR][/COLOR]</title>
 <link>http://Ignoreme</link>
