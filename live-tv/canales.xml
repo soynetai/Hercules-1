@@ -216,7 +216,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <referer>http://telefivegb.com/animacion/ver-nick-online-y-en-directo-gratis-las-24h/</referer>
 <thumbnail>https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAyrAAAAJGRkM2UxMzk3LTRkNTgtNDRiOS05ZDZjLThkNjQxYjkyNzU2NQ.png</thumbnail>
 </item>
-
+<!--
 <item>
 <parentalblock>true</parentalblock>
 <title>[COLOR orange]0#[/COLOR] [COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
@@ -491,7 +491,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <thumbnail>http://vercanalestv.com/imagenes/movistar-partidazo.png</thumbnail>
 </item>
 
-<!-- TV premium  -->
+
 
 
 <item>
@@ -744,7 +744,6 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 
 
 
-<!-- ADULTOS -->
 
 <item>
 <title>[COLOR white]Hustler[/COLOR]</title>
@@ -828,4 +827,4 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <sportsdevil>http://vercanalestv.com/tv/nacionales/playboy.html</sportsdevil>
 <referer>http://www.vercanalestv.com/ver-playboy-en-vivo-gratis-por-internet/</referer>
 <thumbnail>http://vercanalestv.com/imagenes/playboy-tv.jpg</thumbnail> 
-</item>
+</item> -->
