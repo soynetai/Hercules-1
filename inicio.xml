@@ -85,7 +85,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <item>
 <title>[COLOR orange]Actualizador[COLOR red]Addon Necesario[/COLOR][/COLOR]</title>
 <link>http://Ignoreme</link>
-<jsonrpc>plugin://plugin.video.Explora/</jsonrpc>
+<jsonrpc>plugin://plugin.video.Netai.live.update/</jsonrpc>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 <thumbnail>https://archive.org/download/moisesjavier_gmail_Icon_201710/icon.png</thumbnail>
 </item>
