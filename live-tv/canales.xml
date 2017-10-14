@@ -1,0 +1,831 @@
+<item>
+<title>[B][COLOR white]VER -> Guia TV:[/B][/COLOR] </title>
+ <link>$doregex[makelist]</link>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR orange][B][makelist.param1][/B] [/COLOR][COLOR gold] [makelist.param2] [/COLOR][COLOR white]  [makelist.param3][COLOR yellow] [makelist.param4][/COLOR] [COLOR yellow] [makelist.param5][/COLOR]</title>
+<link>Ignore thisistheshit_saludos_netai!</link>
+<thumbnail>https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/000/185/2a3/35da564.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[title=.*?n\s(.*?)"|"(ahora.*?)">\n\s\s\s(.*?)\n|date">(.*?)</span>\n\s\s\s(.*)\n]]></expres>
+<page>http://www.formulatv.com/programacion/</page>
+</regex>
+<thumbnail>https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/000/185/2a3/35da564.jpg</thumbnail>
+<info>Cortesia de Adryanlist </info>
+ </item>
+<!-- TDT DIGITAL -->
+
+<item>
+<title>[COLOR yellow]La 1[/COLOR]</title>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacionales/tve-1.html'):
+   import liveresolver
+   u = liveresolver.resolve(url)
+   return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://latelete.tv/img/tve1.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
+<item>
+<title>[COLOR yellow]La 2[/COLOR]</title>
+<link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embedn.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embedn.php?file=tvdostelefive&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+ <thumbnail>http://vercanalestv.com/logos/tve2.png</thumbnail>   </item>
+
+<item>
+<title>[COLOR yellow]Antena 3[/COLOR]</title>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://a3live-lh.akamaihd.net/i/antena3_1@35248/index_2_av-b.m3u8'):
+    import liveresolver
+    u = liveresolver.resolve(url)
+    return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.vercanalestv.com/ver-antena-3-online-y-en-directo-24h-gratis/</thumbnail>   </item>
+
+
+<item>
+<title>[COLOR yellow]Cuatro[/COLOR]</title>
+ <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embedn.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embedn.php?file=lacuatro&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://latelete.tv/img/cuatro.png</thumbnail>
+</item>
+
+<item>
+<title>[COLOR yellow]Telecinco[/COLOR]</title>
+ <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embedn.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embedn.php?file=telecinco&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://latelete.tv/img/telecinco.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]La sexta[/COLOR]</title>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacionales/la-sexta.html'):
+   import liveresolver
+   u = liveresolver.resolve(url)
+   return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://latelete.tv/img/sexta.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]Nova[/COLOR]</title>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacionales/nova.html'):
+   import liveresolver
+   u = liveresolver.resolve(url)
+   return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://latelete.tv/img/nova.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]Divinity[/COLOR]</title>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacionales/divinity.html'):
+   import liveresolver
+   u = liveresolver.resolve(url)
+   return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://latelete.tv/img/divinity.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]A3Series[/COLOR]</title>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://www.vercanalestv.com/tv/nacionales/atreseries.html'):
+   import liveresolver
+   u = liveresolver.resolve(url)
+   return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://latelete.tv/img/atreseries.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]BeMad[/COLOR]</title>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacionales/be-mad.html'):
+   import liveresolver
+   u = liveresolver.resolve(url)
+   return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://latelete.tv/img/bemad.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]Energy[/COLOR]</title>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacionales/energy.html'):
+   import liveresolver
+   u = liveresolver.resolve(url)
+   return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://latelete.tv/img/energy.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
+
+
+<item>
+<title>[COLOR yellow]Disney Channel[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://livesports.pw/embedn.php?file=disneychannel&width=650&height=397</sportsdevil>
+<referer>http://telefivegb.com/canales/animacion/disneychannel</referer>
+<thumbnail>https://lh3.googleusercontent.com/-YILqKHLvgw0/V8tSUMWsI7I/AAAAAAAAAgs/ZsvrWuhhCkcWZdgoRs_ELPfC226P6NLhACEw/h120/disneychannel.png</thumbnail>
+</item>
+
+<item>
+<title>[COLOR yellow]Boing[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://livesports.pw/embed.php?file=boing&width=650&height=397</sportsdevil>
+<referer>http://verplusonline.com/ver-boing-online-gratis-en-vivo-directo/</referer>
+<thumbnail>http://www.boing.es/sites/boinges/themes/boing_theme/logo-es.png</thumbnail>
+</item>
+
+<item>
+<title>[COLOR yellow]Nickelodeon[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://livesports.pw/embed.php?file=nickelones&width=588&height=397</sportsdevil>
+<referer>http://telefivegb.com/animacion/ver-nick-online-y-en-directo-gratis-las-24h/</referer>
+<thumbnail>https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAyrAAAAJGRkM2UxMzk3LTRkNTgtNDRiOS05ZDZjLThkNjQxYjkyNzU2NQ.png</thumbnail>
+</item>
+
+<item>
+<parentalblock>true</parentalblock>
+<title>[COLOR orange]0#[/COLOR] [COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://cinestrenostv.tv/canales/nacionales/plus1.php</sportsdevil>
+<referer>http://vercanalestv.com/tv/nacionales/canal-plus-1.html</referer>
+<thumbnail>http://vercanalestv.com/logos/canal-0.png</thumbnail>
+</item>
+
+<item>
+<parentalblock>true</parentalblock>
+<title> [COLOR lime][B]0#[/B] [/COLOR][COLOR white] [B]f4mtester [/B] [/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://kdsajkcasadjsab77676das99saghdshhdds.sitenow.me/live/plus0_cec1693/chunklist.m3u8</link>
+<thumbnail>http://vercanalestv.com/logos/canal-0.png</thumbnail>
+</item>
+
+
+
+
+<item>
+<parentalblock>true</parentalblock>
+<title>[COLOR orange]M+ Estrenos[/COLOR]</title>
+<parentalblock>true</parentalblock>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacionales/canal-plus-estrenos.html'):
+   import liveresolver
+   u = liveresolver.resolve(url)
+   return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vercanalestv.com/logos/movistar-estrenos.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
+
+<item>
+<parentalblock>true</parentalblock>
+<title>[COLOR orange]M+ Accion[/COLOR]</title>
+<parentalblock>true</parentalblock>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacionales/canal-plus-accion.html'):
+   import liveresolver
+   u = liveresolver.resolve(url)
+   return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vercanalestv.com/logos/movistar-accion.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
+
+<item>
+<parentalblock>true</parentalblock>
+<title>[COLOR orange]M+ Cine[/COLOR]</title>
+<parentalblock>true</parentalblock>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacionales/canal-plus-dcine.html'):
+   import liveresolver
+   u = liveresolver.resolve(url)
+   return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vercanalestv.com/logos/movistar-dcine.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
+
+<item>
+<parentalblock>true</parentalblock>
+<title>[COLOR orange]M+ Comedia[/COLOR]</title>
+<parentalblock>true</parentalblock>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacionales/canal-plus-comedia.html'):
+   import liveresolver
+   u = liveresolver.resolve(url)
+   return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vercanalestv.com/logos/movistar-comedia.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
+
+<item>
+<parentalblock>true</parentalblock>
+<title>[COLOR orange]M+ Series[/COLOR]</title>
+<parentalblock>true</parentalblock>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacionales/canal-plus-series.html'):
+   import liveresolver
+   u = liveresolver.resolve(url)
+   return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vercanalestv.com/logos/m-series.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
+
+<item>
+<parentalblock>true</parentalblock>
+<title>[COLOR orange]M+ Series[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://livesports.pw/embedn.php?file=mseries&width=650&height=397&autostart=true</sportsdevil>
+<referer>http://telefivegb.com/canales/series/m_series</referer>	
+<thumbnail>http://cinestrenostv.tv/img/series.png</thumbnail>
+</item>
+
+
+	
+<item>
+<parentalblock>true</parentalblock>
+<title>[COLOR orange]M+ Series xtra [I] Requerido Sportsdevil[/I][/COLOR]</title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=seriesxtra&width=650&height=397</page>
+<agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
+</regex>
+<thumbnail>http://vercanalestv.com/imagenes/movistar-series-xtra.jpg</thumbnail>   </item>
+
+
+
+<item>
+<parentalblock>true</parentalblock>
+<title>[COLOR gold][B]M+ Deportes 1[/B][/COLOR] </title>
+<parentalblock>true</parentalblock>
+<link>$doregex[get-id]|Referer=http://vercanalestv.com/tv/deportes/canal-plus-deportes.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
+<regex>
+<name>get-id</name>
+<expres>source: '(.*?)'</expres>
+<page>http://vergol.com/live1/plusdeportes1.php</page>
+<referer>http://vercanalestv.com/tv/deportes/canal-plus-deportes.html</referer>
+<agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
+</regex>
+<thumbnail>http://vercanalestv.com/logos/m-deportes.png</thumbnail>   
+</item>
+
+<item>
+<parentalblock>true</parentalblock>
+<title>[COLOR gold]M+ Deportes 2[/COLOR] </title>
+<parentalblock>true</parentalblock>
+<link>$doregex[get-id]|Referer=http://vercanalestv.com/tv/deportes/canal-plus-deportes-2.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
+<regex>
+<name>get-id</name>
+<expres>source: '(.*?)'</expres>
+<page>http://vergol.com/live1/plusdeportes2.php</page>
+<referer>http://vercanalestv.com/tv/deportes/canal-plus-deportes-2.html</referer>
+<agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
+</regex>
+<thumbnail>http://vercanalestv.com/logos/m-deportes-2.png</thumbnail>   
+</item>
+
+
+
+<item>
+<parentalblock>true</parentalblock>
+<title>[COLOR gold]Bein LaLiga[/COLOR] </title>
+<parentalblock>true</parentalblock>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=beinlaliga&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vercanalestv.com/logos/bein-laliga.jpg</thumbnail>   
+</item>
+
+<item>
+<parentalblock>true</parentalblock>
+<title>[COLOR gold]La Liga TV[/COLOR] </title>
+<parentalblock>true</parentalblock>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=barliga&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vercanalestv.com/imagenes/laligatv.jpg</thumbnail>   
+</item>
+
+<item>
+<parentalblock>true</parentalblock>
+<title>[COLOR gold]Bein Sport[/COLOR] </title>
+<parentalblock>true</parentalblock>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=beinsport&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vercanalestv.com/logos/bein-sports.png</thumbnail>   
+</item>
+
+
+<item>
+<parentalblock>true</parentalblock>
+<title>[COLOR gold]Gol TV[/COLOR] </title>
+<parentalblock>true</parentalblock>
+<link>$doregex[get-id]|Referer=http://verdirectotv.com/tv/digitales/plus-series.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
+<regex>
+<name>get-id</name>
+<expres>source: '(.*?)'</expres>
+<page>http://vergol.com/live1/goltv.php</page>
+<referer>http://verdirectotv.com/tv/digitales/plus-series.html</referer>
+<agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
+</regex>
+<thumbnail>http://vercanalestv.com/logos/goltv.jpg</thumbnail>   
+</item>
+
+
+<item>
+<parentalblock>true</parentalblock>
+<title>[COLOR gold]F1[/COLOR] </title>
+<parentalblock>true</parentalblock>
+
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=funoesp&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vercanalestv.com/logos/f1.jpeg</thumbnail>   
+</item>
+
+<item>
+<parentalblock>true</parentalblock>
+<title>[COLOR orange]Moto GP[/COLOR] [COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://www.vercanalestv.com/tv/deportes/motogp-opcion2.html</sportsdevil>
+<referer>http://www.vercanalestv.com/tv/deportes/motogp-opcion2.html</referer>
+<thumbnail>http://vercanalestv.com/logos/motosgp.png</thumbnail>
+</item>
+
+<item>
+<parentalblock>true</parentalblock>
+<title>[COLOR orange]La Liga TV[/COLOR] [COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://livesports.pw/embed.php?file=barliga&width=650&height=397</sportsdevil>
+		<referer>http://verplusonline.com/laligatv/</referer>
+<thumbnail>http://vercanalestv.com/imagenes/laligatv.jpg</thumbnail>
+</item>
+
+
+
+<item>
+<parentalblock>true</parentalblock>
+<title>[COLOR orange]Partidazo[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://vergol.com/live3/beinliga.php</sportsdevil>
+<referer>http://www.vercanalestv.com/tv/deportes/plus-partidazo.html</referer>
+<thumbnail>http://vercanalestv.com/imagenes/movistar-partidazo.png</thumbnail>
+</item>
+
+<!-- TV premium  -->
+
+
+<item>
+<title>[COLOR white]National Geographic[/COLOR]</title>
+<parentalblock>true</parentalblock>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/documentales/national-geographic.html'):
+   import liveresolver
+   u = liveresolver.resolve(url)
+   return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vercanalestv.com/logos/national.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
+
+
+<item>
+<parentalblock>true</parentalblock>
+<title>[COLOR white]Historia[/COLOR]</title>
+<parentalblock>true</parentalblock>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/documentales/canal-historia.html'):
+   import liveresolver
+   u = liveresolver.resolve(url)
+   return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vercanalestv.com/logos/Historia.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
+
+<item>
+<parentalblock>true</parentalblock>
+<title>[COLOR orange]ODISEA[/COLOR] [COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://livesports.pw/embedn.php?file=odiseatelef&width=650&height=400</sportsdevil>                                     
+<referer>http://www.vercanalestv.com/ver-canal-odisea-gratis-online-y-directo-por-internet/</referer>
+<thumbnail>http://vercanalestv.com/logos/odisea.png</thumbnail>
+</item>
+
+<item>
+<title>[COLOR white]Discovery[/COLOR]</title>
+<parentalblock>true</parentalblock>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/documentales/discovery-channel.html'):
+   import liveresolver
+   u = liveresolver.resolve(url)
+   return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vercanalestv.com/logos/discovery-channel.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR orange]Discovery Max[/COLOR] [COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://cinestrenostv.tv/canales/documentales/discoverymax.php</sportsdevil>                                        
+<referer>http://latelete.tv/discovery-max-en-directo-por-internet/</referer>
+<thumbnail>http://latelete.tv/img/discoverymax.png</thumbnail>
+</item>
+
+
+
+<item>
+<title>[COLOR orange]Nat Geo Wild[/COLOR] [COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://vergol.com/live/nationalwild.php</sportsdevil>                                        
+<referer>http://www.vercanalestv.com/ver-nat-geo-wild-online-y-gratis-por-internet-las-24h-gratis-en-vivo/</referer>
+<thumbnail>http://vercanalestv.com/logos/natgeo.png</thumbnail>
+</item>
+
+<item>
+<title>[COLOR white]Crimen Investigacion[/COLOR]</title>
+<parentalblock>true</parentalblock>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/documentales/crimen-investigacion.html'):
+   import liveresolver
+   u = liveresolver.resolve(url)
+   return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vercanalestv.com/logos/ci.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR orange]AXN WHITE[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://cinestrenostv.tv/canales/nacionales/axnwhite.php</sportsdevil>
+<referer>http://cinestrenostv.tv/canales/envivo/axnwhite.html</referer>
+<thumbnail>http://vercanalestv.com/logos/axnwhite.png</thumbnail>
+</item>
+
+<item>
+<title>[COLOR white]Fox[/COLOR]</title>
+<parentalblock>true</parentalblock>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacionales/fox.html'):
+   import liveresolver
+   u = liveresolver.resolve(url)
+   return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vercanalestv.com/logos/fox.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
+
+<item>
+<parentalblock>true</parentalblock>
+<title>[COLOR orange]A&E[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://livesports.pw/embedn.php?file=anadetelefive&width=650&height=400</sportsdevil>
+<referer>http://cinestrenostv.tv/canales/envivo/ae.html</referer>
+<thumbnail>http://cinestrenostv.tv/img/ae.png</thumbnail>
+</item>
+
+<item>
+<title>[COLOR orange]Calle 13[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://livesports.pw/embedn.php?file=calltrees&width=650&height=397&autostart=true</sportsdevil>
+<referer>http://cinestrenostv.tv/canales/nacionales/calle13.php</referer>
+<thumbnail>http://vercanalestv.com/logos/calle-13.jpg</thumbnail>
+</item>
+
+
+<item>
+<title>[COLOR white]Fox life[/COLOR]</title>
+<parentalblock>true</parentalblock>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacionales/fox-life.html'):
+   import liveresolver
+   u = liveresolver.resolve(url)
+   return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vercanalestv.com/logos/foxlife.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
+
+<item>
+<parentalblock>true</parentalblock>
+<title>[COLOR orange]FOX Action[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://vercanalestv.com/tv/latino/fox-action.html</sportsdevil>
+<referer>http://www.vercanalestv.com/ver-fox-premium-action-en-vivo-gratis-por-internet-en-directo/</referer>
+<thumbnail>http://vercanalestv.com/logos/fox-premium-action-hd.png</thumbnail>
+</item>
+
+
+
+<item>
+<title>[COLOR white]AXN[/COLOR]</title>
+<parentalblock>true</parentalblock>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacionales/axn.html'):
+   import liveresolver
+   u = liveresolver.resolve(url)
+   return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vercanalestv.com/logos/axn.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR white]TNT[/COLOR]</title>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacionales/tnt.html'):
+   import liveresolver
+   u = liveresolver.resolve(url)
+   return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vercanalestv.com/logos/tnt.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR orange]Dark[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<parentalblock>true</parentalblock>
+<sportsdevil>http://livesports.pw/embedn.php?file=darkes&width=650&height=397</sportsdevil>
+<referer>http://cinestrenostv.tv/canales/envivo/dark.html</referer>
+<thumbnail>http://cinestrenostv.tv/img/dark.jpg</thumbnail>
+</item>
+
+<item>
+<title>[COLOR orange]SYFY[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://livesports.pw/embedn.php?file=sysfesp&width=650&height=397&autoplay=true</sportsdevil>
+<referer>http://telefivegb.com/canales/series/sysf</referer>
+<thumbnail>https://lh6.googleusercontent.com/-upF4CnxYPpc/UVWqDS3DQZI/AAAAAAAAAGg/OIFCu5nsyjs/w463-h328-p-o/syfy.jpg</thumbnail>
+</item>
+
+<item>
+<title>[COLOR orange]HOLLYWOOD[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://livesports.pw/embedn.php?file=hollywesp&width=650&height=397&autoplay=true</sportsdevil>
+<referer>http://telefivegb.com/canales/pelis/hollywood</referer>
+<thumbnail>https://lh3.googleusercontent.com/-NIKUf7DhHEo/V8tSUpFiA4I/AAAAAAAAAgs/RZHwibnrFW8kUm4lTKCOKd2IpXS_9yF7QCEw/h120/hollywood.png </thumbnail> 
+</item>
+
+	
+<item>
+<title>[COLOR orange]TCM[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://livesports.pw/embed.php?file=tcmesp&width=650&height=397&autoplay=true</sportsdevil>
+<referer>http://telefivegb.com/canales/pelis/tcm</referer>
+<thumbnail>http://verplusonline.com/wp-content/uploads/2015/09/tcm.png </thumbnail> 
+</item>
+	
+
+<item>
+<title>[COLOR orange]COMEDY CENTRAL[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://livesports.pw/embedn.php?file=comedycentral&width=650&height=400</sportsdevil>
+<referer>http://www.vercanalestv.com/ver-paramount-comedy-online-y-en-directo-las-24h/</referer>
+<thumbnail>http://vercanalestv.com/logos/comedycentral.png</thumbnail>
+</item>
+
+
+
+<!-- ADULTOS -->
+
+<item>
+<title>[COLOR white]Hustler[/COLOR]</title>
+<parentalblock>true</parentalblock>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacionales/hustler-tv.html'):
+   import liveresolver
+   u = liveresolver.resolve(url)
+   return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vercanalestv.com/logos/hustlertv.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR white]Red Ligth[/COLOR]</title>
+<parentalblock>true</parentalblock>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacionales/redlight.html'):
+   import liveresolver
+   u = liveresolver.resolve(url)
+   return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vercanalestv.com/logos/redlight.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR white]Venus[/COLOR]</title>
+<parentalblock>true</parentalblock>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/argentina/canal-venus.html'):
+   import liveresolver
+   u = liveresolver.resolve(url)
+   return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vercanalestv.com/logos/venus.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR white]Hot[/COLOR]</title>
+<parentalblock>true</parentalblock>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacionales/hot.html'):
+   import liveresolver
+   u = liveresolver.resolve(url)
+   return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vercanalestv.com/logos/canal-hot.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
+
+<item>
+<parentalblock>true</parentalblock>
+<title>[COLOR orange]Playboy[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://vercanalestv.com/tv/nacionales/playboy.html</sportsdevil>
+<referer>http://www.vercanalestv.com/ver-playboy-en-vivo-gratis-por-internet/</referer>
+<thumbnail>http://vercanalestv.com/imagenes/playboy-tv.jpg</thumbnail> 
+</item>
