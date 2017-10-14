@@ -83,7 +83,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
     
 <!--<item>
-<title>[COLOR orange]Actualizar Addons[/COLOR]</title>
+<title>[COLOR orange]Actualizar[/COLOR]</title>
 <link>$doregex[openDialog]</link>
 <regex>
 <name>openDialog</name>
@@ -97,12 +97,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
     line2 = "Esta opcion requiere tener instalado el [Netai.live.update]"
     line3 = "Lo puedes bajar desde Mi Telegram o Mi fuente, Gracias." 
     xbmcgui.Dialog().ok(__addonname__, line1, line2, line3)
+    return "<jsonrpc>plugin://plugin.video.Netai.live.update/</jsonrpc>"
 ]]></expres>
 <page></page>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>https://archive.org/download/moisesjavier_gmail_Icon_201710/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item> -->
 
 <item>
