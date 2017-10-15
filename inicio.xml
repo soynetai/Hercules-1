@@ -92,7 +92,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <item>
 <title>[COLOR orange]ArenaSports[/COLOR]</title>
-<parentalblock>true</parentalblock>
 <link>http://Ignoreme</link>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 <thumbnail>https://raw.githubusercontent.com/Andorth/ArenaSports/master/icon.png</thumbnail>
