@@ -402,8 +402,8 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 
 <item>
 <parentalblock>true</parentalblock>
-<title>[COLOR gold]La Liga TV[/COLOR] </title>
 <parentalblock>true</parentalblock>
+<title>[COLOR gold]La Liga TV[/COLOR] </title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
@@ -485,6 +485,19 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <referer>http://www.vercanalestv.com/tv/deportes/plus-partidazo.html</referer>
 <thumbnail>http://vercanalestv.com/imagenes/movistar-partidazo.png</thumbnail>
 </item>
+
+<item>
+<title>[COLOR orange]Teledeporte[/COLOR]</title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=teledeporteesp&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://latelete.tv/img/teledeporte.png</thumbnail>
+</item>
+
 
 
 
@@ -744,7 +757,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <title>[COLOR orange]COMEDY CENTRAL[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
 <sportsdevil>http://livesports.pw/embedn.php?file=comedycentral&width=650&height=400</sportsdevil>
 <referer>http://www.vercanalestv.com/ver-paramount-comedy-online-y-en-directo-las-24h/</referer>
-<thumbnail>http://vercanalestv.com/logos/comedycentral.png</thumbnail>
+<thumbnail>http://latelete.tv/img/comedycentral.png</thumbnail>
 </item>
 
 <item>
