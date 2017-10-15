@@ -160,6 +160,12 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://www.vercanalestv.com/tv/naci
 </item>
 
 <item>
+<title>[COLOR orange]24H[/COLOR]</title>
+<link>http://hlsackdn_gl8-lh.akamaihd.net/i/hlsdvrlive_1@81183/index_1500_av-p.m3u8?sd=10&rebase=on</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Logo_TVE-24h.svg/2000px-Logo_TVE-24h.svg.png</thumbnail>
+</item>
+
+<item>
 <title>[COLOR yellow]BeMad[/COLOR]</title>
 <link>$doregex[GetPageUrl]</link>
 <regex>
@@ -578,12 +584,19 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/document
 </item>
 
 
-
 <item>
 <title>[COLOR orange]Nat Geo Wild[/COLOR] [COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
 <sportsdevil>http://vergol.com/live/nationalwild.php</sportsdevil>                                        
 <referer>http://www.vercanalestv.com/ver-nat-geo-wild-online-y-gratis-por-internet-las-24h-gratis-en-vivo/</referer>
 <thumbnail>http://vercanalestv.com/logos/natgeo.png</thumbnail>
+</item>
+
+<item>
+<parentalblock>true</parentalblock>	
+<title>[COLOR orange]Caza y pesca[/COLOR]</title>
+<sportsdevil>http://livesports.pw/embedn.php?file=cazaypesca&width=650&height=397&autostart=true</sportsdevil>
+<referer>http://telefivegb.com/canales/documental/cazaypesca</referer>
+<thumbnail>http://vercanalestv.com/imagenes/caza-y-pesca.jpg</thumbnail>
 </item>
 
 <item>
@@ -759,6 +772,8 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <referer>http://www.vercanalestv.com/ver-paramount-comedy-online-y-en-directo-las-24h/</referer>
 <thumbnail>http://latelete.tv/img/comedycentral.png</thumbnail>
 </item>
+
+
 
 <item>
 <title>[COLOR white]Hustler[/COLOR]</title>
