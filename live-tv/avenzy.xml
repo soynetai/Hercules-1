@@ -79,6 +79,99 @@ Listado guia de Avezy:
 
 -->
 
+
+
+-->
+
+
+<!--  YOUTUBE --> 
+
+
+
+
+<item>
+<title>[COLOR orange]LA LIGA - ESPAÑA[COLOR white] RESUMEN [/COLOR][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex><name>makelist</name>
+<listrepeat><![CDATA[   
+<title>[makelist.param1]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+]]></listrepeat>
+<expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
+<page>https://www.youtube.com/channel/UCTv-XvfzLX3i4IGWAm4sbmA</page> para canales entero
+</regex>  
+<thumbnail>http://is5.mzstatic.com/image/thumb/Purple118/v4/19/7c/c3/197cc3cf-aa3d-045c-8ede-f52a2d315259/source/175x175bb.jpg</thumbnail>
+</item>
+
+
+
+
+<item>
+<title>[COLOR orange]LA LIGA 123[COLOR white]Resumen de Jugadas.[/COLOR][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex><name>makelist</name>
+<listrepeat><![CDATA[   
+<title>[makelist.param1]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+]]></listrepeat>
+<expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
+<page>https://www.youtube.com/channel/UCs3Gqvp1tO-nK-XNzFlopsg</page>
+</regex>  <thumbnail>http://files.laliga.es/seccion_logos/laliga-123-v-16-9.jpg</thumbnail>
+</item>
+
+<item>
+<title>[COLOR orange]F1[COLOR white]Latinoamerica.[/COLOR][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex><name>makelist</name>
+<listrepeat><![CDATA[   
+<title>[makelist.param1]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+]]></listrepeat>
+<expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
+<page>https://www.youtube.com/channel/UC9BsqFce5brGlsQL8IMyJYg</page>
+</regex>  <thumbnail>http://files.laliga.es/seccion_logos/laliga-123-v-16-9.jpg</thumbnail>
+</item>
+
+
+<!--  YOUTUBE --> 
+
+
+<item>
+<title>[COLOR lime]• RESUMEN[/COLOR] Jugadas |goalsarena.org| |EN|</title>
+<link>$doregex[makelist]</link>
+<thumbnail>http://goalsarena.goalsarena.netdna-cdn.com/templates/gk_sportmaxum/xlogo.png.pagespeed.ic.F0IzaQsJmf.webp</thumbnail>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR dodgerblue]([makelist.param1])[/COLOR][COLOR gold] [makelist.param2][/COLOR]</title>
+<link>http:$doregex[getUrl]</link>
+<thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[title="(\d+.*?)\s-\s(.*?)".href="(.*?)"]]></expres>
+<page>http://www.goalsarena.org/tr</page>
+<referer>http://www.goalsarena.org/</referer>
+<agent>Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.04</agent>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getiframe</name>
+<expres><![CDATA[<iframe src="([^"]+)]]></expres>
+<page>[makelist.param3]</page>
+<referer>http://www.goalsarena.org/</referer>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[<a  href="([^"]+)]]></expres>
+<page>$doregex[getiframe]</page>
+<referer>http://www.goalsarena.org/</referer>
+<cookieJar></cookieJar>
+</regex>
+</item>
+
 <item>
 <parentalblock>true</parentalblock>
 <title>GUIA EVENTOS</title>
@@ -329,117 +422,4 @@ Listado guia de Avezy:
 
 <thumbnail>http://www.brandcrowd.com/gallery/brands/pictures/picture13300305644685.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/Andorth/Futbol/master/images/fanart.jpg</fanart>
-</item>
-
--->
-
-
-<!--  YOUTUBE --> 
-
-
-
-<item>
-<title>[COLOR orange]•JUGADAS LA LIGA - [COLOR white]Mejores jugadas de la jornada. [/COLOR][/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-            <name>makelist</name>
-            <listrepeat><![CDATA[
-                        <title>[makelist.param1]</title>
-                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
-                        <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
-					
-            ]]></listrepeat>
-            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
-            <page>https://www.youtube.com/watch?v=JpCuIahlvR0&list=PLKj1QUtwqLN8n97l_-D4yR6H74GQohcLp</page>
-             <cookieJar></cookieJar>
-</regex>
-<thumbnail>https://www.lizzyobanla.com/wp-content/uploads/2017/06/Logo-03-300x300.jpg</thumbnail>
-<fanart></fanart>
-
-</item>
-
-<item>
-<title>[COLOR orange]•JUGADAS LA LIGA - [COLOR white]Mejores Goles de la Liga Santander. [/COLOR][/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-            <name>makelist</name>
-            <listrepeat><![CDATA[
-                        <title>[makelist.param1]</title>
-                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
-                        <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
-					
-            ]]></listrepeat>
-            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
-            <page>https://www.youtube.com/playlist?list=PLKj1QUtwqLN9i_YGO0c6boJO1jJ-ua7uB</page>
-             <cookieJar></cookieJar>
-</regex>
-<thumbnail>https://www.lizzyobanla.com/wp-content/uploads/2017/06/Logo-03-300x300.jpg</thumbnail>
-<fanart></fanart>
-
-</item>
-
-
-<item>
-<title>[COLOR orange]LA LIGA 123[COLOR white]Resumen de Jugadas.[/COLOR][/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex><name>makelist</name>
-<listrepeat><![CDATA[   
-<title>[makelist.param1]</title>
-<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
-<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
-]]></listrepeat>
-<expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
-<page>https://www.youtube.com/channel/UCs3Gqvp1tO-nK-XNzFlopsg</page>
-</regex>  <thumbnail>http://files.laliga.es/seccion_logos/laliga-123-v-16-9.jpg</thumbnail>
-</item>
-
-<item>
-<title>[COLOR orange]F1[COLOR white]Latinoamerica.[/COLOR][/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex><name>makelist</name>
-<listrepeat><![CDATA[   
-<title>[makelist.param1]</title>
-<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
-<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
-]]></listrepeat>
-<expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
-<page>https://www.youtube.com/channel/UC9BsqFce5brGlsQL8IMyJYg</page>
-</regex>  <thumbnail>http://files.laliga.es/seccion_logos/laliga-123-v-16-9.jpg</thumbnail>
-</item>
-
-
-<!--  YOUTUBE --> 
-
-
-<item>
-<title>[COLOR lime]• RESUMEN[/COLOR] Jugadas |goalsarena.org| |EN|</title>
-<link>$doregex[makelist]</link>
-<thumbnail>http://goalsarena.goalsarena.netdna-cdn.com/templates/gk_sportmaxum/xlogo.png.pagespeed.ic.F0IzaQsJmf.webp</thumbnail>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR dodgerblue]([makelist.param1])[/COLOR][COLOR gold] [makelist.param2][/COLOR]</title>
-<link>http:$doregex[getUrl]</link>
-<thumbnail></thumbnail>
-]]></listrepeat>
-<expres><![CDATA[title="(\d+.*?)\s-\s(.*?)".href="(.*?)"]]></expres>
-<page>http://www.goalsarena.org/tr</page>
-<referer>http://www.goalsarena.org/</referer>
-<agent>Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.04</agent>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>getiframe</name>
-<expres><![CDATA[<iframe src="([^"]+)]]></expres>
-<page>[makelist.param3]</page>
-<referer>http://www.goalsarena.org/</referer>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>getUrl</name>
-<expres><![CDATA[<a  href="([^"]+)]]></expres>
-<page>$doregex[getiframe]</page>
-<referer>http://www.goalsarena.org/</referer>
-<cookieJar></cookieJar>
-</regex>
 </item>
