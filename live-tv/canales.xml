@@ -217,6 +217,8 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <thumbnail>https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAyrAAAAJGRkM2UxMzk3LTRkNTgtNDRiOS05ZDZjLThkNjQxYjkyNzU2NQ.png</thumbnail>
 </item>
 <!-- Digital + -->
+
+<!--
 <item>
 <parentalblock>true</parentalblock>
 <title>[COLOR orange]0#[/COLOR] [COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
@@ -231,10 +233,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <link>plugin://plugin.video.f4mTester/?url=http://kdsajkcasadjsab77676das99saghdshhdds.sitenow.me/live/plus0_cec1693/chunklist.m3u8</link>
 <thumbnail>http://vercanalestv.com/logos/canal-0.png</thumbnail>
 </item>
-
-
-
-
+-->
 <item>
 <parentalblock>true</parentalblock>
 <title>[COLOR orange]M+ Estrenos[/COLOR]</title>
