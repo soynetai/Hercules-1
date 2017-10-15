@@ -228,7 +228,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <page>http://livesports.pw/embedn.php?file=pluscero&amp;width=650&amp;height=397</page>
 <agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
+<thumbnail>http://latelete.tv/img/plus0.png</thumbnail>   </item>
 
 <item>
 <parentalblock>true</parentalblock>
