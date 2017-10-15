@@ -95,7 +95,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <link>http://Ignoreme</link>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 <thumbnail>https://raw.githubusercontent.com/Andorth/ArenaSports/master/icon.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/live-tv/canales.xml</externallink>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/live-tv/avenzy.xml</externallink>
 </item> 
  
 <item>
