@@ -4,7 +4,7 @@
  <!-- GRANTORRENT -->
 
 <item>
-<title> [COLOR lime]•[/COLOR]    [COLOR aquamarine][B] BUSCADOR [/B] [/COLOR][COLOR skyblue] GranTorrent [/COLOR] [COLOR lightslategray] Castellano[/COLOR] </title>
+<title>[COLOR orange][B][+] BUSCAR [/B] [/COLOR][COLOR white] [pelicula Torrent] |Requerido Quasar|[/COLOR] </title>
 <link>$doregex[makelist2]</link>
 
 
@@ -113,7 +113,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
  
  <!-- SKY TORRENTS -->
  <item>
-<title>  [COLOR orange][B][+] BUSCAR [/B] [/COLOR][COLOR white] SkyTorrents [/COLOR] [COLOR gold] Multi Idioma[/COLOR] </title>
+<title>[COLOR orange][B][+] BUSCAR [/B] [/COLOR][COLOR white] SkyTorrents [/COLOR] [COLOR gold] Multi Idioma[/COLOR] </title>
 <link>$doregex[makelist2]</link>
 
 
