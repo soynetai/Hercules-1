@@ -121,7 +121,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <name>makelist2</name>
 <listrepeat><![CDATA[
  <SetViewMode>55</SetViewMode>
- <title>[COLOR skyblue][UPPERCASE][B] [makelist2.param2][/B][/UPPERCASE][/COLOR]  </title>
+ <title>[COLOR yellow][UPPERCASE][B] [makelist2.param2][/B][/UPPERCASE][/COLOR]  </title>
 <link>plugin://plugin.video.quasar/play?uri=[makelist2.param1]</link>
 <thumbnail>[makelist2.param2]</thumbnail> 
 </regex>
