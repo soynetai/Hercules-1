@@ -209,7 +209,7 @@ Listado guia de Avezy:
 <name>makelist</name>
 <listrepeat><![CDATA[
 <SetViewMode>55</SetViewMode>
-<title>[COLOR orange][makelist.param1] [COLOR white] [makelist.param2]  [COLOR gold] [makelist.param4][/COLOR][/COLOR][/COLOR]  [COLOR red] [makelist.param5][/COLOR] </title>
+<title>[COLOR orange][makelist.param1] [COLOR white] [makelist.param2]  [COLOR gold] [makelist.param4][/COLOR][/COLOR][/COLOR]  [COLOR white] [makelist.param5][/COLOR] </title>
 <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Futbol+[makelist.param4]</link>
 			<regex>
 			<name>hash</name> 
@@ -246,7 +246,7 @@ Listado guia de Avezy:
 <name>makelist</name>
 <listrepeat><![CDATA[
 <SetViewMode>55</SetViewMode>
-<title>[COLOR orange][makelist.param1] [/COLOR]  [COLOR yellow][makelist.param2] [/COLOR][COLOR red][makelist.param3] [/COLOR] [COLOR white][B][makelist.param5] [/B] [/COLOR]  [COLOR red][[makelist.param4]] [/COLOR]</title>
+<title>[COLOR orange][makelist.param1] [/COLOR]  [COLOR yellow][makelist.param2] [/COLOR][COLOR yellow][makelist.param3] [/COLOR] [COLOR red][B][makelist.param5] [/B] [/COLOR]  [COLOR white][[makelist.param4]] [/COLOR]</title>
 <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Futbol+[makelist.param4]</link>
 			<regex>
 			<name>hash</name> 
@@ -283,7 +283,7 @@ Listado guia de Avezy:
 <name>makelist</name>
 <listrepeat><![CDATA[
 <SetViewMode>55</SetViewMode>
-<title>[COLOR orange][makelist.param1] [/COLOR]  [COLOR yellow][makelist.param2] [/COLOR][COLOR red][makelist.param3] [/COLOR] [COLOR white][B][makelist.param5] [/B] [/COLOR]  [COLOR red][[makelist.param4]] [/COLOR]</title>
+<title>[COLOR orange][makelist.param1] [/COLOR]  [COLOR yellow][makelist.param2] [/COLOR][COLOR yellow][makelist.param3] [/COLOR] [COLOR red][B][makelist.param5] [/B] [/COLOR]  [COLOR white][[makelist.param4]] [/COLOR]</title>
 <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ArenaSport+[makelist.param4]</link>
 			<regex>
 			<name>hash</name> 
@@ -320,7 +320,7 @@ Listado guia de Avezy:
 <name>makelist</name>
 <listrepeat><![CDATA[
 <SetViewMode>55</SetViewMode>
-<title>[COLOR orange][makelist.param1] [/COLOR]  [COLOR yellow][makelist.param2] [/COLOR][COLOR red][makelist.param3] [/COLOR] [COLOR white][B][makelist.param5] [/B] [/COLOR] [COLOR red][[makelist.param4]] [/COLOR]</title>
+<title>[COLOR orange][makelist.param1] [/COLOR]  [COLOR yellow][makelist.param2] [/COLOR][COLOR yellow][makelist.param3] [/COLOR] [COLOR red][B][makelist.param5] [/B] [/COLOR]  [COLOR white][[makelist.param4]] [/COLOR]</title>
 <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ArenaSport+[makelist.param4]</link>
 			<regex>
 			<name>hash</name> 
@@ -357,7 +357,7 @@ Listado guia de Avezy:
 <name>makelist</name>
 <listrepeat><![CDATA[
 <SetViewMode>55</SetViewMode>
-<title>[COLOR white][makelist.param1] [/COLOR]  [COLOR yellow][makelist.param2] [/COLOR][COLOR red][makelist.param3] [/COLOR][COLOR gold] Canal: [COLOR red][B][makelist.param5] [/B] [/COLOR][/COLOR]  [COLOR white][[makelist.param4]] [/COLOR]</title>
+<title>[COLOR orange][makelist.param1] [/COLOR]  [COLOR yellow][makelist.param2] [/COLOR][COLOR yellow][makelist.param3] [/COLOR] [COLOR red][B][makelist.param5] [/B] [/COLOR]  [COLOR white][[makelist.param4]] [/COLOR]</title>
 <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ArenaSport+[makelist.param4]+FIFA WORLD CUP QUALIFIERS</link>
 			<regex>
 			<name>hash</name> 
@@ -395,7 +395,7 @@ Listado guia de Avezy:
 <name>makelist</name>
 <listrepeat><![CDATA[
 <SetViewMode>55</SetViewMode>
-<title>[COLOR orange][makelist.param1] [/COLOR]  [COLOR yellow][makelist.param2] [/COLOR][COLOR red][makelist.param3] [/COLOR] [COLOR white][B][makelist.param5] [/B] [/COLOR][COLOR gold] [makelist.param7] [/COLOR]  [COLOR red][[makelist.param4]] [/COLOR]</title>
+<title>[COLOR orange][makelist.param1] [/COLOR]  [COLOR yellow][makelist.param2] [/COLOR][COLOR yellow][makelist.param3] [/COLOR] [COLOR red][B][makelist.param5] [/B] [/COLOR]  [COLOR white][[makelist.param4]] [/COLOR]</title>
 <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ArenaSport+[makelist.param5]+Arenavision</link>
 			<regex>
 			<name>hash</name> 
