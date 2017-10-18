@@ -4,7 +4,7 @@
  <!-- GRANTORRENT -->
 
 <item>
-<title>[COLOR orange][B][+] BUSCAR [/B] [/COLOR][COLOR white] [pelicula Torrent] |Requerido Quasar|[/COLOR] </title>
+<title> [COLOR lime]•[/COLOR]    [COLOR aquamarine][B] BUSCADOR [/B] [/COLOR][COLOR skyblue] GranTorrent [/COLOR] [COLOR lightslategray] Castellano[/COLOR] </title>
 <link>$doregex[makelist2]</link>
 
 
@@ -12,7 +12,7 @@
 <name>makelist2</name>
 <listrepeat><![CDATA[
  <SetViewMode>55</SetViewMode>
- <title>[COLOR white] [makelist2.param3][/COLOR]  </title>
+ <title>[COLOR white][UPPERCASE][B] [makelist2.param3][/B][/UPPERCASE][/COLOR]  </title>
 <link>$doregex[makelist]</link>
 <thumbnail>[makelist2.param2]</thumbnail> 
 </regex>
@@ -33,7 +33,7 @@ import xbmcaddon
 import xbmcgui
 def GetLSProData(page_data,Cookie_Jar,m):
     dialog = xbmcgui.Dialog()
-    d = dialog.input('Buscar: Torrent de Pelicula', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
+    d = dialog.input('Buscar Pelicula:', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
     return d
 ]]></expres>
 <page></page>
@@ -46,7 +46,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <name>makelist</name>
 <listrepeat><![CDATA[
  <SetViewMode>55</SetViewMode>
- <title>[COLOR orange]  [makelist2.param3][/COLOR]  Calidad:[makelist.param2]  Tamaño:[makelist.param3]  </title>
+ <title>[COLOR orange] [makelist2.param3][/COLOR]  Calidad:[makelist.param2]  Tamaño:[makelist.param3]  </title>
 <link>plugin://plugin.video.quasar/play?uri=[makelist.param4]</link>
 <thumbnail>[makelist2.param2]</thumbnail> 
 </regex>
@@ -56,6 +56,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 <thumbnail>https://asistenciabg.files.wordpress.com/2012/05/spotlight.png</thumbnail>
 </item>
+
   
  <!-- PASATEATORRENT -->
 <item>
