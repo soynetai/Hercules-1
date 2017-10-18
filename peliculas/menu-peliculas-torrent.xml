@@ -54,7 +54,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <expres><![CDATA[alt="(.*?)".*?\/td><td>(.*?)<[\w\W\s]{0,7}td>(.*?)<[\w\W\s]{0,25}href="(.*?torrent)"]]></expres>
 <page>[makelist2.param1]</page>	
 </regex>
-<thumbnail>https://asistenciabg.files.wordpress.com/2012/05/spotlight.png</thumbnail>
+<thumbnail>http://www.iconsdb.com/icons/preview/green/active-search-2-xxl.png</thumbnail>
 </item>
 
   
@@ -151,7 +151,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
  
-<thumbnail>http://medicalandstetic.hol.es/imagenes/icono-buscar.png</thumbnail>
+<thumbnail>http://www.iconsdb.com/icons/preview/green/active-search-2-xxl.png</thumbnail>
 </item>
  <!-- -->
  
