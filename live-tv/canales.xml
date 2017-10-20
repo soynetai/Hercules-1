@@ -868,10 +868,11 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 	
 
 <item>
+<parentalblock>true</parentalblock>
 <title>[COLOR orange]COMEDY CENTRAL[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
 <sportsdevil>http://livesports.pw/embedn.php?file=comedycentral&width=650&height=400</sportsdevil>
 <referer>http://www.vercanalestv.com/ver-paramount-comedy-online-y-en-directo-las-24h/</referer>
-<thumbnail>http://latelete.tv/img/comedycentral.png</thumbnail>
+<thumbnail>https://i.pinimg.com/236x/dc/c8/11/dcc81191291251695e82937fe7a9f546.jpg</thumbnail>
 </item>
 
 
