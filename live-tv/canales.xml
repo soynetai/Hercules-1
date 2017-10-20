@@ -15,109 +15,6 @@
 <thumbnail>https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/000/185/2a3/35da564.jpg</thumbnail>
 <info>Cortesia de Adryanlist </info>
  </item>
-
-<item>
-		<title>[COLOR orange]TELEMADRID[/COLOR]</title>
-		<link>http://telemadridhls-live.hls.adaptive.level3.net/telemadrid/telemadrid1/bitrate_1.m3u8</link>
-	<thumbnail>http://cinestrenostv.tv/img/telemadrid.png</thumbnail>
-	</item>	
-
-	<item>
-		<title>[COLOR orange]LAOTRA[/COLOR]</title>
-		<link>http://laotra-live.hls.adaptive.level3.net/hls-live/telemadrid-laotra/_definst_/live/stream1.m3u8?SAT_TOTAL</link>
-	<thumbnail></thumbnail>
-	</item>	
-	
-		<item>
-		<title>[COLOR orange]CASTILLA LA MANCHA[/COLOR]</title>
-		<link>http://klive-a.akamaihd.net/dc-1/live/hls/p/2288691/e/1_c9gw17x6/sd/10000/t/o8xKPUjaWz2E6hV7vICo1Q/index-s32.m3u8</link>
-	<thumbnail>http://www.brandemia.org/sites/default/files/sites/default/files/logo_cm_antes.jpg</thumbnail>
-	</item>
-	
-	<item>
-		<title>[COLOR orange]CASTILLA Y LEON[/COLOR]</title>
-		<link>http://cdn.s4.eu.nice264.com:1935/niceLiveServer/_definst_/cyl_cyltvlivem_MB_698/master.m3u8</link>
-	<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Logo_Grupo_Castilla_y_Le%C3%B3n_Televisi%C3%B3n.svg/305px-Logo_Grupo_Castilla_y_Le%C3%B3n_Televisi%C3%B3n.svg.png</thumbnail>
-	</item>	
-	
-	<item>
-		<title>[COLOR orange]8 TV[/COLOR]</title>
-		<link>http://streaming.8tv.cat/8TV/8aldia-directe/chunklist_w1365534365.m3u8</link>
-	<thumbnail>http://media.tvalacarta.info/canales/256x256/ochotv.png</thumbnail>
-	</item>		
-
-	<item>
-		<title>[COLOR orange]13TV[/COLOR]</title>
-		<link>http://streaming.enetres.net/091DB7AFBD77442B9BA2F141DCC182F5021/mobile/playlist.m3u8</link>
-	<thumbnail>http://d2jljza7x0a5yy.cloudfront.net/media/k2/items/cache/3d9b2446cf61598e01b296c7b6b8a7ad_XL.jpg</thumbnail>
-	</item>
-	
-	<item>
-		<title>[COLOR orange]CANAL EXTREMADURA[/COLOR]</title>
-		<link>http://hlstv.canalextremadura.es/livetv/smil:multistream.smil/chunklist_b264000_DVR.m3u8</link>
-	<thumbnail>https://www.diariodeberrocalejo.es/index_htm_files/canalextremadura.jpg</thumbnail>
-	</item>		
-
-	<item>
-		<title>[COLOR orange]CANAL SUR[/COLOR]</title>
-		<sportsdevil>http://ct.ligatus.com/css/p9403-c7677-1498642823.php</sportsdevil>
-		<referer>http://www.canalsur.es/tv_directo-1193.html</referer>
-	<thumbnail>http://s.libertaddigital.com/fotos/noticias/canalsur-mjg.jpg</thumbnail>
-	</item>
-
-	<item>
-<title>[COLOR orange]CANAL SUR[/COLOR]</title>
-<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=MtCY1q7mzF8</link>
-<thumbnail>http://s.libertaddigital.com/fotos/noticias/canalsur-mjg.jpg</thumbnail>
-</item>
-	
-	
-	<item>
-		<title>[COLOR orange]Galicia TV[/COLOR]</title>
-		<link>http://media3.crtvg.es/live/_definst_/tvge_2/playlist.m3u8</link>
-	<thumbnail>http://photos1.blogger.com/blogger/3125/3533/1600/Logo%20TVG.jpg</thumbnail>
-	</item>
-
-	<item>
-		<title>[COLOR orange]ETB[/COLOR]</title>
-		<link>http://etbvnogeo-lh.akamaihd.net/i/ETBEITBEUS_1@300391/master.m3u8</link>
-	<thumbnail>https://i.blogs.es/fe1e17/etb2/original.jpg</thumbnail>
-	</item>
-	
-	<item>
-		<title>[COLOR orange]TV3[/COLOR]</title>
-		<link>http://ccma-tva-int-abertis-live.hls.adaptive.level3.net/int/ngrp:tv3cat_tv/playlist.m3u8</link>
-	<thumbnail>https://osgarmar.files.wordpress.com/2012/03/images21.jpg</thumbnail>
-	</item>	
-
-	<item>
-		<title>[COLOR orange]T3 24[/COLOR]</title>
-		<link>http://ccma-tva-int-abertis-live.hls.adaptive.level3.net/int/ngrp:324_mobil/playlist.m3u8</link>
-	<thumbnail>http://statics.ccma.cat/multimedia/jpg/7/9/1466521666097.jpg</thumbnail>
-	</item>
-
-
-	<item>
-		<title>[COLOR orange]Aragon TV[/COLOR]</title>
-		<link>http://aragontv.stream.flumotion.com/aragontv/live-hls/main.m3u8</link>
-	<thumbnail>https://yt3.ggpht.com/-5O9sh0HrJP4/AAAAAAAAAAI/AAAAAAAAAAA/1o4lLkhqYI0/s900-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
-	</item>	
-
-	<item>
-		<title>[COLOR orange]TPA[/COLOR]</title>
-		<link>http://iphone.rtpa.stream.flumotion.com/rtpa/tv-iphone/main.m3u8</link>
-	<thumbnail>https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAArOAAAAJGUyMGFhMmI1LWIzYjUtNDIzZC1hYjZmLWJiNTljZWUzOTg0Zg.png</thumbnail>
-	</item>	
-	
-	<item>
-		<title>[COLOR orange]TV Canaria [La Autonimica][/COLOR]</title>
-		<link>http://streaming2.mad.idec.net/rtvcnet/rtvcnet.drb.smil/chunklist_w1256186728_b480000_sles.m3u8</link>
-	<thumbnail>http://1.bp.blogspot.com/_VvLoQXtu9Mg/SM66SU6zpRI/AAAAAAAAA5U/iXuw3YFQ6Q8/s400/tv_canaria.jpg</thumbnail>
-	</item>	
-	
-
-
-
 <!-- TDT DIGITAL -->
 
 <item>
@@ -325,7 +222,110 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <referer>http://telefivegb.com/animacion/ver-nick-online-y-en-directo-gratis-las-24h/</referer>
 <thumbnail>https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAyrAAAAJGRkM2UxMzk3LTRkNTgtNDRiOS05ZDZjLThkNjQxYjkyNzU2NQ.png</thumbnail>
 </item>
-<!-- Digital +
+<item>
+		<title>[COLOR orange]TELEMADRID[/COLOR]</title>
+		<link>http://telemadridhls-live.hls.adaptive.level3.net/telemadrid/telemadrid1/bitrate_1.m3u8</link>
+	<thumbnail>http://cinestrenostv.tv/img/telemadrid.png</thumbnail>
+	</item>	
+
+	<item>
+		<title>[COLOR orange]LAOTRA[/COLOR]</title>
+		<link>http://laotra-live.hls.adaptive.level3.net/hls-live/telemadrid-laotra/_definst_/live/stream1.m3u8?SAT_TOTAL</link>
+	<thumbnail></thumbnail>
+	</item>	
+	
+		<item>
+		<title>[COLOR orange]CASTILLA LA MANCHA[/COLOR]</title>
+		<link>http://klive-a.akamaihd.net/dc-1/live/hls/p/2288691/e/1_c9gw17x6/sd/10000/t/o8xKPUjaWz2E6hV7vICo1Q/index-s32.m3u8</link>
+	<thumbnail>http://www.brandemia.org/sites/default/files/sites/default/files/logo_cm_antes.jpg</thumbnail>
+	</item>
+	
+	<item>
+		<title>[COLOR orange]CASTILLA Y LEON[/COLOR]</title>
+		<link>http://cdn.s4.eu.nice264.com:1935/niceLiveServer/_definst_/cyl_cyltvlivem_MB_698/master.m3u8</link>
+	<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Logo_Grupo_Castilla_y_Le%C3%B3n_Televisi%C3%B3n.svg/305px-Logo_Grupo_Castilla_y_Le%C3%B3n_Televisi%C3%B3n.svg.png</thumbnail>
+	</item>	
+	
+	<item>
+		<title>[COLOR orange]8 TV[/COLOR]</title>
+		<link>http://streaming.8tv.cat/8TV/8aldia-directe/chunklist_w1365534365.m3u8</link>
+	<thumbnail>http://media.tvalacarta.info/canales/256x256/ochotv.png</thumbnail>
+	</item>		
+
+	<item>
+		<title>[COLOR orange]13TV[/COLOR]</title>
+		<link>http://streaming.enetres.net/091DB7AFBD77442B9BA2F141DCC182F5021/mobile/playlist.m3u8</link>
+	<thumbnail>http://d2jljza7x0a5yy.cloudfront.net/media/k2/items/cache/3d9b2446cf61598e01b296c7b6b8a7ad_XL.jpg</thumbnail>
+	</item>
+	
+	<item>
+		<title>[COLOR orange]CANAL EXTREMADURA[/COLOR]</title>
+		<link>http://hlstv.canalextremadura.es/livetv/smil:multistream.smil/chunklist_b264000_DVR.m3u8</link>
+	<thumbnail>https://www.diariodeberrocalejo.es/index_htm_files/canalextremadura.jpg</thumbnail>
+	</item>		
+
+	<item>
+		<title>[COLOR orange]CANAL SUR[/COLOR]</title>
+		<sportsdevil>http://ct.ligatus.com/css/p9403-c7677-1498642823.php</sportsdevil>
+		<referer>http://www.canalsur.es/tv_directo-1193.html</referer>
+	<thumbnail>http://s.libertaddigital.com/fotos/noticias/canalsur-mjg.jpg</thumbnail>
+	</item>
+
+	<item>
+<title>[COLOR orange]CANAL SUR[/COLOR]</title>
+<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=MtCY1q7mzF8</link>
+<thumbnail>http://s.libertaddigital.com/fotos/noticias/canalsur-mjg.jpg</thumbnail>
+</item>
+	
+	
+	<item>
+		<title>[COLOR orange]Galicia TV[/COLOR]</title>
+		<link>http://media3.crtvg.es/live/_definst_/tvge_2/playlist.m3u8</link>
+	<thumbnail>http://photos1.blogger.com/blogger/3125/3533/1600/Logo%20TVG.jpg</thumbnail>
+	</item>
+
+	<item>
+		<title>[COLOR orange]ETB[/COLOR]</title>
+		<link>http://etbvnogeo-lh.akamaihd.net/i/ETBEITBEUS_1@300391/master.m3u8</link>
+	<thumbnail>https://i.blogs.es/fe1e17/etb2/original.jpg</thumbnail>
+	</item>
+	
+	<item>
+		<title>[COLOR orange]TV3[/COLOR]</title>
+		<link>http://ccma-tva-int-abertis-live.hls.adaptive.level3.net/int/ngrp:tv3cat_tv/playlist.m3u8</link>
+	<thumbnail>https://osgarmar.files.wordpress.com/2012/03/images21.jpg</thumbnail>
+	</item>	
+
+	<item>
+		<title>[COLOR orange]T3 24[/COLOR]</title>
+		<link>http://ccma-tva-int-abertis-live.hls.adaptive.level3.net/int/ngrp:324_mobil/playlist.m3u8</link>
+	<thumbnail>http://statics.ccma.cat/multimedia/jpg/7/9/1466521666097.jpg</thumbnail>
+	</item>
+
+
+	<item>
+		<title>[COLOR orange]Aragon TV[/COLOR]</title>
+		<link>http://aragontv.stream.flumotion.com/aragontv/live-hls/main.m3u8</link>
+	<thumbnail>https://yt3.ggpht.com/-5O9sh0HrJP4/AAAAAAAAAAI/AAAAAAAAAAA/1o4lLkhqYI0/s900-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+	</item>	
+
+	<item>
+		<title>[COLOR orange]TPA[/COLOR]</title>
+		<link>http://iphone.rtpa.stream.flumotion.com/rtpa/tv-iphone/main.m3u8</link>
+	<thumbnail>https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAArOAAAAJGUyMGFhMmI1LWIzYjUtNDIzZC1hYjZmLWJiNTljZWUzOTg0Zg.png</thumbnail>
+	</item>	
+	
+	<item>
+		<title>[COLOR orange]TV Canaria [La Autonimica][/COLOR]</title>
+		<link>http://streaming2.mad.idec.net/rtvcnet/rtvcnet.drb.smil/chunklist_w1256186728_b480000_sles.m3u8</link>
+	<thumbnail>http://1.bp.blogspot.com/_VvLoQXtu9Mg/SM66SU6zpRI/AAAAAAAAA5U/iXuw3YFQ6Q8/s400/tv_canaria.jpg</thumbnail>
+	</item>	
+	
+
+
+
+
+<!-- Digital + -->
 
 <item>
 <parentalblock>true</parentalblock>	
@@ -960,5 +960,6 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <sportsdevil>http://vercanalestv.com/tv/nacionales/playboy.html</sportsdevil>
 <referer>http://www.vercanalestv.com/ver-playboy-en-vivo-gratis-por-internet/</referer>
 <thumbnail>http://vercanalestv.com/imagenes/playboy-tv.jpg</thumbnail> 
-</item> -->
+</item> 
+-->
 
