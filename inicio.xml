@@ -83,14 +83,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
     
 <item>
-<title>[COLOR orange]TV TDT[/COLOR]</title>
-<link>http://Ignoreme</link>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
-<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/livetv.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/live-tv/canales.xml</externallink>
-</item> 
-
-<item>
 <title>[COLOR orange]ArenaSports[/COLOR]</title>
 <link>http://Ignoreme</link>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
