@@ -763,14 +763,49 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://cinestrenostv.tv/canales/doc
 </item>
 
 
-
 <item>
 <parentalblock>true</parentalblock>	
 <title>[COLOR orange]Caza y pesca[/COLOR]</title>
-<sportsdevil>http://livesports.pw/embedn.php?file=cazaypesca&width=650&height=397&autostart=true</sportsdevil>
-<referer>http://telefivegb.com/canales/documental/cazaypesca</referer>
-<thumbnail>http://vercanalestv.com/imagenes/caza-y-pesca.jpg</thumbnail>
+<link>$doregex[get-id]|User-Agent=iPad</link>
+<regex>
+<name>get-id</name>
+<expres>source: '(.*?)'</expres>
+<page>http://cinestrenostv.tv/canales/documentales/cazaypesca.php</page>
+<referer>http://cinestrenostv.tv/canales/embed/documentales/cazaypesca.html</referer>
+<agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
+</regex>
+<thumbnail>http://latelete.tv/img/cazapesca.png</thumbnail>
 </item>
+
+<item>
+<parentalblock>true</parentalblock>	
+<title>[COLOR orange]Bio[/COLOR]</title>
+<link>$doregex[get-id]|User-Agent=iPad</link>
+<regex>
+<name>get-id</name>
+<expres>[",\'](h.*m3u8.*?)'</expres>
+<page>http://vergol.com/live/ten.php</page>
+<referer>http://vertelevisor.com/tv/nacionales/axn.html</referer>
+<agent>iPad</agent>
+</regex>
+<thumbnail>https://pbs.twimg.com/profile_images/476705339769761792/0rb-u3Mb_400x400.jpeg</thumbnail>
+</item>
+	
+<item>
+<parentalblock>true</parentalblock>	
+<title>[COLOR orange]Toros[/COLOR]</title>
+<link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>videoUrl = '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=torotv&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+
 
 <item>
 <parentalblock>true</parentalblock>
