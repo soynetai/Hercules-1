@@ -583,7 +583,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/deportes
 </item>
 
 <item>
-<title>[UPPERCASE][COLOR skyblue] Formula 1  [/UPPERCASE][/COLOR] </title>
+<title>[COLOR orange] Formula 1 [/COLOR] </title>
 
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
@@ -596,12 +596,17 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/deportes
 </item>
 
 <item>
-<parentalblock>true</parentalblock>
-<title>[COLOR orange]F1[/COLOR] Op2 [COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
-<sportsdevil>http://vercanalestv.com/tv/deportes/formula-1.html</sportsdevil>
-<referer>http://www.vercanalestv.com/tv/deportes/motogp-opcion2.html</referer>
-<thumbnail>http://vercanalestv.com/logos/f1.jpeg</thumbnail>
-</item>
+<title>[UPPERCASE][COLOR skyblue] M Deportes 1  [/UPPERCASE][/COLOR] </title>
+  <link>$doregex[get-id]|Referer=http://vercanalestv.com/tv/deportes/canal-plus-deportes.html&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0</link>
+<regex>
+<name>get-id</name>
+<expres>source: '(.*?)'</expres>
+<page>http://www.vercanalestv.com/tv/deportes/formula-1.html</page>
+<referer>http://www.vercanalestv.com/ver-formula-1-en-directo-y-online-gratis/</referer>
+<agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
+</regex>
+<thumbnail>http://vercanalestv.com/logos/f1.jpeg</thumbnail></item>
+
 
 
 <item>
