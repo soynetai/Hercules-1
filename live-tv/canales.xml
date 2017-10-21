@@ -212,13 +212,20 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
 
-
 <item>
-<title>[COLOR yellow]Disney Channel[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
-<sportsdevil>http://livesports.pw/embedn.php?file=disneychannel&width=650&height=397</sportsdevil>
-<referer>http://telefivegb.com/canales/animacion/disneychannel</referer>
-<thumbnail>https://lh3.googleusercontent.com/-YILqKHLvgw0/V8tSUMWsI7I/AAAAAAAAAgs/ZsvrWuhhCkcWZdgoRs_ELPfC226P6NLhACEw/h120/disneychannel.png</thumbnail>
+<title>[COLOR orange]Disney Channel[/COLOR]</title>
+<link>$doregex[get-id]|User-Agent=iPad&amp;Referer=http://cinestrenostv.tv/canales/nacionales/disneychannel.php</link>
+<regex>
+<name>get-id</name>
+<expres>source: '(.*?)'</expres>
+<page>http://cinestrenostv.tv/canales/nacionales/disneychannel.php</page>
+<referer>http://latelete.tv/ver-disney-channel-online-en-directo-gratis/</referer>
+<agent>iPad</agent>
+</regex>
+<thumbnail>http://latelete.tv/img/fdf.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
+
 
 <item>
 <title>[COLOR yellow]Boing[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
