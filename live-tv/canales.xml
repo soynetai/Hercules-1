@@ -280,15 +280,8 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 
         <item>
 <title>[COLOR orange]Canal Sur[/COLOR]</title>
-<link>$doregex[get-id]|User-Agent=iPad&amp;Referer=http://www.canalsur.es/tv_directo-1193.html</link>
-<regex>
-<name>get-id</name>
-<expres>source: '(.*?)'</expres>
-<page>http://www.canalsur.es/tv_directo-1193.html</page>
-<referer></referer>
-<agent>iPad</agent>
-</regex>
-<thumbnail>http://www.canalsur.es/resources/archivos_offline/2016/4/27/1461761011759csurgen.svg</thumbnail>
+
+<thumbnail></thumbnail>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
 
@@ -333,10 +326,21 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 		<link>http://streaming2.mad.idec.net/rtvcnet/rtvcnet.drb.smil/chunklist_w1256186728_b480000_sles.m3u8</link>
 	<thumbnail>http://1.bp.blogspot.com/_VvLoQXtu9Mg/SM66SU6zpRI/AAAAAAAAA5U/iXuw3YFQ6Q8/s400/tv_canaria.jpg</thumbnail>
 	</item>	
-	
-
-
-
+<item>
+<title>[COLOR orange]TV Canaria [La Autonimica][/COLOR]</title>	
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='https://www.youtube.com/watch?v=WMiLcYRy3M4'):
+   import liveresolver
+   u = liveresolver.resolve(url)
+   return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+<thumbnail></thumbnail>
+</item>	
 
 <!-- Digital + -->
 
