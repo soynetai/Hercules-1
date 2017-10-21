@@ -574,26 +574,6 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/deportes
 </item>
 
 
-<item>
-<parentalblock>true</parentalblock>
-<title>[COLOR orange]Moto GP[/COLOR] [COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
-<sportsdevil>http://www.vercanalestv.com/tv/deportes/motogp-opcion2.html</sportsdevil>
-<referer>http://www.vercanalestv.com/tv/deportes/motogp-opcion2.html</referer>
-<thumbnail>http://vercanalestv.com/logos/motosgp.png</thumbnail>
-</item>
-
-<item>
-<title>[COLOR orange] Formula 1 [/COLOR] </title>
-
-<link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
-<regex>
-<name>GetPageUrl</name>
-<expres>videoUrl = '(.*?)'</expres>
-<page>http://livesports.pw/embed.php?file=funoesp&amp;width=650&amp;height=397</page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://vercanalestv.com/logos/f1.jpeg</thumbnail>   
-</item>
 
 <item>
 <parentalblock>true</parentalblock>
@@ -623,7 +603,34 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/deportes
 <thumbnail>http://latelete.tv/img/teledeporte.png</thumbnail>
 </item>
 
+<item>
+<parentalblock>true</parentalblock>
+<title>[COLOR orange]Moto GP[/COLOR] [COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://www.vercanalestv.com/tv/deportes/motogp-opcion2.html</sportsdevil>
+<referer>http://www.vercanalestv.com/tv/deportes/motogp-opcion2.html</referer>
+<thumbnail>http://vercanalestv.com/logos/motosgp.png</thumbnail>
+</item>
 
+<item>
+<parentalblock>true</parentalblock>
+<title>[COLOR orange]F1 movistar[/COLOR] [COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://www.vercanalestv.com/tv/deportes/formula1-opcion2.html</sportsdevil>
+<referer>http://www.vercanalestv.com/tv/deportes/formula1-opcion2.html</referer>
+<thumbnail>http://vercanalestv.com/logos/f1.jpeg</thumbnail>
+</item>
+
+<item>
+<parentalblock>true</parentalblock>
+<title>[COLOR orange] Formula 1 [/COLOR] </title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>videoUrl = '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=funoesp&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vercanalestv.com/logos/f1.jpeg</thumbnail>   
+</item>
 
 
 <item>
