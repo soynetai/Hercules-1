@@ -583,6 +583,28 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/deportes
 </item>
 
 <item>
+<title>[UPPERCASE][COLOR skyblue] Formula 1  [/UPPERCASE][/COLOR] </title>
+
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>videoUrl = '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=funoesp&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vercanalestv.com/logos/f1.jpeg</thumbnail>   
+</item>
+
+<item>
+<parentalblock>true</parentalblock>
+<title>[COLOR orange]F1[/COLOR] Op2 [COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
+<sportsdevil>http://vercanalestv.com/tv/deportes/formula-1.html</sportsdevil>
+<referer>http://www.vercanalestv.com/tv/deportes/motogp-opcion2.html</referer>
+<thumbnail>http://vercanalestv.com/logos/f1.jpeg</thumbnail>
+</item>
+
+
+<item>
 <parentalblock>true</parentalblock>
 <title>[COLOR orange]La Liga TV[/COLOR] [COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
 <sportsdevil>http://livesports.pw/embed.php?file=barliga&width=650&height=397</sportsdevil>
