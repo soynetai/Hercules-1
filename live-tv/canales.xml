@@ -213,6 +213,21 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 </item>
 
 <item>
+<title>[COLOR yellow]PDF[/COLOR]</title>
+<link>$doregex[get-id]|User-Agent=iPad&amp;Referer=http://vergol.com/live/tve1.php</link>
+<regex>
+<name>get-id</name>
+<expres>source: '(.*?)'</expres>
+<page>http://vergol.com/live/fdf.php</page>
+<referer>http://vercanalestv.com/tv/nacionales/tve-1.html</referer>
+<agent>iPad</agent>
+</regex>
+<thumbnail>http://latelete.tv/img/fdf.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
+
+
+<item>
 <title>[COLOR orange]Disney Channel[/COLOR]</title>
 <link>$doregex[get-id]|User-Agent=iPad&amp;Referer=http://cinestrenostv.tv/canales/nacionales/disneychannel.php</link>
 <regex>
