@@ -212,24 +212,10 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
 
-<item>
-<title>[COLOR yellow]PDF[/COLOR]</title>
-<link>$doregex[get-id]|User-Agent=iPad&amp;Referer=http://vergol.com/live/tve1.php</link>
-<regex>
-<name>get-id</name>
-<expres>source: '(.*?)'</expres>
-<page>http://vergol.com/live/fdf.php</page>
-<referer>http://vercanalestv.com/tv/nacionales/tve-1.html</referer>
-<agent>iPad</agent>
-</regex>
-<thumbnail>http://latelete.tv/img/fdf.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
-</item>
-
 
 <item>
 <title>[COLOR orange]Disney Channel[/COLOR]</title>
-<link>$doregex[get-id]|User-Agent=iPad&amp;Referer=http://cinestrenostv.tv/canales/nacionales/disneychannel.php</link>
+<link>$doregex[get-id]|User-Agent=iPad&amp;Referer=http://vercanalestv.com/tv/nacionales/disney-channel.html</link>
 <regex>
 <name>get-id</name>
 <expres>source: '(.*?)'</expres>
@@ -237,17 +223,11 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <referer>http://latelete.tv/ver-disney-channel-online-en-directo-gratis/</referer>
 <agent>iPad</agent>
 </regex>
-<thumbnail>http://latelete.tv/img/fdf.png</thumbnail>
+<thumbnail>http://vercanalestv.com/imagenes/disney-channel.jpg</thumbnail>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
 
 
-<item>
-<title>[COLOR yellow]Boing[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
-<sportsdevil>http://livesports.pw/embed.php?file=boing&width=650&height=397</sportsdevil>
-<referer>http://verplusonline.com/ver-boing-online-gratis-en-vivo-directo/</referer>
-<thumbnail>http://www.boing.es/sites/boinges/themes/boing_theme/logo-es.png</thumbnail>
-</item>
 
 <item>
 <title>[COLOR yellow]Nickelodeon[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
@@ -256,7 +236,8 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <thumbnail>https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAyrAAAAJGRkM2UxMzk3LTRkNTgtNDRiOS05ZDZjLThkNjQxYjkyNzU2NQ.png</thumbnail>
 </item>
 <item>
-		<title>[COLOR orange]TELEMADRID[/COLOR]</title>
+		
+<title>[COLOR orange]TELEMADRID[/COLOR]</title>
 		<link>http://telemadridhls-live.hls.adaptive.level3.net/telemadrid/telemadrid1/bitrate_1.m3u8</link>
 	<thumbnail>http://cinestrenostv.tv/img/telemadrid.png</thumbnail>
 	</item>	
@@ -295,24 +276,23 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 		<title>[COLOR orange]CANAL EXTREMADURA[/COLOR]</title>
 		<link>http://hlstv.canalextremadura.es/livetv/smil:multistream.smil/chunklist_b264000_DVR.m3u8</link>
 	<thumbnail>https://www.diariodeberrocalejo.es/index_htm_files/canalextremadura.jpg</thumbnail>
-	</item>		
+	</item>	
 
-	<item>
-		<title>[COLOR orange]CANAL SUR[/COLOR]</title>
-		<sportsdevil>http://ct.ligatus.com/css/p9403-c7677-1498642823.php</sportsdevil>
-		<referer>http://www.canalsur.es/tv_directo-1193.html</referer>
-	<thumbnail>http://s.libertaddigital.com/fotos/noticias/canalsur-mjg.jpg</thumbnail>
-	</item>
-
-	<item>
-<title>[COLOR orange]CANAL SUR[/COLOR]</title>
-<link></link>
-<thumbnail>http://s.libertaddigital.com/fotos/noticias/canalsur-mjg.jpg</thumbnail>
+        <item>
+<title>[COLOR orange]Canal Sur[/COLOR]</title>
+<link>$doregex[get-id]|User-Agent=iPad&amp;Referer=http://www.canalsur.es/tv_directo-1193.html</link>
+<regex>
+<name>get-id</name>
+<expres>source: '(.*?)'</expres>
+<page>http://www.canalsur.es/tv_directo-1193.html</page>
+<referer></referer>
+<agent>iPad</agent>
+</regex>
+<thumbnail>http://www.canalsur.es/resources/archivos_offline/2016/4/27/1461761011759csurgen.svg</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
-	
-	
-	<item>
-		<title>[COLOR orange]Galicia TV[/COLOR]</title>
+
+	<title>[COLOR orange]Galicia TV[/COLOR]</title>
 		<link>http://media3.crtvg.es/live/_definst_/tvge_2/playlist.m3u8</link>
 	<thumbnail>http://photos1.blogger.com/blogger/3125/3533/1600/Logo%20TVG.jpg</thumbnail>
 	</item>
