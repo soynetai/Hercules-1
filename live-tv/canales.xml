@@ -561,7 +561,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embed.php?file=funoesp&amp;width=650&amp;height=397</page>
+<page>http://vercanalestv.com/tv/deportes/formula-1.html</page>
 <cookieJar></cookieJar>
 </regex>
 <thumbnail>http://vercanalestv.com/logos/f1.jpeg</thumbnail>   
