@@ -656,7 +656,27 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/document
 <thumbnail>http://vercanalestv.com/logos/national.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
+	
+<item>
+<parentalblock>true</parentalblock>	
+<title>[COLOR white]National Geographic Wild[/COLOR]</title>
 
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://cinestrenostv.tv/canales/embed/documentales/natwill.html'):
+   import liveresolver
+   u = liveresolver.resolve(url)
+   return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://latelete.tv/img/natgeo.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
+	
 
 <item>
 <parentalblock>true</parentalblock>
@@ -686,7 +706,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/document
 <regex>
 <name>GetPageUrl</name>
 <expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='http://cinestrenostv.tv/canales/documentales/odisea.php'):
+def GetLSProData(page_data,Cookie_Jar,m,url='http://cinestrenostv.tv/canales/embed/documentales/odisea.html'):
    import liveresolver
    u = liveresolver.resolve(url)
    return u
@@ -719,21 +739,30 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/document
 <thumbnail>http://vercanalestv.com/logos/discovery-channel.jpg</thumbnail>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
+	
 
 <item>
-<title>[COLOR orange]Discovery Max[/COLOR] [COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
-<sportsdevil>http://cinestrenostv.tv/canales/documentales/discoverymax.php</sportsdevil>                                        
-<referer>http://latelete.tv/discovery-max-en-directo-por-internet/</referer>
+<parentalblock>true</parentalblock>
+<title>[COLOR orange]Discovery Max[/COLOR]</title>
+<parentalblock>true</parentalblock>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://cinestrenostv.tv/canales/documentales/discoverymax.php'):
+   import liveresolver
+   u = liveresolver.resolve(url)
+   return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+
 <thumbnail>http://latelete.tv/img/discoverymax.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
 
 
-<item>
-<title>[COLOR orange]Nat Geo Wild[/COLOR] [COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
-<sportsdevil>http://vergol.com/live/nationalwild.php</sportsdevil>                                        
-<referer>http://www.vercanalestv.com/ver-nat-geo-wild-online-y-gratis-por-internet-las-24h-gratis-en-vivo/</referer>
-<thumbnail>http://vercanalestv.com/logos/natgeo.png</thumbnail>
-</item>
 
 <item>
 <parentalblock>true</parentalblock>	
@@ -893,19 +922,29 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 </item>
 
 <item>
-<title>[COLOR orange]HOLLYWOOD[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
 <parentalblock>true</parentalblock>
-<sportsdevil>http://livesports.pw/embedn.php?file=hollywesp&width=650&height=397&autoplay=true</sportsdevil>
-<referer>http://telefivegb.com/canales/pelis/hollywood</referer>
-<thumbnail>https://lh3.googleusercontent.com/-NIKUf7DhHEo/V8tSUpFiA4I/AAAAAAAAAgs/RZHwibnrFW8kUm4lTKCOKd2IpXS_9yF7QCEw/h120/hollywood.png </thumbnail> 
+<title>[COLOR orange]Hollywood[/COLOR]</title>
+<link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>videoUrl = '(.*?)'</expres>
+<page>http://livesports.pw/embedn.php?file=hollywesp&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://latelete.tv/img/holliwood.png</thumbnail> 
 </item>
 
 	
 <item>
 <title>[COLOR orange]TCM[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
 <parentalblock>true</parentalblock>
-<sportsdevil>http://livesports.pw/embed.php?file=tcmesp&width=650&height=397&autoplay=true</sportsdevil>
-<referer>http://telefivegb.com/canales/pelis/tcm</referer>
+<link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>videoUrl = '(.*?)'</expres>
+<page>http://livesports.pw/embedn.php?file=tcmespmp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
 <thumbnail>http://verplusonline.com/wp-content/uploads/2015/09/tcm.png </thumbnail> 
 </item>
 	
@@ -913,9 +952,14 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <item>
 <parentalblock>true</parentalblock>
 <title>[COLOR orange]COMEDY CENTRAL[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
-<sportsdevil>http://livesports.pw/embedn.php?file=comedycentral&width=650&height=400</sportsdevil>
-<referer>http://www.vercanalestv.com/ver-paramount-comedy-online-y-en-directo-las-24h/</referer>
-<thumbnail>https://i.pinimg.com/236x/dc/c8/11/dcc81191291251695e82937fe7a9f546.jpg</thumbnail>
+<link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>videoUrl = '(.*?)'</expres>
+<page>http://livesports.pw/embedn.php?file=comedycentral&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://latelete.tv/img/comedycentral.png</thumbnail>
 </item>
 
 
