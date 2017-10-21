@@ -18,32 +18,29 @@
 <!-- TDT DIGITAL -->
 
 <item>
-<title>[COLOR yellow]La 1[/COLOR]</title>
-<link>$doregex[GetPageUrl]</link>
+<title>[COLOR lime][B]·[/B][COLOR orange]La 1[/COLOR][/COLOR]</title>
+<link>$doregex[get-id]|User-Agent=iPad&amp;Referer=http://vergol.com/live/tve1.php</link>
 <regex>
-<name>GetPageUrl</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacionales/tve-1.html'):
-   import liveresolver
-   u = liveresolver.resolve(url)
-   return u
-]]></expres>
-<page></page>
-<cookieJar></cookieJar>
+<name>get-id</name>
+<expres>source: '(.*?)'</expres>
+<page>http://vergol.com/live/tve1.php</page>
+<referer>http://vercanalestv.com/tv/nacionales/tve-1.html</referer>
+<agent>iPad</agent>
 </regex>
 <thumbnail>http://latelete.tv/img/tve1.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
+
 <item>
 <title>[COLOR yellow]La 2[/COLOR]</title>
 <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embedn.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
 <regex>
 <name>GetPageUrl</name>
-<expres>source: '(.*?)'</expres>
+<expres>videoUrl = '(.*?)'</expres>
 <page>http://livesports.pw/embedn.php?file=tvdostelefive&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
- <thumbnail>http://vercanalestv.com/logos/tve2.png</thumbnail>   </item>
+<thumbnail>http://vercanalestv.com/logos/tve2.png</thumbnail>   </item>
 
 <item>
 <title>[COLOR yellow]Antena 3[/COLOR]</title>
@@ -62,27 +59,38 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://a3live-lh.akamaihd.net/i/ant
 <thumbnail>http://vercanalestv.com/logos/antena3.png</thumbnail>
 </item>
 
+
 <item>
-<title>[COLOR yellow]Cuatro[/COLOR]</title>
- <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embedn.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
+<title>[COLOR orange] Antena 3[/COLOR] Op2. </title>
+<link>http://a3live-lh.akamaihd.net/i/antena3_1@35248/index_1_av-p.m3u8?hd=10&rebase=on</link>
+<link>http://hlslive.lcdn.une.net.co/v1/AUTH_HLSLIVE/ANT3/tu1_1.m3u8$$lsname=Antena 3</link>
+<thumbnail>http://vercanalestv.com/logos/antena3.png</thumbnail>
+</item>
+
+<item>
+<link>$doregex[get-id]|User-Agent=iPad&amp;Referer=http://vergol.com/live1/cuatro.php</link>
 <regex>
-<name>GetPageUrl</name>
+<name>get-id</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embedn.php?file=lacuatro&amp;width=650&amp;height=397</page>
-<cookieJar></cookieJar>
+<page>http://vergol.com/live1/cuatro.php</page>
+<referer>http://vercanalestv.com/tv/nacionales/tve-1.html</referer>
+<agent>iPad</agent>
 </regex>
+
 <thumbnail>http://latelete.tv/img/cuatro.png</thumbnail>
 </item>
 
 <item>
 <title>[COLOR yellow]Telecinco[/COLOR]</title>
- <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embedn.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
+<link>$doregex[get-id]|User-Agent=iPad&amp;Referer=http://vergol.com/live/tve1.php</link>
 <regex>
-<name>GetPageUrl</name>
+<name>get-id</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embedn.php?file=telecinco&amp;width=650&amp;height=397</page>
-<cookieJar></cookieJar>
+<page>http://vergol.com/live1/telecinco.php</page>
+<referer>http://vercanalestv.com/tv/nacionales/tve-1.html</referer>
+<agent>iPad</agent>
 </regex>
+
 <thumbnail>http://latelete.tv/img/telecinco.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
@@ -107,18 +115,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 
 <item>
 <title>[COLOR yellow]Nova[/COLOR]</title>
-<link>$doregex[GetPageUrl]</link>
-<regex>
-<name>GetPageUrl</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacionales/nova.html'):
-   import liveresolver
-   u = liveresolver.resolve(url)
-   return u
-]]></expres>
-<page></page>
-<cookieJar></cookieJar>
-</regex>
+
 <thumbnail>http://latelete.tv/img/nova.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
@@ -201,6 +198,20 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
 
+<item>
+<title>[COLOR yellow]PDF[/COLOR]</title>
+<link>$doregex[get-id]|User-Agent=iPad&amp;Referer=http://cinestrenostv.tv/canales/nacionales/fdf.php</link>
+<regex>
+<name>get-id</name>
+<expres>source: '(.*?)'</expres>
+<page>http://cinestrenostv.tv/canales/embed/nacionales/fdf.html</page>
+<referer>http://latelete.tv/fdf-en-directo-gratis-por-internet-2/</referer>
+<agent>iPad</agent>
+</regex>
+<thumbnail>http://latelete.tv/img/fdf.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
+
 
 <item>
 <title>[COLOR yellow]Disney Channel[/COLOR][COLOR white][I] Requerido Sportsdevil[/I][/COLOR]</title>
@@ -273,7 +284,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://vercanalestv.com/tv/nacional
 
 	<item>
 <title>[COLOR orange]CANAL SUR[/COLOR]</title>
-<link>plugin://plugin.video.youtube/?action=play_video&amp;videoid=MtCY1q7mzF8</link>
+<link></link>
 <thumbnail>http://s.libertaddigital.com/fotos/noticias/canalsur-mjg.jpg</thumbnail>
 </item>
 	
