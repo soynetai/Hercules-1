@@ -82,7 +82,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/programastv/inicio.xml</externallink>
 </item>
     
-<item>
+<!-- <item>
 <title>[COLOR orange]Creditos[/COLOR]</title>
 <link>$doregex[openDialog]</link>
 <regex>
@@ -104,4 +104,4 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>http://www.thebarlowrchigh.co.uk/media/184153/information-icon.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
-</items>
+</items> -->
