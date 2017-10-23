@@ -47,28 +47,10 @@
 
 <item>
 <title>[COLOR orange][B]+ Lo mejor [/B][COLOR white] De la jornada [/COLOR][/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR white][makelist.param2][/COLOR]</title>
-<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
-<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
-]]></listrepeat>
-<expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
-<page>https://www.youtube.com/playlist?list=PLKj1QUtwqLN_J096OhNfrgSRsDdJBePKY</page>
-<referer>https://www.youtube.com/user/laliga</referer>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://files.laliga.es/seccion_logos/laliga-v-1200x1200.png</thumbnail>
-<fanart></fanart>
-</item>
-
-<item>
-<title>[COLOR orange][B]+ Mejores goles de la liga.[/B][COLOR white] 2017/2018 [/COLOR][/COLOR]</title>
 <link>ignorme</link>
 <jsonrpc>plugin://plugin.video.youtube/playlist/PLKj1QUtwqLN_J096OhNfrgSRsDdJBePKY/</jsonrpc>
 <thumbnail>https://i.ytimg.com/vi/O8jjuSaHMmY/hqdefault.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/O8jjuSaHMmY/hqdefault.jpg</fanart>
 </item>
 
 <!-- Liga 123 -->
