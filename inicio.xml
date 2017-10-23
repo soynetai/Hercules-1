@@ -75,6 +75,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/documentales/inicio.xml</externallink>
 </item>
 <item>
+<title>[COLOR orange]Deportes[/COLOR][COLOR white][/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/deportes.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/deportes/deportes.xml</externallink>
+</item>
+<item>
 <title>[COLOR orange]Programas tv[/COLOR]</title>
 <link>http://Ignoreme</link>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
