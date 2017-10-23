@@ -23,7 +23,7 @@
 </item>
 
 <item>
-<title>[COLOR orange][B]+ Liga Santander[/B][COLOR white] EPIC FOOTBALL [Partidos completos.] [/COLOR][/COLOR]</title>
+<title>[COLOR orange][B]+ Liga Santander[/B][COLOR white] [Goles y Jugadas] [/COLOR][/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex><name>makelist</name>
 <listrepeat><![CDATA[   
@@ -44,14 +44,6 @@
 <jsonrpc>plugin://plugin.video.youtube/playlist/PLKj1QUtwqLN-vfkNAW15pQYzb5g7eMjZL/</jsonrpc>
 <thumbnail>http://files.laliga.es/seccion_logos/laliga-v-1200x1200.png</thumbnail>
 </item>
-
-<item>
-<title>[COLOR orange][B]+ Liga Santander[/B][COLOR white] Mejores jugadas. [/COLOR][/COLOR]</title>
-<link>ignorme</link>
-<jsonrpc>plugin://plugin.video.youtube/playlist/PLKj1QUtwqLN_J096OhNfrgSRsDdJBePKY/</jsonrpc>
-<thumbnail>http://files.laliga.es/seccion_logos/laliga-v-1200x1200.png</thumbnail>
-</item>
-
 
 <item>
 <title>[COLOR orange][B]+ Lo mejor [/B][COLOR white] De la jornada [/COLOR][/COLOR]</title>
