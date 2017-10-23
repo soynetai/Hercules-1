@@ -7,39 +7,7 @@
 
 <!-- Liga Santander -->
 
-<item>
-<title>[COLOR orange][B]+ Liga Santander[/B][COLOR white] Calentamientos y ruedas de prensa. [/COLOR][/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex><name>makelist</name>
-<listrepeat><![CDATA[   
-<title>[makelist.param1]</title>
-<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
-<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
-]]></listrepeat>
-<expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
-<page>https://www.youtube.com/watch?v=GXwQYF3kp9o&list=PLKj1QUtwqLN82SPugx6f0u-oyKnog8jED</page> para canales entero
-</regex>  
-<thumbnail>https://yt3.ggpht.com/-y0T08L7H6No/AAAAAAAAAAI/AAAAAAAAAAA/hSqnWXZcSeM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
-</item>
 
-<item>
-<title>[COLOR orange][B]+ Liga Santander[/B][COLOR white] Resumen de Partidos de la jornada. [/COLOR][/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR white][makelist.param2][/COLOR]</title>
-<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
-<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
-]]></listrepeat>
-<expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
-<page>https://www.youtube.com/watch?v=NJLpwHrXeuI&list=PLKj1QUtwqLN_J096OhNfrgSRsDdJBePKY</page>
-<referer>https://www.youtube.com/user/laliga</referer>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>https://yt3.ggpht.com/-y0T08L7H6No/AAAAAAAAAAI/AAAAAAAAAAA/hSqnWXZcSeM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
-<fanart></fanart>
-</item>
 
 https://www.youtube.com/watch?v=nLwC2pYJywA&list=PLdWLa0wa8J_KcV3WGOtJdVLeC1nWOjYOL
 
@@ -73,6 +41,39 @@ https://www.youtube.com/watch?v=nLwC2pYJywA&list=PLdWLa0wa8J_KcV3WGOtJdVLeC1nWOj
 <thumbnail>http://files.laliga.es/seccion_logos/laliga-v-1200x1200.png</thumbnail>
 </item>
 
+<item>
+<title>[COLOR orange][B]+ Liga Santander[/B][COLOR white] Calentamientos y ruedas de prensa. [/COLOR][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex><name>makelist</name>
+<listrepeat><![CDATA[   
+<title>[makelist.param1]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+]]></listrepeat>
+<expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
+<page>https://www.youtube.com/watch?v=GXwQYF3kp9o&list=PLKj1QUtwqLN82SPugx6f0u-oyKnog8jED</page> para canales entero
+</regex>  
+<thumbnail>https://yt3.ggpht.com/-y0T08L7H6No/AAAAAAAAAAI/AAAAAAAAAAA/hSqnWXZcSeM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+</item>
+
+<item>
+<title>[COLOR orange][B]+ Liga Santander[/B][COLOR white] Resumen de Partidos de la jornada. [/COLOR][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR white][makelist.param2][/COLOR]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+]]></listrepeat>
+<expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+<page>https://www.youtube.com/watch?v=NJLpwHrXeuI&list=PLKj1QUtwqLN_J096OhNfrgSRsDdJBePKY</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://yt3.ggpht.com/-y0T08L7H6No/AAAAAAAAAAI/AAAAAAAAAAA/hSqnWXZcSeM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+<fanart></fanart>
+</item>
 
 <item>
 <title>[COLOR orange][B]+ Lo mejor [/B][COLOR white] De la jornada [/COLOR][/COLOR]</title>
@@ -105,7 +106,7 @@ https://www.youtube.com/watch?v=nLwC2pYJywA&list=PLdWLa0wa8J_KcV3WGOtJdVLeC1nWOj
 ]]></listrepeat>
 <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
 <page>https://www.youtube.com/watch?v=bp4ZncqTQmA&list=PLKj1QUtwqLN9i_YGO0c6boJO1jJ-ua7uB</page>
-<referer>https://www.youtube.com/user/laliga</referer>
+<referer></referer>
 <cookieJar></cookieJar>
 </regex>
 <thumbnail>https://yt3.ggpht.com/-y0T08L7H6No/AAAAAAAAAAI/AAAAAAAAAAA/hSqnWXZcSeM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
