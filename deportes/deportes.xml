@@ -40,7 +40,7 @@
 <referer>https://www.youtube.com/user/laliga</referer>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+<thumbnail>http://files.laliga.es/seccion_logos/laliga-v-1200x1200.png</thumbnail>
 <fanart></fanart>
 </item>
 
@@ -73,7 +73,7 @@ https://www.youtube.com/watch?v=nLwC2pYJywA&list=PLdWLa0wa8J_KcV3WGOtJdVLeC1nWOj
 <expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
 <page>https://www.youtube.com/channel/UCoBwi6czckIzfocYPnPNH8g</page> para canales entero
 </regex>  
-<thumbnail>https://yt3.ggpht.com/-ytl6eroahyI/AAAAAAAAAAI/AAAAAAAAAAA/3i8D5w8tPQk/s100-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+<thumbnail>http://files.laliga.es/seccion_logos/laliga-v-1200x1200.png</thumbnail>
 </item>
 
 
@@ -92,7 +92,7 @@ https://www.youtube.com/watch?v=nLwC2pYJywA&list=PLdWLa0wa8J_KcV3WGOtJdVLeC1nWOj
 <referer>https://www.youtube.com/user/laliga</referer>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+<thumbnail>http://files.laliga.es/seccion_logos/laliga-v-1200x1200.png</thumbnail>
 <fanart></fanart>
 </item>
 
@@ -111,7 +111,7 @@ https://www.youtube.com/watch?v=nLwC2pYJywA&list=PLdWLa0wa8J_KcV3WGOtJdVLeC1nWOj
 <referer>https://www.youtube.com/user/laliga</referer>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+<thumbnail>http://files.laliga.es/seccion_logos/laliga-v-1200x1200.png</thumbnail>
 <fanart></fanart>
 </item>
 
@@ -148,7 +148,7 @@ https://www.youtube.com/watch?v=nLwC2pYJywA&list=PLdWLa0wa8J_KcV3WGOtJdVLeC1nWOj
 <referer>https://www.youtube.com/user/LigaAdelante/</referer>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+<thumbnail>https://1.bp.blogspot.com/-b5EX9IdBlaM/WT0SFp36zUI/AAAAAAAAA9Q/0nwUVqSLfIoeUADkgGi6mxoLMEe3qziLACLcB/s1600/La%2BLiga%2B123.png</thumbnail>
 <fanart></fanart>
 </item>
 
@@ -186,7 +186,7 @@ https://www.youtube.com/watch?v=nLwC2pYJywA&list=PLdWLa0wa8J_KcV3WGOtJdVLeC1nWOj
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+<thumbnail>https://1.bp.blogspot.com/-b5EX9IdBlaM/WT0SFp36zUI/AAAAAAAAA9Q/0nwUVqSLfIoeUADkgGi6mxoLMEe3qziLACLcB/s1600/La%2BLiga%2B123.png</thumbnail>
 <fanart></fanart>
 </item>
 
@@ -222,7 +222,7 @@ https://www.youtube.com/watch?v=nLwC2pYJywA&list=PLdWLa0wa8J_KcV3WGOtJdVLeC1nWOj
 <referer>https://www.youtube.com/user/NBA</referer>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/I/515JQjBBBvL.png</thumbnail>
 <fanart></fanart>
 </item>
 
@@ -256,7 +256,7 @@ https://www.youtube.com/watch?v=nLwC2pYJywA&list=PLdWLa0wa8J_KcV3WGOtJdVLeC1nWOj
 <expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
 <page>https://www.youtube.com/channel/UC9BsqFce5brGlsQL8IMyJYg</page> para canales entero
 </regex>  
-<thumbnail>https://yt3.ggpht.com/-ws1I4arjboY/AAAAAAAAAAI/AAAAAAAAAAA/KJzsNQuh-kM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+<thumbnail>http://www.inquirelive.co.uk/wp-content/uploads/2014/10/f1_logo.jpg</thumbnail>
 </item>
 
 <item>
@@ -271,7 +271,7 @@ https://www.youtube.com/watch?v=nLwC2pYJywA&list=PLdWLa0wa8J_KcV3WGOtJdVLeC1nWOj
 <expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
 <page>https://www.youtube.com/channel/UCVjnDHpwPfMBqaqyaWnBJ1g</page> para canales entero
 </regex>  
-<thumbnail>https://yt3.ggpht.com/-ws1I4arjboY/AAAAAAAAAAI/AAAAAAAAAAA/KJzsNQuh-kM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+<thumbnail>http://www.inquirelive.co.uk/wp-content/uploads/2014/10/f1_logo.jpg</thumbnail>
 </item>
 
 <!-- Moto GP -->
