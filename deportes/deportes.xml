@@ -56,7 +56,7 @@
 <!-- Liga 123 -->
 
 <item>
-<title>[COLOR orange][B]+ Lo mejor [/B][COLOR white] De la jornada [/COLOR][/COLOR]</title>
+<title>[COLOR orange][B] +Liga 123 [/B][COLOR white] Jugadas [/COLOR][/COLOR]</title>
 <link>ignorme</link>
 <jsonrpc>plugin://plugin.video.youtube/playlist/UCs3Gqvp1tO-nK-XNzFlopsg/</jsonrpc>
 <thumbnail>https://i.ytimg.com/vi/O8jjuSaHMmY/hqdefault.jpg</thumbnail>
@@ -65,9 +65,9 @@
 
 
 <item>
-<title>[COLOR orange][B]+ Resumen de Partidos [/B][COLOR white] De la jornada [/COLOR][/COLOR]</title>
+<title>[COLOR orange][B] +Liga 123 [/B][COLOR white]Resumen de los partidos [/COLOR][/COLOR]</title>
 <link>ignorme</link>
-<jsonrpc>plugin://plugin.video.youtube/playlist/PLxn0kSqrnVQ-6DoNaUm4EyK2U9NR4Q8U5/</jsonrpc>
+<jsonrpc>plugin://plugin.video.youtube/playlist/PLxn0kSqrnVQ_9mexGUZAAfVD9l1pU17cG/</jsonrpc>
 <thumbnail>https://i.ytimg.com/vi/O8jjuSaHMmY/hqdefault.jpg</thumbnail>
 <fanart>https://i.ytimg.com/vi/O8jjuSaHMmY/hqdefault.jpg</fanart>
 </item>
