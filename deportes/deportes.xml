@@ -10,18 +10,15 @@
 <item>
 <title>[COLOR orange][B]+ Liga Santander[/B][COLOR white] Calentamientos y ruedas de prensa. [/COLOR][/COLOR]</title>
 <link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR white][makelist.param2][/COLOR]</title>
-<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<regex><name>makelist</name>
+<listrepeat><![CDATA[   
+<title>[makelist.param1]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
 <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
 ]]></listrepeat>
-<expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
-<page>https://www.youtube.com/watch?v=GXwQYF3kp9o&list=PLKj1QUtwqLN82SPugx6f0u-oyKnog8jED</page>
-<referer>https://www.youtube.com/channel/UCTv-XvfzLX3i4IGWAm4sbmA</referer>
-<cookieJar></cookieJar>
-</regex>
+<expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
+<page>https://www.youtube.com/watch?v=GXwQYF3kp9o&list=PLKj1QUtwqLN82SPugx6f0u-oyKnog8jED</page> para canales entero
+</regex>  
 <thumbnail>https://yt3.ggpht.com/-y0T08L7H6No/AAAAAAAAAAI/AAAAAAAAAAA/hSqnWXZcSeM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
 </item>
 
