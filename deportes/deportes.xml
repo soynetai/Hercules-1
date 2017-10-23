@@ -1,0 +1,106 @@
+<item>
+<title>[COLOR white][B]Seccion Deportes[/B][/COLOR]</title>
+<link>$doregex</link>
+<page></page>
+<thumbnail>http://www.gruponetai.com/imagenes/deportes.png</thumbnail>
+</item>
+
+<item>
+<title>[COLOR orange][B]+ Liga Santander[/B][COLOR white] Calentamientos y ruedas de prensa. [/COLOR][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR white][makelist.param2][/COLOR]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+]]></listrepeat>
+<expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+<page>https://www.youtube.com/watch?v=_GY6ntZbZ5k&list=PLKj1QUtwqLN-vfkNAW15pQYzb5g7eMjZL</page>
+<referer>https://www.youtube.com/user/laliga</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+<fanart>https://appaplicacionpara.com/wp-content/uploads/2016/06/karaoke_2323776b.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR orange][B]+ Liga Santander[/B][COLOR white] Resumen de Partidos de la jornada. [/COLOR][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR white][makelist.param2][/COLOR]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+]]></listrepeat>
+<expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+<page>https://www.youtube.com/playlist?list=PLKj1QUtwqLN_J096OhNfrgSRsDdJBePKY</page>
+<referer>https://www.youtube.com/user/laliga</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+<fanart>https://appaplicacionpara.com/wp-content/uploads/2016/06/karaoke_2323776b.jpg</fanart>
+</item>
+
+https://www.youtube.com/watch?v=nLwC2pYJywA&list=PLdWLa0wa8J_KcV3WGOtJdVLeC1nWOjYOL
+
+<item>
+<title>[COLOR orange][B]+ Liga Santander[/B][COLOR white] [Partidos completos.] [/COLOR][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist.param2]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+<page>https://www.youtube.com/playlist?list=PL7ucDb1HObFwCzkdxUC3loKMtGUjvm8f6</page>
+<referer>https://www.youtube.com/channel/UCOjHrylJ3-y-D0h9JUM-vLQ/playlists</referer>
+<cookieJar></cookieJar>
+<thumbnail>https://yt3.ggpht.com/-Ibv6-TrPRgU/AAAAAAAAAAI/AAAAAAAAAAA/hNqwfrG3M-A/s900-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+<fanart>http://i.ytimg.com/vi/XuSKkTKLFLQ/mqdefault.jpg</fanart>
+</regex>
+</item>
+
+<item>
+<title>[COLOR orange][B]+ Lo mejor [/B][COLOR white] De la jornada [/COLOR][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR white][makelist.param2][/COLOR]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+]]></listrepeat>
+<expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+<page>https://www.youtube.com/playlist?list=PLKj1QUtwqLN8Gdsp8Lkij45VHzc7mZw3y</page>
+<referer>https://www.youtube.com/user/laliga</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+<fanart>https://appaplicacionpara.com/wp-content/uploads/2016/06/karaoke_2323776b.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR orange][B]+ Mejores goles de la liga.[/B][COLOR white] 2017/2018 [/COLOR][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR white][makelist.param2][/COLOR]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+]]></listrepeat>
+<expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+<page>https://www.youtube.com/playlist?list=PLKj1QUtwqLN9i_YGO0c6boJO1jJ-ua7uB</page>
+<referer>https://www.youtube.com/user/laliga</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+<fanart>https://appaplicacionpara.com/wp-content/uploads/2016/06/karaoke_2323776b.jpg</fanart>
+</item>
+
+
+
