@@ -22,7 +22,7 @@
 <referer>https://www.youtube.com/channel/UCTv-XvfzLX3i4IGWAm4sbmA</referer>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+<thumbnail>https://yt3.ggpht.com/-y0T08L7H6No/AAAAAAAAAAI/AAAAAAAAAAA/hSqnWXZcSeM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
 </item>
 
 <item>
@@ -40,7 +40,7 @@
 <referer>https://www.youtube.com/user/laliga</referer>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://files.laliga.es/seccion_logos/laliga-v-1200x1200.png</thumbnail>
+<thumbnail>https://yt3.ggpht.com/-y0T08L7H6No/AAAAAAAAAAI/AAAAAAAAAAA/hSqnWXZcSeM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
 <fanart></fanart>
 </item>
 
@@ -111,7 +111,7 @@ https://www.youtube.com/watch?v=nLwC2pYJywA&list=PLdWLa0wa8J_KcV3WGOtJdVLeC1nWOj
 <referer>https://www.youtube.com/user/laliga</referer>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://files.laliga.es/seccion_logos/laliga-v-1200x1200.png</thumbnail>
+<thumbnail>https://yt3.ggpht.com/-y0T08L7H6No/AAAAAAAAAAI/AAAAAAAAAAA/hSqnWXZcSeM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
 <fanart></fanart>
 </item>
 
