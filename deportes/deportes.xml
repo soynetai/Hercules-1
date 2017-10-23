@@ -56,58 +56,22 @@
 <!-- Liga 123 -->
 
 <item>
-<title>[COLOR orange][B]+ Liga 123[/B][COLOR white][Ultima Jornada] [/COLOR][/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex><name>makelist</name>
-<listrepeat><![CDATA[   
-<title>[makelist.param1]</title>
-<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
-<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
-]]></listrepeat>
-<expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
-<page>https://www.youtube.com/channel/UCs3Gqvp1tO-nK-XNzFlopsg</page> para canales entero
-</regex>  
-<thumbnail>https://yt3.ggpht.com/-oxp1XOUACt0/AAAAAAAAAAI/AAAAAAAAAAA/Pi4xX_mkvgs/s100-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+<title>[COLOR orange][B]+ Lo mejor [/B][COLOR white] De la jornada [/COLOR][/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.youtube/playlist/UCs3Gqvp1tO-nK-XNzFlopsg/</jsonrpc>
+<thumbnail>https://i.ytimg.com/vi/O8jjuSaHMmY/hqdefault.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/O8jjuSaHMmY/hqdefault.jpg</fanart>
 </item>
 
 
 <item>
-<title>[COLOR orange][B]+ Mejores goles[/B][COLOR white] 2017/2018 [/COLOR][/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR white][makelist.param2][/COLOR]</title>
-<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
-<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
-]]></listrepeat>
-<expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
-<page>https://www.youtube.com/playlist?list=PLxn0kSqrnVQ-6DoNaUm4EyK2U9NR4Q8U5</page>
-<referer>https://www.youtube.com/user/LigaAdelante/</referer>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>https://1.bp.blogspot.com/-b5EX9IdBlaM/WT0SFp36zUI/AAAAAAAAA9Q/0nwUVqSLfIoeUADkgGi6mxoLMEe3qziLACLcB/s1600/La%2BLiga%2B123.png</thumbnail>
-<fanart></fanart>
+<title>[COLOR orange][B]+ Resumen de Partidos [/B][COLOR white] De la jornada [/COLOR][/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.youtube/playlist/PLxn0kSqrnVQ-6DoNaUm4EyK2U9NR4Q8U5/</jsonrpc>
+<thumbnail>https://i.ytimg.com/vi/O8jjuSaHMmY/hqdefault.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/O8jjuSaHMmY/hqdefault.jpg</fanart>
 </item>
 
-<item>
-<title>[COLOR orange][B]+ Liga 123[/B][COLOR white] Resumen de Partidos de la jornada. [/COLOR][/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR white][makelist.param2][/COLOR]</title>
-<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
-<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
-]]></listrepeat>
-<expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
-<page>https://www.youtube.com/playlist?list=PLxn0kSqrnVQ_9mexGUZAAfVD9l1pU17cG</page>
-<referer></referer>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
-<fanart></fanart>
-</item>
 
 <item>
 <title>[COLOR orange][B]+ Liga 123[/B][COLOR white] Ruedas de prensa. [/COLOR][/COLOR]</title>
