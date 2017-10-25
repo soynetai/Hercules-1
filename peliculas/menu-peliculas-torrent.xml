@@ -57,10 +57,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://cdn.pixabay.com/photo/2015/07/13/07/34/icons-842865_960_720.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
-
-
-  
- 
  
  <!-- SKY TORRENTS -->
 <item>
@@ -99,26 +95,115 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 </regex>
 
-
-
  
 <thumbnail>http://www.iconsdb.com/icons/preview/green/active-search-2-xxl.png</thumbnail>
+</item>
+ 
+ <!-- Torrent King -->
+<item>
+<title> [COLOR white]+[/COLOR][COLOR orange][B]BUSCAR  [/B] [/COLOR][COLOR white][Por TorrentKing] EU Version Original [/COLOR] [COLOR white] [/COLOR] </title>
+<link>$doregex[makelist2]</link> 
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+   <SetViewMode>55</SetViewMode>
+   <title>[COLOR lightblue][B][makelist2.param2][/COLOR][/B] [COLOR aquamarine] [makelist2.param3][/COLOR]</title>
+<link>$doregex[makelist]</link> 
+ <thumbnail>[makelist2.param4]</thumbnail>
+       
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)"\stitle="(.*?)"[\w\W\s]{0,199}title="(.*?)".*?data-src="(.*?)"]]></expres>
+<page>https://torrentking.eu/search?mk=$doregex[search]</page>
+</regex>
+
+<regex>
+<name>search</name>
+<expres><![CDATA[#$pyFunction
+import xbmc
+import xbmcaddon
+import xbmcgui
+def GetLSProData(page_data,Cookie_Jar,m):
+    dialog = xbmcgui.Dialog()
+    d = dialog.input('Buscar Pelicula:', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
+    return d
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+   <SetViewMode>55</SetViewMode>
+   <title>[COLOR white][B][makelist.param2][/COLOR][/B] [COLOR coral]Tamaño: [makelist.param3][/COLOR] [COLOR yellow]Seed:[makelist.param4] - Peers:[makelist.param5] [/COLOR]</title>
+   <link>plugin://plugin.video.torrentin/?uri=[makelist.param1]</link>
+ <thumbnail>[makelist2.param4]</thumbnail>    
+    
+]]></listrepeat>
+<expres><![CDATA[href="(magnet.*?)"\s[\w\W\s]{0,222}Stream[\w\W\s]{0,13}<td>(.*?)<[\w\W\s]{0,23}white-transparent">(.*?)<[\w\W\s]{0,23}white-transparent">(.*?)<[\w\W\s]{0,20}white-transparent">(.*?)<]]></expres>
+<page>[makelist2.param1]</page>
+</regex>
+
+<thumbnail>http://www.iconsdb.com/icons/preview/green/active-search-2-xxl.png</thumbnail>
+
 </item>
  <!-- -->
  
 <item>
-<title>[COLOR orange][+]Peliculas [COLOR white]Novedades Torrent[/COLOR][/COLOR]</title>
+<title>[COLOR orange][+]Peliculas [COLOR white]Sugeridas[/COLOR] Torrentin Necesario.[/COLOR]</title>
 <link>http://Ignoreme</link>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 <thumbnail>http://icons.iconarchive.com/icons/studiomx/leomx/256/Download-icon.png</thumbnail>
 <externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/novedades-torrent.xml</externallink>
 </item>
+ 
+ 
+<item>
+<title>[COLOR orange][+] Novedades [/COLOR][COLOR white] [grantorrent.com] |Torrentin|[/COLOR] </title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+ <SetViewMode>55</SetViewMode>
+ <title>[COLOR white] [makelist2.param3][/COLOR]  </title>
+<link>$doregex[makelist]</link>
+<thumbnail>[makelist2.param2]</thumbnail> 
+</regex>
+]]></listrepeat>
+<expres><![CDATA[imagen-post[\w\W\s]{0,8}href="(.*?)"[\w\W\s]{0,7}src="(.*?)"[\w\W\s]{0,400}bloque-inferior">\n(.*?)<]]></expres>
+<page>https://grantorrent.com/?unonce=825dd5946b&uformid=17&s=uwpsfsearchtrg&taxo%5B0%5D%5Bname%5D=category&taxo%5B0%5D%5Bopt%5D=1&taxo%5B0%5D%5Bterm%5D=2017&taxo%5B1%5D%5Bname%5D=category&taxo%5B1%5D%5Bopt%5D=1&taxo%5B1%5D%5Bterm%5D=uwpqsftaxoall&taxo%5B2%5D%5Bname%5D=category&taxo%5B2%5D%5Bopt%5D=1&taxo%5B2%5D%5Bterm%5D=microhd-1080p
+</page>	
+</regex>
+ 
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<SetView>Mode>500</SetViewMode>
+<title>[COLOR orange] [makelist2.param3][/COLOR]  Calidad:[makelist.param2]  Tamaño:[makelist.param3]  </title>
+<link>plugin://plugin.video.torrentin/?uri=[makelist.param4]</link>
+<thumbnail>[makelist2.param2]</thumbnail> 
+</regex>
+]]></listrepeat>
+<expres><![CDATA[alt="(.*?)".*?\/td><td>(.*?)<[\w\W\s]{0,7}td>(.*?)<[\w\W\s]{0,25}href="(.*?torrent)"]]></expres>
+<page>[makelist2.param1]</page>	
+</regex>
+<thumbnail>http://icons.iconarchive.com/icons/studiomx/leomx/256/Download-icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
+ 
+ 
 
 <item>
-<title>[COLOR orange][+]Peliculas [COLOR white]Por genero Torrent[/COLOR][/COLOR]</title>
+<title>[COLOR orange][+]Peliculas [COLOR white]Por genero Torrent[/COLOR] En Construccion !![/COLOR]</title>
 <link>http://Ignoreme</link>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 <thumbnail>http://icons.iconarchive.com/icons/studiomx/leomx/256/Download-icon.png</thumbnail>
 <externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/peliiculas-genero.xml</externallink>
 </item>
 </items>
+ 
+ 
