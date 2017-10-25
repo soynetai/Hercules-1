@@ -172,7 +172,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
  <thumbnail>[makelist.param1]</thumbnail>    
 ]]></listrepeat>
 <expres><![CDATA[171.*?src="(.*?)"[\w\W\s]{0,140}href="(.*?)".*?trong>(.*?)<\/]]></expres>
-<page>https://grantorrent.com/?unonce=825dd5946b&uformid=17&s=uwpsfsearchtrg&taxo%5B0%5D%5Bname%5D=category&taxo%5B0%5D%5Bopt%5D=1&taxo%5B0%5D%5Bterm%5D=2017&taxo%5B1%5D%5Bname%5D=category&taxo%5B1%5D%5Bopt%5D=1&taxo%5B1%5D%5Bterm%5D=uwpqsftaxoall&taxo%5B2%5D%5Bname%5D=category&taxo%5B2%5D%5Bopt%5D=1&taxo%5B2%5D%5Bterm%5D=uwpqsftaxoall</page>https://grantorrent.com/categoria/MicroHD-1080p/
+  <page>https://grantorrent.com/categoria/MicroHD-1080p/</page>
 </regex>
 
 <regex>
