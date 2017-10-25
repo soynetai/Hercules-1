@@ -124,7 +124,7 @@
 <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
 ]]></listrepeat>
 <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
-<page>https://www.youtube.com/playlist?list=PLlVlyGVtvuVnu6R14uItRBLQLIW2xm5J7</page>
+<page></page>
 <referer>https://www.youtube.com/user/NBA</referer>
 <cookieJar></cookieJar>
 </regex>
@@ -153,20 +153,20 @@
 
 <!-- Formula 1 -->
 
+<item>
+<title>[COLOR orange][B] +F1 [/B][COLOR white] Mejores momentos de Carrera [En ingles] [/COLOR][/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.youtube/playlist/PLfoNZDHitwjXaNGKMmGXPXOqxrXoZ3u0i/</jsonrpc>
+<thumbnail>https://i.ytimg.com/vi/O8jjuSaHMmY/hqdefault.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/O8jjuSaHMmY/hqdefault.jpg</fanart>
+</item>
 
 <item>
-<title>[COLOR orange][B]+ F1[/B][COLOR white][EN INGLES] Mejores Momentos. [/COLOR][/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex><name>makelist</name>
-<listrepeat><![CDATA[   
-<title>[makelist.param1]</title>
-<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
-<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
-]]></listrepeat>
-<expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
-<page>https://www.youtube.com/watch?v=aljfbhxtdyc&list=PLfoNZDHitwjXaNGKMmGXPXOqxrXoZ3u0i</page>
-</regex>  
-<thumbnail>https://yt3.ggpht.com/-ws1I4arjboY/AAAAAAAAAAI/AAAAAAAAAAA/KJzsNQuh-kM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+<title>[COLOR orange][B] +F1 [/B][COLOR white] Alrrededor de la Formula 1 [En ingles] [/COLOR][/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.youtube/playlist/PLfoNZDHitwjXc4LmtecqTsX7sCv6vcPwU/</jsonrpc>
+<thumbnail>https://i.ytimg.com/vi/O8jjuSaHMmY/hqdefault.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/O8jjuSaHMmY/hqdefault.jpg</fanart>
 </item>
 
 <item>
@@ -179,7 +179,7 @@
 <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
 ]]></listrepeat>
 <expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
-<page>https://www.youtube.com/channel/UC9BsqFce5brGlsQL8IMyJYg</page> para canales entero
+<page>https://www.youtube.com/watch?v=2B4S2QSOznc&list=PLfoNZDHitwjXc4LmtecqTsX7sCv6vcPwU</page> para canales entero
 </regex>  
 <thumbnail>http://www.inquirelive.co.uk/wp-content/uploads/2014/10/f1_logo.jpg</thumbnail>
 </item>
