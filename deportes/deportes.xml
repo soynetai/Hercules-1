@@ -198,7 +198,7 @@
 <!-- Moto GP -->
 
 <item>
-<title>[COLOR orange][B]+ Moto GP[/B][COLOR white][No Oficial] [/COLOR][/COLOR]</title>
+<title>[COLOR orange][B]+ F1 GP[/B][COLOR white][No Oficial] [/COLOR][/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex><name>makelist</name>
 <listrepeat><![CDATA[   
