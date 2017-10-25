@@ -169,20 +169,16 @@
 <fanart>https://i.ytimg.com/vi/O8jjuSaHMmY/hqdefault.jpg</fanart>
 </item>
 
+
 <item>
-<title>[COLOR orange][B]+ F1[/B][COLOR white] [Latinoamerica] [/COLOR][/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex><name>makelist</name>
-<listrepeat><![CDATA[   
-<title>[makelist.param1]</title>
-<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
-<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
-]]></listrepeat>
-<expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
-<page>https://www.youtube.com/watch?v=2B4S2QSOznc&list=PLfoNZDHitwjXc4LmtecqTsX7sCv6vcPwU</page> para canales entero
-</regex>  
-<thumbnail>http://www.inquirelive.co.uk/wp-content/uploads/2014/10/f1_logo.jpg</thumbnail>
+<title>[COLOR orange][B] +F1 [/B][COLOR white] Latinoamerica[/COLOR][/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.youtube/playlist/PLfoNZDHitwjXc4LmtecqTsX7sCv6vcPwU/</jsonrpc>
+<thumbnail>https://i.ytimg.com/vi/O8jjuSaHMmY/hqdefault.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/O8jjuSaHMmY/hqdefault.jpg</fanart>
 </item>
+
+
 
 <item>
 <title>[COLOR orange][B]+ Motor[/B][COLOR white] [Soy Motor] [/COLOR][/COLOR]</title>
