@@ -56,45 +56,7 @@
 <!-- Liga 123 -->
 
 <item>
-<title>[COLOR orange][B] +Liga 123 [/B][COLOR white] Jugadas [/COLOR][/COLOR]</title>
-<link>ignorme</link>
-<jsonrpc>plugin://plugin.video.youtube/playlist/UCs3Gqvp1tO-nK-XNzFlopsg/</jsonrpc>
-<thumbnail>https://i.ytimg.com/vi/O8jjuSaHMmY/hqdefault.jpg</thumbnail>
-<fanart>https://i.ytimg.com/vi/O8jjuSaHMmY/hqdefault.jpg</fanart>
-</item>
-
-
-<item>
-<title>[COLOR orange][B] +Liga 123 [/B][COLOR white]Resumen de los partidos [/COLOR][/COLOR]</title>
-<link>ignorme</link>
-<jsonrpc>plugin://plugin.video.youtube/playlist/PLxn0kSqrnVQ_9mexGUZAAfVD9l1pU17cG/</jsonrpc>
-<thumbnail>https://i.ytimg.com/vi/O8jjuSaHMmY/hqdefault.jpg</thumbnail>
-<fanart>https://i.ytimg.com/vi/O8jjuSaHMmY/hqdefault.jpg</fanart>
-</item>
-
-
-<item>
-<title>[COLOR orange][B]+ Liga 123[/B][COLOR white] Ruedas de prensa. [/COLOR][/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR white][makelist.param2][/COLOR]</title>
-<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
-<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
-]]></listrepeat>
-<expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
-<page>https://www.youtube.com/playlist?list=PLxn0kSqrnVQ9GkYtZVqrP93tS5U1Y6UuV</page>
-<referer></referer>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>https://1.bp.blogspot.com/-b5EX9IdBlaM/WT0SFp36zUI/AAAAAAAAA9Q/0nwUVqSLfIoeUADkgGi6mxoLMEe3qziLACLcB/s1600/La%2BLiga%2B123.png</thumbnail>
-<fanart></fanart>
-</item>
-
-<!-- NBA -->
-<item>
-<title>[COLOR orange][B]+ NBA[/B][COLOR white][Lo mejor de la NBA] [/COLOR][/COLOR]</title>
+<title>[COLOR orange][B]+ La liga 123 [/B][COLOR white] [Todo Sobre la liga] [/COLOR][/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex><name>makelist</name>
 <listrepeat><![CDATA[   
@@ -104,6 +66,48 @@
 ]]></listrepeat>
 <expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
 <page>https://www.youtube.com/channel/UCs3Gqvp1tO-nK-XNzFlopsg</page> para canales entero
+</regex>  
+<thumbnail>https://yt3.ggpht.com/-ws1I4arjboY/AAAAAAAAAAI/AAAAAAAAAAA/KJzsNQuh-kM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+</item>
+
+<item>
+<title>[COLOR orange][B] +Liga 123 [/B][COLOR white] Resumen de Partidos [/COLOR][/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.youtube/playlist/PLxn0kSqrnVQ9BSOOm2f4Gp8zLOygUpa9T/</jsonrpc>
+<thumbnail>https://i.ytimg.com/vi/O8jjuSaHMmY/hqdefault.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/O8jjuSaHMmY/hqdefault.jpg</fanart>
+</item>
+
+
+<item>
+<title>[COLOR orange][B] +Liga 123 [/B][COLOR white] Goles [/COLOR][/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.youtube/playlist/PLxn0kSqrnVQ-6DoNaUm4EyK2U9NR4Q8U5/</jsonrpc>
+<thumbnail>https://i.ytimg.com/vi/O8jjuSaHMmY/hqdefault.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/O8jjuSaHMmY/hqdefault.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR orange][B] +Liga 123 [/B][COLOR white] Entrevistas [/COLOR][/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.youtube/playlist/PLxn0kSqrnVQ9GkYtZVqrP93tS5U1Y6UuV/</jsonrpc>
+<thumbnail>https://i.ytimg.com/vi/O8jjuSaHMmY/hqdefault.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/O8jjuSaHMmY/hqdefault.jpg</fanart>
+</item>
+
+
+<!-- NBA -->
+<item>
+<title>[COLOR orange][B]+ NBA[/B][COLOR white] [Lo mejor de la NBA] [/COLOR][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex><name>makelist</name>
+<listrepeat><![CDATA[   
+<title>[makelist.param1]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+]]></listrepeat>
+<expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
+<page>https://www.youtube.com/channel/UCR_eeue4E0jNBz8A55DOuOg/</page> para canales entero
 </regex>  
 <thumbnail>https://yt3.ggpht.com/-ws1I4arjboY/AAAAAAAAAAI/AAAAAAAAAAA/KJzsNQuh-kM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
 </item>
@@ -120,11 +124,30 @@
 <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
 ]]></listrepeat>
 <expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
-<page>https://www.youtube.com/playlist?list=PLlVlyGVtvuVl_9v3c_crg4vnFU3mEdcl6</page>
+<page>https://www.youtube.com/playlist?list=PLlVlyGVtvuVnu6R14uItRBLQLIW2xm5J7</page>
 <referer>https://www.youtube.com/user/NBA</referer>
 <cookieJar></cookieJar>
 </regex>
 <thumbnail>https://images-na.ssl-images-amazon.com/images/I/515JQjBBBvL.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR orange][B]+ Resumen de partidos - NBA [/B][COLOR white] 2017/2018 [/COLOR][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR white][makelist.param2][/COLOR]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+]]></listrepeat>
+<expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+<page>https://www.youtube.com/watch?v=gh8pjTCKCVc&list=PLQNqwCpoZBfcp_ipWkIBjQU9h31HKlDVv</page>
+<referer>https://www.youtube.com/user/NBA</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://yt3.ggpht.com/-ws1I4arjboY/AAAAAAAAAAI/AAAAAAAAAAA/KJzsNQuh-kM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
 <fanart></fanart>
 </item>
 
@@ -147,7 +170,7 @@
 </item>
 
 <item>
-<title>[COLOR orange][B]+ F1[/B][COLOR white][Latinoamerica] [/COLOR][/COLOR]</title>
+<title>[COLOR orange][B]+ F1[/B][COLOR white] [Latinoamerica] [/COLOR][/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex><name>makelist</name>
 <listrepeat><![CDATA[   
@@ -162,7 +185,7 @@
 </item>
 
 <item>
-<title>[COLOR orange][B]+ Motor[/B][COLOR white][Soy Motor] [/COLOR][/COLOR]</title>
+<title>[COLOR orange][B]+ Motor[/B][COLOR white] [Soy Motor] [/COLOR][/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex><name>makelist</name>
 <listrepeat><![CDATA[   
@@ -194,7 +217,7 @@
 </item>
 
 <item>
-<title>[COLOR orange][B]+ Curiosity Channel[/B][COLOR white][Todo La actualidad deportiva] [/COLOR][/COLOR]</title>
+<title>[COLOR orange][B]+ Curiosity Channel[/B][COLOR white] [Todo La actualidad deportiva] [/COLOR][/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex><name>makelist</name>
 <listrepeat><![CDATA[   
