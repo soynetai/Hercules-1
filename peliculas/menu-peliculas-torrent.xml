@@ -174,10 +174,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 ]]></listrepeat>
 <expres><![CDATA[imagen-post[\w\W\s]{0,8}href="(.*?)"[\w\W\s]{0,7}src="(.*?)"[\w\W\s]{0,400}bloque-inferior">\n(.*?)<]]></expres>
-<page>https://grantorrent.com/?unonce=825dd5946b&uformid=17&s=uwpsfsearchtrg&taxo%5B0%5D%5Bname%5D=category&taxo%5B0%5D%5Bopt%5D=1&taxo%5B0%5D%5Bterm%5D=2017&taxo%5B1%5D%5Bname%5D=category&taxo%5B1%5D%5Bopt%5D=1&taxo%5B1%5D%5Bterm%5D=uwpqsftaxoall&taxo%5B2%5D%5Bname%5D=category&taxo%5B2%5D%5Bopt%5D=1&taxo%5B2%5D%5Bterm%5D=microhd-1080p
-</page>	
+<page>https://grantorrent.com/?s=$doregex[$novedades]</page>	
+
 </regex>
  
+<regex>
+<name>novedades</name>
+<expres></expres>
+<page>?unonce=825dd5946b&uformid=17&s=uwpsfsearchtrg&taxo%5B0%5D%5Bname%5D=category&taxo%5B0%5D%5Bopt%5D=1&taxo%5B0%5D%5Bterm%5D=2017&taxo%5B1%5D%5Bname%5D=category&taxo%5B1%5D%5Bopt%5D=1&taxo%5B1%5D%5Bterm%5D=uwpqsftaxoall&taxo%5B2%5D%5Bname%5D=category&taxo%5B2%5D%5Bopt%5D=1&taxo%5B2%5D%5Bterm%5D=microhd-1080p</page>
+<cookieJar></cookieJar>
+</regex> 
 
 <regex>
 <name>makelist</name>
