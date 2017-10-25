@@ -160,28 +160,21 @@ def GetLSProData(page_data,Cookie_Jar,m):
  
  
 <item>
-<title>[COLOR orange][+] Novedades [/COLOR][COLOR white] [grantorrent.com] |Torrentin|[/COLOR] </title>
-<link>$doregex[makelist]</link> 
-
- <regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-   <SetViewMode>55</SetViewMode>
-   <title>[COLOR orange][B][makelist.param3][/COLOR][/B]   </title>
-   <link>plugin://plugin.video.torrentin/?uri=$doregex[torrent]</link>
- <thumbnail>[makelist.param1]</thumbnail>    
-]]></listrepeat>
-<expres><![CDATA[171.*?src="(.*?)"[\w\W\s]{0,140}href="(.*?)".*?trong>(.*?)<\/]]></expres>
-  <page>https://grantorrent.com/categoria/MicroHD-1080p/</page>
-</regex>
+<title>  [COLOR orange][B][+] Estrenos[/B] [/COLOR][COLOR white] Castelano [/COLOR]</title>
+<link>$doregex[makelist]</link>
 
 <regex>
-<name>torrent</name>
-<expres><![CDATA[href="(.*?\.torrent)"]]></expres>
-<page>[makelist.param2]</page>
+<name>makelist</name>
+<listrepeat><![CDATA[
+ <title>[COLOR white] [makelist.param2] [/COLOR]</title>
+<link>plugin://plugin.video.torrentin/?uri=[makelist.param1]</link>
+<thumbnail>[makelist2.param2]</thumbnail> 
 </regex>
-
-<thumbnail>http://icons.iconarchive.com/icons/studiomx/leomx/256/Download-icon.png</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="(magnet.*?)[\w\W\s]{0,30}Download\s(.*?)using]]></expres>
+<page>https://www.skytorrents.in/search/all/ad/1/?l=es-es&amp;q=castellano</page>	
+</regex>
+<thumbnail>https://n6-img-fp.akamaized.net/iconos-gratis/movie-player-juego-boton_318-86322.jpg</thumbnail>
 </item>
 
 
