@@ -160,7 +160,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
  
  
 <item>
-<title>[COLOR orange][+] Novedades [/COLOR][COLOR white] [grantorrent.com] |Torrentin|[/COLOR] </title>
+<title>[COLOR orange][*] Novedades [/COLOR][COLOR white] [grantorrent.com] |Torrentin|[/COLOR] </title>
 <link>$doregex[makelist]</link> 
 
  <regex>
