@@ -42,7 +42,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
  
  
 <regex>
-<name>reproductor</name>
+<name>select</name>
 <expres><![CDATA[#$pyFunction
 def GetLSProData(page_data,Cookie_Jar,m):
    import xbmcgui
@@ -59,7 +59,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <listrepeat><![CDATA[
  <SetViewMode>55</SetViewMode>
  <title>[COLOR orange] [makelist2.param3][/COLOR]  Calidad:[makelist.param2]  Tamaño:[makelist.param3]  </title>
-<link>$doregex[reproductor]</link>
+<link>$doregex[select]</link>
 <thumbnail>[makelist2.param2]</thumbnail> 
 </regex>
 ]]></listrepeat>
@@ -79,8 +79,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <name>makelist2</name>
 <listrepeat><![CDATA[
  <SetViewMode>55</SetViewMode>
- <title>[COLOR yellow][UPPERCASE][B] [makelist2.param2][/B][/UPPERCASE][/COLOR]  </title>
-<link>$doregex[reproductor]</link>
+ <title>[COLOR gold] [makelist2.param2][/COLOR]  </title>
+<link>$doregex[select]</link>
 <thumbnail>[makelist2.param2]</thumbnail> 
 </regex>
 ]]></listrepeat>
@@ -105,13 +105,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
  
  <regex>
-<name>reproductor</name>
+<name>select</name>
 <expres><![CDATA[#$pyFunction
 def GetLSProData(page_data,Cookie_Jar,m):
    import xbmcgui
    dialog = xbmcgui.Dialog()
    ret = dialog.select('Elige un reproductor: ', ['Quasar', 'Torrentin', 'Torrenter', 'kmediatorrent'])
-    lists = ['plugin://plugin.video.quasar/play?uri=[makelist.param4]','plugin://plugin.video.torrentin/?uri=http://www.mejortorrent.com[makelist.param4]','plugin://plugin.video.torrenter/?action=playSTRM&url=http://www.mejortorrent.com[makelist.param4]','plugin://plugin.video.kmediatorrent/play/http://www.mejortorrent.com[makelist.param4]']
+    lists = ['plugin://plugin.video.quasar/play?uri=[makelist2.param1]','plugin://plugin.video.torrentin/?uri=[makelist2.param1]','plugin://plugin.video.torrenter/?action=playSTRM&url=[makelist2.param1]','plugin://plugin.video.kmediatorrent/play/[makelist2.param1]']
    return lists[ret]
 ]]></expres>
 <page></page>
@@ -154,7 +154,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
  
  <regex>
-<name>reproductor</name>
+<name>select</name>
 <expres><![CDATA[#$pyFunction
 def GetLSProData(page_data,Cookie_Jar,m):
    import xbmcgui
@@ -171,7 +171,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <listrepeat><![CDATA[
    <SetViewMode>55</SetViewMode>
    <title>[COLOR white][B][makelist.param2][/COLOR][/B] [COLOR coral]Tamaño: [makelist.param3][/COLOR] [COLOR yellow]Seed:[makelist.param4] - Peers:[makelist.param5] [/COLOR]</title>
-   <link>$doregex[reproductor]</link>
+   <link>$doregex[select]</link>
  <thumbnail>[makelist2.param4]</thumbnail>    
     
 ]]></listrepeat>
