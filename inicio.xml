@@ -2,7 +2,7 @@
 <SetViewMode>500</SetViewMode>
 <items>
 <item>
-<title>[COLOR orange]Aviso Legal - Grupo Netai[/COLOR]</title>
+<title>[COLOR orange]Noticias - Grupo Netai[/COLOR]</title>
 <link>$doregex[openDialog]</link>
 <regex>
 <name>openDialog</name>
@@ -12,77 +12,84 @@ import xbmcgui
 def GetLSProData(page_data,Cookie_Jar,m):
     __addon__ = xbmcaddon.Addon()
     __addonname__ = __addon__.getAddonInfo('name')     
-    line1 = "– Nosotros no reproducimos, plagiamos, distribuimos ni comunicamos públicamente películas, series o documentales que puedan tener derechos de autor. – Los enlaces que figuran en esta web han sido encontrados en páginas de la índole de tumejortorrent, mejortorrent, divxtotal, etc, y desconocemos si los mismos tienen contratos de cesión de derechos sobre estos videos para reproducirlos, alojarlos o permitir su descarga."
-    line2 = "– Todas las marcas aquí mencionadas y logos están registrados por sus legítimos propietarios y solamente se emplean en referencia a las mismas y con un fin de cita o comentario, de acuerdo con el articulo 32 LPI. – No nos hacemos responsables del uso indebido que puedas hacer del contenido de nuestro addon."
-    line3 = "– En ningún caso o circunstancia se podrá responsabilizar directamente o indirectamente al propietario ni a los colaboradores del ilícito uso de la información contenida en TusPeliculasHD.com. Así mismo tampoco se nos podrá responsabilizar directamente o indirectamente de incorrecto uso o mala interpretación que se haga de la información y servicios incluidos. Igualmente quedara fuera de nuestra responsabilidad el material al que usted pueda acceder desde nuestros enlaces.– Si en tu país, este tipo de página está prohibido, tú y solo tú eres el responsable de la entrada a Hercules. Permanecer aqui quiere decir que has leído, comprendido y aceptas las condiciones de Addon Hercules. – Todo el contenido ha sido exclusivamente sacado de sitios públicos de Internet, por lo que este material es considerado de libre distribución. En ningún artículo legal se menciona la prohibición de material libre por lo que esta página no infringe en ningún caso la ley.Si alguien tiene alguna duda o problema al respecto, no dude en ponerse en contacto con nosotros. – Nos reservamos el derecho de vetar la entrada a cualquier sujeto a nuestra web-site y a su vez se reserva el derecho de prohibir el uso de cualquier programa y/o información, en concordancia con los derechos de autor otorgados por el artículo 14 LPI.– La visita o acceso a esta página web, que es de carácter privado y no público, exige la aceptación del presente aviso. En esta web se podrá acceder a contenidos publicados por tumejortorrent, mejortorrent, divxtotal, etc. El único material que existe en la web son enlaces a dicho contenido, facilitando únicamente su acceso. Los propietarios de tumejortorrent, mejortorrent, divxtotal, etc. son plenamente responsables de los contenidos que publiquen. Por consiguiente, GranTorrent.com ni aprueba, ni hace suyos los productos, servicios, contenidos, información, datos, opiniones archivos y cualquier clase de material existente en tumejortorrent, mejortorrent, divxtotal, etc. y no controla ni se hace responsable de la calidad, licitud, fiabilidad y utilidad de la información, contenidos y servicios existentes en tumejortorrent, mejortorrent, divxtotal y otros. – Todo la información y programas aquí recogidos van destinados al efectivo cumplimiento de los derechos recogidos en el artículo 31 RD/1/1996 por el que se aprueba el texto refundido de la Ley de la Propiedad Intelectual (LPI) en especial referencia al artículo 31.2 LPI, y en concordancia con lo expresado en el artículo 100.2 de esta misma ley." 
+    line1 = "Grupo Netai te da la bienvenida."
+    line2 = "Nueva informacion en el canal de telegram."
+    line3 = "Zona Premium cerrada definitivamente." 
     xbmcgui.Dialog().ok(__addonname__, line1, line2, line3)
-    return "http://www.gruponetai.com/videos/hallowen-intro.mp4"
+    return "https://raw.githubusercontent.com/Andorth/Hercules/master/inicio.xml"
 ]]></expres>
 <page></page>
 <cookieJar></cookieJar>
 </regex>
 <thumbnail>http://th.seaicons.com/wp-content/uploads/2016/03/globe-icon.png</thumbnail>
-<fanart>http://www.gruponetai.com/imagenes/fanart.jpg</fanart>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
 <item>
 <title>[COLOR orange]Tutoriales[/COLOR]</title>
 <link>http://Ignoreme</link>
 <fanart></fanart>
-<thumbnail>http://www.gruponetai.com/imagenes/videotuto.png</thumbnail>
-<externallink>http://www.gruponetai.com/tutoriales.xml</externallink>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/videotuto.png</thumbnail>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/tutoriales.xml</externallink>
 </item>
 <item>
 <title>[COLOR orange]Series[/COLOR]</title>
 <link>http://Ignoreme</link>
-<fanart>http://www.gruponetai.com/imagenes/series.jpg</fanart>
-<thumbnail>http://www.gruponetai.com/imagenes/series.png</thumbnail>
-<externallink>http://www.gruponetai.com/series/menu-series.xml</externallink>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/series/menu-series.xml</externallink>
 </item>
 <item>
 <title>[COLOR orange]Peliculas[/COLOR]</title>
 <link>http://Ignoreme</link>
 <fanart>http://www.arielfeliciano.com/wp-content/uploads/100-peliculas-completas.jpg</fanart>
-<thumbnail>http://www.gruponetai.com/imagenes/peliculas.png</thumbnail>
-<externallink>http://www.gruponetai.com/peliculas/menu-peliculas.xml</externallink>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/menu-peliculas.xml</externallink>
+</item>
+<item>
+<title>[COLOR orange]Adryanlist[COLOR red] Addon Necesario [/COLOR][/COLOR]</title>
+<link>http://Ignoreme</link>
+    <externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/list.xml</externallink>
+<fanart>https://i.ytimg.com/vi/SCDAU0N1y4g/maxresdefault.jpg</fanart>
+<thumbnail>https://pbs.twimg.com/profile_images/900488110240219136/-L6a8pq1.jpg</thumbnail>
 </item>
  
 <item>
 <title>[COLOR orange]Explora[COLOR red] Addon Necesario e instalado[/COLOR][/COLOR]</title>
 <link>http://Ignoreme</link>
 <jsonrpc>plugin://plugin.video.Explora/</jsonrpc>
-<fanart>http://www.gruponetai.com/imagenes/fanart.jpg</fanart>
-<thumbnail>http://www.gruponetai.com/imagenes/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/icon.png</thumbnail>
 </item>
 <item>
 <title>[COLOR orange]Atlantis[/COLOR]</title>
 <link>http://Ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/main.xml</externallink>
-<fanart>http://www.gruponetai.com/imagenes/fanart.jpg</fanart>
-<thumbnail>http://www.gruponetai.com/imagenes/atlantis.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/atlantis.png</thumbnail>
 </item>
 <item>
 <title>[COLOR orange]Documentales[/COLOR][COLOR white][/COLOR]</title>
 <link>http://Ignoreme</link>
-<fanart>http://www.gruponetai.com/imagenes/tv.png</fanart>
-<thumbnail>http://www.gruponetai.com/documentales/documentales.png</thumbnail>
-<externallink>http://www.gruponetai.com/documentales/inicio.xml</externallink>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/tv.png</fanart>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/documentales/documentales.png</thumbnail>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/documentales/inicio.xml</externallink>
 </item>
 <item>
 <title>[COLOR orange]Deportes[/COLOR][COLOR white][/COLOR]</title>
 <link>http://Ignoreme</link>
-<thumbnail>http://www.gruponetai.com/imagenes/deportes.png</thumbnail>
-<fanart>http://www.gruponetai.com/imagenes/fanart.jpg</fanart>
-<externallink>http://www.gruponetai.com/deportes/deportes.xml</externallink>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/deportes.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/deportes/deportes.xml</externallink>
 </item>
 <item>
 <title>[COLOR orange]Programas tv[/COLOR]</title>
 <link>http://Ignoreme</link>
-<fanart>http://www.gruponetai.com/imagenes/fanart.jpg</fanart>
-<thumbnail>http://www.gruponetai.com/imagenes/tv.png</thumbnail>
-<externallink>http://www.gruponetai.com/programastv/inicio.xml</externallink>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/tv.png</thumbnail>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/programastv/inicio.xml</externallink>
 </item>
     
- <item>
+<!-- <item>
 <title>[COLOR orange]Creditos[/COLOR]</title>
 <link>$doregex[openDialog]</link>
 <regex>
@@ -95,13 +102,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
     __addonname__ = __addon__.getAddonInfo('name')     
     line1 = "Grupo Netai:"
     line2 = "Equipo de desarrollo: Diseño, creacion y produccion: Netai"
-    line3 = "Colaboracion de: Catoal y Adryanlist - Soporte en telegram: Iker, La mala de la novela, Tanis." 
+    line3 = "Colaboracion de: Catoal y Adryanlist - Soporte en telegram:*Iker*" 
     xbmcgui.Dialog().ok(__addonname__, line1, line2, line3)
 ]]></expres>
 <page></page>
 <cookieJar></cookieJar>
 </regex>
 <thumbnail>http://www.thebarlowrchigh.co.uk/media/184153/information-icon.png</thumbnail>
-<fanart>http://www.gruponetai.com/imagenes/fanart.jpg</fanart>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
-</items> 
+</items> -->
