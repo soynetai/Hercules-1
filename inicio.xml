@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <SetViewMode>500</SetViewMode>
 <items>
+
 <item>
 <title>[COLOR orange]Noticias - Grupo Netai[/COLOR]</title>
 <link>$doregex[openDialog]</link>
@@ -13,10 +14,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
     __addon__ = xbmcaddon.Addon()
     __addonname__ = __addon__.getAddonInfo('name')     
     line1 = "Grupo Netai te da la bienvenida."
-    line2 = "Nueva informacion en el canal de telegram."
-    line3 = "Zona Premium cerrada definitivamente." 
+    line2 = "para acceder a la zona premium debes solicitar la clave por telegram."
+    line3 = "Por decision interna ha quedado cerrada la seccion LIVE TV. Muchas gracias!" 
     xbmcgui.Dialog().ok(__addonname__, line1, line2, line3)
-    return "https://raw.githubusercontent.com/Andorth/Hercules/master/inicio.xml"
+    return "https://archive.org/download/aviso_201710/aviso.mp4"
 ]]></expres>
 <page></page>
 <cookieJar></cookieJar>
@@ -75,21 +76,116 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/documentales/inicio.xml</externallink>
 </item>
 <item>
-<title>[COLOR orange]Deportes[/COLOR][COLOR white][/COLOR]</title>
-<link>http://Ignoreme</link>
-<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/deportes.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
-<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/deportes/deportes.xml</externallink>
-</item>
-<item>
 <title>[COLOR orange]Programas tv[/COLOR]</title>
 <link>http://Ignoreme</link>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/tv.png</fanart>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/tv.png</thumbnail>
 <externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/programastv/inicio.xml</externallink>
 </item>
+
+<!--
+<item>
+<title>[COLOR orange] TV LIVE [/COLOR]</title>
+<parentalblock>true</parentalblock>
+<link>NA</link>
+<externallink>$doregex[getinput]</externallink>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/livetv.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+ 
+<regex>
+<name>getinput</name>
+ 
+<expres><![CDATA[#$pyFunction
+import xbmcgui,xbmc, xbmcaddon, time
+ 
+def GetLSProData(page_data,Cookie_Jar,m,txt='Contraseña'):
+    addon = xbmcaddon.Addon('plugin.video.Hercules')
+    addon_version = addon.getAddonInfo('version')
+    profile = xbmc.translatePath(addon.getAddonInfo('profile').decode('utf-8'))
+ 
+    solver = InputWindow( txt=txt)
+    solution = solver.get()
+    if solution == 'premium':
+        return "https://raw.githubusercontent.com/Andorth/Hercules/master/live-tv/canales.xml"
+ 
+class InputWindow(xbmcgui.WindowDialog):
+    def __init__(self, *args, **kwargs):
+ 
+        self.txt = kwargs.get('txt','')
+ 
+        xbmcgui.WindowXMLDialog.__init__(self)
+        #self.addControl(self.txt)
+        path = xbmcaddon.Addon().getAddonInfo('path')
+        self.kbd = xbmc.Keyboard()
+        self.kbd.setHeading( self.txt)
+ 
+    def get(self):
+        self.show()
+        time.sleep(2)
+        self.kbd.doModal()
+        if (self.kbd.isConfirmed()):
+            text = self.kbd.getText()
+            self.close()
+            return text
+        self.close()
+        return False
+]]></expres>
+<page></page>
+</regex>
+</item>
+-->
     
-<!-- <item>
+<item>
+<parentalblock>true</parentalblock>
+<title>[COLOR orange] Deportes - Arenavision [/COLOR]</title>
+<link>NA</link>
+<externallink>$doregex[getinput]</externallink>
+<thumbnail>https://raw.githubusercontent.com/Andorth/ArenaSports/master/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+ 
+<regex>
+<name>getinput</name>
+ 
+<expres><![CDATA[#$pyFunction
+import xbmcgui,xbmc, xbmcaddon, time
+ 
+def GetLSProData(page_data,Cookie_Jar,m,txt='Contraseña'):
+    addon = xbmcaddon.Addon('plugin.video.Hercules')
+    addon_version = addon.getAddonInfo('version')
+    profile = xbmc.translatePath(addon.getAddonInfo('profile').decode('utf-8'))
+ 
+    solver = InputWindow( txt=txt)
+    solution = solver.get()
+    if solution == 'premium':
+        return "https://raw.githubusercontent.com/Andorth/Hercules/master/live-tv/avenzy.xml"
+ 
+class InputWindow(xbmcgui.WindowDialog):
+    def __init__(self, *args, **kwargs):
+ 
+        self.txt = kwargs.get('txt','')
+ 
+        xbmcgui.WindowXMLDialog.__init__(self)
+        #self.addControl(self.txt)
+        path = xbmcaddon.Addon().getAddonInfo('path')
+        self.kbd = xbmc.Keyboard()
+        self.kbd.setHeading( self.txt)
+ 
+    def get(self):
+        self.show()
+        time.sleep(2)
+        self.kbd.doModal()
+        if (self.kbd.isConfirmed()):
+            text = self.kbd.getText()
+            self.close()
+            return text
+        self.close()
+        return False
+]]></expres>
+<page></page>
+</regex>
+</item>
+
+<item>
 <title>[COLOR orange]Creditos[/COLOR]</title>
 <link>$doregex[openDialog]</link>
 <regex>
@@ -111,4 +207,5 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>http://www.thebarlowrchigh.co.uk/media/184153/information-icon.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
-</items> -->
+</items>
+
