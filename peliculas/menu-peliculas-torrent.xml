@@ -39,6 +39,20 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 <cookieJar></cookieJar>
 </regex>
+ 
+ 
+<regex>
+<name>reproductor</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+   import xbmcgui
+   dialog = xbmcgui.Dialog()
+   ret = dialog.select('Elige un reproductor: ', ['Quasar', 'Torrentin', 'Torrenter', 'kmediatorrent'])
+   lists = ['plugin://plugin.video.quasar/play?uri=http://www.mejortorrent.com[makelist.param4]']
+   return lists[ret]
+]]></expres>
+<page></page>
+</regex>
 
 
 
@@ -184,7 +198,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
    import xbmcgui
    dialog = xbmcgui.Dialog()
    ret = dialog.select('Elige un reproductor: ', ['Quasar', 'Torrentin', 'Torrenter', 'kmediatorrent'])
-   lists = ['plugin://plugin.video.quasar/play?uri=http://www.mejortorrent.com[makelist.param2]']
+   lists = ['plugin://plugin.video.quasar/play?uri=http://www.mejortorrent.com[makelist.param2]','plugin://plugin.video.torrentin/?uri=http://www.mejortorrent.com[makelist.param2]','plugin://plugin.video.torrenter/?action=playSTRM&url=http://www.mejortorrent.com[makelist.param2]','plugin://plugin.video.kmediatorrent/play/http://www.mejortorrent.com[makelist.param2]']
    return lists[ret]
 ]]></expres>
 <page></page>
