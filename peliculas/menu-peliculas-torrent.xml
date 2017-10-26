@@ -205,19 +205,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLOR white]$doregex[name][/COLOR]</title>   
+<title>[COLOR orange][B]Seleccionar un Reproductor Torrent[/B][/COLOR]</title>   
 <link>$doregex[reproductor]</link>
 <thumbnail>http://www.mejortorrent.com/uploads/imagenes/peliculas/$doregex[imagen].jpg</thumbnail>          
 ]]></listrepeat>
 <expres>href=\'(.*?torrent)\'</expres>
 <page>http://www.mejortorrent.com/secciones.php?sec=descargas&amp;ap=contar&amp;tabla=peliculas&amp;id=[makelist2.param1]&amp;link_bajar=1</page>
 </regex>
-
-
-
-<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+<thumbnail>http://icons.iconarchive.com/icons/studiomx/leomx/256/Download-icon.png</thumbnail>
 </item>
  
  <!-- fin de el mejor torrent -->
