@@ -89,7 +89,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 
-<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<thumbnail></thumbnail>
 </item>
 
 <!-- GRAN TORRENT -->
@@ -141,7 +141,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page>[makelist2.param1]</page>	
 </regex>
  
-<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
+<thumbnail>http://www.iconsdb.com/icons/preview/green/active-search-2-xxl.png</thumbnail>
 </item>
 
 <!-- SKY TORRENTS -->
