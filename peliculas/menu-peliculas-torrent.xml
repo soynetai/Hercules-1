@@ -7,7 +7,7 @@
 <SetViewMode>500</SetViewMode>
 <items>
 <item>
-<title>[COLOR orange][+]Buscar[/COLOR][COLOR white] [grantorrent.com] |Torrentin|[/COLOR] </title>
+<title>[COLOR orange][+]Buscar[/COLOR][COLOR white] [grantorrent.com][/COLOR] </title>
 <link>$doregex[makelist2]</link>
 
 
@@ -48,7 +48,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
    import xbmcgui
    dialog = xbmcgui.Dialog()
    ret = dialog.select('Elige un reproductor: ', ['Quasar', 'Torrentin', 'Torrenter', 'kmediatorrent'])
-   lists = ['plugin://plugin.video.quasar/play?uri=http://www.mejortorrent.com[makelist.param4]']
+    lists = ['plugin://plugin.video.quasar/play?uri=http://www.mejortorrent.com[makelist.param4]','plugin://plugin.video.torrentin/?uri=http://www.mejortorrent.com[makelist.param4]','plugin://plugin.video.torrenter/?action=playSTRM&url=http://www.mejortorrent.com[makelist.param4]','plugin://plugin.video.kmediatorrent/play/http://www.mejortorrent.com[makelist.param4]']
    return lists[ret]
 ]]></expres>
 <page></page>
@@ -61,7 +61,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <listrepeat><![CDATA[
  <SetViewMode>55</SetViewMode>
  <title>[COLOR orange] [makelist2.param3][/COLOR]  Calidad:[makelist.param2]  Tamaño:[makelist.param3]  </title>
-<link>plugin://plugin.video.torrentin/?uri=[makelist.param4]</link>
+<link>$doregex[reproductor]</link>
 <thumbnail>[makelist2.param2]</thumbnail> 
 </regex>
 ]]></listrepeat>
@@ -77,13 +77,12 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR orange][B][+] BUSCAR [/B] | Instala Torrentin | [/COLOR][COLOR white] SkyTorrents [/COLOR] [COLOR gold] Multi Idioma[/COLOR] </title>
 <link>$doregex[makelist2]</link>
 
-
 <regex>
 <name>makelist2</name>
 <listrepeat><![CDATA[
  <SetViewMode>55</SetViewMode>
  <title>[COLOR yellow][UPPERCASE][B] [makelist2.param2][/B][/UPPERCASE][/COLOR]  </title>
-<link>plugin://plugin.video.torrentin/?uri=[makelist2.param1]</link>
+<link>$doregex[reproductor]</link>
 <thumbnail>[makelist2.param2]</thumbnail> 
 </regex>
 ]]></listrepeat>
@@ -92,8 +91,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
  
  
-  
-
 <regex>
 <name>search</name>
 <expres><![CDATA[#$pyFunction
@@ -108,8 +105,20 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 <cookieJar></cookieJar>
 </regex>
-
  
+ <regex>
+<name>reproductor</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+   import xbmcgui
+   dialog = xbmcgui.Dialog()
+   ret = dialog.select('Elige un reproductor: ', ['Quasar', 'Torrentin', 'Torrenter', 'kmediatorrent'])
+    lists = ['plugin://plugin.video.quasar/play?uri=http://www.mejortorrent.com[makelist.param4]','plugin://plugin.video.torrentin/?uri=http://www.mejortorrent.com[makelist.param4]','plugin://plugin.video.torrenter/?action=playSTRM&url=http://www.mejortorrent.com[makelist.param4]','plugin://plugin.video.kmediatorrent/play/http://www.mejortorrent.com[makelist.param4]']
+   return lists[ret]
+]]></expres>
+<page></page>
+</regex>
+
 <thumbnail>http://www.iconsdb.com/icons/preview/green/active-search-2-xxl.png</thumbnail>
 </item>
  
@@ -145,13 +154,26 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 <cookieJar></cookieJar>
 </regex>
+ 
+ <regex>
+<name>reproductor</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+   import xbmcgui
+   dialog = xbmcgui.Dialog()
+   ret = dialog.select('Elige un reproductor: ', ['Quasar', 'Torrentin', 'Torrenter', 'kmediatorrent'])
+    lists = ['plugin://plugin.video.quasar/play?uri=http://www.mejortorrent.com[makelist.param1]','plugin://plugin.video.torrentin/?uri=http://www.mejortorrent.com[makelist.param1]','plugin://plugin.video.torrenter/?action=playSTRM&url=http://www.mejortorrent.com[makelist.param1]','plugin://plugin.video.kmediatorrent/play/http://www.mejortorrent.com[makelist.param1]']
+   return lists[ret]
+]]></expres>
+<page></page>
+</regex>
 
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
    <SetViewMode>55</SetViewMode>
    <title>[COLOR white][B][makelist.param2][/COLOR][/B] [COLOR coral]Tamaño: [makelist.param3][/COLOR] [COLOR yellow]Seed:[makelist.param4] - Peers:[makelist.param5] [/COLOR]</title>
-   <link>plugin://plugin.video.torrentin/?uri=[makelist.param1]</link>
+   <link>$doregex[reproductor]</link>
  <thumbnail>[makelist2.param4]</thumbnail>    
     
 ]]></listrepeat>
@@ -165,7 +187,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
  <!-- -->
  
 <item>
-<title>[COLOR orange][+]Peliculas [COLOR white]Sugeridas[/COLOR] Torrentin Necesario.[/COLOR]</title>
+<title>[COLOR orange][+]Peliculas [COLOR white]Sugeridas[/COLOR][/COLOR]</title>
 <link>http://Ignoreme</link>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 <thumbnail>http://icons.iconarchive.com/icons/studiomx/leomx/256/Download-icon.png</thumbnail>
