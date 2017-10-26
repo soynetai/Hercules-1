@@ -2,10 +2,6 @@
 <SetViewMode>500</SetViewMode>
 <items>
  <!-- GRANTORRENT -->
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<SetViewMode>500</SetViewMode>
-<items>
 <item>
 <title>[COLOR orange][+]Buscar[/COLOR][COLOR white] [grantorrent.com][/COLOR] </title>
 <link>$doregex[makelist2]</link>
@@ -176,7 +172,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     
 ]]></listrepeat>
 <expres><![CDATA[href="(magnet.*?)"\s[\w\W\s]{0,222}Stream[\w\W\s]{0,13}<td>(.*?)<[\w\W\s]{0,23}white-transparent">(.*?)<[\w\W\s]{0,23}white-transparent">(.*?)<[\w\W\s]{0,20}white-transparent">(.*?)<]]></expres>
-<page>[makelist2.param1]</page>
+<page></page>
 </regex>
 
 <thumbnail>http://www.iconsdb.com/icons/preview/green/active-search-2-xxl.png</thumbnail>
@@ -239,7 +235,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLOR orange][B]Seleccionar un Reproductor Torrent[/B][/COLOR]</title>   
+<title>[COLOR orange][B]$doregex[name][/B][/COLOR]</title>   
 <link>$doregex[reproductor]</link>
 <thumbnail>http://www.mejortorrent.com/uploads/imagenes/peliculas/$doregex[imagen].jpg</thumbnail>          
 ]]></listrepeat>
