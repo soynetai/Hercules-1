@@ -1,9 +1,31 @@
+<!-- 
+
+Ejemplo de select
+
+<link>$doregex[select]</link>
+<regex>
+<name>select</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import xbmcgui
+    dialog = xbmcgui.Dialog()
+    ret = dialog.select('Choose a movie', ['Big Buck Bunny', 'Sintel', 'Tears of Steel'])
+    channels = ['http://www.quirksmode.org/html5/videos/big_buck_bunny.mp4', 'http://download.blender.org/durian/movies/Sintel.2010.720p.mkv', 'plugin://plugin.video.youtube/play/?video_id=R6MlUcmOul8']
+    return channels[ret]
+]]></expres>
+<page></page>
+</regex>
+
+-->
+
+
+
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <SetViewMode>500</SetViewMode>
 <items>
  <!-- GRANTORRENT -->
 <item>
-<title>[COLOR orange][+]Buscar[/COLOR][COLOR white] [grantorrent.com][/COLOR] </title>
+<title>     [COLOR orange][B] BUSCADOR [/B] [/COLOR][COLOR white] GranTorrent [/COLOR] [COLOR gold] Castellano[/COLOR] </title>
 <link>$doregex[makelist2]</link>
 
 
@@ -11,7 +33,7 @@
 <name>makelist2</name>
 <listrepeat><![CDATA[
  <SetViewMode>55</SetViewMode>
- <title>[COLOR white] [makelist2.param3][/COLOR]  </title>
+ <title>[COLOR white][B] [makelist2.param3][/B][/COLOR]  </title>
 <link>$doregex[makelist]</link>
 <thumbnail>[makelist2.param2]</thumbnail> 
 </regex>
@@ -20,7 +42,6 @@
 <page>https://grantorrent.com/?s=$doregex[search]</page>	
 </regex>
  
-
 <regex>
 <name>search</name>
 <expres><![CDATA[#$pyFunction
@@ -29,13 +50,27 @@ import xbmcaddon
 import xbmcgui
 def GetLSProData(page_data,Cookie_Jar,m):
     dialog = xbmcgui.Dialog()
-    d = dialog.input('Buscar Pelicula:', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
+    d = dialog.input('Buscar Pelicula: ejemplo: Batman', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
     return d
 ]]></expres>
 <page></page>
 <cookieJar></cookieJar>
 </regex>
- 
+
+
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<SetViewMode>55</SetViewMode>
+<title>[COLOR orange][B] [makelist2.param3][/B][/COLOR]  Calidad:[makelist.param2]  Tamaño:[makelist.param3]  </title>
+<link>$doregex[select]</link>
+<thumbnail>[makelist2.param2]</thumbnail> 
+</regex>
+]]></listrepeat>
+<expres><![CDATA[alt="(.*?)".*?\/td><td>(.*?)<[\w\W\s]{0,7}td>(.*?)<[\w\W\s]{0,25}href="(.*?torrent)"]]></expres>
+<page>[makelist2.param1]</page>	
+</regex>
  
 <regex>
 <name>select</name>
@@ -50,20 +85,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
- <SetViewMode>55</SetViewMode>
- <title>[COLOR orange] [makelist2.param3][/COLOR]  Calidad:[makelist.param2]  Tamaño:[makelist.param3]  </title>
-<link>$doregex[select]</link>
-<thumbnail>[makelist2.param2]</thumbnail> 
-</regex>
-]]></listrepeat>
-<expres><![CDATA[alt="(.*?)".*?\/td><td>(.*?)<[\w\W\s]{0,7}td>(.*?)<[\w\W\s]{0,25}href="(.*?torrent)"]]></expres>
-<page>[makelist2.param1]</page>	
-</regex>
-<thumbnail>https://cdn.pixabay.com/photo/2015/07/13/07/34/icons-842865_960_720.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
 </item>
  
  <!-- SKY TORRENTS -->
@@ -118,7 +140,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
  
  <!-- Torrent King -->
 <item>
-<title> [COLOR white]+[/COLOR][COLOR orange][B]BUSCAR  [/B] [/COLOR][COLOR white][Por TorrentKing] EU Version Original [/COLOR] [COLOR white] [/COLOR] </title>
+<title> [COLOR lime]•[/COLOR]    [COLOR aquamarine][B] BUSCADOR [/B] [/COLOR][COLOR skyblue] TorrentKing [/COLOR] [COLOR lightslategray] [/COLOR] </title>
 <link>$doregex[makelist2]</link> 
 
 <regex>
@@ -142,14 +164,14 @@ import xbmcaddon
 import xbmcgui
 def GetLSProData(page_data,Cookie_Jar,m):
     dialog = xbmcgui.Dialog()
-    d = dialog.input('Buscar Pelicula:', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
+    d = dialog.input('Buscar Pelicula: ', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
     return d
 ]]></expres>
 <page></page>
 <cookieJar></cookieJar>
 </regex>
  
- <regex>
+  <regex>
 <name>select</name>
 <expres><![CDATA[#$pyFunction
 def GetLSProData(page_data,Cookie_Jar,m):
@@ -166,18 +188,18 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <name>makelist</name>
 <listrepeat><![CDATA[
    <SetViewMode>55</SetViewMode>
-   <title>[COLOR white][B][makelist.param2][/COLOR][/B] [COLOR coral]Tamaño: [makelist.param3][/COLOR] [COLOR yellow]Seed:[makelist.param4] - Peers:[makelist.param5] [/COLOR]</title>
+   <title>[COLOR lightblue][B][makelist.param2][/COLOR][/B] [COLOR coral]Tamaño: [makelist.param3][/COLOR] [COLOR aquamarine]Seed:[makelist.param4] - Peers:[makelist.param5] [/COLOR]</title>
    <link>$doregex[select]</link>
  <thumbnail>[makelist2.param4]</thumbnail>    
     
 ]]></listrepeat>
 <expres><![CDATA[href="(magnet.*?)"\s[\w\W\s]{0,222}Stream[\w\W\s]{0,13}<td>(.*?)<[\w\W\s]{0,23}white-transparent">(.*?)<[\w\W\s]{0,23}white-transparent">(.*?)<[\w\W\s]{0,20}white-transparent">(.*?)<]]></expres>
-<page></page>
+<page>[makelist2.param1]</page>
 </regex>
 
-<thumbnail>http://www.iconsdb.com/icons/preview/green/active-search-2-xxl.png</thumbnail>
-
+<thumbnail>http://icons.iconarchive.com/icons/studiomx/leomx/256/Download-icon.png</thumbnail>
 </item>
+ 
  <!-- -->
  
 <item>
