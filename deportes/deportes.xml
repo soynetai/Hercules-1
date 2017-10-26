@@ -67,14 +67,14 @@
 <expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
 <page>https://www.youtube.com/channel/UCs3Gqvp1tO-nK-XNzFlopsg</page> para canales entero
 </regex>  
-<thumbnail>https://yt3.ggpht.com/-ws1I4arjboY/AAAAAAAAAAI/AAAAAAAAAAA/KJzsNQuh-kM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+<thumbnail>https://1.bp.blogspot.com/-WzlJoteHQM4/V7Tb1xWMACI/AAAAAAAACiM/WEphYXfV_Bgoh7__SPxO7JjQIHSDqGzwACLcB/s1600/15.%2BLaLiga%2B2.png</thumbnail>
 </item>
 
 <item>
 <title>[COLOR orange][B] +Liga 123 [/B][COLOR white] Resumen de Partidos [/COLOR][/COLOR]</title>
 <link>ignorme</link>
 <jsonrpc>plugin://plugin.video.youtube/playlist/PLxn0kSqrnVQ9BSOOm2f4Gp8zLOygUpa9T/</jsonrpc>
-<thumbnail>https://i.ytimg.com/vi/O8jjuSaHMmY/hqdefault.jpg</thumbnail>
+<thumbnail>https://1.bp.blogspot.com/-WzlJoteHQM4/V7Tb1xWMACI/AAAAAAAACiM/WEphYXfV_Bgoh7__SPxO7JjQIHSDqGzwACLcB/s1600/15.%2BLaLiga%2B2.png</thumbnail>
 <fanart>https://i.ytimg.com/vi/O8jjuSaHMmY/hqdefault.jpg</fanart>
 </item>
 
@@ -83,7 +83,7 @@
 <title>[COLOR orange][B] +Liga 123 [/B][COLOR white] Goles [/COLOR][/COLOR]</title>
 <link>ignorme</link>
 <jsonrpc>plugin://plugin.video.youtube/playlist/PLxn0kSqrnVQ-6DoNaUm4EyK2U9NR4Q8U5/</jsonrpc>
-<thumbnail>https://i.ytimg.com/vi/O8jjuSaHMmY/hqdefault.jpg</thumbnail>
+<thumbnail>https://1.bp.blogspot.com/-WzlJoteHQM4/V7Tb1xWMACI/AAAAAAAACiM/WEphYXfV_Bgoh7__SPxO7JjQIHSDqGzwACLcB/s1600/15.%2BLaLiga%2B2.png</thumbnail>
 <fanart>https://i.ytimg.com/vi/O8jjuSaHMmY/hqdefault.jpg</fanart>
 </item>
 
@@ -91,7 +91,7 @@
 <title>[COLOR orange][B] +Liga 123 [/B][COLOR white] Entrevistas [/COLOR][/COLOR]</title>
 <link>ignorme</link>
 <jsonrpc>plugin://plugin.video.youtube/playlist/PLxn0kSqrnVQ9GkYtZVqrP93tS5U1Y6UuV/</jsonrpc>
-<thumbnail>https://i.ytimg.com/vi/O8jjuSaHMmY/hqdefault.jpg</thumbnail>
+<thumbnail>https://1.bp.blogspot.com/-WzlJoteHQM4/V7Tb1xWMACI/AAAAAAAACiM/WEphYXfV_Bgoh7__SPxO7JjQIHSDqGzwACLcB/s1600/15.%2BLaLiga%2B2.png</thumbnail>
 <fanart>https://i.ytimg.com/vi/O8jjuSaHMmY/hqdefault.jpg</fanart>
 </item>
 
@@ -128,7 +128,7 @@
 <referer>https://www.youtube.com/user/NBA</referer>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>https://images-na.ssl-images-amazon.com/images/I/515JQjBBBvL.png</thumbnail>
+<thumbnail>https://yt3.ggpht.com/-ws1I4arjboY/AAAAAAAAAAI/AAAAAAAAAAA/KJzsNQuh-kM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
 <fanart></fanart>
 </item>
 
@@ -157,16 +157,16 @@
 <title>[COLOR orange][B] +F1 [/B][COLOR white] Mejores momentos de Carrera [En ingles] [/COLOR][/COLOR]</title>
 <link>ignorme</link>
 <jsonrpc>plugin://plugin.video.youtube/playlist/PLfoNZDHitwjXaNGKMmGXPXOqxrXoZ3u0i/</jsonrpc>
-<thumbnail>https://i.ytimg.com/vi/O8jjuSaHMmY/hqdefault.jpg</thumbnail>
-<fanart>https://i.ytimg.com/vi/O8jjuSaHMmY/hqdefault.jpg</fanart>
+<thumbnail>http://www.inquirelive.co.uk/wp-content/uploads/2014/10/f1_logo.jpg</thumbnail>
+<fanart></fanart>
 </item>
 
 <item>
 <title>[COLOR orange][B] +F1 [/B][COLOR white] Alrrededor de la Formula 1 [En ingles] [/COLOR][/COLOR]</title>
 <link>ignorme</link>
 <jsonrpc>plugin://plugin.video.youtube/playlist/PLfoNZDHitwjXc4LmtecqTsX7sCv6vcPwU/</jsonrpc>
-<thumbnail>https://i.ytimg.com/vi/O8jjuSaHMmY/hqdefault.jpg</thumbnail>
-<fanart>https://i.ytimg.com/vi/O8jjuSaHMmY/hqdefault.jpg</fanart>
+<thumbnail>http://www.inquirelive.co.uk/wp-content/uploads/2014/10/f1_logo.jpg</thumbnail>
+<fanart>g</fanart>
 </item>
 
 
@@ -174,8 +174,8 @@
 <title>[COLOR orange][B] +F1 [/B][COLOR white] Latinoamerica[/COLOR][/COLOR]</title>
 <link>ignorme</link>
 <jsonrpc>plugin://plugin.video.youtube/playlist/PLfoNZDHitwjXc4LmtecqTsX7sCv6vcPwU/</jsonrpc>
-<thumbnail>https://i.ytimg.com/vi/O8jjuSaHMmY/hqdefault.jpg</thumbnail>
-<fanart>https://i.ytimg.com/vi/O8jjuSaHMmY/hqdefault.jpg</fanart>
+<thumbnail>http://www.inquirelive.co.uk/wp-content/uploads/2014/10/f1_logo.jpg</thumbnail>
+<fanart></fanart>
 </item>
 
 
@@ -192,7 +192,7 @@
 <expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
 <page>https://www.youtube.com/channel/UCVjnDHpwPfMBqaqyaWnBJ1g</page> para canales entero
 </regex>  
-<thumbnail>http://www.inquirelive.co.uk/wp-content/uploads/2014/10/f1_logo.jpg</thumbnail>
+<thumbnail>http://www.svoy-hotel.ru/wp-content/uploads/2017/08/two-motor-flags-black.png</thumbnail>
 </item>
 
 <!-- Moto GP -->
@@ -209,7 +209,7 @@
 <expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
 <page>https://www.youtube.com/channel/UCB5KuMSSMiBqy6zutqagKNQ</page> para canales entero
 </regex>  
-<thumbnail>https://yt3.ggpht.com/-ws1I4arjboY/AAAAAAAAAAI/AAAAAAAAAAA/KJzsNQuh-kM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+<thumbnail>http://www.inquirelive.co.uk/wp-content/uploads/2014/10/f1_logo.jpg</thumbnail>
 </item>
 
 <item>
@@ -226,9 +226,3 @@
 </regex>  
 <thumbnail>https://yt3.ggpht.com/-ws1I4arjboY/AAAAAAAAAAI/AAAAAAAAAAA/KJzsNQuh-kM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
 </item>
-
-
-
-
-
-
