@@ -1,7 +1,7 @@
 <item>
 <title>[COLOR white][+][COLOR orange]Buscar[/COLOR][/COLOR]</title>
 <link>$doregex[makelist]</link>
-<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/Buscar.png</thumbnail>
+<thumbnail>www.gruponetai.com/imagenes/Buscar.png</thumbnail>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
@@ -87,7 +87,7 @@ class InputWindow(xbmcgui.WindowDialog):
 <title>[COLOR orange][B]ANIMALES[/B][/COLOR] [COLOR white] Categorias [/COLOR]</title>
 <link>$doregex[makelist2]</link>
 <info>Documentales de Animales</info>
-<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/documentales/animales.xml</externallink>
+<externallink>www.gruponetai.com/documentales/animales.xml</externallink>
 <thumbnail>https://yt3.ggpht.com/-PffQf1WmI2U/AAAAAAAAAAI/AAAAAAAAAAA/Z3eaLPrvd6Y/s100-c-k-no-mo-rj-c0xffffff/photo.jpg<thumbnail>
 <fanart>https://yt3.ggpht.com/-PffQf1WmI2U/AAAAAAAAAAI/AAAAAAAAAAA/Z3eaLPrvd6Y/s100-c-k-no-mo-rj-c0xffffff/photo.jpg<fanart>
 </item>

@@ -7,9 +7,9 @@
 <name>lista</name>
   <listrepeat><![CDATA[
          <SetViewMode>55</SetViewMode>
-		 <title>$pyFunction:'[lista.param3]'.replace(".mp4", "  [COLOR white] [MP4] [/COLOR]").replace(".avi", "  [COLOR orange] [AVI] [/COLOR]").replace(".mkv", "  [COLOR white] [MKV] [/COLOR]")</title>
+		 <title>$pyFunction:'[lista.param3]'.replace(".mp4", "  [COLOR lime] [ Calidad: Optima] [/COLOR]").replace(".avi", "  [COLOR orange] [ Calidad:Buena] [/COLOR]").replace(".mkv", "  [COLOR white] [ Calidad: HD] [/COLOR]")</title>
         <link>$doregex[getUrl]</link>
-		<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/Buscar.png</thumbnail>
+		<thumbnail>www.gruponetai.com/imagenes/Buscar.png</thumbnail>
 		]]></listrepeat>
 <expres><![CDATA[href=\"(.*?,(.*?)\..*?)\".*?preview">(.*?mkv|.*?mp4|.*?avi)<]]><expres>
 <page>http://diskokosmiko.mx/action/SearchFiles?Phrase=Hercules&amp;Mode=List&amp;Type=Video&amp;SizeFromMB=0&amp;SizeToMB=0&amp;pageNumber=10</page>
@@ -69,13 +69,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 </regex>
 
-<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/Buscar.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+<thumbnail>www.gruponetai.com/imagenes/Buscar.png</thumbnail>
+<fanart>www.gruponetai.com/imagenes/fanart.jpg</fanart>
 </item>
 <item>
 <title>[COLOR orange][+]Peliculas  [COLOR white]Cartelera[/COLOR][/COLOR]</title>
 <link>http://Ignoreme</link>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
-<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/novedades.xml</externallink>
+<fanart>www.gruponetai.com/imagenes/fanart.jpg</fanart>
+<thumbnail>www.gruponetai.com/imagenes/peliculas.png</thumbnail>
+<externallink>www.gruponetai.com/peliculas/novedades.xml</externallink>
 </item>

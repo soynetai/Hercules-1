@@ -159,18 +159,18 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <item>
 <title>[COLOR orange][+]Peliculas [COLOR white]Novedades Torrent[/COLOR][/COLOR]</title>
 <link>http://Ignoreme</link>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+<fanart>www.gruponetai.com/imagenes/fanart.jpg</fanart>
 <thumbnail>http://icons.iconarchive.com/icons/studiomx/leomx/256/Download-icon.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/novedades-torrent.xml</externallink>
+<externallink>www.gruponetai.com/peliculas/novedades-torrent.xml</externallink>
 </item>
 
 
 <item>
 <title>[COLOR orange][B][+]Peliculas [/B][COLOR white]Por genero[/COLOR] En Construccion !![/COLOR]</title>
 <link>http://Ignoreme</link>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+<fanart>www.gruponetai.com/imagenes/fanart.jpg</fanart>
 <thumbnail>http://icons.iconarchive.com/icons/studiomx/leomx/256/Download-icon.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/peliiculas-genero-off.xml</externallink>
+<externallink>www.gruponetai.com/peliculas/peliiculas-genero-off.xml</externallink>
 </item>
 </items>
  

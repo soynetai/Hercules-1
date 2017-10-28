@@ -92,8 +92,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
-<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/Buscar.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+<thumbnail>www.gruponetai.com/imagenes/Buscar.png</thumbnail>
+<fanart>www.gruponetai.com/imagenes/fanart.jpg</fanart>
 </item> 
 
 
@@ -101,7 +101,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR orange][+]Series Infantiles [COLOR white]Atlantis [A-Z][/COLOR][/COLOR]</title>
 <link>http://Ignoreme</link>
 <fanart>http://images6.fanpop.com/image/photos/38300000/Atlantis-Nebula-by-Starkiteckt-starkiteckt-38383517-5000-3125.jpg</fanart>
-<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
+<thumbnail>www.gruponetai.com/imagenes/series.png</thumbnail>
 <externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/series_infantiles.xml</externallink>
 </item>
 
@@ -110,7 +110,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR orange][+]Series [COLOR white]Atlantis [A-Z][/COLOR][/COLOR]</title>
 <link>http://Ignoreme</link>
 <fanart>http://images6.fanpop.com/image/photos/38300000/Atlantis-Nebula-by-Starkiteckt-starkiteckt-38383517-5000-3125.jpg</fanart>
-<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
+<thumbnail>www.gruponetai.com/imagenes/series.png</thumbnail>
 <externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/series_a-z.xml</externallink>
 </item>
 
@@ -118,14 +118,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR orange][+]Series [COLOR white]Stream [A-Z][/COLOR][/COLOR]</title>
 <link>http://Ignoreme</link>
 <fanart>http://images6.fanpop.com/image/photos/38300000/Atlantis-Nebula-by-Starkiteckt-starkiteckt-38383517-5000-3125.jpg</fanart>
-<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/series/series.xml</externallink>
+<thumbnail>www.gruponetai.com/imagenes/series.png</thumbnail>
+<externallink>www.gruponetai.com/series/series.xml</externallink>
 </item>
 <!-- <item>
 <title>[COLOR orange][+]Series [COLOR white] Torrent[/COLOR][/COLOR]</title>
 <link>http://Ignoreme</link>
 <fanart>http://images6.fanpop.com/image/photos/38300000/Atlantis-Nebula-by-Starkiteckt-starkiteckt-38383517-5000-3125.jpg</fanart>
-<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/series/series-torrent.xml</externallink>
+<thumbnail>www.gruponetai.com/imagenes/series.png</thumbnail>
+<externallink>www.gruponetai.com/series/series-torrent.xml</externallink>
 </item> -->
 </items>
