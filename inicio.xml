@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <SetViewMode>500</SetViewMode>
 <items>
-<item>
+<!--<item>
 <title>[COLOR orange]Noticias - Grupo Netai[/COLOR]</title>
 <link>$doregex[openDialog]</link>
 <regex>
@@ -23,7 +23,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 <thumbnail>http://th.seaicons.com/wp-content/uploads/2016/03/globe-icon.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
-</item>
+</item> -->
 <item>
 <title>[COLOR orange]Tutoriales[/COLOR]</title>
 <link>http://Ignoreme</link>
@@ -31,13 +31,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/videotuto.png</thumbnail>
 <externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/tutoriales.xml</externallink>
 </item>
-<item>
-<title>[COLOR orange]Series[/COLOR]</title>
-<link>http://Ignoreme</link>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.jpg</fanart>
-<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/series/menu-series.xml</externallink>
-</item>
+
 <item>
 <title>[COLOR orange]Peliculas[/COLOR]</title>
 <link>http://Ignoreme</link>
@@ -45,12 +39,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
 <externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/menu-peliculas.xml</externallink>
 </item>
+
 <item>
-<title>[COLOR orange]Adryanlist[COLOR red] Addon Necesario [/COLOR][/COLOR]</title>
+<title>[COLOR orange]Series[/COLOR]</title>
 <link>http://Ignoreme</link>
-    <externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/list.xml</externallink>
-<fanart>https://i.ytimg.com/vi/SCDAU0N1y4g/maxresdefault.jpg</fanart>
-<thumbnail>https://pbs.twimg.com/profile_images/900488110240219136/-L6a8pq1.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/series/menu-series.xml</externallink>
 </item>
  
 <item>
@@ -60,13 +55,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/icon.png</thumbnail>
 </item>
-<item>
-<title>[COLOR orange]Atlantis[/COLOR]</title>
-<link>http://Ignoreme</link>
-<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/main.xml</externallink>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
-<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/atlantis.png</thumbnail>
-</item>
+
 <item>
 <title>[COLOR orange]Documentales[/COLOR][COLOR white][/COLOR]</title>
 <link>http://Ignoreme</link>
@@ -87,6 +76,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/tv.png</thumbnail>
 <externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/programastv/inicio.xml</externallink>
+</item>
+
+<item>
+<title>[COLOR orange]Atlantis[/COLOR]</title>
+<link>http://Ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/main.xml</externallink>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/atlantis.png</thumbnail>
 </item>
     
 <!-- <item>
