@@ -129,7 +129,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <link>http://Ignoreme</link>
 <fanart>https://github.com/Andorth/Hercules/tree/master/imagenes/fanart.jpg</fanart>
 <thumbnail>http://icons.iconarchive.com/icons/studiomx/leomx/256/Download-icon.png</thumbnail>
-<externallink>https://github.com/Andorth/Hercules/tree/master/peliculas/novedades-torrent.xml</externallink>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/novedades-torrent.xml</externallink>
 </item>
 
 
@@ -138,7 +138,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <link>http://Ignoreme</link>
 <fanart>https://github.com/Andorth/Hercules/tree/master/imagenes/fanart.jpg</fanart>
 <thumbnail>http://icons.iconarchive.com/icons/studiomx/leomx/256/Download-icon.png</thumbnail>
-<externallink>https://github.com/Andorth/Hercules/tree/master/peliculas/peliiculas-genero.xml</externallink>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/peliiculas-genero.xml</externallink>
 </item>
 </items>
  
