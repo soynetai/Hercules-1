@@ -1,96 +1,7 @@
-<!-- 
-
-Ejemplo de select
-
-<link>$doregex[select]</link>
-<regex>
-<name>select</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
-    import xbmcgui
-    dialog = xbmcgui.Dialog()
-    ret = dialog.select('Choose a movie', ['Big Buck Bunny', 'Sintel', 'Tears of Steel'])
-    channels = ['http://www.quirksmode.org/html5/videos/big_buck_bunny.mp4', 'http://download.blender.org/durian/movies/Sintel.2010.720p.mkv', 'plugin://plugin.video.youtube/play/?video_id=R6MlUcmOul8']
-    return channels[ret]
-]]></expres>
-<page></page>
-</regex>
-
--->
-
-
-
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <SetViewMode>500</SetViewMode>
 <items>
- <!-- GRANTORRENT 
-Adryan esto es lo que pretendo hacer. Que cuando te muestre la pelicula en la busqueda puedas elegir el
-reproductor que quieras.
-
-
-<item>
-<title>     [COLOR orange][B] BUSCAR EN:[/B] [/COLOR][COLOR white] GranTorrent [/COLOR] [COLOR gold] Castellano[/COLOR] </title>
-<link>$doregex[makelist2]</link>
-
-
-<regex>
-<name>makelist2</name>
-<listrepeat><![CDATA[
- <SetViewMode>55</SetViewMode>
- <title>[COLOR white][B] [makelist2.param3][/B][/COLOR]  </title>
-<link>$doregex[makelist]</link>
-<thumbnail>[makelist2.param2]</thumbnail> 
-</regex>
-]]></listrepeat>
-<expres><![CDATA[imagen-post[\w\W\s]{0,8}href="(.*?)"[\w\W\s]{0,7}src="(.*?)"[\w\W\s]{0,400}bloque-inferior">\n(.*?)<]]></expres>
-<page>https://grantorrent.com/?s=$doregex[search]</page>	
-</regex>
  
-<regex>
-<name>search</name>
-<expres><![CDATA[#$pyFunction
-import xbmc
-import xbmcaddon
-import xbmcgui
-def GetLSProData(page_data,Cookie_Jar,m):
-    dialog = xbmcgui.Dialog()
-    d = dialog.input('Buscar Pelicula: ejemplo: Batman', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
-    return d
-]]></expres>
-<page></page>
-<cookieJar></cookieJar>
-</regex>
-
-
-
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<SetViewMode>55</SetViewMode>
-<title>[COLOR orange][B] [makelist2.param3][/B][/COLOR]  Calidad:[makelist.param2]  Tamaño:[makelist.param3]  </title>
-<link>$doregex[select]</link>
-<thumbnail>[makelist2.param2]</thumbnail> 
-</regex>
-]]></listrepeat>
-<expres><![CDATA[alt="(.*?)".*?\/td><td>(.*?)<[\w\W\s]{0,7}td>(.*?)<[\w\W\s]{0,25}href="(.*?torrent)"]]></expres>
-<page>[makelist2.param1]</page>	
-</regex>
- 
-<regex>
-<name>select</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
-   import xbmcgui
-   dialog = xbmcgui.Dialog()
-   ret = dialog.select('Elige un reproductor: ', ['Quasar', 'Torrentin', 'Torrenter', 'kmediatorrent'])
-    lists = ['plugin://plugin.video.quasar/play?uri=[makelist.param4]','plugin://plugin.video.torrentin/?uri=[makelist.param4]','plugin://plugin.video.torrenter/?action=playSTRM&url=[makelist.param4]','plugin://plugin.video.kmediatorrent/play/[makelist.param4]']
-   return lists[ret]
-]]></expres>
-<page></page>
-</regex>
-
-<thumbnail></thumbnail>
-</item>
 
 <!-- GRAN TORRENT -->
 <item>
@@ -133,13 +44,29 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <listrepeat><![CDATA[
 <SetViewMode>55</SetViewMode>
 <title>[COLOR orange][B] [makelist2.param3][/B][/COLOR]  Calidad:[makelist.param2]  Tamaño:[makelist.param3]  </title>
-<link>plugin://plugin.video.torrentin/?uri=[makelist.param4]</link>
-<thumbnail>[makelist2.param2]</thumbnail> 
+
+
+<regex>
+<name>select</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import xbmcgui
+    dialog = xbmcgui.Dialog()
+    ret = dialog.select('Choose a movie', ['Torrenter', 'Recomendado', 'Quasar'])
+    channels = ['plugin://plugin.video.torrenter/?action=playSTRM&url=[makelist.param4]', 'plugin://plugin.video.quasar/play?uri=[makelist.param4]', 'plugin://plugin.video.quasar/play?uri=[makelist.param4]']
+    return channels[ret]
+]]></expres>
+<page></page>
 </regex>
+<link>$doregex[select]</link>
+<thumbnail>[makelist2.param2]</thumbnail> 
+
 ]]></listrepeat>
 <expres><![CDATA[alt="(.*?)".*?\/td><td>(.*?)<[\w\W\s]{0,7}td>(.*?)<[\w\W\s]{0,25}href="(.*?torrent)"]]></expres>
 <page>[makelist2.param1]</page>	
 </regex>
+    
+
  
 <thumbnail>http://www.iconsdb.com/icons/preview/green/active-search-2-xxl.png</thumbnail>
 </item>
