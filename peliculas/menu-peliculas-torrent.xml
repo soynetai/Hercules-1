@@ -7,7 +7,6 @@
 <title>[COLOR orange][+]Buscar[/COLOR][COLOR white] [grantorrent.com] |Reproductor Quasar|[/COLOR] </title>
 <link>$doregex[makelist2]</link>
 
-
 <regex>
 <name>makelist2</name>
 <listrepeat><![CDATA[
@@ -22,17 +21,35 @@
 </regex>
 
  <!-- Menu select -->
-
+  
 <regex>
 <name>select</name>
 <expres><![CDATA[#$pyFunction
 def GetLSProData(page_data,Cookie_Jar,m):
     import xbmcgui
     dialog = xbmcgui.Dialog()
-    ret = dialog.select('Elije Reproductor:', ['Torrenter', 'Quasar', 'Por defecto'])
-    channels = ['plugin://plugin.video.torrenter/?action=playSTRM&url=[makelist.param3]', 'plugin://plugin.video.quasar/play?uri=[makelist.param3]', 'plugin://plugin.video.quasar/play?uri=[makelist.param3]']
-    return channels[ret]
+    ret = dialog.select('Elije Reproductor:', ['Torrenter', 'Quasar', 'Recomendado'])
+    regex = ['$doregex[Torrenter]', '$doregex[Quasar]', '$doregex[Recomendado]']
+    return regex[ret]
 ]]></expres>
+<page></page>
+</regex>
+
+<regex>
+<name>Torrenter</name>
+<expres></expres>
+<page>plugin://plugin.video.torrenter/?action=playSTRM&url=[makelist.param3]</page>
+</regex>
+
+<regex>
+<name>Quasar</name>
+<expres>plugin://plugin.video.quasar/play?uri=[makelist.param3]</expres>
+<page></page>
+</regex>
+
+<regex>
+<name>Recomendado</name>
+<expres>plugin://plugin.video.quasar/play?uri=[makelist.param3]</expres>
 <page></page>
 </regex>
  
@@ -54,8 +71,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 </regex>
  
-
-
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
@@ -73,8 +88,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
  
- 
- 
+  
 <!-- El Mejor Torrent -->
  
  <item>
