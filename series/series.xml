@@ -17,7 +17,7 @@
 <fanart>[makelist2.param3]</fanart>
 ]]></listrepeat>
 <expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
-<page>www.gruponetai.com/db/seresdb.txt</page>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/seresdb.txt</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -52,8 +52,8 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>www.gruponetai.com/imagenes/series.png</thumbnail>
-<fanart>www.gruponetai.com/imagenes/series.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.jpg</fanart>
 </item>
 
 
@@ -74,7 +74,7 @@
 <fanart>[makelist2.param3]</fanart>
 ]]></listrepeat>
 <expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
-<page>www.gruponetai.com/db/series-a.txt</page>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-a.txt</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -109,7 +109,7 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>www.gruponetai.com/imagenes/series.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
 <fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
 </item>
 
@@ -130,7 +130,7 @@
 <fanart>[makelist2.param3]</fanart>
 ]]></listrepeat>
 <expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
-<page>www.gruponetai.com/db/series-b.txt</page>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-b.txt</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -165,7 +165,7 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>www.gruponetai.com/imagenes/series.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
 <fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
 </item>
 
@@ -187,7 +187,7 @@
 <fanart>[makelist2.param3]</fanart>
 ]]></listrepeat>
 <expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
-<page>www.gruponetai.com/db/series-c.txt</page>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-c.txt</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -222,7 +222,7 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>www.gruponetai.com/imagenes/series.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
 <fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
 </item>
 
@@ -245,7 +245,7 @@
 <fanart>[makelist2.param3]</fanart>
 ]]></listrepeat>
 <expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
-<page>www.gruponetai.com/db/series-d.txt</page>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-d.txt</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -280,7 +280,7 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>www.gruponetai.com/imagenes/series.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
 <fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
 </item>
 
@@ -301,7 +301,7 @@
 <fanart>[makelist2.param3]</fanart>
 ]]></listrepeat>
 <expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
-<page>www.gruponetai.com/db/series-e.txt</page>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-e.txt</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -336,7 +336,7 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>www.gruponetai.com/imagenes/series.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
 <fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
 </item>
 
@@ -359,7 +359,7 @@
 <fanart>[makelist2.param3]</fanart>
 ]]></listrepeat>
 <expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
-<page>www.gruponetai.com/db/series-f.txt</page>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-f.txt</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -394,7 +394,7 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>www.gruponetai.com/imagenes/series.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
 <fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
 </item>
 
@@ -415,7 +415,7 @@
 <fanart>[makelist2.param3]</fanart>
 ]]></listrepeat>
 <expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
-<page>www.gruponetai.com/db/series-g.txt</page>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-g.txt</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -450,7 +450,7 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>www.gruponetai.com/imagenes/series.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
 <fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
 </item>
 
@@ -471,7 +471,7 @@
 <fanart>[makelist2.param3]</fanart>
 ]]></listrepeat>
 <expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
-<page>www.gruponetai.com/db/series-h.txt</page>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-h.txt</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -506,7 +506,7 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>www.gruponetai.com/imagenes/series.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
 <fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
 </item>
 
@@ -527,7 +527,7 @@
 <fanart>[makelist2.param3]</fanart>
 ]]></listrepeat>
 <expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
-<page>www.gruponetai.com/db/series-i.txt</page>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-i.txt</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -562,7 +562,7 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>www.gruponetai.com/imagenes/series.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
 <fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
 </item>
 
@@ -583,7 +583,7 @@
 <fanart>[makelist2.param3]</fanart>
 ]]></listrepeat>
 <expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
-<page>www.gruponetai.com/db/series-j.txt</page>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-j.txt</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -618,7 +618,7 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>www.gruponetai.com/imagenes/series.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
 <fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
 </item>
 
@@ -639,7 +639,7 @@
 <fanart>[makelist2.param3]</fanart>
 ]]></listrepeat>
 <expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
-<page>www.gruponetai.com/db/series-k.txt</page>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-k.txt</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -674,7 +674,7 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>www.gruponetai.com/imagenes/series.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
 <fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
 </item>
 
@@ -695,7 +695,7 @@
 <fanart>[makelist2.param3]</fanart>
 ]]></listrepeat>
 <expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
-<page>www.gruponetai.com/db/series-l.txt</page>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-l.txt</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -730,7 +730,7 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>www.gruponetai.com/imagenes/series.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
 <fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
 </item>
 
@@ -751,7 +751,7 @@
 <fanart>[makelist2.param3]</fanart>
 ]]></listrepeat>
 <expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
-<page>www.gruponetai.com/db/series-m.txt</page>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-m.txt</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -786,7 +786,7 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>www.gruponetai.com/imagenes/series.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
 <fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
 </item>
 
@@ -807,7 +807,7 @@
 <fanart>[makelist2.param3]</fanart>
 ]]></listrepeat>
 <expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
-<page>www.gruponetai.com/db/series-n.txt</page>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-n.txt</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -842,7 +842,7 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>www.gruponetai.com/imagenes/series.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
 <fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
 </item>
 
@@ -865,7 +865,7 @@
 <fanart>[makelist2.param3]</fanart>
 ]]></listrepeat>
 <expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
-<page>www.gruponetai.com/db/series-o.txt</page>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-o.txt</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -900,7 +900,7 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>www.gruponetai.com/imagenes/series.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
 <fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
 </item>
 
@@ -921,7 +921,7 @@
 <fanart>[makelist2.param3]</fanart>
 ]]></listrepeat>
 <expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
-<page>www.gruponetai.com/db/series-p.txt</page>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-p.txt</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -956,7 +956,7 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>www.gruponetai.com/imagenes/series.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
 <fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
 </item>
 
@@ -977,7 +977,7 @@
 <fanart>[makelist2.param3]</fanart>
 ]]></listrepeat>
 <expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
-<page>www.gruponetai.com/db/series-q.txt</page>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-q.txt</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -1012,7 +1012,7 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>www.gruponetai.com/imagenes/series.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
 <fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
 </item>
 
@@ -1033,7 +1033,7 @@
 <fanart>[makelist2.param3]</fanart>
 ]]></listrepeat>
 <expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
-<page>www.gruponetai.com/db/series-r.txt</page>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-r.txt</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -1068,7 +1068,7 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>www.gruponetai.com/imagenes/series.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
 <fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
 </item>
 
@@ -1089,7 +1089,7 @@
 <fanart>[makelist2.param3]</fanart>
 ]]></listrepeat>
 <expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
-<page>www.gruponetai.com/db/series-s.txt</page>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-s.txt</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -1124,7 +1124,7 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>www.gruponetai.com/imagenes/series.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
 <fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
 </item>
 
@@ -1144,7 +1144,7 @@
 <fanart>[makelist2.param3]</fanart>
 ]]></listrepeat>
 <expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
-<page>www.gruponetai.com/db/series-t.txt</page>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-t.txt</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -1179,7 +1179,7 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>www.gruponetai.com/imagenes/series.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
 <fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
 </item>
 
@@ -1199,7 +1199,7 @@
 <fanart>[makelist2.param3]</fanart>
 ]]></listrepeat>
 <expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
-<page>www.gruponetai.com/db/series-u.txt</page>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-u.txt</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -1234,7 +1234,7 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>www.gruponetai.com/imagenes/series.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
 <fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
 </item>
 
@@ -1255,7 +1255,7 @@
 <fanart>[makelist2.param3]</fanart>
 ]]></listrepeat>
 <expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
-<page>www.gruponetai.com/db/series-v.txt</page>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-v.txt</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -1290,7 +1290,7 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>www.gruponetai.com/imagenes/series.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
 <fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
 </item>
 
@@ -1311,7 +1311,7 @@
 <fanart>[makelist2.param3]</fanart>
 ]]></listrepeat>
 <expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
-<page>www.gruponetai.com/db/series-w.txt</page>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-w.txt</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -1346,7 +1346,7 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>www.gruponetai.com/imagenes/series.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
 <fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
 </item>
 
@@ -1367,7 +1367,7 @@
 <fanart>[makelist2.param3]</fanart>
 ]]></listrepeat>
 <expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
-<page>www.gruponetai.com/db/series-x.txt</page>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-x.txt</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -1402,7 +1402,7 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>www.gruponetai.com/imagenes/series.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
 <fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
 </item>
 
@@ -1423,7 +1423,7 @@
 <fanart>[makelist2.param3]</fanart>
 ]]></listrepeat>
 <expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
-<page>www.gruponetai.com/db/series-y.txt</page>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-y.txt</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -1458,7 +1458,7 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>www.gruponetai.com/imagenes/series.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
 <fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
 </item>
 
@@ -1479,7 +1479,7 @@
 <fanart>[makelist2.param3]</fanart>
 ]]></listrepeat>
 <expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
-<page>www.gruponetai.com/db/series-z.txt</page>
+<page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/series-z.txt</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -1514,7 +1514,7 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>www.gruponetai.com/imagenes/series.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
 <fanart>http://vertelevisiongratis.info/wp-content/uploads/2015/04/series11.jpg</fanart>
 </item>
 </items>

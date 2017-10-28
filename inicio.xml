@@ -13,77 +13,80 @@ def GetLSProData(page_data,Cookie_Jar,m):
     __addon__ = xbmcaddon.Addon()
     __addonname__ = __addon__.getAddonInfo('name')     
     line1 = "Grupo Netai te da la bienvenida."
-    line2 = "Manten actualizados los Addons Netai con nuestro repositorio."
-    line3 = "Fuente nueva: http://http://www.gruponetai.com/repo/." 
+    line2 = "Nueva informacion en el canal de telegram."
+    line3 = "Zona Premium cerrada definitivamente." 
     xbmcgui.Dialog().ok(__addonname__, line1, line2, line3)
-    return "http://www.gruponetai.com/inicio.xml"
+    return "https://raw.githubusercontent.com/Andorth/Hercules/master/inicio.xml"
 ]]></expres>
 <page></page>
 <cookieJar></cookieJar>
 </regex>
 <thumbnail>http://th.seaicons.com/wp-content/uploads/2016/03/globe-icon.png</thumbnail>
-<fanart>http://www.gruponetai.com/imagenes/fanart.jpg</fanart>
-</item> 
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+</item>
 <item>
 <title>[COLOR orange]Tutoriales[/COLOR]</title>
 <link>http://Ignoreme</link>
 <fanart></fanart>
-<thumbnail>http://www.gruponetai.com/imagenes/videotuto.png</thumbnail>
-<externallink>http://www.gruponetai.com/tutoriales.xml</externallink>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/videotuto.png</thumbnail>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/tutoriales.xml</externallink>
 </item>
-
+<item>
+<title>[COLOR orange]Series[/COLOR]</title>
+<link>http://Ignoreme</link>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/series/menu-series.xml</externallink>
+</item>
 <item>
 <title>[COLOR orange]Peliculas[/COLOR]</title>
 <link>http://Ignoreme</link>
 <fanart>http://www.arielfeliciano.com/wp-content/uploads/100-peliculas-completas.jpg</fanart>
-<thumbnail>http://www.gruponetai.com/imagenes/peliculas.png</thumbnail>
-<externallink>http://www.gruponetai.com/peliculas/menu-peliculas.xml</externallink>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/menu-peliculas.xml</externallink>
 </item>
-
 <item>
-<title>[COLOR orange]Series[/COLOR]</title>
+<title>[COLOR orange]Adryanlist[COLOR red] Addon Necesario [/COLOR][/COLOR]</title>
 <link>http://Ignoreme</link>
-<fanart>http://www.gruponetai.com/imagenes/series.jpg</fanart>
-<thumbnail>http://www.gruponetai.com/imagenes/series.png</thumbnail>
-<externallink>http://www.gruponetai.com/series/menu-series.xml</externallink>
+    <externallink>https://raw.githubusercontent.com/adrianhn/adryanlist/master/list.xml</externallink>
+<fanart>https://i.ytimg.com/vi/SCDAU0N1y4g/maxresdefault.jpg</fanart>
+<thumbnail>https://pbs.twimg.com/profile_images/900488110240219136/-L6a8pq1.jpg</thumbnail>
 </item>
  
 <item>
 <title>[COLOR orange]Explora[COLOR red] Addon Necesario e instalado[/COLOR][/COLOR]</title>
 <link>http://Ignoreme</link>
 <jsonrpc>plugin://plugin.video.Explora/</jsonrpc>
-<fanart>http://www.gruponetai.com/imagenes/fanart.jpg</fanart>
-<thumbnail>http://www.gruponetai.com/imagenes/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/icon.png</thumbnail>
 </item>
-
-<item>
-<title>[COLOR orange]Documentales[/COLOR][COLOR white][/COLOR]</title>
-<link>http://Ignoreme</link>
-<fanart>http://www.gruponetai.com/imagenes/tv.png</fanart>
-<thumbnail>http://www.gruponetai.com/documentales/documentales.png</thumbnail>
-<externallink>http://www.gruponetai.com/documentales/inicio.xml</externallink>
-</item>
-<item>
-<title>[COLOR orange]Deportes[/COLOR][COLOR white][/COLOR]</title>
-<link>http://Ignoreme</link>
-<thumbnail>http://www.gruponetai.com/imagenes/deportes.png</thumbnail>
-<fanart>http://www.gruponetai.com/imagenes/fanart.jpg</fanart>
-<externallink>http://www.gruponetai.com/deportes/deportes.xml</externallink>
-</item>
-<item>
-<title>[COLOR orange]Programas tv[/COLOR]</title>
-<link>http://Ignoreme</link>
-<fanart>http://www.gruponetai.com/imagenes/fanart.jpg</fanart>
-<thumbnail>http://www.gruponetai.com/imagenes/tv.png</thumbnail>
-<externallink>http://www.gruponetai.com/programastv/inicio.xml</externallink>
-</item>
-
 <item>
 <title>[COLOR orange]Atlantis[/COLOR]</title>
 <link>http://Ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Andorth/atlantis/master/main.xml</externallink>
-<fanart>http://www.gruponetai.com/imagenes/fanart.jpg</fanart>
-<thumbnail>http://www.gruponetai.com/imagenes/atlantis.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/atlantis.png</thumbnail>
+</item>
+<item>
+<title>[COLOR orange]Documentales[/COLOR][COLOR white][/COLOR]</title>
+<link>http://Ignoreme</link>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/tv.png</fanart>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/documentales/documentales.png</thumbnail>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/documentales/inicio.xml</externallink>
+</item>
+<item>
+<title>[COLOR orange]Deportes[/COLOR][COLOR white][/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/deportes.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/deportes/deportes.xml</externallink>
+</item>
+<item>
+<title>[COLOR orange]Programas tv[/COLOR]</title>
+<link>http://Ignoreme</link>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/tv.png</thumbnail>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/programastv/inicio.xml</externallink>
 </item>
     
 <!-- <item>
@@ -106,6 +109,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 </regex>
 <thumbnail>http://www.thebarlowrchigh.co.uk/media/184153/information-icon.png</thumbnail>
-<fanart>http://www.gruponetai.com/imagenes/fanart.jpg</fanart>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
 </items> -->

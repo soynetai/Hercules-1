@@ -1,7 +1,7 @@
 <item>
 <title>[COLOR white][+][COLOR orange]Buscar Programas TV[/COLOR][/COLOR]</title>
 <link>$doregex[makelist]</link>
-<thumbnail>www.gruponetai.com/imagenes/Buscar.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/Buscar.png</thumbnail>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
@@ -87,7 +87,7 @@ class InputWindow(xbmcgui.WindowDialog):
 <title>[COLOR orange][B]Cesar Millan - El encantador de perros[/B][/COLOR] [COLOR white][/COLOR]</title>
 <link>$doregex[makelist2]</link>
 <info>Cesar Millan: 1 Temporada del encantador de perros.</info>
-<externallink>www.gruponetai.com/programastv/cesar1t.xml</externallink>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/programastv/cesar1t.xml</externallink>
 <thumbnail>http://e02-elmundo.uecdn.es/television/programacion-tv/img/programas/fe/15870.png<thumbnail>
 <fanart>http://e02-elmundo.uecdn.es/television/programacion-tv/img/programas/fe/15870.png<fanart>
 </item>
@@ -95,7 +95,7 @@ class InputWindow(xbmcgui.WindowDialog):
 <title>[COLOR orange][B]Cesar Millan - El lider de la manada[/B][/COLOR] [COLOR white][/COLOR]</title>
 <link>$doregex[makelist2]</link>
 <info>Cesar Millan: 1 Temporada del encantador de perros.</info>
-<externallink>www.gruponetai.com/programastv/lider.xml</externallink>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/programastv/lider.xml</externallink>
 <thumbnail>http://e02-elmundo.uecdn.es/television/programacion-tv/img/programas/fe/15870.png<thumbnail>
 <fanart>http://e02-elmundo.uecdn.es/television/programacion-tv/img/programas/fe/15870.png<fanart>
 </item>
@@ -103,7 +103,7 @@ class InputWindow(xbmcgui.WindowDialog):
 <title>[COLOR orange][B]Buscadores de fantasmas[/B][/COLOR] [COLOR white][/COLOR]</title>
 <link>$doregex[makelist2]</link>
 <info>Cazadores de fantasmas - serie documental.</info>
-<externallink>www.gruponetai.com/programastv/buscadores-de-fantasmas.xml</externallink>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/programastv/buscadores-de-fantasmas.xml</externallink>
 <thumbnail>https://buscadoresdefantasmas.com/wp-content/uploads/2016/10/ghost-adventures-poster.jpg<thumbnail>
 <fanart><fanart>
 </item>
@@ -111,7 +111,7 @@ class InputWindow(xbmcgui.WindowDialog):
 <title>[COLOR orange][B]Cuarto milenio[/B][/COLOR] [COLOR white]Programas sueltos[/COLOR]</title>
 <link>$doregex[makelist2]</link>
 <info>Cazadores de fantasmas - serie documental.</info>
-<externallink>www.gruponetai.com/programastv/cuarto-milenio.xml</externallink>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/programastv/cuarto-milenio.xml</externallink>
 <thumbnail><thumbnail>
 <fanart><fanart>
 
@@ -120,7 +120,7 @@ class InputWindow(xbmcgui.WindowDialog):
 <title>[COLOR orange][B]Cuarto milenio[/B][/COLOR] [COLOR white] WEB CUATRO[/COLOR]</title>
 <link>$doregex[makelist2]</link>
 <info>Cazadores de fantasmas - serie documental.</info>
-<externallink>www.gruponetai.com/programastv/cuarto.xml</externallink>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/programastv/cuarto.xml</externallink>
 <thumbnail>http://elrincon.tv/wp-content/uploads/2013/10/cm_logo_grande.jpg<thumbnail>
 <fanart><fanart>
 
