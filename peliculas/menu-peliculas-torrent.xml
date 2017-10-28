@@ -5,7 +5,7 @@
 <!-- GRAN TORRENT -->
 <item>
 <title>[COLOR orange][B][+]BUSCAR EN: [/B] [/COLOR][COLOR white] GranTorrent [/COLOR] [COLOR gold] Castellano[/COLOR] </title>
-<link>$doregex[makelist2]</link>
+<link>$doregex[$select]</link>
 
 
 <regex>
@@ -43,7 +43,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <listrepeat><![CDATA[
 <SetViewMode>55</SetViewMode>
 <title>[COLOR orange][B] [makelist2.param3][/B][/COLOR]  Calidad:[makelist.param2]  Tamaño:[makelist.param3]  </title>
-
+<link>non</link>
 <name>select</name>
 <expres><![CDATA[#$pyFunction
 def GetLSProData(page_data,Cookie_Jar,m):
@@ -54,7 +54,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return channels[ret]
 ]]></expres>
 <page></page>
-<link>$doregex[select]</link>
+
 <thumbnail>[makelist2.param2]</thumbnail> 
 
 ]]></listrepeat>
