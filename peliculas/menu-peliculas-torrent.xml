@@ -64,7 +64,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <expres>d>(.*?)<[\w\W\s]{0,7}td>(.*?)\.[\w\W\s]{0,16}href="(.*?)"</expres>
 <page>[makelist2.param1]</page>	
 </regex>
-<thumbnail>https://cdn.pixabay.com/photo/2015/07/13/07/34/icons-842865_960_720.png</thumbnail>
+<thumbnail>http://smsafemode.com/wp-content/uploads/2016/07/Buscar.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
 
