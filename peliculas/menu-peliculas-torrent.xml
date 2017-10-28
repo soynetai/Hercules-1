@@ -4,15 +4,15 @@
  
 <!-- GRAN TORRENT -->
 <item>
-<title>[COLOR orange][+]Buscar[/COLOR][COLOR white] [grantorrent.com] ||[/COLOR] </title>
+<title>[COLOR orange][+]Buscar[/COLOR][COLOR white] [grantorrent.com] |Reproductor Quasar|[/COLOR] </title>
 <link>$doregex[makelist2]</link>
 
 
 <regex>
 <name>makelist2</name>
 <listrepeat><![CDATA[
-<SetViewMode>55</SetViewMode>
-<title>[COLOR white] [makelist2.param3][/COLOR]  </title>
+ <SetViewMode>55</SetViewMode>
+ <title>[COLOR white] [makelist2.param3][/COLOR]  </title>
 <link>$doregex[makelist]</link>
 <thumbnail>[makelist2.param2]</thumbnail> 
 </regex>
@@ -21,6 +21,23 @@
 <page>https://grantorrent.com/?s=$doregex[search]</page>	
 </regex>
 
+ <!-- Menu select -->
+
+<regex>
+<name>select</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import xbmcgui
+    dialog = xbmcgui.Dialog()
+    ret = dialog.select('Elije Reproductor:', ['Torrenter', 'Quasar', 'Por defecto'])
+    channels = ['plugin://plugin.video.torrenter/?action=playSTRM&url=[makelist.param3]', 'plugin://plugin.video.quasar/play?uri=[makelist.param3]', 'plugin://plugin.video.quasar/play?uri=[makelist.param3]']
+    return channels[ret]
+]]></expres>
+<page></page>
+</regex>
+ 
+ <!-- Aqui acaba --> 
+ 
  
 <regex>
 <name>search</name>
@@ -30,26 +47,13 @@ import xbmcaddon
 import xbmcgui
 def GetLSProData(page_data,Cookie_Jar,m):
     dialog = xbmcgui.Dialog()
-    d = dialog.input('Buscar [Escribe un nombre]: ', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
+    d = dialog.input('Buscar: ', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
     return d
 ]]></expres>
 <page></page>
 <cookieJar></cookieJar>
 </regex>
-
-<regex>
-<name>select</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
-   import xbmcgui
-   dialog = xbmcgui.Dialog()
-   ret = dialog.select('Elige un reproductor: ', ['Quasar', 'Torrenter', 'Recomendado'])
-   lists = ['plugin://plugin.video.quasar/play?uri=[makelist.param3]', 'plugin://plugin.video.torrenter/?action=playSTRM&url=[makelist.param3]','plugin://plugin.video.quasar/play?uri=[makelist.param3]']
-   return lists[ret]
-]]></expres>
-<page></page>
-</regex>
-
+ 
 
 
 <regex>
@@ -57,6 +61,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <listrepeat><![CDATA[
 <SetViewMode>500</SetViewMode>
 <title>[COLOR white] [makelist2.param3][/COLOR]  Calidad:[makelist.param1]  Tamaño:[makelist.param2]  </title>
+<!-- <link>plugin://plugin.video.quasar/play?uri=[makelist.param3]</link> -->
 <link>$doregex[select]</link>
 <thumbnail>[makelist2.param2]</thumbnail> 
 </regex>
@@ -64,19 +69,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <expres>d>(.*?)<[\w\W\s]{0,7}td>(.*?)\.[\w\W\s]{0,16}href="(.*?)"</expres>
 <page>[makelist2.param1]</page>	
 </regex>
-<thumbnail>http://smsafemode.com/wp-content/uploads/2016/07/Buscar.png</thumbnail>
+<thumbnail>https://cdn.pixabay.com/photo/2015/07/13/07/34/icons-842865_960_720.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
-
-
  
-<item>
-<title>[COLOR orange][+]Peliculas [COLOR white]Sugeridas[/COLOR][/COLOR]</title>
-<link>http://Ignoreme</link>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
-<thumbnail>http://icons.iconarchive.com/icons/studiomx/leomx/256/Download-icon.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/novedades-torrent.xml</externallink>
-</item>
  
  
 <!-- El Mejor Torrent -->
