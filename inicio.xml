@@ -16,8 +16,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
     line2 = "Te deseamos que pases un feliz halloween."
     line3 = "La proxima update sera el 01/11/17" 
     xbmcgui.Dialog().ok(__addonname__, line1, line2, line3)
-    return "https://archive.org/download/hallowen_20171028_1745/hallowen.mp3"
-    <!-- return "https://raw.githubusercontent.com/Andorth/Hercules/master/inicio.xml" -->
+    return 'https://archive.org/download/hallowen_20171028_1745/hallowen.mp3'
+   
 ]]></expres>
 <page></page>
 <cookieJar></cookieJar>
