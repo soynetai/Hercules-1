@@ -4,22 +4,23 @@
  
 <!-- GRAN TORRENT -->
 <item>
-<title>[COLOR orange][B][+]BUSCAR[/B] [/COLOR][COLOR white]  [/COLOR] [COLOR gold] Castellano[/COLOR] </title>
-<link>$doregex[$makelist]</link>
+<title>[COLOR orange][+]Buscar[/COLOR][COLOR white] [grantorrent.com] ||[/COLOR] </title>
+<link>$doregex[makelist2]</link>
 
 
 <regex>
 <name>makelist2</name>
 <listrepeat><![CDATA[
- <SetViewMode>55</SetViewMode>
- <title>[COLOR white][B] [makelist2.param3][/B][/COLOR]  </title>
+<SetViewMode>55</SetViewMode>
+<title>[COLOR white] [makelist2.param3][/COLOR]  </title>
 <link>$doregex[makelist]</link>
 <thumbnail>[makelist2.param2]</thumbnail> 
 </regex>
 ]]></listrepeat>
-<expres><![CDATA[imagen-post[\w\W\s]{0,8}href="(.*?)"[\w\W\s]{0,7}src="(.*?)"[\w\W\s]{0,400}bloque-inferior">\n(.*?)<]]></expres>
+<expres><![CDATA[href="(.*?)"[\w\W\s]{0,72}src="(.*?)"[\w\W\s]{0,120}bloque_inferior">(.*?)<]]></expres>
 <page>https://grantorrent.com/?s=$doregex[search]</page>	
 </regex>
+
  
 <regex>
 <name>search</name>
@@ -29,11 +30,24 @@ import xbmcaddon
 import xbmcgui
 def GetLSProData(page_data,Cookie_Jar,m):
     dialog = xbmcgui.Dialog()
-    d = dialog.input('Buscar Pelicula:', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
+    d = dialog.input('Buscar [Escribe un nombre]: ', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
     return d
 ]]></expres>
 <page></page>
 <cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>select</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+   import xbmcgui
+   dialog = xbmcgui.Dialog()
+   ret = dialog.select('Elige un reproductor: ', ['Quasar', 'Torrenter', 'Recomendado'])
+   lists = ['plugin://plugin.video.quasar/play?uri=[makelist.param3]', 'plugin://plugin.video.torrenter/?action=playSTRM&url=[makelist.param3]','plugin://plugin.video.quasar/play?uri=[makelist.param3]']
+   return lists[ret]
+]]></expres>
+<page></page>
 </regex>
 
 
@@ -41,27 +55,17 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<SetViewMode>55</SetViewMode>
-<title>[COLOR orange][B] [makelist2.param3][/B][/COLOR]  Calidad:[makelist.param2]  Tamaño:[makelist.param3]  </title>
-<link>non</link>
-<name>select</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
-    import xbmcgui
-    dialog = xbmcgui.Dialog()
-    ret = dialog.select('Choose a movie', ['Torrenter', 'Recomendado', 'Quasar'])
-    channels = ['plugin://plugin.video.torrenter/?action=playSTRM&url=[makelist.param4]', 'plugin://plugin.video.quasar/play?uri=[makelist.param4]', 'plugin://plugin.video.quasar/play?uri=[makelist.param4]']
-    return channels[ret]
-]]></expres>
-<page></page>
-
+<SetViewMode>500</SetViewMode>
+<title>[COLOR white] [makelist2.param3][/COLOR]  Calidad:[makelist.param1]  Tamaño:[makelist.param2]  </title>
+<link>$doregex[select]</link>
 <thumbnail>[makelist2.param2]</thumbnail> 
-
+</regex>
 ]]></listrepeat>
-<expres><![CDATA[alt="(.*?)".*?\/td><td>(.*?)<[\w\W\s]{0,7}td>(.*?)<[\w\W\s]{0,25}href="(.*?torrent)"]]></expres>
+<expres>d>(.*?)<[\w\W\s]{0,7}td>(.*?)\.[\w\W\s]{0,16}href="(.*?)"</expres>
 <page>[makelist2.param1]</page>	
 </regex>
-<thumbnail>http://www.iconsdb.com/icons/preview/green/active-search-2-xxl.png</thumbnail>
+<thumbnail>https://cdn.pixabay.com/photo/2015/07/13/07/34/icons-842865_960_720.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
 
 
