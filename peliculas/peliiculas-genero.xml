@@ -162,7 +162,7 @@
  <thumbnail>[makelist.param1]</thumbnail>    
 ]]></listrepeat>
 <expres><![CDATA[171.*?src="(.*?)"[\w\W\s]{0,140}href="(.*?)".*?trong>(.*?)<\/]]></expres>
-<page>http://gruponetai.com/portal/Genero/drama/</page>
+<page>http://gruponetai.com/portal/Genero/dramatico/</page>
 </regex>
 
 <regex>
