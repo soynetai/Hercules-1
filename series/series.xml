@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <items>
 
+<item>
+<title>[COLOR orange][+]Prueba [COLOR white]Solo test[/COLOR][/COLOR]</title>
+<link>http://Ignoreme</link>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/series/prueba.xml</externallink>
+</item>
+
 <!--LETRA 0 -->
 <item>
 <title>[COLOR orange] [+]SERIES  [COLOR white][0-9][/COLOR] </title>
