@@ -10,7 +10,7 @@
 <link>$doregex[makelist]</link>  
 ]]></listrepeat>
 <expres><![CDATA[option\sclass="level-0.*?">(.*?)<]]></expres>
-<page>http://gruponetai.com/portal/</page>
+<page>http://www.gruponetai.com/portal/</page>
 </regex>
 
 
@@ -26,7 +26,7 @@
  <thumbnail>[makelist.param1]</thumbnail>    
 ]]></listrepeat>
 <expres><![CDATA[171.*?src="(.*?)"[\w\W\s]{0,140}href="(.*?)".*?trong>(.*?)<\/]]></expres>
-<page>http://gruponetai.com/portal/Genero/[makelist2.param1]/</page>
+<page>http://www.gruponetai.com/portal/Genero/[makelist2.param1]/</page>
 </regex>
 
 <regex>
@@ -35,7 +35,7 @@
 <page>[makelist.param2]</page>
 </regex>
 
-<thumbnail>http://adryantv.org/adryan/img/torrent.png</thumbnail>
+<thumbnail>https://icon-icons.com/icons2/515/PNG/256/Oscar-Movies_icon-icons.com_51047.png</thumbnail>
 </item>
 
 <item>
@@ -52,7 +52,7 @@
  <thumbnail>[makelist.param1]</thumbnail>    
 ]]></listrepeat>
 <expres><![CDATA[171.*?src="(.*?)"[\w\W\s]{0,140}href="(.*?)".*?trong>(.*?)<\/]]></expres>
-<page>http://gruponetai.com/portal/Genero/accion/</page>
+<page>http://www.gruponetai.com/portal/Genero/accion/</page>
 </regex>
 
 <regex>
@@ -77,7 +77,7 @@
  <thumbnail>[makelist.param1]</thumbnail>    
 ]]></listrepeat>
 <expres><![CDATA[171.*?src="(.*?)"[\w\W\s]{0,140}href="(.*?)".*?trong>(.*?)<\/]]></expres>
-<page>http://gruponetai.com/portal/Genero/animacion/</page>
+<page>http://www.gruponetai.com/portal/Genero/animacion/</page>
 </regex>
 
 <regex>
@@ -102,7 +102,7 @@
  <thumbnail>[makelist.param1]</thumbnail>    
 ]]></listrepeat>
 <expres><![CDATA[171.*?src="(.*?)"[\w\W\s]{0,140}href="(.*?)".*?trong>(.*?)<\/]]></expres>
-<page>http://gruponetai.com/portal/Genero/aventuras/</page>
+<page>http://www.gruponetai.com/portal/Genero/aventuras/</page>
 </regex>
 
 <regex>
@@ -127,7 +127,7 @@
  <thumbnail>[makelist.param1]</thumbnail>    
 ]]></listrepeat>
 <expres><![CDATA[171.*?src="(.*?)"[\w\W\s]{0,140}href="(.*?)".*?trong>(.*?)<\/]]></expres>
-<page>http://gruponetai.com/portal/Genero/belico/</page>
+<page>http://www.gruponetai.com/portal/Genero/belico/</page>
 </regex>
 
 <regex>
@@ -152,7 +152,7 @@
  <thumbnail>[makelist.param1]</thumbnail>    
 ]]></listrepeat>
 <expres><![CDATA[171.*?src="(.*?)"[\w\W\s]{0,140}href="(.*?)".*?trong>(.*?)<\/]]></expres>
-<page>http://gruponetai.com/portal/Genero/ciencia-ficcion/</page>
+<page>http://www.gruponetai.com/portal/Genero/ciencia-ficcion/</page>
 </regex>
 
 <regex>
@@ -177,7 +177,7 @@
  <thumbnail>[makelist.param1]</thumbnail>    
 ]]></listrepeat>
 <expres><![CDATA[171.*?src="(.*?)"[\w\W\s]{0,140}href="(.*?)".*?trong>(.*?)<\/]]></expres>
-<page>http://gruponetai.com/portal/Genero/comedia/</page>
+<page>http://www.gruponetai.com/portal/Genero/comedia/</page>
 </regex>
 
 <regex>
@@ -202,7 +202,7 @@
  <thumbnail>[makelist.param1]</thumbnail>    
 ]]></listrepeat>
 <expres><![CDATA[171.*?src="(.*?)"[\w\W\s]{0,140}href="(.*?)".*?trong>(.*?)<\/]]></expres>
-<page>http://gruponetai.com/portal/Genero/dramatico/</page>
+<page>http://www.gruponetai.com/portal/Genero/dramatico/</page>
 </regex>
 
 <regex>
@@ -229,7 +229,7 @@
  <thumbnail>[makelist.param1]</thumbnail>    
 ]]></listrepeat>
 <expres><![CDATA[171.*?src="(.*?)"[\w\W\s]{0,140}href="(.*?)".*?trong>(.*?)<\/]]></expres>
-<page>http://gruponetai.com/portal/Genero/miedo/</page>
+<page>http://www.gruponetai.com/portal/Genero/miedo/</page>
 </regex>
 
 <regex>
@@ -254,7 +254,7 @@
  <thumbnail>[makelist.param1]</thumbnail>    
 ]]></listrepeat>
 <expres><![CDATA[171.*?src="(.*?)"[\w\W\s]{0,140}href="(.*?)".*?trong>(.*?)<\/]]></expres>
-<page>http://gruponetai.com/portal/Genero/thriller/</page>
+<page>http://www.gruponetai.com/portal/Genero/thriller/</page>
 </regex>
 
 <regex>
@@ -279,7 +279,7 @@
  <thumbnail>[makelist.param1]</thumbnail>    
 ]]></listrepeat>
 <expres><![CDATA[171.*?src="(.*?)"[\w\W\s]{0,140}href="(.*?)".*?trong>(.*?)<\/]]></expres>
-<page>http://gruponetai.com/portal/Genero/romantico/</page>
+<page>http://www.gruponetai.com/portal/Genero/romantico/</page>
 </regex>
 
 <regex>
@@ -304,7 +304,7 @@
  <thumbnail>[makelist.param1]</thumbnail>    
 ]]></listrepeat>
 <expres><![CDATA[171.*?src="(.*?)"[\w\W\s]{0,140}href="(.*?)".*?trong>(.*?)<\/]]></expres>
-<page>http://gruponetai.com/portal/Genero/suspense/</page>
+<page>http://www.gruponetai.com/portal/Genero/suspense/</page>
 </regex>
 
 <regex>
