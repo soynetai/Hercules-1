@@ -208,7 +208,7 @@ https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png
 <thumbnail>http://iconbug.com/data/03/256/5d79c9b354d34b16d373f5950b07970d.png</thumbnail>
 </item>
 
-<!--
+
 <item>
 <title> netai test</title>
 <link>$doregex[makelist]</link>
@@ -222,7 +222,8 @@ https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png
 <link>plugin://plugin.video.quasar/play?uri=$doregex[torrent]</link>
 <thumbnail>[makelist.param1]</thumbnail>
 ]]></listrepeat>
-<expres><![CDATA[171.*?src="(.*?)"[\w\W\s]{0,140}href="(.*?)".*?trong>(.*?)<\/]]></expres>
+<!-- <expres><![CDATA[171.*?src="(.*?)"[\w\W\s]{0,140}href="(.*?)".*?trong>(.*?)<\/]]></expres> -->
+<expres><![CDATA[<a href="(http.*?)">(.*?)</a>]]></expres>
 <page>http://gruponetai.com/portal/Genero/animacion/</page>
 </regex>
 
@@ -232,10 +233,6 @@ https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png
 <page>[makelist.param2]</page>
 </regex>
 
-<thumbnail>http://adryanlist.org/adryan/img/torrent.png</thumbnail>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+<thumbnail></thumbnail>
 </item>
--->
 </items>
- 
