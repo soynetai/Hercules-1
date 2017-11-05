@@ -222,14 +222,14 @@ https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png
 <link>plugin://plugin.video.quasar/play?uri=$doregex[torrent]</link>
 <thumbnail>[makelist.param1]</thumbnail>
 ]]></listrepeat>
-<expres><![CDATA[171.*?src="(.*?)"[\w\W\s]{0,140}href="(.*?)".*?trong>(.*?)<\/]]></expres> 
+<expres><![CDATA[href="watch-(.*?html)"[\w\W\s]{0,9}title="(.*?)"[\w\W\s]{0,6}src="(.*?)"]]></expres>
 
 <page>http://gruponetai.com/portal/Genero/animacion/</page>
 </regex>
 
 <regex>
 <name>torrent</name>
-<expres><![CDATA[href="(.*?)"[\w\W\s]{0,15}(.*?)">(.*?)<[\w\W\s]{0,4}src="(.*?)"]]></expres>
+<expres><![CDATA[href="(.*?\.torrent)"]]></expres>
 <page>[makelist.param2]</page>
 </regex>
 
