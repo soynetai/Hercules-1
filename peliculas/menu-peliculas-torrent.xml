@@ -210,8 +210,19 @@ https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png
 
 
 <item>
-<title> netai test</title>
-<link>$doregex[makelist]</link>
+<title>[COLOR orange][B][+]Peliculas PRUEBA [/B][COLOR white]Por genero[/COLOR][COLOR lime] | Adryan estuvo por aqui ! |[/COLOR][/COLOR]</title>
+<link>$doregex[makelist2]</link> 
+https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+   <SetViewMode>55</SetViewMode>
+   <title>[COLOR orange][B][makelist2.param1][/COLOR][/B]   </title>
+<link>$doregex[makelist]</link>  
+]]></listrepeat>
+<expres><![CDATA[option\sclass="level-0.*?">(.*?)<]]></expres>
+<page>http://gruponetai.com/portal/</page>
+</regex>
 
 
 <regex>
@@ -224,7 +235,7 @@ https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png
 ]]></listrepeat>
 <expres><![CDATA[href="watch-(.*?html)"[\w\W\s]{0,9}title="(.*?)"[\w\W\s]{0,6}src="(.*?)"]]></expres>
 
-<page>http://gruponetai.com/portal/Genero/accion/</page>
+<page>http://gruponetai.com/portal/Genero/[makelist2.param1]/</page>
 </regex>
 
 <regex>
