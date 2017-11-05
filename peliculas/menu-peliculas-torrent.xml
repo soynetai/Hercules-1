@@ -213,7 +213,7 @@ https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png
 <title> netai test</title>
 <link>$doregex[makelist]</link>
 
-<!-- 
+
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
@@ -229,11 +229,11 @@ https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png
 
 <regex>
 <name>torrent</name>
-<expres><![CDATA[href="(.*?\.torrent)"]]></expres>
+<expres><![CDATA[href="(.*?)"[\w\W\s]{0,15}(.*?)">(.*?)<[\w\W\s]{0,4}src="(.*?)"]]></expres>
 <page>[makelist.param2]</page>
 </regex>
 
 <thumbnail></thumbnail>
 </item>
--->
+
 </items>
