@@ -159,9 +159,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
-
-
- 
 <item>
 <title>[COLOR orange][+]Peliculas [COLOR white]Novedades Torrent[/COLOR]Castellano[/COLOR]</title>
 <link>http://Ignoreme</link>
@@ -172,9 +169,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[COLOR orange][B][+]Peliculas [/B][COLOR white]Por genero[/COLOR][COLOR lime] | Adryan estuvo por aqui ! |[/COLOR][/COLOR]</title>
+<title>[COLOR orange][B][+]Peliculas [/B][COLOR white]Por genero[/COLOR][COLOR lime] |+Gracias Adryan |[/COLOR][/COLOR]</title>
 <link>$doregex[makelist2]</link> 
-https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
 <regex>
 <name>makelist2</name>
 <listrepeat><![CDATA[
@@ -208,23 +205,32 @@ https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png
 <thumbnail>http://iconbug.com/data/03/256/5d79c9b354d34b16d373f5950b07970d.png</thumbnail>
 </item>
 
-<<<<<<< HEAD
-<!--
 <item>
-<title> netai test</title>
-<link>$doregex[makelist]</link>
+<title>[COLOR orange][B][+]Peliculas [/B][COLOR white]Por genero[/COLOR][COLOR lime] | Adryan estuvo por aqui ! |[/COLOR][/COLOR]</title>
+<link>$doregex[makelist2]</link> 
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
 
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+   <SetViewMode>55</SetViewMode>
+   <title>[COLOR orange][B]+ [makelist2.param1][/COLOR][/B]   </title>
+<link>$doregex[makelist]</link>
+]]></listrepeat>
+<expres><![CDATA[option\sclass="level-0.*?">(.*?)<]]></expres>
+<page>http://gruponetai.com/portal/</page>
+</regex>
 
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
    <SetViewMode>55</SetViewMode>
-   <title>[COLOR lightblue][B][makelist.param3][/COLOR][/B]   </title>
+   <title>[COLOR gold][B][makelist.param3][/COLOR][/B]   </title>
    <link>plugin://plugin.video.quasar/play?uri=$doregex[torrent]</link>
  <thumbnail>[makelist.param1]</thumbnail>
 ]]></listrepeat>
-<expres><![CDATA[171.*?src="(.*?)"[\w\W\s]{0,140}href="(.*?)".*?trong>(.*?)<\/]]></expres>
-<page>http://gruponetai.com/portal/Genero/animacion/</page>
+<expres><![CDATA[171.*?src="(.*?jpg)"[\w\W\s]{0,390}href="(.*?)".*?trong>(.*?)<\/]]></expres>
+<page>http://gruponetai.com/portal/Genero/[makelist2.param1]/</page>
 </regex>
 
 <regex>
@@ -232,12 +238,6 @@ https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png
 <expres><![CDATA[href="(.*?\.torrent)"]]></expres>
 <page>[makelist.param2]</page>
 </regex>
-
-<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/torrent.png</thumbnail>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
 </item>
--->
-=======
->>>>>>> origin/master
 </items>
