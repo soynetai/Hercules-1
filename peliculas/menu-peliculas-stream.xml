@@ -72,6 +72,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/Buscar.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
+	
 <item>
 <title>[COLOR orange][+]Peliculas  [COLOR white]Cartelera[/COLOR][/COLOR]</title>
 <link>http://Ignoreme</link>
@@ -80,66 +81,53 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/novedades.xml</externallink>
 </item>
 
-<item>
-<title>[COLOR orange][+]Peliculas [COLOR white]Novedades Torrent[/COLOR]Castellano[/COLOR]</title>
-<link>http://Ignoreme</link>
-<fanart>https://github.com/Andorth/Hercules/tree/master/imagenes/fanart.jpg</fanart>
-<thumbnail>http://icons.iconarchive.com/icons/studiomx/leomx/256/Download-icon.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/novedades-torrent.xml</externallink>
-</item>
 
 
 <item>
-<title>[COLOR orange][B][+]Peliculas [/B][COLOR white]Por genero[/COLOR][COLOR lime] | Stream |[/COLOR][/COLOR]</title>
-<link>$doregex[makelist2]</link> 
-https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png
+<title> netai test genero Stream</title>
+<link>$doregex[makelist2]</link>
+
+
 <regex>
 <name>makelist2</name>
 <listrepeat><![CDATA[
-   <SetViewMode>55</SetViewMode>
-   <title>[COLOR orange][B][makelist2.param1][/COLOR][/B]   </title>
-<link>$doregex[makelist]</link>  
+   <SetViewMode>500</SetViewMode>
+   <title>[COLOR orange][B]Genero [makelist2.param1][/COLOR][/B]   </title>
+<link>$doregex[makelist]</link>
 ]]></listrepeat>
 <expres><![CDATA[option\sclass="level-0.*?">(.*?)<]]></expres>
 <page>http://gruponetai.com/stream/</page>
 </regex>
 
-
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-   <SetViewMode>55</SetViewMode>
-   <title>[COLOR white][B][makelist.param3][/COLOR][/B]   </title>
-   <link>$doregex[ulink]</link>
- <thumbnail>[makelist.param1]</thumbnail>    
+<SetViewMode>500</SetViewMode>
+<title>[COLOR white] [makelist.param3]  [/COLOR]</title>
+<link>$doregex[id3]</link>
+<thumbnail>[makelist.param1]</thumbnail>
 ]]></listrepeat>
-<expres><![CDATA[171.*?src="(.*?)"[\w\W\s]{0,140}href="(.*?)".*?trong>(.*?)<\/]]></expres>
+<expres><![CDATA[171.*?src="(.*?jpg)"[\w\W\s]{0,390}href="(.*?)".*?trong>(.*?)<\/]]></expres>
 <page>http://gruponetai.com/stream/Genero/[makelist2.param1]/</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36</agent>
+<cookieJar></cookieJar>
 </regex>
 	
 
 <regex>
-<name>ulink</name>
-<expres><![CDATA[href="(.*?\)"]]></expres>
-<page>[makelist.param2]</page>
-<page></page>
-</regex>
-	
-<regex>
-<name>resolve</name>
+<name>id3</name>
 <expres><![CDATA[#$pyFunction
 def GetLSProData(page_data,Cookie_Jar,m):
-   import urlresolver
-   url = '$doregex(ulink)'
-   try:
-       u = urlresolver.resolve(url)
-   except:
-       u = 'http://www.gruponetai.com/videos/error.mp4'
-   return u
+    import urlresolver
+    url = '[makelist3.param1]'
+    try:
+        u = urlresolver.resolve(url)
+    except:
+        u = 'http://adryantv.org/error.mp4'
+    return u
 ]]></expres>
 <page></page>
-</regex>        
-
-<fanart>https://github.com/Andorth/Hercules/tree/master/imagenes/fanart.jpg</fanart>
-<thumbnail>http://iconbug.com/data/03/256/5d79c9b354d34b16d373f5950b07970d.png</thumbnail>
-</item>	
+</regex>
+<thumbnail><thumbnail>[makelist.param1]</thumbnail></thumbnail>
+<fanart><thumbnail>[makelist.param1]</thumbnail></fanart>
+</item>
