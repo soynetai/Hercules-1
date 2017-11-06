@@ -105,8 +105,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <SetViewMode>500</SetViewMode>
 <title>[COLOR white] [makelist.param3]  [/COLOR]</title>
 <link>$doregex[id3]</link>
-<!-- <thumbnail>[makelist.param1]</thumbnail> -->
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>	
+
 ]]></listrepeat>
 <expres><![CDATA[171.*?src="(.*?jpg)"[\w\W\s]{0,390}href="(.*?)".*?trong>(.*?)<\/]]></expres>
 <page>http://www.gruponetai.com/stream/category/[makelist2.param1]/</page>
@@ -129,6 +129,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail><thumbnail>[makelist.param1]</thumbnail></thumbnail>
+<thumbnail>[makelist.param1]</thumbnail>
 <fanart><thumbnail>[makelist.param1]</thumbnail></fanart>
 </item>
