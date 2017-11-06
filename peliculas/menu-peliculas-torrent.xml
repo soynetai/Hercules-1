@@ -2,7 +2,7 @@
 <SetViewMode>500</SetViewMode>
 <items>
  
- <item>
+<!-- <item>
 
 <title>[COLOR orange][B]+BUSCAR[/B] [/COLOR][COLOR yellow]HERCULES[COLOR white] |Requiere Quasar| [/COLOR][/COLOR] </title>
 
@@ -68,13 +68,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons/simple-black-square-icons-business/126715-simple-black-square-icon-business-magnifying-glass-ps.png</thumbnail>
 </item>
 
- 
+-->
 <!-- GRAN TORRENT -->
 
 
 <item>
 
-<title>[COLOR orange][B]+BUSCAR[/B] [/COLOR][COLOR white] Gran Torrent |Requiere Quasar| [/COLOR] </title>
+<title>[COLOR orange][B]+BUSCAR[/B] [/COLOR][COLOR white]  |Requiere Quasar| [/COLOR] </title>
 
 <link>$doregex[makelist2]</link>
 
