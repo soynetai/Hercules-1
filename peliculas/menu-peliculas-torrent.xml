@@ -247,7 +247,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <expres><![CDATA[option\sclass="level-0.*?">(.*?)<]]></expres>
 <page>http://gruponetai.com/portal/</page>
 </regex>
-<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
+
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
