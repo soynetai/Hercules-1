@@ -2,6 +2,11 @@
 <SetViewMode>500</SetViewMode>
 <items>
  
+<<<<<<< HEAD
+<item>
+<title>[COLOR orange]+BUSCAR [INTERNO][/COLOR]</title>
+<link>$doregex[makelist]</link>
+=======
 <!-- <item>
 
 <title>[COLOR orange][B]+BUSCAR[/B] [/COLOR][COLOR yellow]HERCULES[COLOR white] |Requiere Quasar| [/COLOR][/COLOR] </title>
@@ -70,7 +75,44 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 -->
 <!-- GRAN TORRENT -->
+>>>>>>> origin/master
 
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+   <SetViewMode>500</SetViewMode>
+   <title>[COLOR gold][B][makelist.param3][/COLOR][/B]   </title>
+   <link>plugin://plugin.video.quasar/play?uri=$doregex[torrent]</link>
+ <thumbnail>[makelist.param1]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[171.*?src="(.*?jpg)"[\w\W\s]{0,390}href="(.*?)".*?trong>(.*?)<\/]]></expres>
+<page>http://gruponetai.com/portal/?s=$doregex[search]</page>
+</regex>
+
+<regex>
+<name>search</name>
+<expres><![CDATA[#$pyFunction
+import xbmc
+import xbmcaddon
+import xbmcgui
+def GetLSProData(page_data,Cookie_Jar,m):
+    dialog = xbmcgui.Dialog()
+    d = dialog.input('Buscar por Titulo, Actor, director', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
+    return d
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>torrent</name>
+<expres><![CDATA[href="(.*?\.torrent)"]]></expres>
+<page>[makelist.param2]</page>
+</regex>
+
+<thumbnail>http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons/matte-white-square-icons-business/124774-matte-white-square-icon-business-magnifying-glass-ps.png</thumbnail>
+
+</item>
 
 <item>
 
@@ -85,7 +127,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <listrepeat><![CDATA[
  <SetViewMode>500</SetViewMode>
- <title>[COLOR yellow] + [makelist2.param3][/COLOR]  </title>
+ <title>[COLOR gold] + [makelist2.param3][/COLOR]  </title>
 <link>$doregex[makelist]</link>
 <thumbnail>[makelist2.param2]</thumbnail> 
 </regex>
@@ -204,15 +246,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <name>makelist</name>
 
 <listrepeat><![CDATA[
-
  <title>[makelist.param2]</title>
-
 <link>plugin://plugin.video.quasar/play?uri=[makelist.param1]</link>
-
 <thumbnail>[makelist2.param2]</thumbnail> 
-
 </regex>
-
 ]]></listrepeat>
 
 <expres><![CDATA[href="(magnet.*?)[\w\W\s]{0,30}Download\s(.*?)using]]></expres>
