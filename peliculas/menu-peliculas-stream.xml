@@ -84,47 +84,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 <!-- Aqui listamos los diferentes generos de la web -->	
 		
 <item>
@@ -138,7 +97,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <link>$doregex[makelist]</link>
 ]]></listrepeat>
 <expres><![CDATA[option\sclass="level-0.*?">(.*?)<]]></expres>
-<page>http://gruponetai.com/stream/category/</page>
+<page>http://gruponetai.com/stream/</page>
 </regex>
 	
 <!-- Generamos la lista de peliculas del genero elegido -->
@@ -167,6 +126,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
-
+	</item>
 
 	
