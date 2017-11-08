@@ -103,7 +103,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR gold][B][makelist.param3][/COLOR][/B]   </title>
 <link>$doregex[id3]</link>
 <thumbnail>[makelist.param1]</thumbnail>
-<expres><![CDATA[em>(opc.*?)<\/em|href="(http://gamovideo.*?|https://vidoza.*?|https://kingvid.*?|https://openload.*?|https://streamango.*?|http://streamin.*?|http://streamcloud.*?|http://uptobox.*?|https://rapidvideo.*?)".*?class="(.*?)"]]></expres>
+<expres><![CDATA[href="(https://open.*?|http://gamovideo.*?|https://vidoza.*?|https://kingvid.*?|https://openload.*?|https://streamango.*?|http://streamin.*?|http://streamcloud.*?|http://uptobox.*?|https://rapidvideo.*?)".*?class="(.*?)"]]></expres>
 <page>http://www.gruponetai.com/stream/category/[makelist2.param1]/</page>
 </regex>
 
