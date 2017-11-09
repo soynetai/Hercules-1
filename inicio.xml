@@ -83,6 +83,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/deportes/deportes.xml</externallink>
 </item>
 <item>
+<title>[COLOR orange]Sportsdevil[COLOR lime]Unnatended Edition[/COLOR][/COLOR]</title>
+<link>http://Ignoreme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil.Black/</jsonrpc>
+<fanart>https://raw.githubusercontent.com/Andorth/netai/master/sportsdevil/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/Andorth/netai/master/sportsdevil/icon.png</thumbnail>
+</item>
+<item>
 <title>[COLOR orange]Programas tv[/COLOR]</title>
 <link>http://Ignoreme</link>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
