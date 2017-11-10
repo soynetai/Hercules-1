@@ -11,7 +11,7 @@
 <link>$doregex[makelist]</link>
 ]]></listrepeat>
 <expres><![CDATA[option\sclass="level-0.*?">(.*?)<]]></expres>
-<page>http://gruponetai.com/stream/</page>
+<page>http://gruponetai.com/stream/category/</page>
 </regex>
 
 <regex>
