@@ -11,7 +11,7 @@
  <link>$doregex[id3]</link>
 ]]></listrepeat>
 <expres><![CDATA[href="(https://open.*?|http://pow.*?|http://gamovideo.*?|https://vidoza.*?|https://kingvid.*?|https://openload.*?|https://streamango.*?|http://streamin.*?|http://streamcloud.*?|http://uptobox.*?|https://rapidvideo.*?)".*?class="(.*?)"]]></expres>
-<page>http://www.gruponetai.com/stream/category/accion/</page>
+<page>http://www.gruponetai.com/stream/2017/11/08/el-hombre-del-corazon-de-hierro/</page>
 </regex>
 
 <regex>
