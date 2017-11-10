@@ -1,0 +1,42 @@
+<item>
+<title>[COLOR orange][B][+]Peliculas [/B][COLOR white]Por genero[/COLOR][COLOR lime][/COLOR][/COLOR]</title>
+<link>$doregex[makelist2]</link> 
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+   <SetViewMode>55</SetViewMode>
+   <title>[COLOR orange][B]+ [makelist2.param1][/COLOR][/B]   </title>
+<link>$doregex[makelist]</link>
+]]></listrepeat>
+<expres><![CDATA[option\sclass="level-0.*?">(.*?)<]]></expres>
+<page>http://gruponetai.com/stream/</page>
+</regex>
+
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR gold][B][makelist.param3][/COLOR][/B]   </title>
+<link>$doregex[resolve]</link>
+<thumbnail>[makelist.param1]</thumbnail>
+<fanart>[makelist.param1]</fanart>
+]]></listrepeat>
+<expres><![CDATA[171.*?src="(.*?jpg)"[\w\W\s]{0,390}href="(.*?)".*?trong>(.*?)<\/]]></expres>
+<page>http://gruponetai.com/portal/Genero/[makelist2.param1]/</page>
+
+ </regex>
+
+<regex>
+   <name>resolve</name>
+   <listrepeat><![CDATA[
+          <title>[makelist2.param2]    - Server:[makelist.param1]</title>
+          <urlsolve>[makelist.param1]</urlsolve>
+		  <thumbnail>[makelist.param1]</thumbnail>
+		<fanart>[makelist.param1]</fanart>
+   ]]></listrepeat>
+   <expres><![CDATA[rel="(https://drive.*?|https://openload.*?|https://streamango.*?|http://fastplay.*?|https://www.rapidvideo.*?)"]]></expres>
+   <page>[makelist2.param1]</page>
+   <cookieJar></cookieJar>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
+</item>
