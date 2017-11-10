@@ -22,7 +22,7 @@
 <fanart>[makelist.param1]</fanart>
 ]]></listrepeat>
 <expres><![CDATA[171.*?src="(.*?jpg)"[\w\W\s]{0,390}href="(.*?)".*?trong>(.*?)<\/]]></expres>
-<page>http://gruponetai.com/portal/Genero/[makelist2.param1]/</page>
+<page>http://www.gruponetai.com/stream/category/[makelist2.param1]/</page>
 
  </regex>
 
