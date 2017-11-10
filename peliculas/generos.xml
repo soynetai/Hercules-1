@@ -1,20 +1,31 @@
 <item>
-<title>[COLOR orange][B] Accion [/B][/COLOR]</title>
+<title>GENEROS</title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+   <SetViewMode>55</SetViewMode>
+   <title>[COLOR lightblue][B]Genero [makelist2.param1][/COLOR][/B]   </title>
 <link>$doregex[makelist]</link>
+]]></listrepeat>
+<expres><![CDATA[option\sclass="level-0.*?">(.*?)<]]></expres>
+<page>http://gruponetai.com/stream/</page>
+</regex>
 
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[makelist.param2]</title>
- <link>$doregex[resolve]</link>
+   <SetViewMode>55</SetViewMode>
+   <title>[COLOR lightblue][B][makelist.param3][/COLOR][/B]   </title>
+   <link>$doregex[resolve]</link>
+ <thumbnail>[makelist.param1]</thumbnail>
 ]]></listrepeat>
-	<!--
-<expres><![CDATA[href="(https://open.*?|http://pow.*?)">(.*?)<]]></expres>
-        -->
 <expres><![CDATA[em>(opc.*?)<\/em|href="(http://gamovideo.*?|https://vidoza.*?|https://kingvid.*?|https://openload.*?|https://streamango.*?|http://streamin.*?|http://streamcloud.*?|http://uptobox.*?|https://rapidvideo.*?)".*?class="(.*?)"]]></expres>
-<page>http://www.gruponetai.com/stream/category/accion/</page>
-</regex>
+<page>http://www.gruponetai.com/stream/category/[makelist2.param1]/</page>
 
+</regex>
 <regex>
 <name>resolve</name>
 <expres><![CDATA[#$pyFunction
@@ -30,4 +41,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
+
 </item>
+
