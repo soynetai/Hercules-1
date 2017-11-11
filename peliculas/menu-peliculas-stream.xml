@@ -129,8 +129,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/novedades.xml</externallink>
 </item>
 
+
 <item>
-<title>[COLOR orange][+]Peliculas En pruebas[/COLOR][COLOR white] Por Genero[/COLOR]</title>
+<title> netai test genero</title>
 <link>$doregex[makelist2]</link>
 
 
@@ -138,7 +139,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <name>makelist2</name>
 <listrepeat><![CDATA[
    <SetViewMode>55</SetViewMode>
-   <title>[COLOR orange][B]Genero [makelist2.param1][/COLOR][/B]   </title>
+   <title>[COLOR lightblue][B]Genero [makelist2.param1][/COLOR][/B]   </title>
 <link>$doregex[makelist]</link>
 ]]></listrepeat>
 <expres><![CDATA[option\sclass="level-0.*?">(.*?)<]]></expres>
@@ -146,23 +147,28 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 
+
+
+
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-   <SetViewMode>500</SetViewMode>
-   <title>[COLOR orange][B][makelist.param3][/COLOR][/B]   </title>
-   <link>$doregex[link]</link>
+   <SetViewMode>55</SetViewMode>
+   <title>[COLOR lightblue][B][makelist.param3][/COLOR][/B]   </title>
+   <link>$doregex[torrent]</link>
  <thumbnail>[makelist.param1]</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[171.*?src="(.*?jpg)"[\w\W\s]{0,390}href="(.*?)".*?trong>(.*?)<\/]]></expres>
-<page>http://gruponetai.com/portal/stream/category/[makelist2.param1]/</page>
+<page>http://gruponetai.com/stream/category/[makelist2.param1]/</page>
 </regex>
 
 <regex>
-<name>link</name>
-<expres><![CDATA[href="(.*?\.mkv|href="(.*?\.mp4)"]]></expres>
+<name>torrent</name>
+<expres><![CDATA[href="(.*?\.mp4)"]]></expres>
 <page>[makelist.param2]</page>
 </regex>
+
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
 
 </item>
+
