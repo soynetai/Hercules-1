@@ -141,7 +141,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail></thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="(https://openload.*?|http://streamango.*?)">(.*?)<]]></expres>
-<page>http://www.gruponetai.com/stream/category/Nacional/</page>
+<page>http://www.gruponetai.com/stream/category/nacional/</page>
 </regex>
 
 <regex>
