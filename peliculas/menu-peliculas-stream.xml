@@ -131,44 +131,34 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title> netai test genero</title>
-<link>$doregex[makelist2]</link>
-
-
-<regex>
-<name>makelist2</name>
-<listrepeat><![CDATA[
-   <SetViewMode>55</SetViewMode>
-   <title>[COLOR lightblue][B]Genero [makelist2.param1][/COLOR][/B]   </title>
+<title> netai test streaming</title>
 <link>$doregex[makelist]</link>
-]]></listrepeat>
-<expres><![CDATA[option\sclass="level-0.*?">(.*?)<]]></expres>
-<page>http://gruponetai.com/stream/</page>
-</regex>
-
-
-
-
 
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-   <SetViewMode>55</SetViewMode>
-   <title>[COLOR lightblue][B][makelist.param3][/COLOR][/B]   </title>
-   <link>$doregex[torrent]</link>
- <thumbnail>[makelist.param1]</thumbnail>
+<title>[makelist.param2]</title>
+ <link>$doregex[id3]</link>
 ]]></listrepeat>
-<expres><![CDATA[171.*?src="(.*?jpg)"[\w\W\s]{0,390}href="(.*?)".*?trong>(.*?)<\/]]></expres>
-<page>http://gruponetai.com/stream/[makelist2.param1]/</page>
+<expres><![CDATA[href="(.*?\.mkv|href="(.*?\.mp4|href="(.*?\.avi)">(.*?)<]]></expres>
+<page>http://www.gruponetai.com/stream/category/Nacional/</page>
 </regex>
 
 <regex>
-<name>torrent</name>
-<expres><![CDATA[href="(.*?\.mp4|href="(.*?\.mkv)"]]></expres>
-<page>[makelist.param2]</page>
+<name>id3</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import urlresolver
+    url = '[makelist.param1]'
+    try:
+        u = urlresolver.resolve(url)
+    except:
+        u = 'http://adryantv.org/error.mp4'
+    return u
+]]></expres>
+<page></page>
 </regex>
 
-<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
-
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 </item>
 
