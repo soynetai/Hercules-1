@@ -128,7 +128,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
 <externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/novedades.xml</externallink>
 </item>
-	
+<!--	
 <item>
 <title>[COLOR orange][B][+]Peliculas [/B][COLOR white]Por genero[/COLOR][COLOR lime] |Stream 1080HD|720HD[/COLOR][/COLOR]</title>
 
@@ -199,7 +199,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
  </item>
  
-<!-- <item>
+ <item>
 <title>[COLOR orange][B][+]Peliculas [/B][COLOR white]Por genero[/COLOR][COLOR lime] |Stream 1080HD|720HD[/COLOR][/COLOR]</title>
 <link>$doregex[makelist2]</link> 
 <regex>
