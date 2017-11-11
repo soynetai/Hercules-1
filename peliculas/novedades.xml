@@ -189,8 +189,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page></regex>
 </item>
 <item>
-<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
-<fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
+<thumbnail>https://pics.filmaffinity.com/the_circle-699020902-mmed.jpg</thumbnail> 
+<fanart>https://pics.filmaffinity.com/the_circle-699020902-mmed.jpg</fanart>
 
  <link>$doregex[id3]</link>
  
