@@ -48,7 +48,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 -->
 <item>
-<title>[COLOR orange][+]Buscar Pelicula [/COLOR][COLOR white] |Streaming| [/COLOR] </title>
+<title>[COLOR orange][+]Buscar Pelicula [/COLOR][COLOR white] |DiscoKosmiko.mx| [/COLOR] </title>
 <link>$doregex[lista]</link>
 
 <regex>
@@ -122,14 +122,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 	
 <item>
-<title>[COLOR orange][+]Peliculas  [COLOR white]Cartelera[/COLOR][/COLOR]</title>
+<title>[COLOR orange][+]Peliculas  [COLOR white]Taquilla[/COLOR][/COLOR]</title>
 <link>http://Ignoreme</link>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
 <externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/novedades.xml</externallink>
 </item>
 
-
+<!--
 <item>
 <title> [COLOR orange] netai test streaming[/COLOR]</title>
 <link>$doregex[makelist]</link>
@@ -161,4 +161,5 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
 </item>
+-->
 
