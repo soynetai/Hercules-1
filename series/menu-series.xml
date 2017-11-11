@@ -162,7 +162,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
  <thumbnail>[makelist.param1]</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[171.*?src="(.*?jpg)"[\w\W\s]{0,390}href="(.*?)".*?trong>(.*?)<\/]]></expres>
-<page>http://gruponetai.com/stream/[makelist2.param1]/</page>
+<page>http://www.gruponetai.com/stream/series/Arrow/</page>
 </regex>
 
 <regex>
