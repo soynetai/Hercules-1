@@ -129,45 +129,31 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/novedades.xml</externallink>
 </item>
 
-
 <item>
-<title>[COLOR orange][+]Peliculas  [COLOR white]Por genero[/COLOR][/COLOR]</title>
-<link>$doregex[makelist2]</link>
-
-<regex>
-<name>makelist2</name>
-<listrepeat><![CDATA[
-  <SetViewMode>55</SetViewMode>
-  <title>[COLOR orange][B]Genero [makelist2.param1][/COLOR][/B]   </title>
- <thumbnail>[makelist.param1]</thumbnail>
+<title> netai test streaming</title>
 <link>$doregex[makelist]</link>
-]]></listrepeat>
-<expres><![CDATA[option\sclass="level-0.*?">(.*?)<]]></expres>
-<page>http://gruponetai.com/stream/</page>
-</regex>
-<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
-	
+
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[makelist.param2]</title>
- <link>$doregex[makelist3]</link>
- <thumbnail>[makelist3.param1]</thumbnail>
+<link>$doregex[id3]</link>
+<thumbnail></thumbnail>
 ]]></listrepeat>
-<expres><![CDATA[href="(https://openload.*?|https://streamango.*?|http://streamcloud.*?)">(.*?)<]]></expres>
-<page>http://www.gruponetai.com/stream/</page>
+<expres><![CDATA[href="(https://openload.*?|http://streamango.*?)">(.*?)<]]></expres>
+<page>http://www.gruponetai.com/stream/category/Nacional/</page>
 </regex>
 
 <regex>
-<name>makelist3</name>
+<name>makelist2</name>
 <listrepeat><![CDATA[
-   <SetViewMode>500</SetViewMode>
-   <title>[COLOR orange][B][makelist.param3][/COLOR][/B]   </title>
-   <link>$doregex[id3]</link>
-  <thumbnail>makelist3.param1</thumbnail>
+   <title>[COLOR deepskyblue] [makelist2.param2][/COLOR]</title>
+    <link>$doregex[makelist]</link>
+ <thumbnail>[makelist2.param3]</thumbnail>
+<fanart>[makelist2.param3]</fanart>
 ]]></listrepeat>
 <expres><![CDATA[171.*?src="(.*?jpg)"[\w\W\s]{0,390}href="(.*?)".*?trong>(.*?)<\/]]></expres>
-<page>http://gruponetai.com/stream/category/[makelist2.param1]/</page>
+<page></page>
 </regex>
 
 <regex>
@@ -179,16 +165,11 @@ def GetLSProData(page_data,Cookie_Jar,m):
     try:
         u = urlresolver.resolve(url)
     except:
-        u = 'http://www.gruponetai.com/videos/error.mp4'
+        u = 'http://adryantv.org/error.mp4'
     return u
 ]]></expres>
 <page></page>
 </regex>
 
-<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
-<fanart></fanart>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail><fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</fanart>
 </item>
-
-
-
-
