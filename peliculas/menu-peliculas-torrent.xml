@@ -192,16 +192,17 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
-<item>
-<title>[COLOR orange][+]Peliculas [COLOR white]Novedades Torrent[/COLOR]Castellano[/COLOR]</title>
+<!-- <item>
+<title>[COLOR orange][+]Peliculas [COLOR white]Novedades Torrent[/COLOR] Castellano[/COLOR]</title>
 <link>http://Ignoreme</link>
 <fanart>https://github.com/Andorth/Hercules/tree/master/imagenes/fanart.jpg</fanart>
 <thumbnail>http://icons.iconarchive.com/icons/studiomx/leomx/256/Download-icon.png</thumbnail>
 <externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/novedades-torrent.xml</externallink>
 </item>
+-->
 
 <item>
-<title>[COLOR orange][B][+]Peliculas [/B][COLOR white]Por genero[/COLOR][COLOR lime] |Adryan|[/COLOR][/COLOR]</title>
+<title>[COLOR orange][B][+]Peliculas [/B][COLOR white]Por genero[/COLOR][/COLOR]</title>
 <link>$doregex[makelist2]</link> 
 <regex>
 <name>makelist2</name>
@@ -234,7 +235,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
 </item>
 <item>
-<title>Peliculas Streaming</title>
+<title>[COLOR orange][+] Peliculas[/COLOR][COLOR white] Stream[/COLOR]</title>
 <link>http://ignore</link>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
