@@ -128,64 +128,54 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
 <externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/novedades.xml</externallink>
 </item>
-<!--	
-<item>
-<title>[COLOR orange][B][+]Peliculas [/B][COLOR white]Por genero[/COLOR][COLOR lime] |Stream 1080HD|720HD[/COLOR][/COLOR]</title>
 
-<link>$doregex[makelist1]</link>
+
+<item>
+<title>[COLOR orange][+]Peliculas  [COLOR white]Por genero[/COLOR][/COLOR]</title>
+<link>$doregex[makelist2]</link>
 
 <regex>
-<name>makelist1</name>
-<listrepeat><![CDATA[
-<title>[COLOR orange] [makelist1.param2]   [COLOR white][[makelist1.param3]][/COLOR][/COLOR]</title>
- <link>$doregex[makelist2]</link>
-<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
-
-]]></listrepeat>
-<expres><![CDATA[option\sclass="level-0.*?">(.*?)<]]></expres>
- <page>http://www.gruponetai.com/stream/category/</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36</agent>
-</regex>
-
-
-
-
-   <regex>
 <name>makelist2</name>
 <listrepeat><![CDATA[
-<title>[COLOR orange] [makelist2.param2][/COLOR]</title>
- <link>$doregex[makelist3]</link>
- <fanart>[makelist2.param1]</fanart>
-  <thumbnail>[makelist2.param1]</thumbnail>
+  <SetViewMode>55</SetViewMode>
+  <title>[COLOR orange][B]Genero [makelist2.param1][/COLOR][/B]   </title>
+ <thumbnail>[makelist.param1]</thumbnail>
+<link>$doregex[makelist]</link>
 ]]></listrepeat>
-<expres><![CDATA[171.*?src="(.*?jpg)"[\w\W\s]{0,390}href="(.*?)".*?trong>(.*?)<\/]]></expres>
- <page>/[makelist1.param1]</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36</agent>
+<expres><![CDATA[option\sclass="level-0.*?">(.*?)<]]></expres>
+<page>http://gruponetai.com/stream/</page>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
+	
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist.param2]</title>
+ <link>$doregex[makelist3]</link>
+ <thumbnail>[makelist3.param1]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="(https://openload.*?|https://streamango.*?|http://streamcloud.*?)">(.*?)<]]></expres>
+<page>http://www.gruponetai.com/stream/</page>
 </regex>
 
-
-
-
-  <regex>
+<regex>
 <name>makelist3</name>
 <listrepeat><![CDATA[
-<title>[COLOR orange][makelist2.param2][/COLOR]      Server:[makelist3.param1]</title>
- <link>$doregex[id3]</link>
- <fanart>[makelist2.param1]</fanart>
-  <thumbnail>[makelist2.param1]</thumbnail>
+   <SetViewMode>500</SetViewMode>
+   <title>[COLOR orange][B][makelist.param3][/COLOR][/B]   </title>
+   <link>$doregex[id3]</link>
+  <thumbnail>makelist3.param1</thumbnail>
 ]]></listrepeat>
-<expres><![CDATA[rptss\"\ssrc=\"(https://streamango.*?|https://estream.*?|http://uptobox.*?|https://openload.*?|https://www.youruploa.*?|https://ok.*?)"]]></expres>
- <page>[makelist2.param3]</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36</agent>
+<expres><![CDATA[171.*?src="(.*?jpg)"[\w\W\s]{0,390}href="(.*?)".*?trong>(.*?)<\/]]></expres>
+<page>http://gruponetai.com/stream/category/[makelist2.param1]/</page>
 </regex>
-
 
 <regex>
 <name>id3</name>
 <expres><![CDATA[#$pyFunction
 def GetLSProData(page_data,Cookie_Jar,m):
     import urlresolver
-    url = '[makelist3.param1]'
+    url = '[makelist.param1]'
     try:
         u = urlresolver.resolve(url)
     except:
@@ -195,41 +185,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 
-
-<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
- </item>
- 
- <item>
-<title>[COLOR orange][B][+]Peliculas [/B][COLOR white]Por genero[/COLOR][COLOR lime] |Stream 1080HD|720HD[/COLOR][/COLOR]</title>
-<link>$doregex[makelist2]</link> 
-<regex>
-<name>makelist2</name>
-<listrepeat><![CDATA[
-   <SetViewMode>55</SetViewMode>
-   <title>[COLOR orange][B]+ [makelist2.param1][/COLOR][/B]   </title>
-<link>$doregex[makelist]</link>
-]]></listrepeat>
-<expres><![CDATA[option\sclass="level-0.*?">(.*?)<]]></expres>
-<page>http://www.gruponetai.com/stream/category/</page>
-</regex>
-
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-   <SetViewMode>500</SetViewMode>
-   <title>[COLOR gold][B][makelist.param3][/COLOR][/B]   </title>
-   <link>$doregex[resolve]</link>
- <thumbnail>[makelist.param1]</thumbnail>
-]]></listrepeat>
-<expres><![CDATA[171.*?src="(.*?jpg)"[\w\W\s]{0,390}href="(.*?)".*?trong>(.*?)<\/]]></expres>
-<page>http://gruponetai.com/portal/Genero/[makelist2.param1]/</page>
-</regex>
-
-<regex>
-<name>resolve</name>
-<expres><![CDATA[src=\"(https://streamango.*?|https://estream.*?|http://uptobox.*?|https://openload.*?|https://www.youruploa.*?|https://ok.*?)"]]></expres>
-<page>[makelist.param2]</page>
-</regex>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
-</item> -->
+<fanart></fanart>
+</item>
+
+
+
 
