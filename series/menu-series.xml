@@ -95,7 +95,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/Buscar.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
-<!--    
+
 <item>
 <title>[COLOR orange]+BUSCAR [INTERNO] En pruebas No entrar !!!![/COLOR]</title>
 <link>$doregex[makelist]</link>
@@ -110,7 +110,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
  <thumbnail>[makelist.param1]</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[171.*?src="(.*?jpg)"[\w\W\s]{0,390}href="(.*?)".*?trong>(.*?)<\/]]></expres>
-<page>http://gruponetai.com/stream/?s=$doregex[search]</page>
+<page>http://www.gruponetai.com/stream/?s=$doregex[search]</page>
 </regex>
 
 <regex>
@@ -137,6 +137,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons/matte-white-square-icons-business/124774-matte-white-square-icon-business-magnifying-glass-ps.png</thumbnail>
 
 </item>
+<!--
     
 <item>
 <title>[COLOR orange][B][+]Series [/B][COLOR white]Torrent HD[/COLOR][/COLOR]</title>
