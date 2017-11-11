@@ -48,7 +48,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 -->
 <item>
-<title>[COLOR orange][+]Buscar Pelicula [/COLOR][COLOR white] |DiscoKosmiko.mx| [/COLOR] </title>
+<title>[COLOR orange][+]Buscar En [/COLOR][COLOR white] |DiscoKosmiko.mx| [/COLOR] </title>
 <link>$doregex[lista]</link>
 
 <regex>
@@ -124,7 +124,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- Buscador Kbagi -->
 	
 <item>
-<title>[COLOR orange][+]Buscar Pelicula [/COLOR][COLOR white] |Kbagui.com| [/COLOR] </title>
+<title>[COLOR orange][+]Buscar En [/COLOR][COLOR white] |Kbagui.com| [/COLOR] </title>
 <link>$doregex[lista]</link>
 
 <regex>
