@@ -121,7 +121,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
 	
-<!-- Buscador Kbagi -->
+<!-- Buscador Kbagi 
 	
 <item>
 <title>[COLOR orange][+]Buscar En [/COLOR][COLOR white] |Kbagui.com| [/COLOR] </title>
@@ -198,7 +198,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
 
-<!-- Fin -->
+ Fin -->
 	
 <item>
 <title>[COLOR orange][+]Peliculas  [COLOR white]Taquilla[/COLOR][/COLOR]</title>
