@@ -141,7 +141,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
  <link>$doregex[id3]</link>
 ]]></listrepeat>
 <expres><![CDATA[href="(.*?\.mkv|href="(.*?\.mp4|href="(.*?\.avi)">(.*?)<]]></expres>
-<page>http://www.gruponetai.com/stream/category/Nacional/</page>
+<page>http://www.gruponetai.com/stream/category/</page>
 </regex>
 
 <regex>
