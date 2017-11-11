@@ -44,7 +44,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <link>http://Ignoreme</link>
 <fanart>http://www.arielfeliciano.com/wp-content/uploads/100-peliculas-completas.jpg</fanart>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/menu-peliculas.xml</externallink>
+<!-- <externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/menu-peliculas.xml</externallink> -->
+    <externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/menu-peliculas-torrent.xml</externallink>
 </item>
 <item>
 <title>[COLOR orange]Adryanlist[COLOR red] [/COLOR][/COLOR]</title>
