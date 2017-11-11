@@ -131,7 +131,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title> netai test streaming</title>
+<title> [COLOR orange] netai test streaming[/COLOR]</title>
 <link>$doregex[makelist]</link>
 
 <regex>
@@ -153,12 +153,12 @@ def GetLSProData(page_data,Cookie_Jar,m):
     try:
         u = urlresolver.resolve(url)
     except:
-        u = 'http://adryantv.org/error.mp4'
+        u = 'http://www.gruponetai.com/videos/error.mp4'
     return u
 ]]></expres>
 <page></page>
 </regex>
 
-<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/adryflix.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
 </item>
 
