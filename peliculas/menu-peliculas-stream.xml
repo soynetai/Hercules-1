@@ -129,12 +129,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <regex>
 <name>lista</name>
-  <listrepeat><![CDATA[
-         <SetViewMode>55</SetViewMode>
-		 <title>$pyFunction:'[lista.param3]'.replace(".mp4", "  [COLOR white] [MP4] [/COLOR]").replace(".avi", "  [COLOR orange] [AVI] [/COLOR]").replace(".mkv", "  [COLOR white] [MKV] [/COLOR]")</title>
-        <link>$doregex[getUrl]</link>
-		<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/Buscar.png</thumbnail>
-		]]></listrepeat>
+<listrepeat><![CDATA[
+<SetViewMode>55</SetViewMode>
+<title>$pyFunction:'[lista.param3]'.replace(".mp4", "  [COLOR white] [MP4] [/COLOR]").replace(".avi", "  [COLOR orange] [AVI] [/COLOR]").replace(".mkv", "  [COLOR white] [MKV] [/COLOR]")</title>
+<link>$doregex[getUrl]</link>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/Buscar.png</thumbnail>]]>
+</listrepeat>
+	
 <expres><![CDATA[href=\"(.*?,(.*?)\..*?)\".*?preview">(.*?mkv|.*?mp4|.*?avi)<]]><expres>
 <page>http://kbagi.com/action/SearchFiles?Phrase=Hercules&amp;Mode=List&amp;Type=Video&amp;SizeFromMB=0&amp;SizeToMB=0&amp;pageNumber=10</page>
 <rawpost>Phrase=$doregex[search]&__RequestVerificationToken=$doregex[tok]</rawpost>
@@ -188,7 +189,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <name>tok2</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://kbagi.com[lista.param1]</page>
-<referer>http://diskokosmiko.mx/moises-perez</referer>
+<referer>http://kbagi.com/moises-perez</referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
