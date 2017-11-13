@@ -11,9 +11,9 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
    <SetViewMode>500</SetViewMode>
-   <title>[COLOR gold][B][makelist.param1][/COLOR][/B]   </title>
+   <title>[COLOR gold][B][makelist.param3][/COLOR][/B]   </title>
    <link>plugin://plugin.video.quasar/play?uri=$doregex[torrent]</link>
- <thumbnail>[makelist.param3]</thumbnail>
+ <thumbnail>[makelist.param1]</thumbnail>
 ]]></listrepeat>
 <expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
 <page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/seresdb.txt</page>
@@ -51,3 +51,4 @@
 </regex>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
 </item>
+</items>
