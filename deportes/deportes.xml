@@ -6,7 +6,7 @@
 </item>
 
 <item>
-<title>[COLOR orange]Avezy[COLOR gold] Addon Requerido[/COLOR][/COLOR]</title>
+<title>[COLOR orange][B]+Avezy[/B][COLOR gold] Addon Requerido[/COLOR][/COLOR]</title>
 <link>http://Ignoreme</link>
 <jsonrpc>plugin://plugin.video.avezy/</jsonrpc>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
@@ -14,12 +14,13 @@
 </item>
 
 <item>
-<title>[COLOR orange]+Sportsdevil[COLOR lime] Unnatended Edition[/COLOR][/COLOR]</title>
+<title>[COLOR orange][B]+Sportsdevil[/B][COLOR lime] Unnatended Edition[/COLOR][/COLOR]</title>
 <link>http://Ignoreme</link>
 <jsonrpc>plugin://plugin.video.SportsDevil.Black/</jsonrpc>
 <fanart>https://raw.githubusercontent.com/Andorth/netai/master/sportsdevil/fanart.jpg</fanart>
 <thumbnail>https://raw.githubusercontent.com/Andorth/netai/master/sportsdevil/icon.png</thumbnail>
 </item>
+<item>
 <title>[COLOR white][B]Seccion Deportes [/B][/COLOR]</title>
 <!-- Liga Santander -->
 <title>[COLOR white][B]Seccion Deportes [/B][COLOR orange]|En Directo[/COLOR][/COLOR]</title>
