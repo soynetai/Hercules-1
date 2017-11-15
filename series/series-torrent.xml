@@ -13,7 +13,7 @@
    <SetViewMode>500</SetViewMode>
    <title>[COLOR gold][B][makelist.param0][/COLOR][/B]   </title>
    <link>plugin://plugin.video.quasar/play?uri=$doregex[torrent]</link>
- <thumbnail>[makelist.param4]</thumbnail>
+ <thumbnail>[makelist.param1]</thumbnail>
 ]]></listrepeat>
 <expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
 <page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/seresdb.txt</page>
@@ -22,7 +22,7 @@
 <regex>
 <name>torrent</name>
 <expres><![CDATA[href="(.*?\.torrent)"]]></expres>
-<page>[makelist.param2]</page>
+<page>[makelist.param3]</page>
 </regex>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
 </item>
