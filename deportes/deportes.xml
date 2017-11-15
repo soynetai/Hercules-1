@@ -13,6 +13,14 @@
 <thumbnail>https://raw.githubusercontent.com/Andorth/ArenaSports/master/avezy.jpg</thumbnail>
 </item>
 
+<item>
+<title>[COLOR orange]+Sportsdevil[COLOR lime] Unnatended Edition[/COLOR][/COLOR]</title>
+<link>http://Ignoreme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil.Black/</jsonrpc>
+<fanart>https://raw.githubusercontent.com/Andorth/netai/master/sportsdevil/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/Andorth/netai/master/sportsdevil/icon.png</thumbnail>
+</item>
+
 <!-- Liga Santander -->
 
 <item>
