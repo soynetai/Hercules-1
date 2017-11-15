@@ -5,6 +5,14 @@
 <thumbnail>http://www.gruponetai.com/imagenes/deportes.png</thumbnail>
 </item>
 
+<item>
+<title>[COLOR orange]Avezy[COLOR gold] Addon Requerido[/COLOR][/COLOR]</title>
+<link>http://Ignoreme</link>
+<jsonrpc>plugin://plugin.video.avezy/</jsonrpc>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/Andorth/ArenaSports/master/avezy.jpg</thumbnail>
+</item>
+
 <!-- Liga Santander -->
 
 <item>
