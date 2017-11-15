@@ -13,7 +13,7 @@
    <SetViewMode>500</SetViewMode>
    <title>[COLOR gold][B][makelist.param1][/COLOR][/B]   </title>
    <link>plugin://plugin.video.quasar/play?uri=$doregex[torrent]</link>
- <thumbnail>[makelist.param3]</thumbnail>
+ <thumbnail>[makelist.param4]</thumbnail>
 ]]></listrepeat>
 <expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
 <page>https://raw.githubusercontent.com/Andorth/Hercules/master/db/seresdb.txt</page>
