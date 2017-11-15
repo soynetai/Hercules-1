@@ -22,8 +22,6 @@
 </item>
 <item>
 <title>[COLOR white][B]Seccion Deportes [/B][/COLOR]</title>
-<!-- Liga Santander -->
-<title>[COLOR white][B]Seccion Deportes [/B][COLOR orange]|En Directo[/COLOR][/COLOR]</title>
 <link>$doregex</link>
 <page></page>
 <thumbnail>http://www.gruponetai.com/imagenes/deportes.png</thumbnail>
