@@ -11,7 +11,7 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
    <SetViewMode>500</SetViewMode>
-   <title>[COLOR lime][B][makelist.param0][/COLOR][/B]   </title>
+   <title>[COLOR lime][B][makelist.param1][/COLOR][/B]   </title>
    <link>plugin://plugin.video.quasar/play?uri=$doregex[torrent]</link>
  <thumbnail>[makelist.param1]</thumbnail>
 ]]></listrepeat>
