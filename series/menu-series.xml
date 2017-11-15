@@ -129,5 +129,4 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/series.png</thumbnail>
 <externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/series/series-torrent.xml</externallink>
 </item>
-
 </items>
