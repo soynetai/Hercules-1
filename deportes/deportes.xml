@@ -1,5 +1,5 @@
 <item>
-<title>[COLOR white][B]Seccion Deportes[/B][/COLOR]</title>
+<title>[COLOR white][B]Seccion Deportes [/B][COLOR orange]|En Directo[/COLOR][/COLOR]</title>
 <link>$doregex</link>
 <page></page>
 <thumbnail>http://www.gruponetai.com/imagenes/deportes.png</thumbnail>
@@ -20,8 +20,13 @@
 <fanart>https://raw.githubusercontent.com/Andorth/netai/master/sportsdevil/fanart.jpg</fanart>
 <thumbnail>https://raw.githubusercontent.com/Andorth/netai/master/sportsdevil/icon.png</thumbnail>
 </item>
-
+<title>[COLOR white][B]Seccion Deportes [/B][/COLOR]</title>
 <!-- Liga Santander -->
+<title>[COLOR white][B]Seccion Deportes [/B][COLOR orange]|En Directo[/COLOR][/COLOR]</title>
+<link>$doregex</link>
+<page></page>
+<thumbnail>http://www.gruponetai.com/imagenes/deportes.png</thumbnail>
+</item>
 
 <item>
 <title>[COLOR orange][B]+ Liga Santander[/B] [COLOR white] [Partidos completos.] [/COLOR][/COLOR]</title>
