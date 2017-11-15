@@ -41,7 +41,7 @@
  <thumbnail>[makelist.param2]</thumbnail>
 ]]></listrepeat>
 <expres>name:"(.*?)" url:"(.*?)" img:"(.*?)"</expres>
-<page>https://raw.githubusercontent.com/Andorth/Hercules/master/series/series-torrent-db/arrow.txt</page>
+<page>http://www.gruponetai.com/series/series-torrents/Arrow/</page>
 </regex>
 
 <regex>
