@@ -90,6 +90,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/tv.png</thumbnail>
 <externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/programastv/inicio.xml</externallink>
 </item>
+<item>
+<title>[COLOR orange]YOUtubers Seleccion[/COLOR]</title>
+<link>http://Ignoreme</link>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/youtubers/Youtubers.png</thumbnail>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/youtubers/inicio.xml</externallink>
+</item>    
+
     
 <!-- <item>
 <title>[COLOR orange]Creditos[/COLOR]</title>
