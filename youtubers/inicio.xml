@@ -1,0 +1,12 @@
+<item>
+<title>[COLOR white][B]YOUTUBERS Seleccion:[/B][/COLOR]</title>
+<link>$doregex</link>
+<page></page>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/youtubers/Youtubers.png</thumbnail>
+</item>
+<item>
+<title>[COLOR orange][B] +Mundo Desconocido [/B][COLOR white] Canales [/COLOR][/COLOR]</title>
+<link>ignorme</link>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/youtubers/mundo-desconocido.xml</externallink>
+<thumbnail>https://yt3.ggpht.com/-xqPSAqJxh_g/AAAAAAAAAAI/AAAAAAAAAAA/UN_34qIIRIo/s100-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+</item>
