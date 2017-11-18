@@ -1,31 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <items>
 
-<!-- 0 -->
-
-<!--LETRA A -->
 <item>
-<title>[COLOR orange] [+]SERIES  [COLOR white][A][/COLOR] </title>
-<link>$doregex[makelist]</link>
-
+<title>Arrow</title>
+<link>$doregex[makelist3]</link>
 <regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-   <SetViewMode>500</SetViewMode>
-   <title>[COLOR yellow][B][makelist.param1][/COLOR][/B]   </title>
-   <link>plugin://plugin.video.quasar/play?uri=$doregex[torrent]</link>
- <thumbnail>[makelist.param3]</thumbnail>
-]]></listrepeat>
-<expres>name:"(.*?)" url:"(.*?)" img:"(.*?)"</expres>
-<page>https://raw.githubusercontent.com/Andorth/Hercules/master/series/series-torrent-db/arrow.txt</page>
+  <name>makelist3</name>
+  <listrepeat><![CDATA[
+        <title>$pyFunction:'[COLOR white][makelist3.param2][/COLOR]'.replace("%20", " ")</title>
+        <link>http://www.gruponetai.com/series/series-torrents/arrow/[makelist3.param1]/</link>
+        
+        ]]></listrepeat>
+<expres>href="(.*?)\/">(.*?)\/</expres>
+<page>http://www.gruponetai.com/series/series-torrents/arrow/</page>
+<cookieJar></cookieJar>
 </regex>
 
-<regex>
-<name>torrent</name>
-<expres><![CDATA[href="(.*?\.torrent)"]]></expres>
-<page>http://www.gruponetai.com/series/series-torrents/Arrow/[makelist.param2]</page>
-</regex>
-<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMTUwOTgyNTQ1M15BMl5BanBnXkFtZTgwNDEyNzM3MzI@._V1_UY268_CR16,0,182,268_AL_.jpg</thumbnail>
 </item>
 </items>
-
