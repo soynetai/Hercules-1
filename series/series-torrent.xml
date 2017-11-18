@@ -2,6 +2,27 @@
 <items>
 
 <item>
+<title>[COLOR orange]Arrow[/COLOR]</title>
+<link>$doregex[makelist3]</link>
+<regex>
+  <name>makelist3</name>
+  <listrepeat><![CDATA[
+        <title>$pyFunction:'[COLOR white][makelist3.param2][/COLOR]'.replace("%20", " ")</title>
+        <link>plugin://plugin.video.quasar/play?uri=http://www.gruponetai.com/series/series-torrents/Arrow/[makelist3.param1]/</link>
+
+        ]]></listrepeat>
+<expres>href="(.*?)\/">(.*?)\/</expres>
+<page>http://www.gruponetai.com/series/series-torrents/Arrow/</page>
+<cookieJar></cookieJar>
+</regex>
+
+<thumbnail> https://images-na.ssl-images-amazon.com/images/M/MV5BMTUwOTgyNTQ1M15BMl5BanBnXkFtZTgwNDEyNzM3MzI@._V1_UY268_CR16,0,182,268_AL_.jpg </thumbnail>
+</item>
+
+
+
+
+<item>
 <title>[COLOR orange]Madam_secretary[/COLOR]</title>
 <link>$doregex[makelist3]</link>
 <regex>
@@ -37,5 +58,6 @@
 
 <thumbnail>https://images-na.ssl-images-amazon.com/images/I/7142JwaBY%2BL._SL1024_.jpg</thumbnail>
 </item>
+
 
 </items>
