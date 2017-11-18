@@ -7,7 +7,7 @@
 <regex>
   <name>makelist3</name>
   <listrepeat><![CDATA[
-        <title>$pyFunction:'[COLOR white][makelist3.param2][/COLOR]'.replace("%20", " ")</title>
+        <title>$pyFunction:'[COLOR white][makelist3.param2][/COLOR]'.replace(".torrent", " ")</title>
         <link>plugin://plugin.video.quasar/play?uri=[makelist3.param1]</link>
 
         ]]></listrepeat>
