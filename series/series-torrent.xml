@@ -23,7 +23,7 @@
 <regex>
 <name>torrent</name>
 <expres><![CDATA[href="(.*?\.torrent)"]]></expres>
-<page>[makelist.param2]</page>
+<page>http://www.gruponetai.com/series/series-torrents/Arrow/[makelist.param2]</page>
 </regex>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
 </item>
