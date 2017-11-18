@@ -17,6 +17,7 @@
 </regex>
 
 <thumbnail>http://s3cf.recapguide.com/img/posters/Madam-Secretary_s.jpg</thumbnail>
+  
 </item>
 
 <item>
@@ -26,11 +27,11 @@
   <name>makelist3</name>
   <listrepeat><![CDATA[
         <title>$pyFunction:'[COLOR white][makelist3.param2][/COLOR]'.replace(".torrent", " ") .replace("%20", " ") .replace("-", " ") .replace("_", " ")</title>
-        <link>plugin://plugin.video.quasar/play?uri=http://www.gruponetai.com/series/series-torrents/Stranger Things/[makelist3.param1]</link>
+        <link>plugin://plugin.video.quasar/play?uri=http://www.gruponetai.com/series/series-torrents/Stranger_Things/[makelist3.param1]</link>
 
         ]]></listrepeat>
 <expres>href="(.*?torrent)</expres>
-<page>http://www.gruponetai.com/series/series-torrents/Stranger Things/</page>
+<page>http://www.gruponetai.com/series/series-torrents/Stranger_Things/</page>
 <cookieJar></cookieJar>
 </regex>
 
