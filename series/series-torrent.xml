@@ -2,21 +2,19 @@
 <items>
 
 <item>
-<title>Arrow</title>
-<link>[COLOR orange]$doregex[makelist3][/COLOR]</link>
+<title>[COLOR lime]Arrow[/COLOR]</title>
+<link>$doregex[makelist3]</link>
 <regex>
   <name>makelist3</name>
   <listrepeat><![CDATA[
-        <title>$pyFunction:'[COLOR skyblue][makelist3.param2][/COLOR]'.replace("%20", " ")</title>
+        <title>$pyFunction:'[COLOR white][makelist3.param2][/COLOR]'.replace("%20", " ")</title>
         <link>plugin://plugin.video.quasar/play?uri=http://www.gruponetai.com/series/series-torrents/arrow/[makelist3.param1]/</link>
 
         ]]></listrepeat>
 <expres>href="(.*?)\/">(.*?)\/</expres>
-<page>http://www.gruponetai.com/series/series-torrents/arrow/</page>
+<page>http://www.gruponetai.com/series/series-torrents/</page>
 <cookieJar></cookieJar>
 </regex>
-
-
 
 <thumbnail> https://images-na.ssl-images-amazon.com/images/M/MV5BMTUwOTgyNTQ1M15BMl5BanBnXkFtZTgwNDEyNzM3MzI@._V1_UY268_CR16,0,182,268_AL_.jpg </thumbnail>
 </item>
