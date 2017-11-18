@@ -16,7 +16,7 @@
 <item>
 <title>[COLOR orange][B]+Sportsdevil[/B][COLOR lime] Unnatended Edition[/COLOR][/COLOR]</title>
 <link>http://Ignoreme</link>
-<jsonrpc>plugin://plugin.video.SportsDevil.Black/</jsonrpc>
+<jsonrpc>plugin://plugin.video.SportsDevil/</jsonrpc>
 <fanart>https://raw.githubusercontent.com/Andorth/netai/master/sportsdevil/fanart.jpg</fanart>
 <thumbnail>https://raw.githubusercontent.com/Andorth/netai/master/sportsdevil/icon.png</thumbnail>
 </item>
