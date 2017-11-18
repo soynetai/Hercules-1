@@ -24,7 +24,7 @@
 
 
 <item>
-<title>[COLOR orange]Madam_secretary[/COLOR]</title>
+<title>[COLOR orange]Madam secretary[/COLOR]</title>
 <link>$doregex[makelist3]</link>
 <regex>
   <name>makelist3</name>
