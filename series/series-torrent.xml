@@ -12,7 +12,7 @@
 
         ]]></listrepeat>
 <expres>href="(.*?torrent)</expres>
-<page>http://www.gruponetai.com/series/series-torrents/</page>
+<page>http://www.gruponetai.com/series/series-torrents/arrow/</page>
 <cookieJar></cookieJar>
 </regex>
 
