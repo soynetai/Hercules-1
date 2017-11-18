@@ -7,7 +7,7 @@
 <regex>
   <name>makelist3</name>
   <listrepeat><![CDATA[
-        <title>$pyFunction:'[COLOR white][makelist3.param2][/COLOR]'.replace(".torrent", " ") .replace("20%", "")</title>
+        <title>$pyFunction:'[COLOR white][makelist3.param2][/COLOR]'.replace(".torrent", " ") .replace("%20", "")</title>
         <link>plugin://plugin.video.quasar/play?uri=http://www.gruponetai.com/series/series-torrents/Arrow/[makelist3.param1]</link>
 
         ]]></listrepeat>
@@ -18,4 +18,6 @@
 
 <thumbnail>https://i.pinimg.com/236x/28/0d/98/280d985fe1f724d127135e49d6584069--roy-arrow-arrow-dc.jpg</thumbnail>
 </item>
+
+https://mejortorrent.website/uploads/torrents/series/arrow-2-720p-01.torrent
 </items>
