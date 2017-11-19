@@ -151,18 +151,26 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <listrepeat><![CDATA[
    <SetViewMode>500</SetViewMode>
    <title>$pyFunction:'[COLOR gold][B][makelist.param3][/COLOR][/B].replace("%20", " ")'</title>
-   <link>$doregex[link]</link>
+   <link>$doregex[makelist3]</link>
  <thumbnail>[makelist.param1]</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[171.*?src="(.*?jpg)"[\w\W\s]{0,390}href="(.*?)".*?trong>(.*?)<\/]]></expres>
 <page>http://www.gruponetai.com/videoteca/category/[makelist2.param1]/</page>
 </regex>
-
+	
 <regex>
-<name>link</name>
-<expres><![CDATA[href="(.*?)\/">(.*?)\/]]></expres>
-<page>[makelist.param2]</page>
+  <name>makelist3</name>
+  <listrepeat><![CDATA[
+        <title>$pyFunction:'[COLOR gold][makelist3.param2][/COLOR]'.replace(".", " ")</title>
+        <link>http://www.gruponetai.com/videoteca/category/[makelist2.param1]/</link>
+
+        ]]></listrepeat>
+<expres>href="(.*?)">(.*?).20(.*?mkv|mp4)<</expres>
+<page>http://www.gruponetai.com/videoteca/category/[makelist2.param1]/</page>
+<cookieJar></cookieJar>
 </regex>
+
+
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
 </item>
 
