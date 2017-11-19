@@ -99,3 +99,21 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <expres><![CDATA[.*?src="(.*?jpg|.*?png)"[\w\W\s]{0,390}href="(.*?)".*?>(.*?)<\/]]></expres>
 <page>http://www.gruponetai.com/videoteca/</page>
 </regex>
+
+<item>
+<title>Taquillas sin Imagen [720p|1080p]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>$pyFunction:'[COLOR white][makelist.param2][/COLOR] [makelist.param3][makelist.param4]'.replace(".", " ").replace("mp4", " ").replace("mkv", " ") .replace("-", " ") .replace("_", " ")</title>
+        <link>http://www.gruponetai.com/videoteca/[makelist3.param1]</link>
+
+        ]]></listrepeat>
+<expres>href="(.*?)">(.*?).(20.*?)(.*?mkv|mp4)</expres>
+<page>http://www.gruponetai.com/videoteca/</page>
+<cookieJar></cookieJar>
+</regex>
+
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
+</item>
