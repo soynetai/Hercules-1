@@ -2,9 +2,6 @@
 <!--  Regex para streamplay,streamcloud,openload,StreamGo,Uptobox,Yourupload
 
 
-
-
-
 <item>
 <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
 <fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
@@ -453,6 +450,11 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page></regex>
 </item>
 
+<item>
+ <title>Piratas del Caribe: La venganza de Salazar |1080| H265</title>
+ <link>http://www.gruponetai.com/videoteca/hallowen.mp4</link>
+ <thumbnail>http://www.gruponetai.com/videoteca/piratas%20del%20caribe%20-%20La%20leyenda%20del%20rey%20Salazar.jpg</thumbnail>
+</item>
 <!-- Q -->
 <!-- R -->
 <!-- S -->
