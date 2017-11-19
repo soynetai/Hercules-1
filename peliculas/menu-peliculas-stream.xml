@@ -2,51 +2,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <SetViewMode>500</SetViewMode>
 <items>
-<!-- 
-<item>
-<title>[COLOR orange]+BUSCAR [INTERNO][/COLOR]</title>
-<link>$doregex[makelist]</link>
 
-
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-   <SetViewMode>500</SetViewMode>
-   <title>[COLOR gold][B][makelist.param3][/COLOR][/B]   </title>
-   <link>plugin://plugin.video.quasar/play?uri=$doregex[torrent]</link>
- <thumbnail>[makelist.param1]</thumbnail>
-]]></listrepeat>
-<expres><![CDATA[171.*?src="(.*?jpg)"[\w\W\s]{0,390}href="(.*?)".*?trong>(.*?)<\/]]></expres>
-<page>http://gruponetai.com/portal/?s=$doregex[search]</page>
-</regex>
-
-<regex>
-<name>search</name>
-<expres><![CDATA[#$pyFunction
-import xbmc
-import xbmcaddon
-import xbmcgui
-def GetLSProData(page_data,Cookie_Jar,m):
-    dialog = xbmcgui.Dialog()
-    d = dialog.input('Buscar por Titulo, Actor, director', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
-    return d
-]]></expres>
-<page></page>
-<cookieJar></cookieJar>
-</regex>
-
-<regex>
-<name>torrent</name>
-<expres><![CDATA[href="(.*?\.torrent)"]]></expres>
-<page>[makelist.param2]</page>
-</regex>
-
-<thumbnail>http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons/matte-white-square-icons-business/124774-matte-white-square-icon-business-magnifying-glass-ps.png</thumbnail>
-
-</item>
-
-
--->
 <item>
 <title>[COLOR orange][+]Buscar En [/COLOR][COLOR white] |DiscoKosmiko.mx| [/COLOR] </title>
 <link>$doregex[lista]</link>
@@ -121,31 +77,33 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
 	
-<!-- Buscador Kbagi 
+	
+	
 	
 <item>
-<title>[COLOR orange][+]Buscar En [/COLOR][COLOR white] |Kbagui.com| [/COLOR] </title>
-<link>$doregex[lista]</link>
+<title>[COLOR orange][+]Peliculas  [COLOR white]Taquilla[/COLOR][/COLOR]</title>
+<link>http://Ignoreme</link>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/novedades.xml</externallink>
+</item>
+	
+<item>
+<title>[COLOR orange]+BUSCAR [INTERNO][/COLOR]</title>
+<link>$doregex[makelist]</link>
+
 
 <regex>
-<name>lista</name>
+<name>makelist</name>
 <listrepeat><![CDATA[
-<SetViewMode>55</SetViewMode>
-<title>$pyFunction:'[lista.param3]'.replace(".mp4", "  [COLOR white] [MP4] [/COLOR]").replace(".avi", "  [COLOR orange] [AVI] [/COLOR]").replace(".mkv", "  [COLOR white] [MKV] [/COLOR]")</title>
-<link>$doregex[getUrl]</link>
-<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/Buscar.png</thumbnail>]]>
-</listrepeat>
-	
-<expres><![CDATA[href=\"(.*?,(.*?)\..*?)\".*?preview">(.*?mkv|.*?mp4|.*?avi)<]]><expres>
-<page>http://kbagi.com/action/SearchFiles?Phrase=Hercules&amp;Mode=List&amp;Type=Video&amp;SizeFromMB=0&amp;SizeToMB=0&amp;pageNumber=10</page>
-<rawpost>Phrase=$doregex[search]&__RequestVerificationToken=$doregex[tok]</rawpost>
-<referer>http://kbagi.com/action/SearchFiles</referer>
-<connection>keep-alive</connection>
-<accept>*/*</accept>
-<X-Req>XMLHttpRequest</X-Req>
-<cookieJar></cookieJar>
+   <SetViewMode>500</SetViewMode>
+   <title>[COLOR gold][B][makelist.param3][/COLOR][/B]</title>
+   <link>$doregex[link]</link>
+ <thumbnail>[makelist.param1]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[171.*?src="(.*?jpg)"[\w\W\s]{0,390}href="(.*?)".*?trong>(.*?)<\/]]></expres>
+<page>http://gruponetai.com/videoteca/?s=$doregex[search]</page>
 </regex>
-
 
 <regex>
 <name>search</name>
@@ -155,7 +113,7 @@ import xbmcaddon
 import xbmcgui
 def GetLSProData(page_data,Cookie_Jar,m):
     dialog = xbmcgui.Dialog()
-    d = dialog.input('Buscar en: [KBAGUI.COM]', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
+    d = dialog.input('Buscar por Titulo, Actor, director', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
     return d
 ]]></expres>
 <page></page>
@@ -163,82 +121,50 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 
 <regex>
-<name>tok</name>
-<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
-<page>http://kbagui.com/[lista.param1]</page>
-<referer>http://kbagi.com/moises-perez</referer>
-<connection>keep-alive</connection>
-<cookieJar></cookieJar>
+<name>link</name>
+<expres><![CDATA[href="(.*?\.mp4|.*?\.mkv|.*?\.avi)"]]></expres>
+<page>[makelist.param2]</page>
 </regex>
 
- 
+<thumbnail>http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons/matte-white-square-icons-business/124774-matte-white-square-icon-business-magnifying-glass-ps.png</thumbnail>
 
-<regex>
-<name>getUrl</name>
-<expres>DownloadUrl":"([^"]+)<expres>
-<page>http://kbagi.com/action/DownloadFile?location=fi&amp;f=[lista.param1]</page>
-<rawpost>fileId=[lista.param2]&__RequestVerificationToken=$doregex[tok2]</rawpost>
-<referer>http://http://kbagi.com[lista.param1]</referer>
-<connection>keep-alive</connection>
-<accept>*/*</accept>
-<X-Req>XMLHttpRequest</X-Req>
-<cookieJar></cookieJar>
-</regex>
-
-<regex>
-<name>tok2</name>
-<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
-<page>http://kbagi.com[lista.param1]</page>
-<referer>http://kbagi.com/moises-perez</referer>
-<connection>keep-alive</connection>
-<cookieJar></cookieJar>
-</regex>
-
-<thumbnail>http://kbagi.com/img/logo_200x200.jpg</thumbnail>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
 
- Fin -->
-	
-<item>
-<title>[COLOR orange][+]Peliculas  [COLOR white]Taquilla[/COLOR][/COLOR]</title>
-<link>http://Ignoreme</link>
-<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
-<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/novedades.xml</externallink>
-</item>
 
-<!--
+
 <item>
-<title> [COLOR orange] netai test streaming[/COLOR]</title>
+<title>[COLOR orange][B][+]Peliculas [/B][COLOR white]Por genero[/COLOR][/COLOR]</title>
+<link>$doregex[makelist2]</link> 
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+   <SetViewMode>55</SetViewMode>
+   <title>[COLOR orange][B]+ [makelist2.param1][/COLOR][/B]   </title>
 <link>$doregex[makelist]</link>
+]]></listrepeat>
+<expres><![CDATA[option\sclass="level-0.*?">(.*?)<]]></expres>
+<page>http://gruponetai.com/videoteca/</page>
+</regex>
 
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[makelist.param2]</title>
- <link>$doregex[id3]</link>
+   <SetViewMode>500</SetViewMode>
+   <title>[COLOR gold][B][makelist.param3][/COLOR][/B]   </title>
+   <link>$doregex[link]</link>
+ <thumbnail>[makelist.param1]</thumbnail>
 ]]></listrepeat>
-<expres><![CDATA[href="(.*?\.mkv|href="(.*?\.mp4|href="(.*?\.avi)">(.*?)<]]></expres>
-<page>http://www.gruponetai.com/stream/category/</page>
+<expres><![CDATA[171.*?src="(.*?jpg)"[\w\W\s]{0,390}href="(.*?)".*?trong>(.*?)<\/]]></expres>
+<page>http://www.gruponetai.com/videoteca/category/[makelist2.param1]/</page>
 </regex>
 
 <regex>
-<name>id3</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
-    import urlresolver
-    url = '[makelist.param1]'
-    try:
-        u = urlresolver.resolve(url)
-    except:
-        u = 'http://www.gruponetai.com/videos/error.mp4'
-    return u
-]]></expres>
-<page></page>
+<name>link</name>
+<expres><![CDATA[href="(.*?\.torrent)"]]></expres>
+<page>[makelist.param2]</page>
 </regex>
-
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
 </item>
--->
+
+
 
