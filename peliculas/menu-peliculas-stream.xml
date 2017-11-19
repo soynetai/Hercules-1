@@ -92,6 +92,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page>http://www.gruponetai.com/videoteca/</page>
 <cookieJar></cookieJar>
 </regex>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
 
 <regex>
 <name>imagen</name>
