@@ -75,45 +75,11 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
 
-	
-
 
 <item>
 <title>[COLOR orange]Taquillas [720|1080][/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-  <name>makelist</name>
-  <listrepeat><![CDATA[
-        <title>$pyFunction:'[COLOR gold][makelist.param1][/COLOR]'.replace(".", " ") .replace("%20", " ") .replace("20%", " ") .replace("- _", " ")</title>
-        <link>http://www.gruponetai.com/videoteca/[makelist.param2]</link>
-	<thumbnail>http://www.gruponetai.com/videoteca/$doregex[imagen]</thumbnail>
-        ]]></listrepeat>
-<expres>href="(.*?)">(.*?).20(.*?mkv|mp4)<</expres>
-<page>http://www.gruponetai.com/videoteca/</page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
-
-<regex>
-<name>imagen</name>
-<expres><![CDATA[.*?src="(.*?jpg|.*?png)" href="(.*?)".*?>(.*?)<\/]]></expres>
-<page>http://www.gruponetai.com/videoteca/</page>
-</regex>
-
-<item>
-<title>Taquillas sin Imagen [720p|1080p]</title>
-<link>$doregex[makelist]</link>
-<regex>
-  <name>makelist</name>
-  <listrepeat><![CDATA[
-        <title>$pyFunction:'[COLOR white][makelist.param2][/COLOR] [makelist.param3][makelist.param4]'.replace(".", " ").replace("mp4", " ").replace("mkv", " ") .replace("-", " ") .replace("_", " ")</title>
-        <link>http://www.gruponetai.com/videoteca/[makelist3.param1]</link>
-
-        ]]></listrepeat>
-<expres>href="(.*?)">(.*?).(20.*?)(.*?mkv|mp4)</expres>
-<page>http://www.gruponetai.com/videoteca/</page>
-<cookieJar></cookieJar>
-</regex>
-
-<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
+<thumbnail></thumbnail>
+<link>ignore</link>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/novedades.xml</externallink>	
 </item>
+	</items>
