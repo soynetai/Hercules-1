@@ -50,8 +50,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <cookieJar></cookieJar>
 </regex>
 
- 
-
 <regex>
 <name>getUrl</name>
 <expres>DownloadUrl":"([^"]+)<expres>
@@ -76,39 +74,27 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/Buscar.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
+
 	
-	
+
 
 <item>
-<title>[COLOR orange][B][+]Peliculas [/B][COLOR white]Por genero[/COLOR][/COLOR]</title>
-<link>$doregex[makelist2]</link> 
+<title>[COLOR orange]Taquillas [720|1080][/COLOR]</title>
+<link>$doregex[makelist3]</link>
 <regex>
-<name>makelist2</name>
-<listrepeat><![CDATA[
-   <SetViewMode>55</SetViewMode>
-   <title>[COLOR orange][B]+ [makelist2.param1][/COLOR][/B]   </title>
-<link>$doregex[makelist]</link>
-]]></listrepeat>
-<expres><![CDATA[option\sclass="level-0.*?">(.*?)<]]></expres>
-<page>http://gruponetai.com/videoteca/</page>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>$pyFunction:'[COLOR gold][makelist.param2][/COLOR]'.replace(".", " ")</title>
+        <link>http://www.gruponetai.com/videoteca/[makelist.param1]</link>
+	<thumbnail>http://www.gruponetai.com/videoteca/$doregex[imagen]</thumbnail>
+        ]]></listrepeat>
+<expres>href="(.*?)">(.*?).20(.*?mkv|mp4)<</expres>
+<page>http://www.gruponetai.com/videoteca/</page>
+<cookieJar></cookieJar>
 </regex>
 
 <regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-   <SetViewMode>500</SetViewMode>
-   <title>[COLOR gold][B][makelist.param3][/COLOR][/B]   </title>
-   <link>plugin://plugin.video.quasar/play?uri=$doregex[torrent]</link>
- <thumbnail>[makelist.param1]</thumbnail>
-]]></listrepeat>
-<expres><![CDATA[171.*?src="(.*?jpg)"[\w\W\s]{0,390}href="(.*?)".*?trong>(.*?)<\/]]></expres>
-<page>http://gruponetai.com/videoteca/category/[makelist2.param1]/</page>
+<name>imagen</name>
+<expres><![CDATA[.*?src="(.*?jpg|.*?png)"[\w\W\s]{0,390}href="(.*?)".*?>(.*?)<\/]]></expres>
+<page>http://www.gruponetai.com/videoteca/</page>
 </regex>
-
-<regex>
-<name>torrent</name>
-<expres><![CDATA[href="(.*?\.torrent|.*?\.mp4|.*?\.mkv|.*?\.avi)"]]></expres>
-<page>[makelist.param2]</page>
-</regex>
-<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
-</item>
