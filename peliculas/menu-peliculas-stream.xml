@@ -102,7 +102,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
  <thumbnail>[makelist.param1]</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[171.*?src="(.*?jpg)"[\w\W\s]{0,390}href="(.*?)".*?trong>(.*?)<\/]]></expres>
-<page>http://gruponetai.com/videoteca/?s=$doregex[search]</page>
+<page>http://www.gruponetai.com/videoteca/?s=$doregex[search]</page>
 </regex>
 
 <regex>
@@ -122,7 +122,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <regex>
 <name>link</name>
-<expres><![CDATA[href="(.*?\.mp4|.*?\.mkv|.*?\.avi)"]]></expres>
+<expres><![CDATA[href="(.*?)\/">(.*?)\/]]></expres>
 <page>[makelist.param2]</page>
 </regex>
 
@@ -160,7 +160,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <regex>
 <name>link</name>
-<expres><![CDATA[href="(.*?\.mkv|.*?\.mp4|.*?\.avi)"]]></expres>
+<expres><![CDATA[href="(.*?)\/">(.*?)\/]]></expres>
 <page>[makelist.param2]</page>
 </regex>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
