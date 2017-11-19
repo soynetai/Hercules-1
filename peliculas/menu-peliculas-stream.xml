@@ -80,11 +80,11 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <item>
 <title>[COLOR orange]Taquillas [720|1080][/COLOR]</title>
-<link>$doregex[makelist3]</link>
+<link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>$pyFunction:'[COLOR gold][makelist.param2][/COLOR]'.replace(".", " ")</title>
+        <title>$pyFunction:'[COLOR gold][makelist.param2][/COLOR]'.replace(".", " ") .replace("%20", " ") .replace("20%", " ") .replace("- _", " ")</title>
         <link>http://www.gruponetai.com/videoteca/[makelist.param1]</link>
 	<thumbnail>http://www.gruponetai.com/videoteca/$doregex[imagen]</thumbnail>
         ]]></listrepeat>
