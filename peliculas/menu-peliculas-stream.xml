@@ -84,8 +84,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>$pyFunction:'[COLOR gold][makelist.param2][/COLOR]'.replace(".", " ") .replace("%20", " ") .replace("20%", " ") .replace("- _", " ")</title>
-        <link>http://www.gruponetai.com/videoteca/[makelist.param1]</link>
+        <title>$pyFunction:'[COLOR gold][makelist.param1][/COLOR]'.replace(".", " ") .replace("%20", " ") .replace("20%", " ") .replace("- _", " ")</title>
+        <link>http://www.gruponetai.com/videoteca/[makelist.param2]</link>
 	<thumbnail>http://www.gruponetai.com/videoteca/$doregex[imagen]</thumbnail>
         ]]></listrepeat>
 <expres>href="(.*?)">(.*?).20(.*?mkv|mp4)<</expres>
@@ -96,7 +96,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <regex>
 <name>imagen</name>
-<expres><![CDATA[.*?src="(.*?jpg|.*?png)"[\w\W\s]{0,390}href="(.*?)".*?>(.*?)<\/]]></expres>
+<expres><![CDATA[.*?src="(.*?jpg|.*?png)" href="(.*?)".*?>(.*?)<\/]]></expres>
 <page>http://www.gruponetai.com/videoteca/</page>
 </regex>
 
