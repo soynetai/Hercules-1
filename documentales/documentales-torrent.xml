@@ -18,7 +18,7 @@
 </item>
 
 <item>
-<title>[COLOR white]Documental[/COLOR][COLOR orange][B] Mega Construcciones[/B][/COLOR]</title>
+<title>[COLOR white]Documental[/COLOR][COLOR orange][B] Superestructuras[/B][/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
