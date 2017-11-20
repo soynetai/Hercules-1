@@ -6,7 +6,7 @@
   <name>makelist</name>
   <listrepeat><![CDATA[
         <title>$pyFunction:'[COLOR gold][makelist.param2][/COLOR]'.replace(".torrent", " ") .replace("%20", " ") .replace("-", " ") .replace("_", " ")</title>
-        <link>plugin://plugin.video.quasar/play?uri=http://www.gruponetai.com/series/series-torrents/Arrow/[makelist.param1]</link>
+        <link>plugin://plugin.video.quasar/play?uri=http://www.gruponetai.com/documentales/megaconstrucciones/[makelist.param1]</link>
         ]]></listrepeat>
 <expres>href="(.*?torrent)"</expres>
 <page>http://www.gruponetai.com/documentales/megaconstrucciones/</page>
@@ -14,6 +14,24 @@
 </regex>
 
 <thumbnail>https://2.bp.blogspot.com/-n2UhVXxwaKE/WIUT04G6KWI/AAAAAAAAGnc/PkvQRtXP4kY8u6IoFB8KnQ5zaE8-4dxyQCLcB/s1600/megaconstrucciones.jpg</thumbnail>
+  
+</item>
+
+<item>
+<title>[COLOR white]Documental[/COLOR][COLOR orange][B] Mega Construcciones[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>$pyFunction:'[COLOR gold][makelist.param2][/COLOR]'.replace(".torrent", " ") .replace("%20", " ") .replace("-", " ") .replace("_", " ")</title>
+        <link>plugin://plugin.video.quasar/play?uri=http://www.gruponetai.com/documentales/superestructuras/[makelist.param1]</link>
+        ]]></listrepeat>
+<expres>href="(.*?torrent)"</expres>
+<page>http://www.gruponetai.com/documentales/superestructuras/</page>
+<cookieJar></cookieJar>
+</regex>
+
+<thumbnail>http://www.thetvking.com/images/tvShows/poster/National%20Geographic%20Documentaries.jpg</thumbnail>
   
 </item>
 
