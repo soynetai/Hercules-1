@@ -127,6 +127,12 @@ class InputWindow(xbmcgui.WindowDialog):
 </regex>  
 <thumbnail>https://i.ytimg.com/vi/[makelist.param1]/hqdefault.jpg</thumbnail>
 </item>
+<item>
+ <title>[COLOR white]Documentales [COLOR orange][B] Torrent [/B][/COLOR][/COLOR]</title>
+ <thumbnail>https://abogadaalonsodelatorre.files.wordpress.com/2014/03/record_paper2.png</thumbnail>
+ <link>ignore</link>
+ <externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/series/series-torrent.xml</externallink>
+ </item>
 </items>
 
 
