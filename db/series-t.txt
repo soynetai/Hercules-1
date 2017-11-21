@@ -3,3 +3,4 @@ Name:"The Affair T1 [mkv]" url:"http://diskokosmiko.mx/SeriesHD/the-affair-t1-34
 Name:"The Affair T2 [mkv]" url:"http://diskokosmiko.mx/SeriesHD/the-affair-t2-34984" img:"http://es.web.img3.acsta.net/pictures/17/06/22/10/14/035294.jpg"; img:"http://www.elcinedeloqueyotediga.net/wp-content/uploads/2015/07/TheaffairT2.jpg" server:"http://diskokosmiko.mx"
 Name:"The expanse T1 [mkv]" url:"http://diskokosmiko.mx/SeriesHD/the-expanse-t1-43113" img:"http://es.web.img1.acsta.net/pictures/15/10/22/17/56/420711.jpg" server:"http://diskokosmiko.mx"
 Name:"The expanse T2 [mkv]" url:"http://diskokosmiko.mx/juadacu/the-expanse-t2-82757" img:"http://es.web.img1.acsta.net/pictures/15/10/22/17/56/420711.jpg" server:"http://diskokosmiko.mx"
+Name:"The gran Tour T1" url:"http://diskokosmiko.mx/chicho306/the-grand-tour-t1-46485" img:"https://cdn-4.motorsport.com/images/mgl/2dylGODY/s8/automotive-motor1-com-2017-amazon-s-the-grand-tour-poster.jpg" server:"http://diskokosmiko.mx"
