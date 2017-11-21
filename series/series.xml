@@ -1135,12 +1135,12 @@
 
 
 <regex>
-  <name>makelist2</name>
-  <listrepeat><![CDATA[
+<name>makelist2</name>
+<listrepeat><![CDATA[
 <SetViewMode>500</SetViewMode>
 <title>[makelist2.param1]</title>
 <link>$doregex[makelist]</link>
-		<thumbnail>[makelist2.param3]</thumbnail>
+<thumbnail>[makelist2.param3]</thumbnail>
 <fanart>[makelist2.param3]</fanart>
 ]]></listrepeat>
 <expres>Name:"(.*?)" url:"(.*?)" img:"(.*?)"; server:"(.*?)"</expres>
