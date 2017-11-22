@@ -4,6 +4,8 @@ Name:"The Affair T1 [mkv]" url:"http://diskokosmiko.mx/SeriesHD/the-affair-t1-34
 
 Name:"The Affair T2 [mkv]" url:"http://diskokosmiko.mx/SeriesHD/the-affair-t2-34984" img:"http://www.bolsamania.com/seriesadictos/wp-content/uploads/2015/07/cj0o6x5wcaa9owt.jpg"; server:"http://diskokosmiko.mx"
 
+Name:"The Affair T2 [mkv]" url:"http://diskokosmiko.mx/SeriesHD/the-affair-dual-t3-45160" img:"http://www.bolsamania.com/seriesadictos/wp-content/uploads/2015/07/cj0o6x5wcaa9owt.jpg"; server:"http://diskokosmiko.mx"
+
 Name:"The grand Tour T1 [mkv] [Castellano]" url:"http://diskokosmiko.mx/jml/the-grand-tour-temporada-1-720p-53984" img:"https://pics.filmaffinity.com/the_grand_tour_tv_series-650604364-large.jpg"; server:"http://diskokosmiko.mx"
 
 Name:"The expanse T1 [mkv]  [Castellano]" url:"http://diskokosmiko.mx/SeriesHD/the-expanse-t1-43113" img:"https://pics.filmaffinity.com/the_expanse_tv_series-110247894-mmed.jpg"; server:"http://diskokosmiko.mx"
