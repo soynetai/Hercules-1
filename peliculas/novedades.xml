@@ -315,18 +315,20 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
-<title>[COLOR orange]$doregex[nombre]  [/COLOR][COLOR white] [/COLOR]</title>
+<title>[COLOR orange]$doregex[nombre]  [/COLOR][COLOR white] [/COLOR]
+</title>
 
 <regex><name>nombre</name><expres>Gru 3: Mi villano favorito (2017)</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
-<page></page></regex>
+<page></page>
+</regex>
 </item>
 
 <!-- H -->
 <!-- I -->
 <item>
-<thumbnail>http://gnula.nu/wp-content/uploads/2015/01/it_poster_usa.jpg</thumbnail> 
-<fanart>http://gnula.nu/wp-content/uploads/2015/01/it_poster_usa.jpg</fanart>
+    <title>[COLOR orange][B]It[/B][/COLOR][COLOR white] - (2017)[/COLOR]</title>
+
 
  <link>$doregex[resolve]</link>
  <regex>
