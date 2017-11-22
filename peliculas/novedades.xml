@@ -2,7 +2,7 @@
 
 <item>
 <title>[COLOR orange]Barry Seal[/COLOR][COLOR white] El traficante | DVD rip[/COLOR]</title>
-
+<info></info>
 <link>$doregex[resolve]</link>
 <regex>
 <name>resolve</name>
@@ -50,7 +50,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR orange]$doregex[nombre]  [/COLOR][COLOR white] [/COLOR]</title>
-
+<info></info>
 <regex><name>nombre</name><expres> Nombre de la Pelicula </expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
@@ -58,6 +58,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <item>
 <title>[COLOR orange]$doregex[nombre]  [/COLOR][COLOR white] 720p. [/COLOR]</title>
+<info></info>
 <link>$doregex[id3]</link>
 <thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BOGU1ZDgxNWMtOTEyZi00MjZjLWI2Y2QtYjMxMTNmOTJlMzRmXkEyXkFqcGdeQXVyMjQ3NzUxOTM@._V1_UY268_CR2,0,182,268_AL_.jpg</thumbnail> 
 <info>Cuando la mujer de Gregorio, un banquero muy conservador, del Real Madrid y muy gruñón, 
@@ -120,7 +121,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR orange]$doregex[nombre]  [/COLOR][COLOR white] [/COLOR]</title>
-
+<info></info>
 <regex><name>nombre</name><expres> Anacleto: agente secreto</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
@@ -130,7 +131,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <item>
 <title>[COLOR orange]Barry Seal[/COLOR][COLOR white]El traficante | 720[/COLOR]</title>
-
+<info></info>
 <link>$doregex[resolve]</link>
 <regex>
 <name>resolve</name>
@@ -153,7 +154,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <item>
 <title>[COLOR orange]Barry Seal[/COLOR][COLOR white]El traficante | openload [/COLOR]</title>
-
+<info></info>
 <link>$doregex[resolve]</link>
 <regex>
 <name>resolve</name>
@@ -195,6 +196,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <name></name>
 <expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR orange] Baywatch: Los vigilantes de la playa (2017) [/COLOR][COLOR white] 720p. [/COLOR][COLOR gold] HD [/COLOR]</title>
+    <info></info>
 <regex><name>nombre</name><expres></expres><page></page></regex>
 <page></page>
 </regex>
@@ -223,7 +225,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR orange]$doregex[nombre]  [/COLOR][COLOR white] [/COLOR]</title>
-
+<info></info>
 <regex><name>nombre</name><expres>Ballerina</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
@@ -254,7 +256,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMTYzODYzODU2Ml5BMl5BanBnXkFtZTgwNTc1MTA2NzE@._V1_UX182_CR0,0,182,268_AL_.jpg</thumbnail> 
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR orange]$doregex[nombre]  [/COLOR][COLOR white] [/COLOR]</title>
-
+<info></info>
 <regex><name>nombre</name><expres>¡Canta! (2016)</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
@@ -284,7 +286,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR orange]$doregex[nombre]  [/COLOR][COLOR white] [/COLOR]</title>
-
+<info></info>
 <regex><name>nombre</name><expres>El caso Sloane</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
@@ -292,6 +294,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <item>
 <title>[COLOR orange]$doregex[nombre]  [/COLOR][COLOR white] [/COLOR]</title>
+    <info></info>
 <thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMjY2OTM2Njc3Ml5BMl5BanBnXkFtZTgwNDgzODU3MTI@._V1_UX182_CR0,0,182,268_AL_.jpg</thumbnail> 
 <link>$doregex[id3]</link>
 <regex>
@@ -340,7 +343,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR orange]$doregex[nombre]  [/COLOR][COLOR white] [/COLOR]
 </title>
-
+<info></info>
 <regex><name>nombre</name><expres>Gru 3: Mi villano favorito (2017)</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page>
@@ -351,6 +354,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- I -->
 <item>
 <title>[COLOR orange][B]It[/B][/COLOR][COLOR white][/COLOR]</title>
+    <info></info>
 <thumbnail></thumbnail> 
 
 
@@ -395,6 +399,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <name></name>
 <expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR orange]Kimi no na wa (your name) (2017) [/COLOR][COLOR white] 720p. [/COLOR][COLOR gold] HD [/COLOR]</title>
+    <info></info>
 <regex><name>nombre</name><expres></expres><page></page></regex>
 <page></page>
 </regex>
@@ -423,7 +428,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR orange]$doregex[nombre]  [/COLOR][COLOR white] [/COLOR]</title>
-
+<info></info>
 <regex><name>nombre</name><expres>La La Land: La ciudad de las estrellas</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
@@ -452,7 +457,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR orange]$doregex[nombre]  [/COLOR][COLOR white][/COLOR]</title>
-
+<info></info>
 <regex><name>nombre</name><expres>La momia (2017)</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
@@ -481,7 +486,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR orange]$doregex[nombre]  [/COLOR][COLOR white][/COLOR]</title>
-
+<info></info>
 <regex><name>nombre</name><expres>La bella y la bestia</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
@@ -517,7 +522,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 <title>[COLOR orange]$doregex[nombre]  [/COLOR][COLOR white] 720p. [/COLOR]</title>
-
+<info></info>
 <regex><name>nombre</name><expres>Piratas del Caribe: La venganza de Salazar</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
@@ -531,6 +536,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <item>
 <title>[COLOR orange]$doregex[nombre]  [/COLOR][COLOR white] 720p. [/COLOR]</title>
+    <info></info>
 <link>$doregex[id3]</link>
 <thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BOGU1ZDgxNWMtOTEyZi00MjZjLWI2Y2QtYjMxMTNmOTJlMzRmXkEyXkFqcGdeQXVyMjQ3NzUxOTM@._V1_UY268_CR2,0,182,268_AL_.jpg</thumbnail> 
 <info>Cuando la mujer de Gregorio, un banquero muy conservador, del Real Madrid y muy gruñón, 
@@ -594,7 +600,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres><page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
 
 <title>[COLOR orange]$doregex[nombre]  [/COLOR][COLOR white] 720p. [/COLOR]</title>
-
+<info></info>
 <regex><name>nombre</name><expres>Wonder Woman</expres><page></page></regex>
 <regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
 <page></page></regex>
