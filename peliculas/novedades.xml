@@ -466,11 +466,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- Ñ -->
 <!-- O -->
 <!-- P -->
-<item>
- <title>[COLOR orange][B]+Piratas del Caribe[/B][COLOR white] La leyenda del rey Salazar | H265 1080p.[/COLOR][/COLOR]</title>
- <thumbnail>https://2.bp.blogspot.com/-tZ2JiA7PG1g/WQzGBXEcHiI/AAAAAAAAl4A/mGpmo1L6mIs8w-qR0JNQsRBbhUjr2_YRgCLcB/s00/Piratas_del_Caribe_La_Venganza_de_Salazar_Poster_Latino_IMAX_JPosters.jpg</thumbnail>
- <link>http://www.gruponetai.com/videoteca/piratas-del-caribe-La-leyenda-del-rey-Salazar.mkv</link>
-</item>
+
 
 <item>
 <thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail> 
@@ -504,11 +500,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- Q -->
 <!-- R -->
 <!-- S -->
-<item>
- <title>[COLOR orange][B]Señor, dame paciencia [/B][COLOR white] | H265 1080p.[/COLOR][/COLOR]</title>
- <thumbnail>http://es.web.img2.acsta.net/pictures/17/05/26/13/05/532600.jpg</thumbnail>
- <link>http://www.gruponetai.com/videoteca/senor_dame_paciencia.mkv</link>
-</item>
+
 
 
 <item>
