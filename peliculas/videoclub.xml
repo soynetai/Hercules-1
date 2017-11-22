@@ -45,8 +45,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <!-- G -->
 <item>
-  <title>[COLOR orange]Ghost, mas alla del amor. [/COLOR][COLOR white] Castellano[/COLOR]</title>  
-<thumbnail>https://pics.filmaffinity.com/ghost-419228198-mmed.jpg</thumbnail> 
+<title>[COLOR orange]Ghost, mas alla del amor. [/COLOR][COLOR white] Castellano[/COLOR]</title>  
 <link>$doregex[resolve]</link>
 <regex>
 <name>resolve</name>
@@ -63,8 +62,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 <thumbnail>https://pics.filmaffinity.com/ghost-419228198-mmed.jpg</thumbnail> 
-<page></page>
-</regex>
 </item>
 
 
@@ -73,8 +70,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- I -->
 
 <item>
-  <title>[COLOR orange]It [/COLOR][COLOR white] Castellano[/COLOR]</title>  
-<thumbnail>http://gnula.nu/wp-content/uploads/2015/01/it_poster_usa.jpg</thumbnail> 
+<title>[COLOR orange]It [/COLOR][COLOR white] Castellano[/COLOR]</title>  
 <link>$doregex[resolve]</link>
 <regex>
 <name>resolve</name>
@@ -91,8 +87,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 <thumbnail>http://gnula.nu/wp-content/uploads/2015/01/it_poster_usa.jpg</thumbnail> 
-<page></page>
-</regex>
 </item>
 
 <!-- J -->
