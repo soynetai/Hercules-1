@@ -1,0 +1,148 @@
+
+
+<!--  Regex para streamplay,streamcloud,openload,StreamGo,Uptobox,Yourupload
+
+<item>
+<title>[COLOR orange][/COLOR][COLOR white][/COLOR]</title>
+<thumbnail></thumbnail> 
+<fanart></fanart>
+<link>$doregex[resolve]</link>
+<regex>
+<name>resolve</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import urlresolver
+    url = ' Url de la pelicula'
+    try:
+        u = urlresolver.resolve(url)
+    except:
+        u = 'http://www.gruponetai.com/videos/error.mp4'
+    return u
+]]></expres>
+<page></page>
+</regex>
+<thumbnail></thumbnail> 
+<page></page>
+</item>
+
+-->
+
+
+<!-- 0-9 @# -->
+
+<!-- A -->
+
+<!-- B -->
+
+
+<!-- C -->
+
+<!-- D -->
+
+<!-- E -->
+
+<!-- F -->
+
+<!-- G -->
+<item>
+<title>[COLOR orange]Ghost, mas alla del amor. [/COLOR][COLOR white] Castellano[/COLOR]</title>  
+<link>$doregex[resolve]</link>
+<regex>
+<name>resolve</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import urlresolver
+    url = 'https://streamango.com/f/ndcetroqnpmlofkn/'
+    try:
+        u = urlresolver.resolve(url)
+    except:
+        u = 'http://www.gruponetai.com/videos/error.mp4'
+    return u
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://pics.filmaffinity.com/ghost-419228198-mmed.jpg</thumbnail>    
+</item>
+
+
+<!-- H -->
+
+<!-- I -->
+
+<item>   
+<title>[COLOR orange]It [/COLOR][COLOR white] Castellano[/COLOR]</title>  
+<link>$doregex[resolve]</link>
+
+<regex>
+<name>resolve</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import urlresolver
+    url = 'http://streamcloud.eu/zpzl5j5tncnr/It.720.bdrip.cast.mp4.html'
+    try:
+        u = urlresolver.resolve(url)
+    except:
+        u = 'http://www.gruponetai.com/videos/error.mp4'
+    return u
+]]></expres>
+<page></page>
+</regex>
+    <thumbnail>https://i.ytimg.com/vi/E9Mkje0By5Y/maxresdefault.jpg</thumbnail> 
+</item>
+
+<!-- J -->
+
+<!-- K -->
+
+<!-- L -->
+<item>
+    <title>[COLOR orange][B]Las aventuras de Tadeo Jones[/B][COLOR white] Castellano [/COLOR][/COLOR]</title>
+<thumbnail>http://es.web.img2.acsta.net/medias/nmedia/18/90/40/12/20199350.jpg</thumbnail> 
+<fanart>http://es.web.img2.acsta.net/medias/nmedia/18/90/40/12/20199350.jpg</fanart>
+<link>$doregex[resolve]</link>
+<regex>
+<name>resolve</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import urlresolver
+    url = 'http://streamcloud.eu/cv706fmlg1j2/LsAventdTadJonBRRIP_-_www.newpct.com.avi.html'
+    try:
+        u = urlresolver.resolve(url)
+    except:
+        u = 'http://www.gruponetai.com/videos/error.mp4'
+    return u
+]]></expres>
+<page></page>
+</regex>
+<thumbnail></thumbnail> 
+<thumbnail>http://es.web.img2.acsta.net/medias/nmedia/18/90/40/12/20199350.jpg</thumbnail> 
+</item>
+<!-- M -->
+
+<!-- N -->
+
+<!-- Ñ -->
+
+<!-- O -->
+
+<!-- P -->
+
+<!-- Q -->
+
+<!-- R -->
+
+<!-- S -->
+
+<!-- T -->
+
+<!-- U -->
+
+<!-- V -->
+
+<!-- W -->
+
+<!-- X -->
+
+<!-- Y -->
+
+<!-- Z -->
