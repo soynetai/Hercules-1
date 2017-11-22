@@ -95,25 +95,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- K -->
 
 <!-- L -->
-
-<!-- M -->
-
-<!-- N -->
-
-<!-- Ñ -->
-
-<!-- O -->
-
-<!-- P -->
-
-<!-- Q -->
-
-<!-- R -->
-
-<!-- S -->
-
-<!-- T -->
 <item>
+    <title>[COLOR orange][B]Las aventuras de Tadeo Jones[/B][COLOR white] Castellano [/COLOR][/COLOR]</title>
 <thumbnail>http://es.web.img2.acsta.net/medias/nmedia/18/90/40/12/20199350.jpg</thumbnail> 
 <fanart>http://es.web.img2.acsta.net/medias/nmedia/18/90/40/12/20199350.jpg</fanart>
 <link>$doregex[resolve]</link>
@@ -134,6 +117,24 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail></thumbnail> 
 <thumbnail>http://es.web.img2.acsta.net/medias/nmedia/18/90/40/12/20199350.jpg</thumbnail> 
 </item>
+<!-- M -->
+
+<!-- N -->
+
+<!-- Ñ -->
+
+<!-- O -->
+
+<!-- P -->
+
+<!-- Q -->
+
+<!-- R -->
+
+<!-- S -->
+
+<!-- T -->
+
 <!-- U -->
 
 <!-- V -->
