@@ -23,6 +23,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail></thumbnail> 
 <page></page>
 </regex>
+<thumbnail>https://pics.filmaffinity.com/ghost-419228198-mmed.jpg</thumbnail> 
 </item>
 
 -->
