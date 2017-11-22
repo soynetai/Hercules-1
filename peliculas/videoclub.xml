@@ -29,6 +29,33 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <!-- 0-9 @# -->
+<item>
+<title>[COLOR orange]60 Segundos[/COLOR] Castellano [COLOR white] StreamGo [/COLOR]</title>
+    <info>
+    Hace ya tiempo que Randall "Memphis" Raines (Nicolas Cage) ha dejado atrás su pasado delictivo. Sin embargo, se ve obligado a volver... cuando su hermano Kip (Giovanni Ribisi) falla al realizar un trabajo para Raymond Calitri (Christopher Eccleston), un famoso broker del robo de vehículos. Ahora, para salvar a su hermano, Memphis deberá reunir a su antiguo equipo para robar 50 coches de lujo. Con la policía tras él, Memphis deberá cumplir el trato y robar cada auto en 60 segundos. 
+Elenco: Nicolas Cage , Giovanni Ribisi , Angelina Jolie , T.J. Cross , Robert Duvall , William Lee Scott , Scott Caan , James Duval , Delroy Lindo , Timothy Olyphant , Chi McBride , Christopher Eccleston , Grace Zabriskie , Vinnie Jones , Will Patton , Michael Peña .
+    </info>
+<thumbnail>http://hdfull.tv/tthumb/172x256/movie_9a3f0952d44879cc3c57c4f5ee96d02b.jpg</thumbnail> 
+<fanart>http://hdfull.tv/tthumb/172x256/movie_9a3f0952d44879cc3c57c4f5ee96d02b.jpg</fanart>
+<link>$doregex[resolve]</link>
+<regex>
+<name>resolve</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import urlresolver
+    url = 'https://streamango.com/f/nandstmtadtmlpfn'
+    try:
+        u = urlresolver.resolve(url)
+    except:
+        u = 'http://www.gruponetai.com/videos/error.mp4'
+    return u
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>http://hdfull.tv/tthumb/172x256/movie_9a3f0952d44879cc3c57c4f5ee96d02b.jpg</thumbnail> 
+<page></page>
+</item>
+
 
 <!-- A -->
 
