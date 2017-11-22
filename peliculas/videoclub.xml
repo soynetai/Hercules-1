@@ -3,6 +3,7 @@
 <!--  Regex para streamplay,streamcloud,openload,StreamGo,Uptobox,Yourupload
 
 <item>
+<title>[COLOR orange][/COLOR][COLOR white][/COLOR]</title>
 <thumbnail></thumbnail> 
 <fanart></fanart>
 <link>$doregex[resolve]</link>
