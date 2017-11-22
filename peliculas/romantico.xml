@@ -72,6 +72,28 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <!-- L -->
 
+<item>
+<title>[COLOR orange]La bella y la bestia [/COLOR] [2017][COLOR white] Castellano[/COLOR]</title>  
+    <info>Una joven soñadora y romántica llamada Bella, vive en una pequeña aldea junto a su padre, un inventor de artilugios, al que algunos consideran un anciano demente.Un día su padre se marcha a una feria para exponer sus inventos, pero se pierde en el camino y acaba en un grande y viejo castillo. 
+Elenco: Emma Watson , Dan Stevens , Luke Evans , Ewan McGregor , Ian McKellen , Emma Thompson , Josh Gad , Gugu Mbatha-Raw , Stanley Tucci , Kevin Kline , Hattie Morahan , Audra McDonald , Nathan Mack , Adrian Schiller , Sonoya Mizuno , Nicole O'Neill , Henry Garrett , Zoe Rainey , Harriet Jones .</info>
+<link>$doregex[resolve]</link>
+<regex>
+<name>resolve</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import urlresolver
+    url = 'https://streamango.com/f/rsspfspbbqdcnonp/'
+    try:
+        u = urlresolver.resolve(url)
+    except:
+        u = 'http://www.gruponetai.com/videos/error.mp4'
+    return u
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>http://hdfull.tv/tthumb/172x256/movie_be7f47c22e51a08459a8d8f4c70fc299.jpg</thumbnail>    
+</item>
+
 <!-- M -->
 
 <!-- N -->
