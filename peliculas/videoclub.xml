@@ -47,7 +47,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <item>
 <title>[COLOR orange]Ghost, mas alla del amor. [/COLOR][COLOR white] Castellano[/COLOR]</title>  
 <link>$doregex[resolve]</link>
-<thumbnail>https://pics.filmaffinity.com/ghost-419228198-mmed.jpg</thumbnail> 
 <regex>
 <name>resolve</name>
 <expres><![CDATA[#$pyFunction
@@ -62,6 +61,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
+<thumbnail>https://pics.filmaffinity.com/ghost-419228198-mmed.jpg</thumbnail>    
 </item>
 
 
@@ -69,11 +69,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <!-- I -->
 
-<item>
-    <thumbnail>http://gnula.nu/wp-content/uploads/2015/01/it_poster_usa.jpg</thumbnail> 
+<item>   
 <title>[COLOR orange]It [/COLOR][COLOR white] Castellano[/COLOR]</title>  
 <link>$doregex[resolve]</link>
-<thumbnail>http://gnula.nu/wp-content/uploads/2015/01/it_poster_usa.jpg</thumbnail> 
+
 <regex>
 <name>resolve</name>
 <expres><![CDATA[#$pyFunction
@@ -88,6 +87,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
+    <thumbnail>https://i.ytimg.com/vi/E9Mkje0By5Y/maxresdefault.jpg</thumbnail> 
 </item>
 
 <!-- J -->
