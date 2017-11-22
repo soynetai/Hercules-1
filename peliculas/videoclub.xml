@@ -1,5 +1,109 @@
+
+
+<!--  Regex para streamplay,streamcloud,openload,StreamGo,Uptobox,Yourupload
+
 <item>
-<title>[COLOR orange]En Construccion[COLOR white][/COLOR][/COLOR]</title>
-<thumbnail></thumbnail>
-<link></link>
+<thumbnail></thumbnail> 
+<fanart></fanart>
+<link>$doregex[resolve]</link>
+<regex>
+<name>resolve</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import urlresolver
+    url = ' Url de la pelicula'
+    try:
+        u = urlresolver.resolve(url)
+    except:
+        u = 'http://www.gruponetai.com/videos/error.mp4'
+    return u
+]]></expres>
+<page></page>
+</regex>
+<thumbnail></thumbnail> 
+<page></page>
+</regex>
 </item>
+
+-->
+
+
+<!-- 0-9 @# -->
+
+<!-- A -->
+
+<!-- B -->
+
+
+<!-- C -->
+
+<!-- D -->
+
+<!-- E -->
+
+<!-- F -->
+
+<!-- G -->
+
+<!-- H -->
+
+<!-- I -->
+
+<item>
+  <title>[COLOR orange]It [/COLOR][COLOR white] Castellano[/COLOR]</title>  
+<thumbnail>http://gnula.nu/wp-content/uploads/2015/01/it_poster_usa.jpg</thumbnail> 
+<link>$doregex[resolve]</link>
+<regex>
+<name>resolve</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import urlresolver
+    url = 'http://streamcloud.eu/zpzl5j5tncnr/It.720.bdrip.cast.mp4.html'
+    try:
+        u = urlresolver.resolve(url)
+    except:
+        u = 'http://www.gruponetai.com/videos/error.mp4'
+    return u
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>http://gnula.nu/wp-content/uploads/2015/01/it_poster_usa.jpg</thumbnail> 
+<page></page>
+</regex>
+</item>
+
+<!-- J -->
+
+<!-- K -->
+
+<!-- L -->
+
+<!-- M -->
+
+<!-- N -->
+
+<!-- Ñ -->
+
+<!-- O -->
+
+<!-- P -->
+
+<!-- Q -->
+
+<!-- R -->
+
+<!-- S -->
+
+<!-- T -->
+
+<!-- U -->
+
+<!-- V -->
+
+<!-- W -->
+
+<!-- X -->
+
+<!-- Y -->
+
+<!-- Z -->
