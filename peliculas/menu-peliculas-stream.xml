@@ -84,9 +84,105 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR orange]El Video Club [COLOR white] Seleccion [/COLOR]</title>
+<title>[COLOR orange]El Video Club [COLOR white] Peticiones recientes. [/COLOR]</title>
 <thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
 <link>ignore</link>
 <externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/videoclub.xml</externallink>	
 </item>
+	
+<item>
+<title>[COLOR orange] Videoclub [COLOR white] En cines [/COLOR]</title>
+<thumbnail>http://www.centronaval.org.pe/app/index_files/play.png</thumbnail>
+<link>ignore</link>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/romantico.xml</externallink>	
+</item>
+	
+<item>
+<title>[COLOR orange] Videoclub [COLOR white] Accion [/COLOR]</title>
+<thumbnail>http://www.centronaval.org.pe/app/index_files/play.png</thumbnail>
+<link>ignore</link>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/accion.xml</externallink>	
+</item>
+	
+<item>
+<title>[COLOR orange] Videoclub [COLOR white] Animacion [/COLOR]</title>
+<thumbnail>http://www.centronaval.org.pe/app/index_files/play.png</thumbnail>
+<link>ignore</link>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/animacion.xml</externallink>	
+</item>
+	
+<item>
+<title>[COLOR orange] Videoclub [COLOR white] Aventuras [/COLOR]</title>
+<thumbnail>http://www.centronaval.org.pe/app/index_files/play.png</thumbnail>
+<link>ignore</link>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/aventuras.xml</externallink>	
+</item>
+
+<item>
+<title>[COLOR orange] Videoclub [COLOR white] Comedia [/COLOR]</title>
+<thumbnail>http://www.centronaval.org.pe/app/index_files/play.png</thumbnail>
+<link>ignore</link>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/comedia.xml</externallink>	
+</item>
+	
+<item>
+<title>[COLOR orange] Videoclub [COLOR white] Drama [/COLOR]</title>
+<thumbnail>http://www.centronaval.org.pe/app/index_files/play.png</thumbnail>
+<link>ignore</link>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/drama.xml</externallink>	
+</item>
+	
+<item>
+<title>[COLOR orange] Videoclub [COLOR white] Familiar [/COLOR]</title>
+<thumbnail>http://www.centronaval.org.pe/app/index_files/play.png</thumbnail>
+<link>ignore</link>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/familiar.xml</externallink>	
+</item>
+
+<item>
+<title>[COLOR orange] Videoclub [COLOR white] Fantastico [/COLOR]</title>
+<thumbnail>http://www.centronaval.org.pe/app/index_files/play.png</thumbnail>
+<link>ignore</link>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/fatastico.xml</externallink>	
+</item>
+	
+<item>
+<title>[COLOR orange] Videoclub [COLOR white] Ficcion [/COLOR]</title>
+<thumbnail>http://www.centronaval.org.pe/app/index_files/play.png</thumbnail>
+<link>ignore</link>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/ficcion.xml</externallink>	
+</item>
+	
+
+		
+<item>
+<title>[COLOR orange] Videoclub [COLOR white] Romantico [/COLOR]</title>
+<thumbnail>http://www.centronaval.org.pe/app/index_files/play.png</thumbnail>
+<link>ignore</link>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/romantico.xml</externallink>	
+</item>
+	
+<item>
+<title>[COLOR orange] Videoclub [COLOR white] Suspense[/COLOR]</title>
+<thumbnail>http://www.centronaval.org.pe/app/index_files/play.png</thumbnail>
+<link>ignore</link>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/suspense.xml</externallink>	
+</item>
+	
+<item>
+<title>[COLOR orange] Videoclub [COLOR white] Terror [/COLOR]</title>
+<thumbnail>http://www.centronaval.org.pe/app/index_files/play.png</thumbnail>
+<link>ignore</link>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/terror.xml</externallink>	
+</item>
+	
+<item>
+<title>[COLOR orange] Videoclub [COLOR white] Thriller [/COLOR]</title>
+<thumbnail>http://www.centronaval.org.pe/app/index_files/play.png</thumbnail>
+<link>ignore</link>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/thriller.xml</externallink>	
+</item>
+	
+
+
 </items>
