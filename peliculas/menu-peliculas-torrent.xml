@@ -159,7 +159,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLOR gold]Reproducir [makelist2.param2]'.replace(".", " ").replace("_", " ").replace("-", " ")[/COLOR]</title>
+<title>[COLOR gold]Reproducir: [COLOR lime][B]$doregex[name][/B][/COLOR][/COLOR]</title>
 <link>plugin://plugin.video.quasar/play?uri=http://www.mejortorrent.com[makelist.param2]</link>
 <thumbnail>http://www.mejortorrent.com/uploads/imagenes/peliculas/$doregex[imagen].jpg</thumbnail>
 ]]></listrepeat>
