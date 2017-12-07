@@ -96,7 +96,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <link>ignore</link>
 <externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/romantico.xml</externallink>	
 </item>
-	
+
+
+<item>
+<title>[COLOR orange] Videoclub [COLOR white] Especial Navidad [/COLOR]</title>
+<thumbnail>https://bartolomeborrego.files.wordpress.com/2013/12/feliz-navidad-letras-3b.png</thumbnail>
+<link>ignore</link>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/cine-navidad.xml</externallink>	
+</item>
+
+		
 <item>
 <title>[COLOR orange] Videoclub [COLOR white] Accion [/COLOR]</title>
 <thumbnail>http://www.centronaval.org.pe/app/index_files/play.png</thumbnail>
