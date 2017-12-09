@@ -1,5 +1,5 @@
 <item>
-<title>[COLOR white]•[/COLOR][B]Deep web [/B][2015] [COLOR yellow][B]Documental Subtitulado.[/B]</title>
+<title>[COLOR white][B]Deep web [/B][2015] [COLOR yellow][B]Documental Subtitulado.[/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
