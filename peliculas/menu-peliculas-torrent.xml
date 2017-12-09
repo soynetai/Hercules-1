@@ -45,7 +45,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <item>
 
-<title>[COLOR orange][B]+BUSCAR[/B] [/COLOR][COLOR white]  |Requiere Quasar| [/COLOR] </title>
+<title>[COLOR orange][B]BUSCAR[/B] [/COLOR][COLOR white] En pruebas  |Requiere Quasar| [/COLOR] </title>
 
 <link>$doregex[makelist2]</link>
 
