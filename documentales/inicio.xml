@@ -133,6 +133,12 @@ class InputWindow(xbmcgui.WindowDialog):
  <link>ignore</link>
  <externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/documentales/documentales-torrent.xml</externallink>
  </item>
+ <item>
+ <title>[COLOR white]Documentales [COLOR orange][B] Stream H265 [/B][/COLOR][/COLOR]</title>
+ <thumbnail>https://www.iconexperience.com/_img/o_collection_png/green_dark_grey/512x512/plain/movie_camera.png</thumbnail>
+ <link>ignore/</link>
+ <externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/documentales/h265.xml</externallink>
+ </item>
 </items>
 
 
