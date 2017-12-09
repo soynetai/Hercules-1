@@ -49,65 +49,57 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <link>$doregex[makelist2]</link>
 
-
 <regex>
-
 <name>makelist2</name>
-
 <listrepeat><![CDATA[
- <SetViewMode>500</SetViewMode>
- <title>[COLOR gold] + [makelist2.param3][/COLOR]  </title>
+ <SetViewMode>55</SetViewMode>
+ <title>[COLOR orange][UPPERCASE][B] [makelist2.param3][/B][/UPPERCASE][/COLOR]  </title>
 <link>$doregex[makelist]</link>
-<thumbnail>[makelist2.param2]</thumbnail> 
+<thumbnail>[makelist2.param2]</thumbnail>
 </regex>
 ]]></listrepeat>
-
 <expres><![CDATA[imagen-post[\w\W\s]{0,8}href="(.*?)"[\w\W\s]{0,7}src="(.*?)"[\w\W\s]{0,400}bloque-inferior">\n(.*?)<]]></expres>
-
-<page>https://grantorrent.com/?s=$doregex[search]</page>	
-
+<page>https://grantorrent.com/?s=$doregex[search]</page>
 </regex>
 
 <regex>
-
 <name>search</name>
-
 <expres><![CDATA[#$pyFunction
 import xbmc
 import xbmcaddon
 import xbmcgui
 def GetLSProData(page_data,Cookie_Jar,m):
     dialog = xbmcgui.Dialog()
-    d = dialog.input('Buscar Pelicula:', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
+    d = dialog.input('Buscar Pelicula: ', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
     return d
 ]]></expres>
-
 <page></page>
-
 <cookieJar></cookieJar>
-
 </regex>
+
+
 
 <regex>
-
 <name>makelist</name>
-
 <listrepeat><![CDATA[
- <SetViewMode>500</SetViewMode>
- <title>[COLOR orange][B] [makelist2.param3][/B][/COLOR][COLOR white]  Calidad:[makelist.param2]  Tamaño:[makelist.param3] [/COLOR] </title>
+ <SetViewMode>55</SetViewMode>
+ <title>[COLOR skyblue][UPPERCASE][B] [makelist2.param3][/B][/UPPERCASE][/COLOR]  Calidad:[makelist.param2]  Tamaño:[makelist.param3]  </title>
 <link>plugin://plugin.video.quasar/play?uri=[makelist.param4]</link>
-<thumbnail>[makelist2.param2]</thumbnail> 
+<thumbnail>[makelist2.param2]</thumbnail>
 </regex>
 ]]></listrepeat>
-
-<expres><![CDATA[alt="(.*?)".*?\/td><td>(.*?)<[\w\W\s]{0,7}td>(.*?)<[\w\W\s]{0,25}href="(.*?torrent)"]]></expres>
-
-<page>[makelist2.param1]</page>	
-
+<expres><![CDATA[alt="(.*?)".*?td>\n<td>(.*?)<.*?\n<td>(.*?)<.*?\n.*?href="(.*?torrent)"]]></expres>
+<page>[makelist2.param1]</page>
 </regex>
 
 <thumbnail>http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons/simple-black-square-icons-business/126715-simple-black-square-icon-business-magnifying-glass-ps.png</thumbnail>
 </item>
+alt="(.*?)".*?td>\n<td>(.*?)<.*?\n<td>(.*?)<.*?\n.*?href="(.*?torrent)"
+
+
+
+
+
    
    
    
