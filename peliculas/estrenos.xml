@@ -76,7 +76,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <!-- V -->
 <item>
-<title>[COLOR orange][B]Victoria and Abdul (2017)[/B][/COLOR][COLOR white]Screener[/COLOR]</title>
+<title>[COLOR orange][B]Victoria and Abdul (2017) Latino.[/B][/COLOR][COLOR white]Screener[/COLOR]</title>
 <thumbnail>http://gnula.nu/wp-content/uploads/2017/11/Victoria_and_Abdul_poster_inglaterra.jpg</thumbnail> 
 <fanart>http://gnula.nu/wp-content/uploads/2017/11/Victoria_and_Abdul_poster_inglaterra.jpg</fanart>
 <link>$doregex[resolve]</link>
