@@ -12,3 +12,7 @@ Name:"The expanse T1 [mkv]  [Castellano]" url:"http://diskokosmiko.mx/SeriesHD/t
 
 Name:"The expanse T2 [mkv] [Castellano]" url:"http://diskokosmiko.mx/juadacu/the-expanse-t2-82757" img:"https://i.pinimg.com/736x/00/57/0f/00570f205de838b51dc03b68b07fccf7--sci-fi-series-tv-series.jpg"; server:"http://diskokosmiko.mx"
 
+Name:"The Wire T1 [mkv] [Castellano]" url:"http://diskokosmiko.mx/juadacu/the-wire-t1-77464" img:"https://images-na.ssl-images-amazon.com/images/I/812nuvz9vJL._AC_UL320_SR240,320_.jpg"; server:"http://diskokosmiko.mx"
+Name:"The Wire T2 [mkv] [Castellano]" url:"http://diskokosmiko.mx/juadacu/the-wire-t2-77472" img:"https://images-na.ssl-images-amazon.com/images/I/812nuvz9vJL._AC_UL320_SR240,320_.jpg"; server:"http://diskokosmiko.mx"
+Name:"The Wire T3 [mkv] [Castellano]" url:"http://diskokosmiko.mx/juadacu/the-wire-t3-77489" img:"https://images-na.ssl-images-amazon.com/images/I/812nuvz9vJL._AC_UL320_SR240,320_.jpg"; server:"http://diskokosmiko.mx"
+Name:"The Wire T4 [mkv] [Castellano]" url:"http://diskokosmiko.mx/juadacu/the-wire-t4-77539" img:"https://images-na.ssl-images-amazon.com/images/I/812nuvz9vJL._AC_UL320_SR240,320_.jpg"; server:"http://diskokosmiko.mx"
