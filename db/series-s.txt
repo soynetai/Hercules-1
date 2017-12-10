@@ -9,3 +9,6 @@ Name:"Shameless T2 [mkv] [Castellano]" url:"http://diskokosmiko.mx/chicho306/sha
 Name:"Shameless T3 [mkv] [Castellano]" url:"http://diskokosmiko.mx/chicho306/shameless-t3-38596" img:"http://image.tmdb.org/t/p/w300/dSBYRw1R001azIUsaatQXZAOcXk.jpg"; server:"http://diskokosmiko.mx"
 Name:"Shameless T4 [mkv] [Castellano]" url:"http://diskokosmiko.mx/chicho306/shameless-t4-39037" img:"http://image.tmdb.org/t/p/w300/dSBYRw1R001azIUsaatQXZAOcXk.jpg"; server:"http://diskokosmiko.mx"
 Name:"Shameless T5 [mkv] [Castellano]" url:"http://diskokosmiko.mx/chicho306/shameless-t5-39038" img:"http://image.tmdb.org/t/p/w300/dSBYRw1R001azIUsaatQXZAOcXk.jpg"; server:"http://diskokosmiko.mx"
+Name:"Shooter (El Tirador) T1 [HD] [Castellano]" url:"http://diskokosmiko.mx/SeriesHD/shooter-el-tirador-dual-t1-44492" img:"http://es.web.img2.acsta.net/pictures/16/10/25/16/27/584973.jpg"; server:"http://diskokosmiko.mx"
+Name:"Shooter (El Tirador) T2 [HD] [Castellano]" url:"http://diskokosmiko.mx/juadacu/shooter-el-tirador-t2-76879" img:"http://es.web.img2.acsta.net/pictures/16/10/25/16/27/584973.jpg"; server:"http://diskokosmiko.mx"
+Name:"Shooter (El Tirador) T1,T2 [SD] [Castellano]" url:"http://naghmehkiumarsi.com/trivianita/el-tirador-shooter-tmp-1-2-el-rockero-62472" img:"http://es.web.img2.acsta.net/pictures/16/10/25/16/27/584973.jpg"; server:"http://diskokosmiko.mx"
