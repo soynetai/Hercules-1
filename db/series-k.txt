@@ -1,1 +1,1 @@
-Name:"" url:"" img:""; server:""
+Name:"knightfall" url:"http://diskokosmiko.mx/juadacu/knightfall-t1-96691" img:"http://www.bolsamania.com/seriesadictos/wp-content/uploads/2017/06/Knightfall_FULL.jpg"; server:"http://diskokosmiko.mx/"
