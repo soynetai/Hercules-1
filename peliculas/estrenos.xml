@@ -34,7 +34,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <!-- B -->
 
-
 <!-- C -->
 
 <!-- D -->
@@ -48,8 +47,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- H -->
 
 <!-- I -->
-
-
 
 <!-- J -->
 
@@ -78,6 +75,29 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- U -->
 
 <!-- V -->
+<item>
+<title>[COLOR orange][B]Victoria and Abdul (2017)[/B][/COLOR][COLOR white]Screener[/COLOR]</title>
+<thumbnail>http://gnula.nu/wp-content/uploads/2017/11/Victoria_and_Abdul_poster_inglaterra.jpg</thumbnail> 
+<fanart>http://gnula.nu/wp-content/uploads/2017/11/Victoria_and_Abdul_poster_inglaterra.jpg</fanart>
+<link>$doregex[resolve]</link>
+<regex>
+<name>resolve</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import urlresolver
+    url = 'https://streamango.com/f/qerfesmsfctlmfor/v1ct0r14_4nd_4bdul_2017_hdrip_720p_latino_gnula_mp4'
+    try:
+        u = urlresolver.resolve(url)
+    except:
+        u = 'http://www.gruponetai.com/videos/error.mp4'
+    return u
+]]></expres>
+<page></page>
+</regex>
+<thumbnail></thumbnail> 
+<page></page>
+</item>
+
 
 <!-- W -->
 
