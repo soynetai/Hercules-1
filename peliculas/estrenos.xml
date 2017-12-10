@@ -31,6 +31,28 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- 0-9 @# -->
 
 <!-- A -->
+<item>
+<title>[COLOR orange][/COLOR][COLOR white][/COLOR]</title>
+<thumbnail>http://www.cinecalidad.to/espana/wp-content/uploads/2017/11/atomica.jpg</thumbnail> 
+<fanart>http://www.cinecalidad.to/espana/wp-content/uploads/2017/11/atomica.jpg</fanart>
+<link>$doregex[resolve]</link>
+<regex>
+<name>resolve</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import urlresolver
+    url = 'https://openload.co/f/1g5IjIGmnag'
+    try:
+        u = urlresolver.resolve(url)
+    except:
+        u = 'http://www.gruponetai.com/videos/error.mp4'
+    return u
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>http://www.cinecalidad.to/espana/wp-content/uploads/2017/11/atomica.jpg</thumbnail> 
+<page></page>
+</item>
 
 <!-- B -->
 
@@ -39,6 +61,28 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- D -->
 
 <!-- E -->
+<item>
+<title>[COLOR orange][/COLOR][COLOR white][/COLOR]</title>
+<thumbnail>http://www.cinecalidad.to/espana/wp-content/uploads/2017/12/emoji-la-pelicula.jpg</thumbnail> 
+<fanart>http://www.cinecalidad.to/espana/wp-content/uploads/2017/12/emoji-la-pelicula.jpg/fanart>
+<link>$doregex[resolve]</link>
+<regex>
+<name>resolve</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import urlresolver
+    url = 'https://openload.co/f/yM4_7tc-Lk4'
+    try:
+        u = urlresolver.resolve(url)
+    except:
+        u = 'http://www.gruponetai.com/videos/error.mp4'
+    return u
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>http://www.cinecalidad.to/espana/wp-content/uploads/2017/12/emoji-la-pelicula.jpg</thumbnail> 
+<page></page>
+</item>
 
 <!-- F -->
 
