@@ -29,5 +29,12 @@ Name:"Como conoci a vuestra madre T8[Castellano]" url:"http://diskokosmiko.mx/ge
 Name:"Como conoci a vuestra madre T9[Castellano]" url:"http://diskokosmiko.mx/gemma-valencia/como-conoci-a-vuestra-madre-t9-castellano-50776" img:"http://www.seriespapaya.com/uploads/Como-conoci-a-vuestra-madre-(How-i-met-your-mother)33.jpg"; server:"http://diskokosmiko.mx"
 
 Name:"Cronicas Vampiricas [Castellano]" url:"http://diskokosmiko.mx/chinchetas/cronicas-vampiricascastellano-todas-tempo-41883" img:"https://www.justwatch.com/images/poster/496294/s592"; server:"http://diskokosmiko.mx"
-
+Name:"Cronicas Vampiricas T1 [Castellano]" url:"http://diskokosmiko.mx/chicho306/cronicas-t1-41416" img:"https://www.justwatch.com/images/poster/496294/s592"; server:"http://diskokosmiko.mx"
+Name:"Cronicas Vampiricas T2 [Castellano]" url:"http://diskokosmiko.mx/SeriesHD/cronicas-vampiricas-t2-41600" img:"https://www.justwatch.com/images/poster/496294/s592"; server:"http://diskokosmiko.mx"
+Name:"Cronicas Vampiricas T3 [Castellano]" url:"http://diskokosmiko.mx/SeriesHD/cronicas-vampiricas-t3-41601" img:"https://www.justwatch.com/images/poster/496294/s592"; server:"http://diskokosmiko.mx"
+Name:"Cronicas Vampiricas T4 [Castellano]" url:"http://diskokosmiko.mx/SeriesHD/cronicas-vampiricas-t4-41832" img:"https://www.justwatch.com/images/poster/496294/s592"; server:"http://diskokosmiko.mx"
+Name:"Cronicas Vampiricas T5 [Castellano]" url:"http://diskokosmiko.mx/SeriesHD/cronicas-vampiricas-t5-41833" img:"https://www.justwatch.com/images/poster/496294/s592"; server:"http://diskokosmiko.mx"
+Name:"Cronicas Vampiricas T6 [Castellano]" url:"http://diskokosmiko.mx/SeriesHD/cronicas-vampiricas-t6-41834" img:"https://www.justwatch.com/images/poster/496294/s592"; server:"http://diskokosmiko.mx"
+Name:"Cronicas Vampiricas T7 [Castellano]" url:"http://diskokosmiko.mx/SeriesHD/cronicas-vampiricas-t7-39647" img:"https://www.justwatch.com/images/poster/496294/s592"; server:"http://diskokosmiko.mx"
+Name:"Cronicas Vampiricas T8 [Castellano]" url:"http://diskokosmiko.mx/juadacu/cronicas-vampiricas-t8-71930" img:"https://www.justwatch.com/images/poster/496294/s592"; server:"http://diskokosmiko.mx"
 
