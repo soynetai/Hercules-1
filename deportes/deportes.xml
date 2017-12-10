@@ -15,10 +15,12 @@
 
 <item>
 <title>[B][COLOR orange]+ Adryanlist Arenavision + [/B] [COLOR white]A[B]LA LIGA & LIGA 123[/B] [/COLOR]</title>
-<link>http://ignorame</link><thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/acestream.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
+<link>http://ignorame</link>
+<thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/acestream.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
 <externallink>https://pastebin.com/raw/Uf9S1LP6$$LSProEncKey=Adryan-acestream$$</externallink>
-<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
-[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
+</item>
+
 <item>
 <title>[COLOR white][B]Seccion Deportes [/B][/COLOR]</title>
 <link>$doregex</link>
