@@ -3,6 +3,7 @@
 <link>$doregex</link>
 <page></page>
 <thumbnail>http://www.gruponetai.com/imagenes/deportes.png</thumbnail>
+  <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -17,7 +18,7 @@
 <title>[B][COLOR orange]+ Adryanlist Arenavision + [/B] [COLOR white]A[B]LA LIGA & LIGA 123[/B] [/COLOR]</title>
 <link>http://ignorame</link>
 <thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/acestream.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 <externallink>https://pastebin.com/raw/Uf9S1LP6$$LSProEncKey=Adryan-acestream$$</externallink>
 </item>
 
@@ -41,6 +42,7 @@
 <page>https://www.youtube.com/channel/UC745Hghzlgsj5zzCkOdqrqQ</page> para canales entero
 </regex>  
 <thumbnail>https://yt3.ggpht.com/-3ZbRaLTkikQ/AAAAAAAAAAI/AAAAAAAAAAA/Ee5pLPXR2d4/s100-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+  <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -56,6 +58,7 @@
 <page>https://www.youtube.com/channel/UCoBwi6czckIzfocYPnPNH8g</page> para canales entero
 </regex>  
 <thumbnail>http://files.laliga.es/seccion_logos/laliga-v-1200x1200.png</thumbnail>
+  <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
 
 
@@ -64,6 +67,7 @@
 <link>ignorme</link>
 <jsonrpc>plugin://plugin.video.youtube/playlist/PLKj1QUtwqLN-vfkNAW15pQYzb5g7eMjZL/</jsonrpc>
 <thumbnail>http://files.laliga.es/seccion_logos/laliga-v-1200x1200.png</thumbnail>
+  <fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -71,7 +75,7 @@
 <link>ignorme</link>
 <jsonrpc>plugin://plugin.video.youtube/playlist/PLKj1QUtwqLN_J096OhNfrgSRsDdJBePKY/</jsonrpc>
 <thumbnail>https://i.ytimg.com/vi/O8jjuSaHMmY/hqdefault.jpg</thumbnail>
-<fanart>https://i.ytimg.com/vi/O8jjuSaHMmY/hqdefault.jpg</fanart>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/fanart.jpg</fanart>
 </item>
 
 <!-- Liga 123 -->
