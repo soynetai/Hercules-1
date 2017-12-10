@@ -6,9 +6,9 @@ Name:"The Affair T2 [mkv]" url:"http://diskokosmiko.mx/SeriesHD/the-affair-t2-34
 
 Name:"The Affair T2 [mkv]" url:"http://diskokosmiko.mx/SeriesHD/the-affair-dual-t3-45160" img:"http://www.bolsamania.com/seriesadictos/wp-content/uploads/2015/07/cj0o6x5wcaa9owt.jpg"; server:"http://diskokosmiko.mx"
 
-Name:"The grand Tour T1 [mkv] [Castellano]" url:"http://diskokosmiko.mx/jml/the-grand-tour-temporada-1-720p-53984" img:"https://pics.filmaffinity.com/the_grand_tour_tv_series-650604364-large.jpg"; server:"http://diskokosmiko.mx"
+Name:"The grand Tour T1 [mkv] [Castellano]" url:"http://diskokosmiko.mx/jml/the-grand-tour-temporada-1-720p-53984" img:"http://static.metacritic.com/images/products/tv/3/b0b1b4519e82348d4d31bc873c1373d1.jpg"; server:"http://diskokosmiko.mx"
 
-Name:"The expanse T1 [mkv]  [Castellano]" url:"http://diskokosmiko.mx/SeriesHD/the-expanse-t1-43113" img:"https://pics.filmaffinity.com/the_expanse_tv_series-110247894-mmed.jpg"; server:"http://diskokosmiko.mx"
+Name:"The expanse T1 [mkv]  [Castellano]" url:"http://diskokosmiko.mx/SeriesHD/the-expanse-t1-43113" img:"https://i.pinimg.com/736x/00/57/0f/00570f205de838b51dc03b68b07fccf7--sci-fi-series-tv-series.jpg"; server:"http://diskokosmiko.mx"
 
-Name:"The expanse T2 [mkv] [Castellano]" url:"http://diskokosmiko.mx/juadacu/the-expanse-t2-82757" img:"https://pics.filmaffinity.com/the_expanse_tv_series-110247894-mmed.jpg"; server:"http://diskokosmiko.mx"
+Name:"The expanse T2 [mkv] [Castellano]" url:"http://diskokosmiko.mx/juadacu/the-expanse-t2-82757" img:"https://i.pinimg.com/736x/00/57/0f/00570f205de838b51dc03b68b07fccf7--sci-fi-series-tv-series.jpg"; server:"http://diskokosmiko.mx"
 
