@@ -138,7 +138,28 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- R -->
 
 <!-- S -->
-
+<item>
+<title>[COLOR orange]Stratton (2016)[/COLOR][COLOR white]Castellano.[/COLOR]</title>
+<thumbnail>http://gnula.nu/wp-content/uploads/2017/04/Stratton_poster_usa.jpg</thumbnail> 
+<fanart>http://gnula.nu/wp-content/uploads/2017/04/Stratton_poster_usa.jpg</fanart>
+<link>$doregex[resolve]</link>
+<regex>
+<name>resolve</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import urlresolver
+    url = 'https://streamango.com/f/omaqtmttmbsfmaqt/str4tt0n_2017_hdrip_720p_castellano_mp4'
+    try:
+        u = urlresolver.resolve(url)
+    except:
+        u = 'http://www.gruponetai.com/videos/error.mp4'
+    return u
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>http://gnula.nu/wp-content/uploads/2017/04/Stratton_poster_usa.jpg</thumbnail> 
+<page></page>
+</item>
 <!-- T -->
 
 <!-- U -->
