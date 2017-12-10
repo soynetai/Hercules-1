@@ -60,6 +60,23 @@
 <thumbnail>https://images-na.ssl-images-amazon.com/images/I/7142JwaBY%2BL._SL1024_.jpg</thumbnail>
 </item>
   
+<item>
+<title>[COLOR orange]Knightfall | T1 | SD|720p[/COLOR]</title>
+<link>$doregex[makelist3]</link>
+<regex>
+  <name>makelist3</name>
+  <listrepeat><![CDATA[
+        <title>$pyFunction:'[COLOR white][makelist3.param2][/COLOR]'.replace(".torrent", " ") .replace("%20", " ") .replace("-", " ") .replace("_", " ")</title>
+        <link>plugin://plugin.video.quasar/play?uri=http://gruponetai.com/series/series-torrents/Knightfall/[makelist3.param1]</link>
+        ]]></listrepeat>
+<expres>href="(.*?torrent)</expres>
+<page>http://gruponetai.com/series/series-torrents/Knightfall/</page>
+<cookieJar></cookieJar>
+</regex>
+
+<thumbnail>http://gruponetai.com/series/series-torrents/Knightfall/Knightfall.jpg</thumbnail>
+  
+</item> 
 
 <item>
 <title>[COLOR orange]The Shooter | El tirador | 720p[/COLOR]</title>
@@ -78,6 +95,5 @@
 <thumbnail>http://www.gruponetai.com/series/series-torrents/The%20Shooter/Shooterhd.jpg</thumbnail>
   
 </item>
-
 
 </items>
