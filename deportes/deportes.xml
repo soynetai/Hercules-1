@@ -14,12 +14,11 @@
 </item>
 
 <item>
-<title>[COLOR orange][B]+Sportsdevil[/B][COLOR lime] Live TV![/COLOR][/COLOR]</title>
-<link>http://Ignoreme</link>
-<jsonrpc>plugin://plugin.video.SportsDevil/</jsonrpc>
-<fanart>https://raw.githubusercontent.com/Andorth/netai/master/sportsdevil/fanart.jpg</fanart>
-<thumbnail>https://raw.githubusercontent.com/Andorth/netai/master/sportsdevil/icon.png</thumbnail>
-</item>
+<title>[B][COLOR orange]+ Adryanlist Arenavision + [/B] [COLOR white]A[B]LA LIGA & LIGA 123[/B] [/COLOR]</title>
+<link>http://ignorame</link><thumbnail>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/acestream.png</thumbnail><fanart>https://raw.githubusercontent.com/adrianhn/adryanlist/master/adryan/img/fanart.jpg</fanart>
+<externallink>https://pastebin.com/raw/Uf9S1LP6$$LSProEncKey=Adryan-acestream$$</externallink>
+<info>[B][COLOR skyblue]»»»   A  D  R  Y  A  N  L  I  S  T  «««[/COLOR]
+[COLOR aquamarine]Donaciones paypal.me/adryanlist[/COLOR][/B]</info></item>
 <item>
 <title>[COLOR white][B]Seccion Deportes [/B][/COLOR]</title>
 <link>$doregex</link>
