@@ -61,7 +61,7 @@
 </item>
   
 <item>
-<title>[COLOR orange]Knightfall | T1 | SD|720p[/COLOR]</title>
+<title>[COLOR orange]Knightfall [COLOR white]| T1 | SD|720p[/COLOR][/COLOR]</title>
 <link>$doregex[makelist3]</link>
 <regex>
   <name>makelist3</name>
@@ -73,9 +73,7 @@
 <page>http://gruponetai.com/series/series-torrents/Knightfall/</page>
 <cookieJar></cookieJar>
 </regex>
-
-<thumbnail>http://gruponetai.com/series/series-torrents/Knightfall/Knightfall.jpg</thumbnail>
-  
+<thumbnail>http://gruponetai.com/series/series-torrents/Knightfall/Knightfall.jpg</thumbnail> 
 </item> 
 
 <item>
