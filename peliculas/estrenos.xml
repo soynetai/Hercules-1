@@ -32,7 +32,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <!-- A -->
 <item>
-<title>[COLOR orange][/COLOR][COLOR white][/COLOR]</title>
+<title>[COLOR orange][B]Atomica[/B][/COLOR][COLOR white][2017][/COLOR]</title>
 <thumbnail>http://www.cinecalidad.to/espana/wp-content/uploads/2017/11/atomica.jpg</thumbnail> 
 <fanart>http://www.cinecalidad.to/espana/wp-content/uploads/2017/11/atomica.jpg</fanart>
 <link>$doregex[resolve]</link>
@@ -62,7 +62,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <!-- E -->
 <item>
-<title>[COLOR orange][/COLOR][COLOR white][/COLOR]</title>
+<title>[COLOR orange][B]Emoji[/B] [/COLOR][COLOR white]La pelicula[/COLOR]</title>
 <thumbnail>http://www.cinecalidad.to/espana/wp-content/uploads/2017/12/emoji-la-pelicula.jpg</thumbnail> 
 <fanart>http://www.cinecalidad.to/espana/wp-content/uploads/2017/12/emoji-la-pelicula.jpg/fanart>
 <link>$doregex[resolve]</link>
@@ -120,7 +120,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <!-- V -->
 <item>
-<title>[COLOR orange][B]Victoria and Abdul (2017) Latino.[/B][/COLOR][COLOR white]Screener[/COLOR]</title>
+<title>[COLOR orange][B]Victoria and Abdul (2017) [/B][/COLOR][COLOR white]Latino Screener[/COLOR]</title>
 <thumbnail>http://gnula.nu/wp-content/uploads/2017/11/Victoria_and_Abdul_poster_inglaterra.jpg</thumbnail> 
 <fanart>http://gnula.nu/wp-content/uploads/2017/11/Victoria_and_Abdul_poster_inglaterra.jpg</fanart>
 <link>$doregex[resolve]</link>
@@ -138,7 +138,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail></thumbnail> 
+<thumbnail>http://gnula.nu/wp-content/uploads/2017/11/Victoria_and_Abdul_poster_inglaterra.jpg</thumbnail> 
 <page></page>
 </item>
 
