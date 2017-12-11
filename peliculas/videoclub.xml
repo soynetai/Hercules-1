@@ -98,7 +98,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- I -->
 
 <item>
-<title>[COLOR orange][/COLOR][COLOR white][/COLOR]</title>
+<title>[COLOR orange]IT [/COLOR][COLOR white] 2017[/COLOR]</title>
 <thumbnail>http://www.theglobaldispatch.com/wp-content/uploads/2016/06/It-remake-movie-poster-2017.jpg</thumbnail> 
 <fanart>http://www.theglobaldispatch.com/wp-content/uploads/2016/06/It-remake-movie-poster-2017.jpg</fanart>
 <link>$doregex[resolve]</link>
