@@ -164,6 +164,28 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- S -->
 
 <!-- T -->
+<item>
+<title>[COLOR orange]Tadeo Jones 2[/COLOR][COLOR white] El secreto del rey Midas[/COLOR]</title>
+<thumbnail>https://i2.wp.com/www.peliculastoday.com/wp-content/uploads/2017/08/Tadeo-Jones-2-El-secreto-del-rey-Midas.jpg</thumbnail> 
+<fanart></fanart>
+<link>$doregex[resolve]</link>
+<regex>
+<name>resolve</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import urlresolver
+    url = 'https://streamcherry.com/embed/pedpamccfkedonns/'
+    try:
+        u = urlresolver.resolve(url)
+    except:
+        u = 'http://www.gruponetai.com/videos/error.mp4'
+    return u
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>http://hdfull.tv/tthumb/172x256/movie_50f7663b0c2cb31e690faf009003e1e1.jpg</thumbnail> 
+<page></page>
+</item>    
 
 <!-- U -->
 
