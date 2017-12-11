@@ -30,7 +30,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <!-- 0-9 @# -->
 <item>
-<title>[COLOR orange][/COLOR][COLOR white][/COLOR]</title>
+<title>[COLOR orange]24 horas to Live[/COLOR][COLOR white] 2017[/COLOR]</title>
 <thumbnail>http://www.tumegadescarga.com/wp-content/uploads/2017/11/24_Hours_to_Live_poster_usa-min.jpg</thumbnail> 
 <fanart>http://www.tumegadescarga.com/wp-content/uploads/2017/11/24_Hours_to_Live_poster_usa-min.jpg</fanart>
 <link>$doregex[resolve]</link>
@@ -83,8 +83,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- A -->
 <item>
 <title>[COLOR orange][B]Asesinato en el Orient Express[/B][/COLOR][COLOR white]Latino 2017 TS screener[/COLOR]</title>
-<thumbnail>https://pics.filmaffinity.com/murder_on_the_orient_express-328389244-large.jpg</thumbnail> 
-<fanart>https://pics.filmaffinity.com/murder_on_the_orient_express-328389244-large.jpg</fanart>
+<thumbnail>https://pics.filmaffinity.com/murder_on_the_orient_express-328389244-mmed.jpg</thumbnail> 
+<fanart>https://pics.filmaffinity.com/murder_on_the_orient_express-328389244-mmed.jpg</fanart>
 <link>$doregex[resolve]</link>
 <regex>
 <name>resolve</name>
@@ -100,7 +100,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>https://pics.filmaffinity.com/murder_on_the_orient_express-328389244-large.jpg</thumbnail> 
+<thumbnail>https://pics.filmaffinity.com/murder_on_the_orient_express-328389244-mmed.jpg</thumbnail> 
 <page></page>
 </item>
 
