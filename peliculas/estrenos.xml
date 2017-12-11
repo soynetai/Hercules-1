@@ -121,8 +121,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- V -->
 <item>
 <title>[COLOR orange][B]Victoria and Abdul (2017) [/B][/COLOR][COLOR white]Latino Screener[/COLOR]</title>
-<thumbnail>https://pics.filmaffinity.com/victoria_and_abdul-243227893-large.jpg</thumbnail> 
-<fanart>http://gnula.nu/wp-content/uploads/2017/11/Victoria_and_Abdul_poster_inglaterra.jpg</fanart>
+<thumbnail>http://bucket1.clanacion.com.ar/anexos/fotos/cartelera/victoria-y-abdul-c_7810_poster2.jpg</thumbnail> 
+<fanart>http://bucket1.clanacion.com.ar/anexos/fotos/cartelera/victoria-y-abdul-c_7810_poster2.jpg</fanart>
 <link>$doregex[resolve]</link>
 <regex>
 <name>resolve</name>
@@ -138,7 +138,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>https://pics.filmaffinity.com/victoria_and_abdul-243227893-large.jpg</thumbnail> 
+<thumbnail>http://bucket1.clanacion.com.ar/anexos/fotos/cartelera/victoria-y-abdul-c_7810_poster2.jpg</thumbnail> 
 <page></page>
 </item>
 
