@@ -97,16 +97,17 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <!-- I -->
 
-<item>   
-<title>[COLOR orange]It [/COLOR][COLOR white] Castellano[/COLOR]</title>  
+<item>
+<title>[COLOR orange][/COLOR][COLOR white][/COLOR]</title>
+<thumbnail>http://www.theglobaldispatch.com/wp-content/uploads/2016/06/It-remake-movie-poster-2017.jpg</thumbnail> 
+<fanart>http://www.theglobaldispatch.com/wp-content/uploads/2016/06/It-remake-movie-poster-2017.jpg</fanart>
 <link>$doregex[resolve]</link>
-
 <regex>
 <name>resolve</name>
 <expres><![CDATA[#$pyFunction
 def GetLSProData(page_data,Cookie_Jar,m):
     import urlresolver
-    url = 'http://streamcloud.eu/zpzl5j5tncnr/It.720.bdrip.cast.mp4.html'
+    url = 'http://streamcloud.eu/prq0uqzh6235'
     try:
         u = urlresolver.resolve(url)
     except:
@@ -115,7 +116,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
-    <thumbnail>https://i.ytimg.com/vi/E9Mkje0By5Y/maxresdefault.jpg</thumbnail> 
+<thumbnail>http://www.theglobaldispatch.com/wp-content/uploads/2016/06/It-remake-movie-poster-2017.jpg</thumbnail> 
+<page></page>
 </item>
 
 <!-- J -->
