@@ -186,7 +186,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <!-- S -->
 <item>
-<title>[COLOR orange][/COLOR][COLOR white][/COLOR]</title>
+<title>[COLOR orange]SAW VIII[/COLOR][COLOR white]Latino 2017[/COLOR]</title>
 <thumbnail>https://pbs.twimg.com/media/DKPJoKYXcAEOhC8.jpg</thumbnail> 
 <fanart>https://pbs.twimg.com/media/DKPJoKYXcAEOhC8.jpg</fanart>
 <link>$doregex[resolve]</link>
