@@ -97,7 +97,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>http://www.centronaval.org.pe/app/index_files/play.png</thumbnail>
 	<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/fanart.jpg</fanart>
 <link>ignore</link>
-<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/romantico.xml</externallink>	
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/estrenos.xml</externallink>	
 </item>
 
 
