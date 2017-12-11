@@ -31,26 +31,44 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- 0-9 @# -->
 <item>
 <title>[COLOR orange]24 horas to Live[/COLOR][COLOR white] 2017[/COLOR]</title>
-<thumbnail>http://www.tumegadescarga.com/wp-content/uploads/2017/11/24_Hours_to_Live_poster_usa-min.jpg</thumbnail> 
-<fanart>http://www.tumegadescarga.com/wp-content/uploads/2017/11/24_Hours_to_Live_poster_usa-min.jpg</fanart>
-<link>$doregex[resolve]</link>
+<link>$doregex[makelist]</link>
+    <thumbnail>https://cinelipsis.files.wordpress.com/2016/05/maxresdefault-1.jpg</thumbnail>
+<fanart>https://cinelipsis.files.wordpress.com/2016/05/maxresdefault-1.jpg</fanart>
 <regex>
-<name>resolve</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
-    import urlresolver
-    url = 'https://streamango.com/f/bcbsfboekaeosqdb'
-    try:
-        u = urlresolver.resolve(url)
-    except:
-        u = 'http://www.gruponetai.com/videos/error.mp4'
-    return u
-]]></expres>
-<page></page>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title> 
+        <link>$doregex[getUrl]</link>
+
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/moipera/24-horas-to-live-97412</page>
+<cookieJar></cookieJar>
 </regex>
-<thumbnail>http://www.tumegadescarga.com/wp-content/uploads/2017/11/24_Hours_to_Live_poster_usa-min.jpg</thumbnail> 
-<page></page>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://cinelipsis.files.wordpress.com/2016/05/maxresdefault-1.jpg</thumbnail>
+<fanart>https://cinelipsis.files.wordpress.com/2016/05/maxresdefault-1.jpg</fanart>
 </item>
+    
+
 
 <item>
 <title>[COLOR orange]60 Segundos[/COLOR] Castellano [COLOR white] StreamGo [/COLOR]</title>
