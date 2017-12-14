@@ -99,6 +99,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <link>ignore</link>
 <externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/estrenos.xml</externallink>	
 </item>
+	
+<item>
+<title>[COLOR orange]VideoClub [COLOR white] En Cines - V.O Subtituladas [/COLOR]</title>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/imagenes/peliculas.png</thumbnail>
+	<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/fanart.jpg</fanart>
+<link>ignore</link>
+<externallink>https://raw.githubusercontent.com/Andorth/Hercules/master/peliculas/vo.xml</externallink>	
+</item>
 
 
 <item>
