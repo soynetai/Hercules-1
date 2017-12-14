@@ -174,6 +174,28 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- R -->
 
 <!-- S -->
+<item>
+<title>[COLOR orange][B]Star Wars[/B][/COLOR][COLOR white] El ultimo Jedi | Latino | 2017[/COLOR]</title>
+<thumbnail>http://www.fotogramas.es/var/ezflow_site/storage/images/media/imagenes/recursos/dlvk6hqx4aapomb/137630100-1-esl-ES/DLvK6HQX4AAPomB.jpg</thumbnail> 
+<fanart>http://www.fotogramas.es/var/ezflow_site/storage/images/media/imagenes/recursos/dlvk6hqx4aapomb/137630100-1-esl-ES/DLvK6HQX4AAPomB.jpg</fanart>
+<link>$doregex[resolve]</link>
+<regex>
+<name>resolve</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import urlresolver
+    url = 'http://streamcloud.eu/tkui75ek4bjz'
+    try:
+        u = urlresolver.resolve(url)
+    except:
+        u = 'http://www.gruponetai.com/videos/error.mp4'
+    return u
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>http://www.fotogramas.es/var/ezflow_site/storage/images/media/imagenes/recursos/dlvk6hqx4aapomb/137630100-1-esl-ES/DLvK6HQX4AAPomB.jpg</thumbnail> 
+<page></page>
+</item>
 
 <!-- T -->
 <item>
