@@ -1,3 +1,0 @@
-Name:"Habitacion perdida [mini serie] [Castellano]" url:"http://diskokosmiko.mx/trivianita/habitacion-perdida-76145" img:"https://pics.filmaffinity.com/the_lost_room-424958393-large.jpg"; server:"http://diskokosmiko.mx"
-Name:"Halfworlds T1 [mkv][Castellano]" url:"diskokosmiko.mx/SeriesHD/halfworlds-t1-45709" img:"https://pics.filmaffinity.com/halfworlds_tv_series-927687249-large.jpg"; server:"http://diskokosmiko.mx"
-Name:"Harfworlds T2 [mkv] [Castellano]" url:"http://diskokosmiko.mx/SeriesHD/halfworlds-t2-61952" img:"https://pics.filmaffinity.com/halfworlds_tv_series-927687249-large.jpg"; server:"http://diskokosmiko.mx"

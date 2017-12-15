@@ -1,2 +1,0 @@
-
-Name:" [Castellano]" url:"" img:""; server:"http://diskokosmiko.mx"

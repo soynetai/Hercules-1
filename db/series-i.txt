@@ -1,3 +1,0 @@
-Name:"Icerde [Castellano]" url:"http://diskokosmiko.mx/FLAYSINA/icerde-79286" img:"https://pbs.twimg.com/media/Cu-8Lt2WEAEd7ML.jpg"; server:"http://diskokosmiko.mx"
-Name:"Incorporate T1 [mkv] [Castellano]" url:"http://diskokosmiko.mx/juadacu/incorporated-t1-71338" img:"https://pics.filmaffinity.com/incorporated_tv_series-388040781-large.jpg"; server:"http://diskokosmiko.mx"
-Name:"Into the west [Castellano]" url:"http://diskokosmiko.mx/naredo/into-the-west-serie-70682" img:"https://images-na.ssl-images-amazon.com/images/M/MV5BMTI1NTg4NTE2M15BMl5BanBnXkFtZTcwMzUwNjAzMQ@@._V1_UY268_CR9,0,182,268_AL_.jpg"; server:"http://diskokosmiko.mx"

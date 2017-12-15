@@ -1,2 +1,0 @@
-Name:"Outcast T1 [Castellano]" url:"http://diskokosmiko.mx/chicho306/outcast-d-32345" img:"http://www.hobbyconsolas.com/sites/hobbyconsolas.com/public/filefield_paths/Outcast.jpg"; server:"http://diskokosmiko.mx"
-Name:"Outcast T2 [Castellano]" url:"http://diskokosmiko.mx/lau158/outcast-temporada-2-77632" img:"http://www.hobbyconsolas.com/sites/hobbyconsolas.com/public/filefield_paths/Outcast.jpg"; server:"http://diskokosmiko.mx"

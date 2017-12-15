@@ -1,2 +1,0 @@
-Name:"Juego de Tronos T1-T7 [mp4] [Castellano]" url:"http://diskokosmiko.mx/trivianita/juego-de-tronos-1-2-3-4-5-6-7-75133" img:"http://aidanmoher.com/blog/wp-content/uploads/2011/04/game-of-thrones-poster.jpeg"; server:"http://diskokosmiko.mx"
-Name:"Juego de Tronos T7 HD [mkv] [Castellano]" url:"http://diskokosmiko.mx/moipera/jdt-t7-hd-79780" img:"http://aidanmoher.com/blog/wp-content/uploads/2011/04/game-of-thrones-poster.jpeg"; server:"http://diskokosmiko.mx"
