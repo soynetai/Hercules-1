@@ -102,8 +102,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <!-- A -->
 <item>
 <title>[COLOR orange][B]Asesinato en el Orient Express[/B][/COLOR][COLOR white]Latino 2017 TS screener[/COLOR]</title>
-<thumbnail>https://pics.filmaffinity.com/murder_on_the_orient_express-328389244-mmed.jpg</thumbnail> 
-<fanart>https://pics.filmaffinity.com/murder_on_the_orient_express-328389244-mmed.jpg</fanart>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/b/bd/Murder_on_the_Orient_Express_teaser_poster.jpg</thumbnail> 
+<fanart>https://upload.wikimedia.org/wikipedia/en/b/bd/Murder_on_the_Orient_Express_teaser_poster.jpg</fanart>
 <link>$doregex[resolve]</link>
 <regex>
 <name>resolve</name>
@@ -119,7 +119,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>https://pics.filmaffinity.com/murder_on_the_orient_express-328389244-mmed.jpg</thumbnail> 
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/b/bd/Murder_on_the_Orient_Express_teaser_poster.jpg</thumbnail> 
 <page></page>
 </item>
 
