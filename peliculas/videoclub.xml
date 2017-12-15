@@ -101,7 +101,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <!-- A -->
 <item>
-<title>[COLOR orange][B]Asesinato en el Orient Express[/B][/COLOR][COLOR white]Latino 2017 TS screener[/COLOR]</title>
+<title>[COLOR orange][B]Asesinato en el Orient Express[/B][/COLOR][COLOR white] Latino 2017 TS screener[/COLOR]</title>
 <thumbnail>https://upload.wikimedia.org/wikipedia/en/b/bd/Murder_on_the_Orient_Express_teaser_poster.jpg</thumbnail> 
 <fanart>https://upload.wikimedia.org/wikipedia/en/b/bd/Murder_on_the_Orient_Express_teaser_poster.jpg</fanart>
 <link>$doregex[resolve]</link>
