@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <SetViewMode>55</SetViewMode>
 <items>
-<item>
-<title>[COLOR orange]Regresaremos ! Estamos haciendo cambios en el Hercules original. Freeworld ponte en contacto con nosotros y te lo explicamos. http://www.gruponetai.com. en españa es ilegal poner listas IPTV. Se puede copiar sin permiso, pero no incluirme como autor de algo que has incluido tu y no esta en el addon. [/COLOR]</title>
-<link>http://Ignoreme</link>
-<fanart></fanart>
-<thumbnail></thumbnail>
-<externallink></externallink>
-</item>
+
 
 <item>
-<title>[COLOR white]Estamos reparando la integridad del addon y sus secciones. Gracias por su compresion. Cualquier cosa pueden agradecercelo a el hermanito freeworld en su canal de youtube. El grupo Netai le envia saludos.[/COLOR]</title>
+<title>[COLOR white]+Acceso al servidor de Hercules [Debe solicitar su clave en Telegram.][/COLOR]</title>
 <link>http://Ignoreme</link>
-<fanart></fanart>
-<thumbnail></thumbnail>
-<externallink></externallink>
+<fanart>https://raw.githubusercontent.com/Andorth/Hercules/master/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/Andorth/Hercules/master/icon.png</thumbnail>
+<externallink>https://pastebin.com/raw/Lg8k0LYD$$LSProEncKey=c295bmV0YWk=$$</externallink>
 </item>
 <item>
 <title>[COLOR orange]Creditos[/COLOR]</title>
